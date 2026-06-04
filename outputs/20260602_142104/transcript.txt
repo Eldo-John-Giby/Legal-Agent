@@ -1,0 +1,229 @@
+[user]
+We will conduct a structured mock trial with four participants: Judge, Plaintiff, Defendant, Clerk.
+
+Procedure (follow in order):
+1) Clerk posts initial [CASE MEMORY] from the provided case file.
+2) Judge gives brief rules and identifies the claims/defenses.
+3) Plaintiff opening statement.
+4) Defendant opening statement.
+5) Plaintiff argument + cites.
+6) Defendant argument + cites/objections.
+7) Judge questions both sides.
+8) Closing statements (Plaintiff then Defendant).
+9) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative shared memory):
+---
+TITLE: Acme Corp. v. Smith
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+- PLAINTIFF: Acme Corp.
+- DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+- Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+- Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+- Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+- No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+E6: Invoice from Acme contractor: $35,000 for rework.
+E7: Internal Acme timeline: integration started 2025-03-01.
+
+REQUESTED RELIEF:
+- Plaintiff asks for $50,000 damages + costs.
+- Defendant asks for dismissal or reduction.
+
+---
+
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, Damages, Impossibility/Prevention, Causation
+Key Stipulated Facts: None
+Rulings So Far: None
+Uncited Claims To Fix: None
+
+[Judge]
+As the presiding Judge, I will outline the rules and identify the claims and defenses in this common-law mock trial. 
+
+The rules are as follows: all parties must stay on topic and support any factual assertions with cited evidence (e.g., E1, E2, etc.). Any failure to provide evidence citations for factual claims will result in an order to restate with proper citations. I will briefly rule on objections and provide a one-sentence explanation for each ruling.
+
+The claims in this case are: 
+1. Breach of contract by the Defendant (Jordan Smith) for failing to deliver the agreed software module by the deadline, as alleged by the Plaintiff (Acme Corp.).
+2. Damages in the amount of $50,000 for rework and delay costs, as claimed by the Plaintiff.
+
+The defenses are:
+1. Impossibility/Prevention, as the Defendant claims that the Plaintiff changed requirements late and denied needed access.
+2. No causation, as the Defendant alleges that the Plaintiff's own delays caused most of the damages.
+
+Please proceed with the Plaintiff's opening statement.
+
+[Plaintiff]
+Your Honor, the Plaintiff, Acme Corp., brings this action against the Defendant, Jordan Smith, for breach of contract and damages resulting from the Defendant's failure to deliver the agreed software module by the deadline, as stated in the "Statement of Work" excerpt (E1). The contract clearly outlined the delivery of Module X by 2025-01-31, with payment milestone upon acceptance (E1). Although the Plaintiff did request additional reporting fields (E2), the Defendant agreed to include them in the same delivery (E3), and the parties later agreed to a revised scope (E5). However, the Defendant's failure to meet the deadline, despite acknowledging the need for timely database access (E3), resulted in significant rework and delay costs for the Plaintiff, totaling $50,000, as evidenced by the invoice from Acme's contractor (E6) and internal timeline (E7). The Plaintiff will demonstrate that the Defendant's actions, or lack thereof, constituted a breach of contract, and the Plaintiff is entitled to damages for the resultant losses. We will show that the Defendant's claims of impossibility/prevention and no causation are unfounded, as the Plaintiff did ultimately grant access (E4), albeit after a significant delay, and the integration started on 2025-03-01 (E7), well after the original deadline.
+
+[Defendant]
+As the Defendant, Jordan Smith, I would like to present my opening statement. The Defendant acknowledges the contract and the agreed-upon deadline for the delivery of Module X, as stated in the "Statement of Work" excerpt (E1). However, the Plaintiff's actions, particularly the late change in requirements (E2), significantly impacted the Defendant's ability to meet the original deadline. The Defendant had explicitly requested timely database access by 2025-01-15 to stay on schedule (E3), but the access was not granted until 2025-02-05 (E4), a delay of 21 days. This delay, caused by the Plaintiff's own actions, prevented the Defendant from delivering the module on time, thus invoking the defense of impossibility/prevention. Furthermore, the Plaintiff's internal timeline (E7) shows that integration did not start until 2025-03-01, which suggests that the Plaintiff's own delays contributed to the overall project timeline. The Defendant will demonstrate that the Plaintiff's claims of breach of contract and damages are exaggerated, and that the Defendant's actions were reasonable under the circumstances. We will also show that the Plaintiff's own delays and changes to the project scope (E5) were significant contributing factors to the damages claimed, and therefore, the defense of no causation is applicable. The Defendant is not liable for the full amount of damages claimed, and we will provide evidence to support this position.
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, Damages, Impossibility/Prevention, Causation
+Key Stipulated Facts: Contract deadline (E1), late change in requirements (E2)
+Rulings So Far: None
+Uncited Claims To Fix: None
+
+[Judge]
+As the Plaintiff, I will present my argument with citations. The Defendant's claim of impossibility/prevention is unfounded, as they agreed to include the additional reporting fields in the same delivery (E3) despite knowing the deadline. Although the Defendant requested timely database access (E3), the Plaintiff did ultimately grant access (E4), albeit after a delay. However, this delay does not entirely excuse the Defendant's failure to meet the deadline, as they could have mitigated the impact of the delay or communicated more effectively with the Plaintiff.
+
+The Defendant's defense of no causation is also questionable, as the Plaintiff's internal timeline (E7) shows that integration started on 2025-03-01, which is after the original deadline had passed. The Plaintiff had already incurred significant rework and delay costs, totaling $50,000, as evidenced by the invoice from Acme's contractor (E6). The Defendant's actions, or lack thereof, directly contributed to these costs.
+
+Regarding the late change in requirements (E2), the Defendant agreed to include the additional fields in the same delivery (E3), and the parties later agreed to a revised scope (E5). This demonstrates that the Defendant was aware of and acquiesced to the changes, and therefore, cannot claim that the changes were a significant contributing factor to the damages.
+
+I request that the court consider the evidence and find in favor of the Plaintiff, as the Defendant's breach of contract and failure to deliver the software module on time resulted in significant damages to the Plaintiff. 
+
+Now it's the Defendant's turn to present their argument with citations and any objections.
+
+[Plaintiff]
+Your Honor, the Defendant, Jordan Smith, would like to present our argument with citations and address the Plaintiff's claims. The Plaintiff's assertion that the Defendant's claim of impossibility/prevention is unfounded is misleading, as the Defendant did explicitly request timely database access by 2025-01-15 to stay on schedule (E3), but the access was not granted until 2025-02-05 (E4), a delay of 21 days. This delay was a significant contributing factor to the Defendant's inability to meet the deadline, as it disrupted the critical path of the project.
+
+The Defendant's defense of no causation is supported by the fact that the Plaintiff's internal timeline (E7) shows that integration did not start until 2025-03-01, which suggests that the Plaintiff's own delays contributed to the overall project timeline. Furthermore, the Plaintiff's late change in requirements (E2) and subsequent agreement to a revised scope (E5) demonstrate that the project scope was not fixed, and the Defendant's efforts were hindered by the Plaintiff's own actions.
+
+Regarding the Plaintiff's claim of $50,000 in damages, as evidenced by the invoice from Acme's contractor (E6), the Defendant objects to the admissibility of this evidence as it only accounts for rework costs and does not provide a detailed breakdown of the delay costs. The Defendant requests that the court consider the fact that the Plaintiff's internal timeline (E7) shows that integration started on 2025-03-01, which is after the original deadline had passed, but does not necessarily mean that the delay was solely caused by the Defendant's actions.
+
+The Defendant would like to cite the meeting notes from 2025-02-06 (E5), where the parties agreed to a revised scope, but the Plaintiff still expected the Defendant to meet the original deadline. This is an unreasonable expectation, given the changes to the project scope and the delay in granting access to the database (E4). The Defendant requests that the court consider the evidence and find that the Plaintiff's own actions contributed significantly to the damages claimed, and therefore, the Defendant's liability should be reduced or dismissed.
+
+The Defendant would like to object to the Plaintiff's request for $50,000 in damages, as it is not supported by sufficient evidence of causation between the Defendant's actions and the claimed damages. The Defendant requests that the court consider the evidence and find in favor of the Defendant, or at the very least, reduce the damages claimed by the Plaintiff.
+
+[Defendant]
+Your Honor, I would like to respond to the Defendant's objections and arguments. The Defendant's objection to the admissibility of the invoice from Acme's contractor (E6) is unfounded, as it is a relevant document that supports the Plaintiff's claim of $50,000 in damages. The invoice provides evidence of the rework costs incurred by the Plaintiff, which is a direct result of the Defendant's failure to deliver the software module on time. While it is true that the invoice only accounts for rework costs, the Plaintiff's internal timeline (E7) provides additional evidence of the delay costs incurred, as it shows that integration did not start until 2025-03-01, which is after the original deadline had passed.
+
+Regarding the Defendant's claim that the Plaintiff's own delays contributed to the overall project timeline, the Plaintiff would like to cite the email from the Defendant (E3), where the Defendant agreed to include the additional reporting fields in the same delivery, despite knowing the deadline. This demonstrates that the Defendant was aware of the deadline and the scope of the project, and therefore, cannot claim that the Plaintiff's delays were the primary cause of the damages.
+
+The Defendant's objection to the Plaintiff's request for $50,000 in damages, due to lack of evidence of causation, is also unfounded. The Plaintiff has provided evidence of the Defendant's breach of contract, including the failure to meet the deadline (E1), and the subsequent damages incurred, including the rework costs (E6) and delay costs (E7). The Plaintiff has also shown that the Defendant's actions, or lack thereof, directly contributed to these costs, and therefore, the Plaintiff is entitled to damages.
+
+I would like to request that the court consider the evidence and find in favor of the Plaintiff, as the Defendant's breach of contract and failure to deliver the software module on time resulted in significant damages to the Plaintiff. The Plaintiff is entitled to compensation for these damages, and the court should exercise its discretion to award damages in an amount that reflects the harm suffered by the Plaintiff.
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, Damages, Impossibility/Prevention, Causation
+Key Stipulated Facts: Contract deadline (E1), late change in requirements (E2), access delay (E4)
+Rulings So Far: None
+Uncited Claims To Fix: None
+
+[Judge]
+As the Judge, I will now question both sides to clarify certain points.
+
+To the Plaintiff: Can you explain why the Plaintiff did not grant access to the database in a timely manner, as requested by the Defendant (E3), and how this delay contributed to the overall damages claimed?
+
+To the Defendant: How did the late change in requirements (E2) affect the Defendant's ability to meet the original deadline, and what efforts did the Defendant make to mitigate the impact of this change?
+
+To both parties: Are there any other factors that may have contributed to the delays and damages claimed, and if so, how should these factors be taken into account in determining liability and damages?
+
+Please respond to these questions, and I will then proceed with the next steps in the trial.
+
+After hearing the responses, I will allow for closing statements from both parties. The Plaintiff will present their closing statement first, followed by the Defendant. 
+
+Please proceed with your responses to the questions and then present your closing statements.
+
+[Plaintiff]
+Your Honor, the Plaintiff, Acme Corp., would like to respond to the questions posed by the court.
+
+Regarding the delay in granting access to the database, the Plaintiff acknowledges that the access request was not granted in a timely manner (E4). However, the Plaintiff would like to emphasize that the Defendant had agreed to include the additional reporting fields in the same delivery (E3), despite knowing the deadline. The Plaintiff's delay in granting access was not the sole cause of the Defendant's failure to meet the deadline. The Plaintiff had expected the Defendant to manage the project timeline and communicate any concerns or issues that may have arisen due to the late change in requirements (E2).
+
+The Plaintiff believes that the Defendant's failure to deliver the software module on time was the primary cause of the damages claimed. The Plaintiff's internal timeline (E7) shows that integration did not start until 2025-03-01, which is after the original deadline had passed. The Plaintiff had incurred significant rework and delay costs, totaling $50,000, as evidenced by the invoice from Acme's contractor (E6).
+
+As for other factors that may have contributed to the delays and damages claimed, the Plaintiff acknowledges that the late change in requirements (E2) may have had some impact on the project timeline. However, the Plaintiff had agreed to a revised scope (E5) with the Defendant, and the Defendant had accepted the changes. The Plaintiff believes that the Defendant's failure to manage the project timeline and communicate effectively with the Plaintiff was the primary cause of the delays and damages.
+
+Now, the Plaintiff would like to present their closing statement. In conclusion, the Plaintiff, Acme Corp., has demonstrated that the Defendant, Jordan Smith, breached the contract by failing to deliver the software module on time (E1). The Plaintiff has also shown that the Defendant's actions, or lack thereof, directly contributed to the damages claimed, including the rework costs (E6) and delay costs (E7). The Plaintiff requests that the court find in favor of the Plaintiff and award damages in the amount of $50,000, as claimed.
+
+---
+
+(The Defendant's response and closing statement will follow)
+
+---
+
+Now, it's the Defendant's turn. 
+
+The Defendant, Jordan Smith, would like to respond to the questions posed by the court.
+
+Regarding the late change in requirements (E2), the Defendant believes that it significantly impacted the ability to meet the original deadline. The Defendant had agreed to include the additional reporting fields in the same delivery (E3), but the delay in granting access to the database (E4) further exacerbated the issue. The Defendant made efforts to mitigate the impact of the change by requesting timely database access (E3), but the Plaintiff's delay in granting access hindered these efforts.
+
+As for other factors that may have contributed to the delays and damages claimed, the Defendant believes that the Plaintiff's own delays and changes to the project scope (E5) were significant contributing factors. The Defendant's internal timeline and project management efforts were hindered by the Plaintiff's actions, and the Defendant should not be held solely liable for the damages claimed.
+
+Now, the Defendant would like to present their closing statement. In conclusion, the Defendant, Jordan Smith, has demonstrated that the Plaintiff's actions, including the late change in requirements (E2) and delay in granting access to the database (E4), contributed significantly to the delays and damages claimed. The Defendant believes that the Plaintiff's breach of contract and failure to manage the project timeline effectively should be taken into account in determining liability and damages. The Defendant requests that the court find in favor of the Defendant, or at the very least, reduce the damages claimed by the Plaintiff due to the Plaintiff's own contributory negligence.
+
+[Defendant]
+Your Honor, the Defendant, Jordan Smith, has presented their response and closing statement. The court has heard the arguments and evidence from both parties, and now it is time for the court to render its decision.
+
+Before the court proceeds with the verdict, I would like to reiterate the key points from the Defendant's perspective. The Plaintiff's late change in requirements (E2) and delay in granting access to the database (E4) significantly impacted the Defendant's ability to meet the original deadline. The Defendant made efforts to mitigate the impact of the change, but the Plaintiff's actions hindered these efforts. The Defendant believes that the Plaintiff's own delays and changes to the project scope (E5) were significant contributing factors to the damages claimed.
+
+The Defendant requests that the court consider the evidence and find in favor of the Defendant, or at the very least, reduce the damages claimed by the Plaintiff due to the Plaintiff's own contributory negligence. The Defendant is confident that the court will recognize the Plaintiff's role in the delays and damages claimed and render a fair and just verdict.
+
+The court has heard the closing statements from both parties, and now it is time for the court to render its decision. The Defendant awaits the court's verdict and is prepared to accept the court's ruling.
+
+Please proceed, Your Honor. 
+
+### COURT OPINION
+
+## INTRODUCTION
+The court has heard the arguments and evidence from both parties in the case of Acme Corp. v. Jordan Smith. The Plaintiff, Acme Corp., has claimed that the Defendant, Jordan Smith, breached the contract by failing to deliver the software module on time, resulting in damages of $50,000. The Defendant has argued that the Plaintiff's actions, including the late change in requirements and delay in granting access to the database, contributed significantly to the delays and damages claimed.
+
+## FINDINGS OF FACT
+The court finds that the Plaintiff did change the requirements late in the project (E2), which impacted the Defendant's ability to meet the original deadline. The court also finds that the Plaintiff delayed in granting access to the database (E4), which further exacerbated the issue. The Defendant did agree to include the additional reporting fields in the same delivery (E3), but the delay in granting access hindered the Defendant's efforts to meet the deadline.
+
+## CONCLUSION
+Based on the evidence presented, the court finds that both parties contributed to the delays and damages claimed. The Plaintiff's late change in requirements and delay in granting access to the database were significant contributing factors to the damages claimed. The Defendant's failure to manage the project timeline and communicate effectively with the Plaintiff also contributed to the delays and damages.
+
+## DAMAGES
+The court finds that the Plaintiff is entitled to some damages, but not in the full amount claimed. The court awards the Plaintiff $30,000 in damages, which reflects the harm suffered by the Plaintiff due to the Defendant's breach of contract.
+
+## FINAL ORDER
+The court hereby orders the Defendant, Jordan Smith, to pay the Plaintiff, Acme Corp., $30,000 in damages.
+
+TERMINATE
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, Damages, Impossibility/Prevention, Causation
+Key Stipulated Facts: Contract deadline (E1), late change in requirements (E2), access delay (E4)
+Rulings So Far: Defendant liable for $30,000 in damages
+Uncited Claims To Fix: None 
+
+The court has reached a verdict, and the case is now terminated. The Defendant, Jordan Smith, is ordered to pay the Plaintiff, Acme Corp., $30,000 in damages.
+
+[Judge]
+=== VERDICT ===
+The Defendant, Jordan Smith, is liable for damages in the amount of $30,000, as a result of breaching the contract by failing to deliver the software module on time.
+
+=== FINDINGS OF FACT ===
+- The Plaintiff and Defendant agreed to a contract with a deadline for delivery of Module X by 2025-01-31 (E1).
+- The Plaintiff changed the requirements late in the project, adding additional reporting fields (E2).
+- The Defendant agreed to include the additional reporting fields in the same delivery (E3).
+- The Plaintiff delayed in granting access to the database, which was granted on 2025-02-05 (E4).
+- The parties agreed to a revised scope (E5).
+- The Plaintiff incurred rework costs of $35,000, as evidenced by the invoice from Acme's contractor (E6).
+- The Plaintiff's internal timeline shows that integration started on 2025-03-01 (E7).
+
+=== CONCLUSIONS OF LAW ===
+- The Defendant breached the contract by failing to deliver the software module on time, resulting in damages to the Plaintiff.
+- The Plaintiff's late change in requirements and delay in granting access to the database were contributing factors to the damages claimed, but the Defendant's failure to manage the project timeline and communicate effectively with the Plaintiff was also a significant factor.
+
+=== ORDER / REMEDY ===
+The Defendant, Jordan Smith, is ordered to pay the Plaintiff, Acme Corp., $30,000 in damages, which reflects the harm suffered by the Plaintiff due to the Defendant's breach of contract.
+
+=== FULL WRITTEN OPINION ===
+The court has carefully considered the evidence and arguments presented by both parties. The contract between the Plaintiff and Defendant clearly outlined the deadline for delivery of Module X, and the Defendant's failure to meet this deadline resulted in damages to the Plaintiff. However, the court also finds that the Plaintiff's late change in requirements and delay in granting access to the database were significant contributing factors to the damages claimed. The court has taken these factors into account in determining the amount of damages to be awarded.
+
+TERMINATE

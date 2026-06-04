@@ -1,0 +1,302 @@
+[user]
+We will conduct a structured mock trial with four participants: Judge, Plaintiff, Defendant, Clerk.
+
+Procedure (follow in order):
+1) Clerk posts initial [CASE MEMORY] from the provided case file.
+2) Judge gives brief rules and identifies the claims/defenses.
+3) Plaintiff opening statement.
+4) Defendant opening statement.
+5) Plaintiff argument + cites.
+6) Defendant argument + cites/objections.
+7) Judge questions both sides.
+8) Closing statements (Plaintiff then Defendant).
+9) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative shared memory):
+---
+TITLE: Acme Corp. v. Smith
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+- PLAINTIFF: Acme Corp.
+- DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+- Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+- Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+- Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+- No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+E6: Invoice from Acme contractor: $35,000 for rework.
+E7: Internal Acme timeline: integration started 2025-03-01.
+
+REQUESTED RELIEF:
+- Plaintiff asks for $50,000 damages + costs.
+- Defendant asks for dismissal or reduction.
+
+---
+
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, Damages, Impossibility/Prevention, Causation
+Key Stipulated Facts: None
+Rulings So Far: None
+Uncited Claims To Fix: None
+
+[Judge]
+As the presiding Judge, I will briefly outline the rules and identify the claims and defenses. 
+
+In this common-law mock trial, the Plaintiff, Acme Corp., alleges that the Defendant, Jordan Smith, breached their contract by failing to deliver the agreed-upon software module by the deadline, resulting in $50,000 in damages. The Defendant asserts two defenses: impossibility/prevention, claiming that the Plaintiff changed requirements late and denied needed access, and no causation, arguing that the Plaintiff's own delays caused most of the damages.
+
+The rules for this trial are as follows: all factual assertions must be supported by a cited evidence id (E1, E2, etc.); parties must stay on topic and avoid unnecessary tangents; and objections will be addressed briefly with a ruling of SUSTAINED or OVERRULED, accompanied by a brief explanation.
+
+With these guidelines in place, the trial will proceed. The Plaintiff will now deliver their opening statement. Please proceed, Acme Corp.
+
+[Plaintiff]
+Thank you, Your Honor. As counsel for the Plaintiff, Acme Corp., I will outline the key points of our case. 
+
+The contract between Acme Corp. and Jordan Smith, as outlined in the "Statement of Work" excerpt (E1), clearly states that the Defendant was to deliver Module X by 2025-01-31. However, despite this clear deadline, the Defendant failed to meet this obligation, resulting in significant delays and costs for Acme Corp. (E1).
+
+Although the Plaintiff did request additional reporting fields (E2), this change was communicated to the Defendant on 2025-01-10, providing sufficient time for incorporation into the delivery, and the Defendant even acknowledged the feasibility of this request (E3). 
+
+Furthermore, the Defendant's claim of impossibility/prevention due to denied access is unfounded, as the access request was created on 2025-01-13, and while there was a delay in granting access, it was ultimately provided on 2025-02-05 (E4). The parties even agreed to a revised scope with the original deadline on 2025-02-06 (E5), indicating that the Defendant was still capable of meeting the deadline.
+
+The damages incurred by Acme Corp. as a result of the Defendant's breach of contract are well-documented, including a contractor's invoice for $35,000 in rework (E6), and the integration started on 2025-03-01 (E7), further supporting the claim of $50,000 in total damages.
+
+We believe that the evidence will show that the Defendant's failure to deliver the software module by the agreed-upon deadline was a clear breach of contract, and that Acme Corp. is entitled to the damages claimed. Thank you, Your Honor.
+
+[Defendant]
+Thank you, Acme Corp. Now it's the Defendant's turn. As counsel for Jordan Smith, I will outline the key points of our defense.
+
+While it is true that the original deadline for delivering Module X was 2025-01-31, as stated in the "Statement of Work" excerpt (E1), the Plaintiff's request for additional reporting fields on 2025-01-10 (E2) significantly altered the scope of the project. The Defendant acknowledged the feasibility of this request, but also emphasized the need for timely access to the database to incorporate the changes (E3).
+
+However, the Plaintiff denied the Defendant the necessary access in a timely manner, as evidenced by the access request being created on 2025-01-13 and not granted until 2025-02-05 (E4). This delay severely impacted the Defendant's ability to meet the original deadline. The meeting notes from 2025-02-06 (E5) show that the parties agreed to a revised scope, but the Plaintiff still insisted on keeping the original deadline, which was no longer feasible due to the delayed access.
+
+Regarding the damages, we argue that the Plaintiff's own delays and actions contributed significantly to the costs incurred. The invoice from the Acme contractor for $35,000 in rework (E6) does not necessarily establish that the Defendant's actions were the primary cause of these damages. Moreover, the internal Acme timeline showing integration started on 2025-03-01 (E7) suggests that the Plaintiff's own project timeline was a factor in the delays.
+
+We believe that the evidence will demonstrate that the Plaintiff's actions, including the late request for changes and the denial of timely access, make it impossible for the Defendant to have met the original deadline, and that the damages claimed are not entirely the result of the Defendant's actions. Thank you, Your Honor.
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, Damages, Impossibility/Prevention, Causation
+Key Stipulated Facts: Original deadline was 2025-01-31 (E1)
+Rulings So Far: None
+Uncited Claims To Fix: None
+
+[Judge]
+Now that both parties have presented their opening statements, the trial will proceed with the Plaintiff's argument and citation of evidence.
+
+Please proceed, Acme Corp., and present your argument, citing the relevant evidence to support your claims. Remember to address the Defendant's defenses and provide evidence to refute their assertions.
+
+Also, please be prepared to respond to potential objections from the Defendant, and I will rule on them accordingly.
+
+Please proceed with your argument.
+
+[Plaintiff]
+Thank you, Your Honor. As counsel for the Plaintiff, Acme Corp., I will present our argument and cite the relevant evidence to support our claims.
+
+Firstly, we argue that the Defendant, Jordan Smith, breached the contract by failing to deliver the software module by the agreed-upon deadline of 2025-01-31, as stated in the "Statement of Work" excerpt (E1). Although the Defendant claims that the Plaintiff's request for additional reporting fields on 2025-01-10 (E2) altered the scope of the project, we counter that this change was minor and could have been accommodated within the original deadline.
+
+In fact, the Defendant themselves acknowledged the feasibility of this request and only required timely access to the database to incorporate the changes (E3). However, the Defendant had sufficient time to request access, and the delay in granting access was not so significant as to justify missing the deadline entirely. The access request was created on 2025-01-13, and although it was not granted until 2025-02-05 (E4), this delay was only 23 days, which is not an unreasonable amount of time for the Defendant to have still met the deadline.
+
+Furthermore, the meeting notes from 2025-02-06 (E5) show that the parties agreed to a revised scope, but the Plaintiff still insisted on keeping the original deadline. This agreement demonstrates that the Defendant was still capable of meeting the deadline, despite the minor changes to the scope.
+
+Regarding the Defendant's defense of impossibility/prevention, we argue that the Plaintiff's actions did not prevent the Defendant from performing their obligations under the contract. The Defendant had a responsibility to manage their time and resources effectively, and their failure to do so does not excuse their breach of contract.
+
+As for the damages, we argue that the Defendant's breach of contract caused significant delays and costs for Acme Corp. The invoice from the Acme contractor for $35,000 in rework (E6) is direct evidence of the damages incurred as a result of the Defendant's failure to deliver the software module on time. Additionally, the internal Acme timeline showing integration started on 2025-03-01 (E7) demonstrates that the delays caused by the Defendant's breach had a ripple effect on the entire project, resulting in further costs and delays.
+
+We believe that the evidence clearly supports our claims, and we are prepared to respond to any objections from the Defendant. Thank you, Your Honor.
+
+[Defendant]
+Thank you, Acme Corp. Now, as counsel for the Defendant, Jordan Smith, I would like to present our argument and cite the relevant evidence to support our defenses.
+
+While the Plaintiff argues that the request for additional reporting fields was minor, we counter that this change significantly altered the scope of the project, requiring substantial modifications to the software module (E2). The Defendant's acknowledgment of the feasibility of this request was contingent upon receiving timely access to the database (E3), which was not provided until 2025-02-05, a full 23 days after the access request was created (E4).
+
+This delay was not insignificant, as it severely impacted the Defendant's ability to meet the original deadline. In fact, the meeting notes from 2025-02-06 (E5) show that the parties agreed to a revised scope, but the Plaintiff still insisted on keeping the original deadline, which was no longer feasible due to the delayed access.
+
+Regarding the Plaintiff's argument that the Defendant had sufficient time to request access, we object on the grounds of speculation, as there is no evidence to support this claim. The evidence only shows that the access request was created on 2025-01-13, but it does not provide any information about when the Defendant became aware of the need for access or when they could have reasonably requested it.
+
+Furthermore, we argue that the Plaintiff's actions did contribute to the impossibility of performing the contract. The delayed access to the database, combined with the Plaintiff's insistence on keeping the original deadline, created an impossible situation for the Defendant (E4, E5).
+
+As for the damages, we argue that the Plaintiff's own delays and actions contributed significantly to the costs incurred. The invoice from the Acme contractor for $35,000 in rework (E6) does not necessarily establish that the Defendant's actions were the primary cause of these damages. In fact, the internal Acme timeline showing integration started on 2025-03-01 (E7) suggests that the Plaintiff's own project timeline was a factor in the delays.
+
+We also object to the Plaintiff's claim of $50,000 in damages, as it lacks citation to specific evidence supporting this amount. The only evidence provided is the invoice for $35,000 in rework (E6), which does not account for the full amount claimed.
+
+We believe that the evidence supports our defenses, and we are prepared to respond to any further arguments from the Plaintiff. Thank you, Your Honor.
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, Damages, Impossibility/Prevention, Causation
+Key Stipulated Facts: Original deadline was 2025-01-31 (E1), Access requested on 2025-01-13, granted on 2025-02-05 (E4)
+Rulings So Far: None
+Uncited Claims To Fix: Plaintiff's claim of $50,000 in damages lacks specific evidence support
+
+[Judge]
+I will address the objection raised by the Defendant regarding the Plaintiff's claim of $50,000 in damages. The Plaintiff has not provided sufficient evidence to support this amount, relying only on the invoice for $35,000 in rework (E6). I SUSTAIN the objection, as the Plaintiff has not provided specific evidence to support the full amount claimed.
+
+The Plaintiff must provide additional evidence or clarify how the claimed amount of $50,000 is supported by the existing evidence. Failure to do so may result in the reduction or dismissal of the damages claim.
+
+Next, I would like to ask questions to both parties to clarify certain aspects of the case. 
+
+Acme Corp., can you provide more information on how the delayed access to the database impacted your project timeline, and how this relates to the damages claimed? 
+
+Jordan Smith, can you provide more details on how the changes to the scope of the project, as requested by the Plaintiff, affected your ability to meet the original deadline? 
+
+Please respond to these questions, and we will proceed with the trial.
+
+[Plaintiff]
+Thank you, Your Honor. As counsel for the Plaintiff, Acme Corp., I will address the question regarding the impact of the delayed access to the database on our project timeline.
+
+The delayed access to the database, which was granted on 2025-02-05 (E4), significantly impacted our project timeline, as it prevented the Defendant from delivering the software module on time. As a result, we were forced to delay our integration, which started on 2025-03-01 (E7), and incur additional costs for rework, as evidenced by the invoice for $35,000 (E6). The delayed access to the database was a critical factor in the delay, as it prevented the Defendant from completing the necessary work on the software module.
+
+Regarding the damages claim, we acknowledge that the initial evidence provided only supports $35,000 in rework costs (E6). However, we would like to clarify that the additional $15,000 claimed is attributable to other costs incurred as a result of the delay, including extended project management and testing expenses. Unfortunately, we do not have a specific invoice or document to support this amount, but we are willing to provide a detailed breakdown of these costs and provide additional evidence to support our claim.
+
+Regarding the question, Your Honor, we believe that the delayed access to the database was a direct result of the Defendant's failure to manage their time and resources effectively. Despite the minor changes to the scope of the project, the Defendant had a responsibility to deliver the software module on time. The meeting notes from 2025-02-06 (E5) show that the parties agreed to a revised scope, but the Plaintiff still insisted on keeping the original deadline, which demonstrates that the Defendant was still capable of meeting the deadline, despite the minor changes.
+
+We hope this clarifies the impact of the delayed access to the database on our project timeline and provides additional context for our damages claim. Thank you, Your Honor.
+
+[Defendant]
+Thank you, Acme Corp. Now, as counsel for the Defendant, Jordan Smith, I would like to address the question regarding the impact of the changes to the scope of the project on our ability to meet the original deadline.
+
+The changes to the scope of the project, as requested by the Plaintiff on 2025-01-10 (E2), significantly impacted our ability to meet the original deadline. The addition of new reporting fields required substantial modifications to the software module, which could not be completed within the remaining time frame. Despite our efforts to accommodate the changes, the delayed access to the database, which was granted on 2025-02-05 (E4), further exacerbated the issue.
+
+We had requested access to the database on 2025-01-13 (E4), but the delay in granting access meant that we lost critical time in completing the necessary work on the software module. The meeting notes from 2025-02-06 (E5) show that the parties agreed to a revised scope, but the Plaintiff's insistence on keeping the original deadline was unreasonable, given the circumstances.
+
+Regarding the Plaintiff's claim that we failed to manage our time and resources effectively, we object on the grounds of speculation, as there is no evidence to support this claim. The evidence shows that we requested access to the database in a timely manner (E4) and worked diligently to complete the project, despite the changes to the scope and the delayed access to the database.
+
+We believe that the evidence demonstrates that the changes to the scope of the project, combined with the delayed access to the database, made it impossible for us to meet the original deadline. We are willing to provide additional evidence and testimony to support our claim, if necessary. Thank you, Your Honor.
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, Damages, Impossibility/Prevention, Causation
+Key Stipulated Facts: Original deadline was 2025-01-31 (E1), Access requested on 2025-01-13, granted on 2025-02-05 (E4)
+Rulings So Far: Objection to Plaintiff's damages claim SUSTAINED, pending further evidence
+Uncited Claims To Fix: Plaintiff's claim of $15,000 in additional damages lacks specific evidence support
+
+[Judge]
+I have considered the arguments and evidence presented by both parties. It is now time for closing statements.
+
+Acme Corp., please present your closing statement, summarizing your case and reiterating why you believe the Defendant breached the contract and is liable for damages.
+
+Please be concise and focused on the key points of your case, and do not introduce new evidence or arguments that have not been previously presented.
+
+After the Plaintiff's closing statement, the Defendant will have the opportunity to present their closing statement, and then I will deliver my verdict.
+
+Please proceed, Acme Corp.
+
+[Plaintiff]
+Thank you, Your Honor. As counsel for the Plaintiff, Acme Corp., I will present our closing statement.
+
+In this case, we have demonstrated that the Defendant, Jordan Smith, breached the contract by failing to deliver the software module by the agreed-upon deadline of 2025-01-31 (E1). Despite the minor changes to the scope of the project, the Defendant had sufficient time to accommodate the changes and meet the deadline.
+
+The delayed access to the database, which was granted on 2025-02-05 (E4), was not a sufficient excuse for the Defendant's failure to perform. The Defendant had a responsibility to manage their time and resources effectively, and their failure to do so resulted in significant delays and costs for Acme Corp.
+
+We have presented evidence of the damages incurred, including the invoice for $35,000 in rework costs (E6) and the delayed integration, which started on 2025-03-01 (E7). While we acknowledge that the claim for $15,000 in additional damages requires further evidence, we believe that the Defendant's breach of contract and the resulting delays and costs justify an award of damages.
+
+In conclusion, we believe that the evidence clearly supports our claim that the Defendant breached the contract and is liable for damages. We urge the court to find in favor of the Plaintiff and award the damages claimed.
+
+Thank you, Your Honor.
+
+[Defendant]
+Thank you, Acme Corp. Now, as counsel for the Defendant, Jordan Smith, I will present our closing statement.
+
+Throughout this trial, we have demonstrated that the Plaintiff's changes to the scope of the project, as requested on 2025-01-10 (E2), significantly impacted our ability to meet the original deadline. The addition of new reporting fields required substantial modifications to the software module, which could not be completed within the remaining time frame.
+
+The delayed access to the database, which was granted on 2025-02-05 (E4), further exacerbated the issue. We had requested access to the database on 2025-01-13 (E4), but the delay in granting access meant that we lost critical time in completing the necessary work on the software module.
+
+We have shown that the Plaintiff's insistence on keeping the original deadline, despite the changes to the scope and the delayed access to the database, was unreasonable. The meeting notes from 2025-02-06 (E5) demonstrate that the parties agreed to a revised scope, but the Plaintiff's refusal to adjust the deadline made it impossible for us to perform.
+
+Regarding the damages, we argue that the Plaintiff's own delays and actions contributed significantly to the costs incurred. The invoice for $35,000 in rework costs (E6) does not necessarily establish that our actions were the primary cause of these damages.
+
+In conclusion, we believe that the evidence supports our defense of impossibility/prevention and lack of causation. We urge the court to find that the Plaintiff's actions made it impossible for us to perform the contract, and that we are not liable for the damages claimed.
+
+Thank you, Your Honor.
+
+## Step 1: Review of the Case
+The case of Acme Corp. v. Jordan Smith involves a breach of contract claim, where the Plaintiff alleges that the Defendant failed to deliver a software module by the agreed-upon deadline of 2025-01-31 (E1).
+
+## Step 2: Analysis of the Evidence
+The evidence presented includes the "Statement of Work" excerpt (E1), which outlines the original deadline, and the email from the Plaintiff requesting additional reporting fields (E2). The Defendant's email acknowledging the feasibility of this request and requesting timely access to the database (E3) is also relevant.
+
+## Step 3: Examination of the Damages Claim
+The Plaintiff's damages claim includes an invoice for $35,000 in rework costs (E6) and a delayed integration, which started on 2025-03-01 (E7). However, the claim for $15,000 in additional damages lacks specific evidence support.
+
+## Step 4: Consideration of the Defenses
+The Defendant's defense of impossibility/prevention is based on the changes to the scope of the project and the delayed access to the database (E4). The Defendant also argues that the Plaintiff's own delays and actions contributed significantly to the costs incurred.
+
+## Step 5: Application of the Law
+The court must consider the principles of contract law, including the concept of impossibility/prevention and the allocation of risk between the parties. The court must also examine the evidence presented and determine whether the Plaintiff has proven their claim by a preponderance of the evidence.
+
+The final answer is: 
+I will now deliver my verdict.
+
+**FINDINGS OF FACT**
+
+1. The original deadline for delivering the software module was 2025-01-31 (E1).
+2. The Plaintiff requested additional reporting fields on 2025-01-10 (E2).
+3. The Defendant requested access to the database on 2025-01-13, which was granted on 2025-02-05 (E4).
+4. The parties agreed to a revised scope on 2025-02-06 (E5).
+5. The Plaintiff incurred $35,000 in rework costs (E6) and delayed integration, which started on 2025-03-01 (E7).
+
+**CONCLUSIONS OF LAW**
+
+1. The Defendant's failure to deliver the software module by the agreed-upon deadline constitutes a breach of contract.
+2. The Plaintiff's changes to the scope of the project and the delayed access to the database contributed to the Defendant's inability to meet the deadline.
+3. The Defendant's defense of impossibility/prevention is partially supported by the evidence.
+
+**ORDER**
+
+The court finds in favor of the Plaintiff, Acme Corp., and awards damages in the amount of $35,000, plus costs.
+
+**TERMINATE**
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, Damages, Impossibility/Prevention, Causation
+Key Stipulated Facts: Original deadline was 2025-01-31 (E1), Access requested on 2025-01-13, granted on 2025-02-05 (E4)
+Rulings So Far: Objection to Plaintiff's damages claim SUSTAINED, pending further evidence
+Uncited Claims To Fix: None
+
+**JUDGMENT**
+
+The court finds in favor of the Plaintiff, Acme Corp., and awards damages in the amount of $35,000, plus costs.
+
+**TERMINATE**
+
+[Judge]
+=== VERDICT ===
+The court finds in favor of the Plaintiff, Acme Corp., and awards damages in the amount of $35,000, plus costs.
+
+=== FINDINGS OF FACT ===
+- The original deadline for delivering the software module was 2025-01-31 (E1).
+- The Plaintiff requested additional reporting fields on 2025-01-10 (E2).
+- The Defendant requested access to the database on 2025-01-13, which was granted on 2025-02-05 (E4).
+- The parties agreed to a revised scope on 2025-02-06 (E5).
+- The Plaintiff incurred $35,000 in rework costs (E6) and delayed integration, which started on 2025-03-01 (E7).
+
+=== CONCLUSIONS OF LAW ===
+- The Defendant's failure to deliver the software module by the agreed-upon deadline constitutes a breach of contract.
+- The Plaintiff's changes to the scope of the project and the delayed access to the database contributed to the Defendant's inability to meet the deadline.
+- The Defendant's defense of impossibility/prevention is partially supported by the evidence.
+
+=== ORDER / REMEDY ===
+The court awards damages in the amount of $35,000, plus costs, to the Plaintiff, Acme Corp.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable law. The Defendant's breach of contract and the resulting damages are supported by the evidence, and the Plaintiff is entitled to recovery.
+
+TERMINATE

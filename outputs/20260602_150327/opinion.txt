@@ -1,0 +1,22 @@
+=== VERDICT ===
+The court finds in favor of the Plaintiff, Acme Corp., and awards damages in the amount of $35,000, plus costs.
+
+=== FINDINGS OF FACT ===
+- The original deadline for delivering the software module was 2025-01-31 (E1).
+- The Plaintiff requested additional reporting fields on 2025-01-10 (E2).
+- The Defendant requested access to the database on 2025-01-13, which was granted on 2025-02-05 (E4).
+- The parties agreed to a revised scope on 2025-02-06 (E5).
+- The Plaintiff incurred $35,000 in rework costs (E6) and delayed integration, which started on 2025-03-01 (E7).
+
+=== CONCLUSIONS OF LAW ===
+- The Defendant's failure to deliver the software module by the agreed-upon deadline constitutes a breach of contract.
+- The Plaintiff's changes to the scope of the project and the delayed access to the database contributed to the Defendant's inability to meet the deadline.
+- The Defendant's defense of impossibility/prevention is partially supported by the evidence.
+
+=== ORDER / REMEDY ===
+The court awards damages in the amount of $35,000, plus costs, to the Plaintiff, Acme Corp.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable law. The Defendant's breach of contract and the resulting damages are supported by the evidence, and the Plaintiff is entitled to recovery.
+
+TERMINATE

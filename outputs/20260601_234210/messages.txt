@@ -1,0 +1,254 @@
+[user]
+We will conduct a structured mock trial with four participants: Judge, Plaintiff, Defendant, Clerk.
+
+Procedure (follow in order):
+1) Clerk posts initial [CASE MEMORY] from the provided case file.
+2) Judge gives brief rules and identifies the claims/defenses.
+3) Plaintiff opening statement.
+4) Defendant opening statement.
+5) Plaintiff argument + cites.
+6) Defendant argument + cites/objections.
+7) Judge questions both sides.
+8) Closing statements (Plaintiff then Defendant).
+9) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative shared memory):
+---
+TITLE: Acme Corp. v. Smith
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+- PLAINTIFF: Acme Corp.
+- DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+- Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+- Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+- Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+- No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+E6: Invoice from Acme contractor: $35,000 for rework.
+E7: Internal Acme timeline: integration started 2025-03-01.
+
+REQUESTED RELIEF:
+- Plaintiff asks for $50,000 damages + costs.
+- Defendant asks for dismissal or reduction.
+
+---
+
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, impossibility/prevention, causation of damages
+Key Stipulated Facts: 
+Rulings So Far: 
+Uncited Claims To Fix:
+
+[Judge]
+The court is now in session. As Judge, I will outline the rules and identify the claims and defenses. 
+
+Both parties are expected to follow the procedure, keep their arguments on-topic, and support any factual assertions with a cited evidence id (E1, E2, ...). Failure to provide citations for factual claims will result in an order to restate with proper citations.
+
+The Plaintiff, Acme Corp., claims that the Defendant, Jordan Smith, breached their contract by failing to deliver the agreed software module by the deadline, resulting in $50,000 in damages. The Defendant's defenses include impossibility/prevention due to changes in requirements and denial of necessary access, as well as a lack of causation, arguing that the Plaintiff's own delays caused most of the damages.
+
+Please proceed with the Plaintiff's opening statement.
+
+[Plaintiff]
+Your Honor, esteemed members of the court, the Plaintiff, Acme Corp., brings this action against the Defendant, Jordan Smith, for breach of contract and resulting damages. As outlined in the "Statement of Work" (E1), the Defendant was required to deliver Module X by 2025-01-31, with payment contingent upon acceptance. However, the Defendant failed to meet this deadline, causing significant delays and rework costs for Acme Corp. 
+
+The record shows that Acme Corp. did request additional reporting fields (E2), but this change was communicated well in advance of the deadline, and the Defendant acknowledged its feasibility (E3). Furthermore, the Defendant's claim of impossibility due to lack of access is unfounded, as the access request was made on 2025-01-13 (E4), and while there was a delay in granting access, it was ultimately provided on 2025-02-05 (E4). Notably, the parties agreed to a revised scope on 2025-02-06 (E5), with Acme Corp. still expecting delivery by the original deadline.
+
+The damages incurred by Acme Corp. are substantial, with $35,000 spent on rework (E6), and further delays impacting our integration timeline, which started on 2025-03-01 (E7). We will demonstrate that the Defendant's breach of contract directly caused these damages and that the Defendant's defenses are without merit. We look forward to presenting our case and establishing the Defendant's liability for the claimed $50,000 in damages.
+
+[Defendant]
+Your Honor, the Defendant, Jordan Smith, acknowledges the contractual obligations outlined in the "Statement of Work" (E1) but asserts that the Plaintiff's own actions led to the impossibility of meeting the deadline. The Plaintiff's request for additional reporting fields on 2025-01-10 (E2) significantly altered the scope of the project, and despite acknowledging the feasibility of this change (E3), it is clear that this modification impacted the timeline. 
+
+Furthermore, the Defendant's access request on 2025-01-13 (E4) was not fulfilled until 2025-02-05 (E4), a delay of nearly three weeks, which severely hindered the ability to meet the original deadline. The meeting notes from 2025-02-06 (E5) show that the parties agreed to a revised scope, but it was the Plaintiff who insisted on maintaining the original deadline, despite the changes and delays that had already occurred.
+
+Regarding causation, the Defendant contends that the Plaintiff's own delays and decisions contributed significantly to the damages incurred. The Plaintiff's integration timeline, which started on 2025-03-01 (E7), and the rework costs of $35,000 (E6), can be attributed, at least in part, to the Plaintiff's management of the project and its changes. The Defendant will demonstrate that the breaches of contract and the resulting damages are not solely the responsibility of the Defendant but rather a shared consequence of the actions and decisions made by both parties throughout the project. The Defendant looks forward to presenting evidence that supports these assertions and establishing that the claimed damages are not entirely the Defendant's liability.
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, impossibility/prevention, causation of damages
+Key Stipulated Facts: Contractual obligations (E1), revised scope agreement (E5)
+Rulings So Far: 
+Uncited Claims To Fix:
+
+[Judge]
+The court has heard the opening statements from both the Plaintiff, Acme Corp., and the Defendant, Jordan Smith. The Plaintiff argues that the Defendant breached the contract by failing to deliver Module X by the deadline, resulting in significant damages. The Defendant counters that the Plaintiff's actions, including the request for additional reporting fields and the delay in granting access, led to the impossibility of meeting the deadline and that the Plaintiff's own delays and decisions contributed to the damages.
+
+The court notes that both parties have cited relevant evidence to support their claims, including the "Statement of Work" (E1), the email requesting additional reporting fields (E2), the access request and its delayed fulfillment (E4), the revised scope agreement (E5), the rework costs (E6), and the integration timeline (E7).
+
+The court will now proceed to the argument phase, where both parties will present their arguments and cite evidence to support their claims. The Plaintiff will begin, followed by the Defendant, who may also raise objections and cite evidence to rebut the Plaintiff's claims.
+
+Please proceed with the Plaintiff's argument.
+
+[Plaintiff]
+Your Honor, the Plaintiff, Acme Corp., argues that the Defendant, Jordan Smith, breached the contract by failing to deliver Module X by the deadline of 2025-01-31, as specified in the "Statement of Work" (E1). Although the Plaintiff did request additional reporting fields on 2025-01-10 (E2), this change was communicated well in advance of the deadline, and the Defendant acknowledged its feasibility on 2025-01-12 (E3). The Defendant's claim that this change impacted the timeline is not supported by evidence, as the Defendant had sufficient time to incorporate the changes and still meet the deadline.
+
+The Defendant's access request on 2025-01-13 (E4) was indeed delayed, but the access was ultimately granted on 2025-02-05 (E4), providing the Defendant with sufficient time to complete the module. The revised scope agreement on 2025-02-06 (E5) confirms that the parties agreed to the changes, and the Plaintiff's insistence on maintaining the original deadline was reasonable, given the Defendant's initial acknowledgement of the feasibility of the changes.
+
+Regarding the damages, the Plaintiff incurred significant rework costs of $35,000 (E6) due to the Defendant's failure to deliver the module on time. The integration timeline, which started on 2025-03-01 (E7), was also impacted by the delay, resulting in further costs and losses for the Plaintiff. The Plaintiff contends that the Defendant's breach of contract directly caused these damages and that the Defendant's defenses are without merit.
+
+The Plaintiff cites the "Statement of Work" (E1) and the revised scope agreement (E5) as evidence of the contractual obligations and the parties' understanding of the changes. The Plaintiff also relies on the email requesting additional reporting fields (E2) and the access request (E4) to demonstrate that the Defendant had sufficient notice and opportunity to incorporate the changes and meet the deadline. The rework costs (E6) and the integration timeline (E7) provide evidence of the damages incurred by the Plaintiff as a direct result of the Defendant's breach.
+
+[Defendant]
+Your Honor, the Defendant, Jordan Smith, respectfully argues that the Plaintiff's claims are based on an overly narrow interpretation of the contract and the events that transpired. While it is true that the Defendant acknowledged the feasibility of the additional reporting fields on 2025-01-12 (E3), this acknowledgement was contingent upon receiving the necessary access to the database, which was not granted until 2025-02-05 (E4), nearly three weeks after the request was made (E4).
+
+The Plaintiff's insistence on maintaining the original deadline, despite the changes and delays, was unreasonable and contributed to the Defendant's inability to deliver the module on time. The revised scope agreement on 2025-02-06 (E5) does not support the Plaintiff's claim that the Defendant was obligated to meet the original deadline, as it only confirms that the parties agreed to the changes, not that the Defendant was obligated to meet the original timeline.
+
+Regarding causation, the Defendant contends that the Plaintiff's own delays and decisions contributed significantly to the damages incurred. The Plaintiff's integration timeline, which started on 2025-03-01 (E7), and the rework costs of $35,000 (E6), can be attributed, at least in part, to the Plaintiff's management of the project and its changes. The Defendant objects to the Plaintiff's assertion that the damages were directly caused by the Defendant's breach, as it lacks a clear causal link between the breach and the damages.
+
+The Defendant raises an objection to the Plaintiff's reliance on the "Statement of Work" (E1) as the sole evidence of the contractual obligations, as it does not take into account the subsequent changes and agreements made by the parties, including the revised scope agreement (E5). The Defendant also cites the access request (E4) and the delayed fulfillment of access as evidence of the Plaintiff's contribution to the delays and the impossibility of meeting the original deadline.
+
+Furthermore, the Defendant requests that the court consider the principle of prevention, which states that a party cannot claim breach of contract if they have prevented the other party from performing their obligations. In this case, the Plaintiff's delay in granting access (E4) and their insistence on maintaining the original deadline (E5) may be seen as preventive actions that contributed to the Defendant's inability to deliver the module on time. The Defendant contends that this principle applies to the present case and supports the defense of impossibility/prevention.
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, impossibility/prevention, causation of damages
+Key Stipulated Facts: Contractual obligations (E1), revised scope agreement (E5), access delay (E4)
+Rulings So Far: 
+Uncited Claims To Fix: Plaintiff's assertion of direct causation between breach and damages
+
+[Judge]
+The court has heard the arguments from both the Plaintiff, Acme Corp., and the Defendant, Jordan Smith. The Plaintiff asserts that the Defendant breached the contract by failing to deliver Module X by the deadline, while the Defendant claims that the Plaintiff's actions, including the delay in granting access and the insistence on maintaining the original deadline, contributed to the impossibility of meeting the deadline.
+
+The court notes that the Defendant has raised an objection to the Plaintiff's reliance on the "Statement of Work" (E1) as the sole evidence of the contractual obligations, citing the revised scope agreement (E5) and the access delay (E4) as evidence of the Plaintiff's contribution to the delays.
+
+The court also notes that the Plaintiff's assertion of direct causation between the breach and the damages (E6 and E7) has been challenged by the Defendant, who contends that the Plaintiff's own delays and decisions contributed significantly to the damages incurred.
+
+The court sustains the Defendant's objection to the Plaintiff's assertion of direct causation, as it lacks a clear causal link between the breach and the damages, and orders the Plaintiff to provide further evidence to support this claim.
+
+The court will now proceed to question both parties to clarify certain points. 
+
+Please respond to the following question: Can the Plaintiff provide evidence to support the claim that the Defendant's breach was the direct cause of the damages incurred, and if so, how do they reconcile this with the Defendant's contention that the Plaintiff's own delays and decisions contributed to the damages?
+
+[Plaintiff]
+Your Honor, the Plaintiff, Acme Corp., acknowledges the court's sustention of the Defendant's objection and the order to provide further evidence to support the claim of direct causation between the breach and the damages.
+
+The Plaintiff argues that the Defendant's failure to deliver Module X by the deadline (E1) led to a cascade of delays and additional costs, as evidenced by the rework costs of $35,000 (E6) and the integration timeline, which started on 2025-03-01 (E7). The Plaintiff contends that these damages were a direct result of the Defendant's breach, as the Plaintiff was forced to incur additional costs to rectify the situation and meet the project's requirements.
+
+To reconcile this with the Defendant's contention that the Plaintiff's own delays and decisions contributed to the damages, the Plaintiff points to the revised scope agreement (E5), which shows that the parties agreed to the changes, but the Defendant still failed to deliver the module on time. The Plaintiff argues that while the delay in granting access (E4) may have contributed to some delays, it was the Defendant's ultimate failure to deliver the module that caused the majority of the damages.
+
+The Plaintiff also notes that the Defendant's acknowledgement of the feasibility of the additional reporting fields on 2025-01-12 (E3) implies that the Defendant was aware of the changes and still accepted the responsibility to deliver the module on time. The Plaintiff argues that this acknowledgement, combined with the revised scope agreement (E5), demonstrates that the Defendant was obligated to deliver the module despite the changes, and their failure to do so was the direct cause of the damages incurred.
+
+To further support this claim, the Plaintiff requests to enter into evidence a project timeline (which can be added to the evidence index as E8) that details the critical path of the project and demonstrates how the Defendant's breach affected the overall project schedule and costs. This timeline will show that the Defendant's failure to deliver the module on time had a direct impact on the project's timeline and budget, leading to the damages incurred by the Plaintiff.
+
+[Defendant]
+Your Honor, the Defendant, Jordan Smith, respectfully responds to the Plaintiff's argument and the court's question. While the Plaintiff attempts to establish a direct causal link between the breach and the damages, the Defendant contends that the Plaintiff's own actions and decisions significantly contributed to the damages incurred.
+
+The Defendant acknowledges that the revised scope agreement (E5) shows that the parties agreed to the changes, but argues that this agreement was made with the understanding that the deadline would be adjusted accordingly. The Defendant points to the email requesting additional reporting fields on 2025-01-10 (E2) and the subsequent access request on 2025-01-13 (E4) as evidence that the Plaintiff's changes and delays impacted the project timeline.
+
+The Defendant also notes that the Plaintiff's integration timeline, which started on 2025-03-01 (E7), was not solely dependent on the delivery of Module X, and that the Plaintiff had other tasks and dependencies that contributed to the overall project delay. The Defendant argues that the rework costs of $35,000 (E6) were not solely caused by the Defendant's breach, but rather were a result of the Plaintiff's own project management decisions and the accumulation of delays throughout the project.
+
+Regarding the Plaintiff's request to enter the project timeline (proposed E8) into evidence, the Defendant objects on the grounds that this document is hearsay and lacks foundation. The Defendant argues that the project timeline is a self-serving document created by the Plaintiff to support their claim, and that its admission into evidence would be prejudicial.
+
+The Defendant requests that the court exercise caution when considering the Plaintiff's proposed evidence and that the Plaintiff be required to provide a foundation for the project timeline, including testimony from the person who created it and evidence of its accuracy and reliability. The Defendant is prepared to challenge the admissibility of the project timeline and to provide alternative evidence that supports their contention that the Plaintiff's own delays and decisions contributed to the damages incurred.
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7, (E8 proposed)
+Live Issues: Breach of contract, impossibility/prevention, causation of damages
+Key Stipulated Facts: Contractual obligations (E1), revised scope agreement (E5), access delay (E4)
+Rulings So Far: Defendant's objection to Plaintiff's assertion of direct causation sustained
+Uncited Claims To Fix: Plaintiff's claim of direct causation between breach and damages, Defendant's objection to proposed E8
+
+[Judge]
+The court has heard the arguments from both the Plaintiff, Acme Corp., and the Defendant, Jordan Smith, regarding the proposed evidence E8, the project timeline.
+
+The Defendant's objection to the proposed E8 is noted, and the court sustains the objection, as the project timeline is hearsay and lacks foundation. The Plaintiff has not provided sufficient evidence to establish the authenticity and reliability of the project timeline, and its admission into evidence would be prejudicial.
+
+The court orders the Plaintiff to provide a foundation for the project timeline, including testimony from the person who created it and evidence of its accuracy and reliability, before it can be considered as evidence.
+
+The court will now proceed to the closing statements. The Plaintiff will present their closing statement, followed by the Defendant's closing statement.
+
+Please proceed with the Plaintiff's closing statement. 
+
+After the closing statements, the court will deliberate and issue a verdict, findings of fact, conclusions of law, and an order or remedy, as necessary.
+
+[Plaintiff]
+Your Honor, the Plaintiff, Acme Corp., presents its closing statement. Throughout this trial, the Plaintiff has demonstrated that the Defendant, Jordan Smith, breached the contract by failing to deliver Module X by the deadline, as specified in the "Statement of Work" (E1). The Plaintiff has shown that the Defendant acknowledged the feasibility of the additional reporting fields on 2025-01-12 (E3) and had sufficient time to incorporate the changes and meet the deadline.
+
+The Plaintiff has also presented evidence of the damages incurred as a result of the Defendant's breach, including the rework costs of $35,000 (E6) and the integration timeline, which started on 2025-03-01 (E7). While the Defendant has raised objections and presented alternative theories, the Plaintiff believes that the evidence presented establishes a clear causal link between the Defendant's breach and the damages incurred.
+
+The Plaintiff acknowledges the court's ruling on the proposed evidence E8, the project timeline, and will provide the necessary foundation for its admission into evidence, if required. However, the Plaintiff argues that the existing evidence, including the emails (E2 and E3), the access request (E4), and the revised scope agreement (E5), provides a sufficient basis for the court to find in favor of the Plaintiff.
+
+In conclusion, the Plaintiff, Acme Corp., requests that the court find the Defendant, Jordan Smith, liable for breach of contract and award damages in the amount of $50,000, plus costs. The Plaintiff believes that the evidence presented and the applicable law support this outcome, and the court should exercise its discretion to grant the Plaintiff the relief sought.
+
+The Plaintiff is prepared to accept the court's verdict and will comply with any orders or remedies issued by the court. Thank you, Your Honor.
+
+[Defendant]
+Your Honor, the Defendant, Jordan Smith, presents its closing statement. Throughout this trial, the Defendant has demonstrated that the Plaintiff's claims of breach of contract and damages are not entirely supported by the evidence. The Defendant has shown that the Plaintiff's own actions, including the request for additional reporting fields on 2025-01-10 (E2) and the delay in granting access (E4), contributed significantly to the delays and damages incurred.
+
+The Defendant has also presented evidence that the Plaintiff's insistence on maintaining the original deadline, despite the changes and delays, was unreasonable and exacerbated the situation. The revised scope agreement (E5) confirms that the parties agreed to the changes, but it does not support the Plaintiff's claim that the Defendant was obligated to meet the original deadline.
+
+The Defendant argues that the Plaintiff's damages, including the rework costs of $35,000 (E6) and the integration timeline (E7), were not solely caused by the Defendant's breach. The Defendant contends that the Plaintiff's own project management decisions and the accumulation of delays throughout the project contributed to the damages incurred.
+
+The Defendant notes that the court has sustained its objection to the Plaintiff's assertion of direct causation and has excluded the proposed evidence E8, the project timeline, due to lack of foundation. The Defendant believes that this ruling underscores the lack of evidence supporting the Plaintiff's claim of direct causation.
+
+In conclusion, the Defendant, Jordan Smith, requests that the court find in favor of the Defendant and dismiss the Plaintiff's claims. The Defendant believes that the evidence presented and the applicable law support this outcome, and the court should exercise its discretion to deny the Plaintiff's request for damages. Alternatively, if the court finds in favor of the Plaintiff, the Defendant requests that the damages be significantly reduced to reflect the Plaintiff's contribution to the delays and damages incurred. The Defendant is prepared to accept the court's verdict and will comply with any orders or remedies issued by the court. Thank you, Your Honor.
+
+[Clerk]
+[CASE MEMORY]
+Evidence Index: E1, E2, E3, E4, E5, E6, E7
+Live Issues: Breach of contract, impossibility/prevention, causation of damages
+Key Stipulated Facts: Contractual obligations (E1), revised scope agreement (E5), access delay (E4)
+Rulings So Far: Defendant's objection to Plaintiff's assertion of direct causation sustained, proposed E8 excluded
+Uncited Claims To Fix: None
+
+The court has heard the closing statements from both parties and will now deliberate on the case. 
+
+FINDINGS OF FACT:
+
+1. The Defendant, Jordan Smith, failed to deliver Module X by the deadline specified in the "Statement of Work" (E1).
+2. The Plaintiff, Acme Corp., requested additional reporting fields on 2025-01-10 (E2), which the Defendant acknowledged as feasible on 2025-01-12 (E3).
+3. The Plaintiff delayed in granting access to the Defendant, which was ultimately provided on 2025-02-05 (E4).
+4. The parties agreed to a revised scope on 2025-02-06 (E5), but the Defendant still failed to deliver the module on time.
+5. The Plaintiff incurred rework costs of $35,000 (E6) and experienced delays in the integration timeline, which started on 2025-03-01 (E7).
+
+CONCLUSIONS OF LAW:
+
+1. The Defendant, Jordan Smith, breached the contract by failing to deliver Module X by the deadline.
+2. The Plaintiff, Acme Corp., contributed to the delays and damages incurred, including the request for additional reporting fields and the delay in granting access.
+3. The Defendant's breach was a significant contributing factor to the damages incurred by the Plaintiff, but not the sole cause.
+
+ORDER:
+
+The court finds in favor of the Plaintiff, Acme Corp., and awards damages in the amount of $30,000, which reflects the Defendant's significant contribution to the breach and the Plaintiff's contribution to the delays and damages incurred. The court exercises its discretion to reduce the damages from the Plaintiff's requested amount of $50,000, considering the mutual contributions to the delays and damages.
+
+TERMINATE
+
+[Judge]
+=== VERDICT ===
+The Plaintiff, Acme Corp., wins on the claim of breach of contract, but with reduced damages.
+
+=== FINDINGS OF FACT ===
+- The Defendant, Jordan Smith, failed to deliver Module X by the deadline specified in the "Statement of Work" (E1).
+- The Plaintiff, Acme Corp., requested additional reporting fields on 2025-01-10 (E2), which the Defendant acknowledged as feasible on 2025-01-12 (E3).
+- The Plaintiff delayed in granting access to the Defendant, which was ultimately provided on 2025-02-05 (E4).
+- The parties agreed to a revised scope on 2025-02-06 (E5), but the Defendant still failed to deliver the module on time.
+- The Plaintiff incurred rework costs of $35,000 (E6) and experienced delays in the integration timeline, which started on 2025-03-01 (E7).
+
+=== CONCLUSIONS OF LAW ===
+- The Defendant, Jordan Smith, breached the contract by failing to deliver Module X by the deadline.
+- The Plaintiff, Acme Corp., contributed to the delays and damages incurred, including the request for additional reporting fields and the delay in granting access.
+- The Defendant's breach was a significant contributing factor to the damages incurred by the Plaintiff, but not the sole cause.
+
+=== ORDER / REMEDY ===
+The court awards damages in the amount of $30,000 to the Plaintiff, Acme Corp., which reflects the Defendant's significant contribution to the breach and the Plaintiff's contribution to the delays and damages incurred.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable law. The Defendant's failure to deliver Module X by the deadline was a breach of contract, but the Plaintiff's contributions to the delays and damages incurred must also be considered. The court exercises its discretion to reduce the damages from the Plaintiff's requested amount of $50,000, considering the mutual contributions to the delays and damages. This outcome reflects a balanced approach, acknowledging the Defendant's breach while also accounting for the Plaintiff's role in the delays and damages.
+
+TERMINATE

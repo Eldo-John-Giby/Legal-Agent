@@ -1,0 +1,4 @@
+pyautogen==0.10.0
+autogen-ext[openai]==0.7.5
+python-dotenv>=1.0.1
+pydantic>=2.8

@@ -1,0 +1,24 @@
+=== VERDICT ===
+The court finds in favor of the Plaintiff, Acme Corp., on the claim of breach of contract. The court orders the Defendant, Jordan Smith, to pay the Plaintiff $35,000 in rework costs.
+
+=== FINDINGS OF FACT ===
+* The Defendant, Jordan Smith, was contractually obligated to deliver the software module by 2025-01-31, as stated in the "Statement of Work" excerpt (E1).
+* The Plaintiff, Acme Corp., introduced new requirements, as shown in the email from Acme's project manager on 2025-01-10 (E2), which impacted the Defendant's ability to meet the deadline.
+* The Defendant requested necessary database access by 2025-01-15 to stay on schedule, as shown in the email from Smith on 2025-01-12 (E3).
+* The Plaintiff's failure to grant access until 2025-02-05, as indicated in the ticket log excerpt (E4), delayed the Defendant's delivery of the module.
+* The Plaintiff incurred $35,000 in rework costs, as shown in the invoice from Acme's contractor (E6), and claims an additional $15,000 in damages.
+
+=== CONCLUSIONS OF LAW ===
+* The Defendant's failure to deliver the module by the deadline constitutes a breach of contract.
+* The Plaintiff's late changes to the requirements and delayed access contributed to the Defendant's breach, but do not excuse the Defendant's performance entirely.
+* The Defendant's breach of contract caused damages to the Plaintiff, but the amount of damages is disputed.
+
+=== ORDER / REMEDY ===
+The court orders the Defendant, Jordan Smith, to pay the Plaintiff, Acme Corp., the amount of $35,000 in rework costs, as supported by the invoice from Acme's contractor (E6). The court dismisses the Plaintiff's claim for the additional $15,000 in damages, as the evidence presented does not sufficiently support this claim.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable law. The Plaintiff's introduction of new requirements and delayed access contributed to the Defendant's breach, but did not excuse the Defendant's performance entirely. The court finds that the Defendant's breach of contract caused damages to the Plaintiff, and awards damages that reflect the full extent of the harm caused by the Defendant's breach, while taking into account the Plaintiff's contributory actions.
+
+The court's decision is supported by the evidence, including the "Statement of Work" excerpt (E1), the email from Acme's project manager on 2025-01-10 (E2), the email from Smith on 2025-01-12 (E3), the ticket log excerpt (E4), and the invoice from Acme's contractor (E6).
+
+TERMINATE

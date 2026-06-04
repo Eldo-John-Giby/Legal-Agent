@@ -1,0 +1,27 @@
+TITLE: Acme Corp. v. Smith
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+- PLAINTIFF: Acme Corp.
+- DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+- Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+- Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+- Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+- No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+E6: Invoice from Acme contractor: $35,000 for rework.
+E7: Internal Acme timeline: integration started 2025-03-01.
+
+REQUESTED RELIEF:
+- Plaintiff asks for $50,000 damages + costs.
+- Defendant asks for dismissal or reduction.
