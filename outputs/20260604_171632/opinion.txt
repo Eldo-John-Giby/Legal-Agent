@@ -1,0 +1,21 @@
+=== VERDICT ===
+The Plaintiff, Acme Corp., has failed to demonstrate that the Defendant, Jordan Smith, breached the contract. While the Defendant did not meet the original deadline, the Plaintiff's own actions, such as requesting changes to the scope of the project and delaying access to the database, contributed to the delays.
+
+=== FINDINGS OF FACT ===
+- The original deadline for the delivery of the software module was 2025-01-31 (E1).
+- The Plaintiff requested changes to the scope of the project on 2025-01-10 (E2).
+- The Defendant requested database access by 2025-01-15 to accommodate the changes, but access was not granted until 2025-02-05 (E3, E4).
+- The parties agreed to a revised scope, but the Plaintiff insisted on keeping the original deadline (E5).
+- The Plaintiff incurred $35,000 in rework costs (E6).
+- Integration started on 2025-03-01 (E7).
+
+=== CONCLUSIONS OF LAW ===
+Under the Indian Contract Act, 1872, a party may be excused from performing their obligations under a contract if the other party's actions or omissions make it impossible for them to do so (Art. 56). In this case, the Plaintiff's actions, including their delay in granting access and their insistence on an unrealistic deadline, made it impossible for the Defendant to deliver the software module on time.
+
+=== ORDER / REMEDY ===
+The Plaintiff's claim for $50,000 in damages is dismissed. The Defendant is not liable for the Plaintiff's rework and delay costs.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable law. The Plaintiff's own actions contributed to the delays, and the Defendant was not solely responsible for the breach of contract. The court exercises its discretion under (Art. 55) of the Indian Contract Act, 1872, to refuse the Plaintiff's claim for damages.
+
+TERMINATE

@@ -1,0 +1,58 @@
+[user]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: Acme Corp. v. Smith
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+- PLAINTIFF: Acme Corp.
+- DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+- Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+- Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+- Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+- No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+E6: Invoice from Acme contractor: $35,000 for rework.
+E7: Internal Acme timeline: integration started 2025-03-01.
+
+REQUESTED RELIEF:
+- Plaintiff asks for $50,000 damages + costs.
+- Defendant asks for dismissal or reduction.
+
+---
+
+
+[Judge]
+[MemoryContent(content={'evidence_id': 'E3', 'text': 'Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."'}, mime_type=<MemoryMimeType.JSON: 'application/json'>, metadata=None), MemoryContent(content={'evidence_id': 'E2', 'text': 'Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."'}, mime_type=<MemoryMimeType.JSON: 'application/json'>, metadata=None), MemoryContent(content={'evidence_id': 'E5', 'text': 'Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.'}, mime_type=<MemoryMimeType.JSON: 'application/json'>, metadata=None), MemoryContent(content={'evidence_id': 'E4', 'text': 'Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.'}, mime_type=<MemoryMimeType.JSON: 'application/json'>, metadata=None), MemoryContent(content={'evidence_id': 'E1', 'text': '"Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.'}, mime_type=<MemoryMimeType.JSON: 'application/json'>, metadata=None)]
+
+[Judge]
+[MemoryContent(content='Case: Acme Corp. v. Smith | Jurisdiction: Common-law mock trial | Plaintiff: Acme Corp. | Defendant: Jordan Smith', mime_type=<MemoryMimeType.TEXT: 'text/plain'>, metadata=None), MemoryContent(content='Claims: Breach of contract: Defendant failed to deliver agreed software module by the deadline.; Damages: $50,000 in rework and delay costs.', mime_type=<MemoryMimeType.TEXT: 'text/plain'>, metadata=None), MemoryContent(content='Defenses: Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.; No causation: Plaintiff’s own delays caused most damages.', mime_type=<MemoryMimeType.TEXT: 'text/plain'>, metadata=None), MemoryContent(content='Evidence ids: E1, E2, E3, E4, E5, E6, E7', mime_type=<MemoryMimeType.TEXT: 'text/plain'>, metadata=None)]
+
+[Judge]
+Welcome to the mock trial of Acme Corp. v. Smith. I am the Judge presiding over this case. The rules are as follows: all factual assertions must be supported by a cited evidence id (E1, E2, ...), and all legal propositions should be supported by constitutional citations when relevant (Art. #). 
+
+The claims in this case are: Breach of contract, with the Plaintiff alleging that the Defendant failed to deliver the agreed software module by the deadline, and Damages, with the Plaintiff seeking $50,000 in rework and delay costs. The Defendant's defenses are: Impossibility/Prevention, claiming that the Plaintiff changed requirements late and denied needed access, and No causation, arguing that the Plaintiff's own delays caused most damages.
+
+We will proceed with the Plaintiff's opening statement. Please proceed, Plaintiff.

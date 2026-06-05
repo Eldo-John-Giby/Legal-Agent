@@ -46,8 +46,20 @@ class EvidenceRagMemory(Memory):
         if not hits:
             return UpdateContextResult(memories=MemoryQueryResult(results=[]))
 
+        # Prevent context bloat by removing previous RAG snippets from this turn or prior turns
+        # if we are about to inject new ones.
+        current_msgs = await model_context.get_messages()
+        # We only want to remove messages that we added (starting with our header)
+        prefix = "Retrieved evidence (cite by id, e.g. (E2)):"
+        new_msgs = [m for m in current_msgs if not (isinstance(m, SystemMessage) and m.content.startswith(prefix))]
+        
+        if len(new_msgs) != len(current_msgs):
+            await model_context.clear()
+            for m in new_msgs:
+                await model_context.add_message(m)
+
         lines = [
-            "Retrieved evidence (cite by id, e.g. (E2)):",
+            prefix,
             *[f"- {h.evidence_id}: {h.text}" for h in hits],
         ]
         msg = "\n".join(lines)

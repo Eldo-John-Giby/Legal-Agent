@@ -8,7 +8,6 @@ from autogen_core.memory import Memory, MemoryContent, MemoryMimeType, MemoryQue
 from autogen_core.model_context import ChatCompletionContext
 from autogen_core.models import SystemMessage
 
-
 @dataclass
 class SharedCourtRecord:
     items: List[str] = field(default_factory=list)

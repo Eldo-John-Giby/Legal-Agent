@@ -1,0 +1,18 @@
+=== VERDICT ===
+The court finds in favor of the Defendant, Jordan Smith.
+The Plaintiff, Acme Corp., has failed to provide sufficient evidence to support their claim of breach of contract.
+The Defendant has demonstrated that the Plaintiff's actions, including the late change in requirements and denial of necessary access, contributed to the delay in delivery.
+=== FINDINGS OF FACT ===
+- The Plaintiff changed the requirements of the project on January 10, 2025, as seen in email E2.
+- The Defendant requested database access by January 15, 2025, to stay on schedule, as seen in email E3.
+- The access request was created on January 13, 2025, but not granted until February 5, 2025, as seen in ticket log excerpt E4.
+- The original deadline for delivery was January 31, 2025, as seen in the "Statement of Work" excerpt E1.
+=== CONCLUSIONS OF LAW ===
+- The Plaintiff's actions constituted a breach of the implied covenant of good faith and fair dealing, as supported by Art. 14 of the Indian Constitution, which ensures equality before the law.
+- The Defendant's right to carry on any occupation, trade or business under Art. 19 of the Indian Constitution was not violated, as the Plaintiff's actions were not discriminatory or arbitrary.
+=== ORDER / REMEDY ===
+The court orders the Plaintiff to pay the Defendant's costs and attorney's fees.
+The court also orders the Plaintiff to reconsider their business practices and ensure that they are acting in good faith and fair dealing with their contractors.
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable laws. The Plaintiff's failure to provide sufficient evidence and their breach of the implied covenant of good faith and fair dealing have led to this verdict.
+TERMINATE

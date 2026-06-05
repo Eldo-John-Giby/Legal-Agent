@@ -32,7 +32,7 @@ def build_tools(
         """Search the Indian Constitution corpus (articles) and return relevant snippets with ids like Art. 14."""
         if constitution_store is None:
             return "(constitution store unavailable)"
-        hits = constitution_store.search(case_id, query, k=k)
+        hits = constitution_store.search("shared_constitution", query, k=k)
         if not hits:
             return "(no constitution passages found)"
         return "\n".join([f"{h.evidence_id}: {h.text}" for h in hits])
@@ -41,7 +41,7 @@ def build_tools(
         """Fetch a Constitution passage by id like 'Art. 14'."""
         if constitution_store is None:
             return "(constitution store unavailable)"
-        hit = constitution_store.get(case_id, article_id)
+        hit = constitution_store.get("shared_constitution", article_id)
         if hit is None:
             return f"(article not found: {article_id})"
         return f"{hit.evidence_id}: {hit.text}"
@@ -49,8 +49,20 @@ def build_tools(
     tools.extend([search_constitution, get_article])
 
     if record is not None:
+        async def search_precedents(query: str, k: int = 3) -> str:
+            """Search for legal precedents and landmark rulings (e.g. Maneka Gandhi, Puttaswamy)."""
+            authority_store = EvidenceStore.get_authority_store() # We will add this factory method
+            if not authority_store:
+                return "No precedent database available."
+            hits = authority_store.search("shared_precedents", query, k=k)
+            if not hits:
+                return "(no precedents found)"
+            return "\n\n".join(f"{h.evidence_id}: {h.text}" for h in hits)
+
+        tools.append(search_precedents)
 
         async def note_to_record(note: str) -> str:
+
             """Append a short note/ruling/stipulation to the shared court record memory."""
             record.add((note or "").strip())
             if len(record.items) > max_record_items:

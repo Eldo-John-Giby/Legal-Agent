@@ -13,17 +13,166 @@ from autogen_agentchat.base import OrTerminationCondition
 from autogen_agentchat.conditions import MaxMessageTermination, TextMentionTermination
 from autogen_agentchat.messages import TextMessage
 from autogen_agentchat.teams import RoundRobinGroupChat
-from autogen_agentchat.ui import Console
+from autogen_agentchat.ui._console import UserInputManager
+from .colored_console import ColoredConsole
 from autogen_ext.models.openai import OpenAIChatCompletionClient
 
+from typing import AsyncGenerator, Sequence, List, Mapping, Any, Optional, Union, Literal
+from autogen_core.models import ChatCompletionClient, LLMMessage, CreateResult, ModelInfo, UserMessage, ModelFamily, RequestUsage, ModelCapabilities
+from autogen_core.tools import Tool, ToolSchema
+from autogen_core import CancellationToken
+from pydantic import BaseModel
+import openai
+
 from .prompts import DEFENDANT_SYSTEM, INITIAL_TASK_TEMPLATE, JUDGE_SYSTEM, PLAINTIFF_SYSTEM
-from .constitution import parse_constitution_text
+from .constitution import parse_constitution_text, parse_constitution_text_fast
 from .rag import LocalEvidenceStore, WeaviateEvidenceStore, parse_case_text
 from .rag_memory import EvidenceRagMemory
 from .record_memory import CourtRecordMemory, SharedCourtRecord
 from .tools import build_tools
 
-def _build_model_client() -> OpenAIChatCompletionClient:
+
+class GroqToolCallingGuardClient(ChatCompletionClient):
+    def __init__(self, client: ChatCompletionClient):
+        self._client = client
+
+    @property
+    def model_info(self) -> ModelInfo:
+        return self._client.model_info
+
+    @property
+    def actual_usage(self) -> RequestUsage:
+        return self._client.actual_usage
+
+    @property
+    def total_usage(self) -> RequestUsage:
+        return self._client.total_usage
+
+    @property
+    def capabilities(self) -> ModelCapabilities:
+        return self._client.capabilities
+
+    async def close(self) -> None:
+        await self._client.close()
+
+    def remaining_tokens(self, messages: Sequence[LLMMessage], *, tools: Sequence[Tool | ToolSchema] = []) -> int:
+        return self._client.remaining_tokens(messages, tools=tools)
+
+    async def create(
+        self,
+        messages: Sequence[LLMMessage],
+        *,
+        tools: Sequence[Tool | ToolSchema] = [],
+        tool_choice: Union[Tool, Literal["auto", "required", "none"]] = "auto",
+        json_output: Union[bool, type[BaseModel], None] = None,
+        extra_create_args: Mapping[str, Any] = {},
+        cancellation_token: Optional[CancellationToken] = None,
+    ) -> CreateResult:
+        max_retries = 3
+        current_messages = list(messages)
+        for attempt in range(max_retries):
+            try:
+                return await self._client.create(
+                    messages=current_messages,
+                    tools=tools,
+                    tool_choice=tool_choice,
+                    json_output=json_output,
+                    extra_create_args=extra_create_args,
+                    cancellation_token=cancellation_token,
+                )
+            except openai.BadRequestError as e:
+                error_msg = str(e)
+                is_tool_failure = "tool_use_failed" in error_msg or "failed_generation" in error_msg
+
+                failed_gen = ""
+                if hasattr(e, "body") and isinstance(e.body, dict):
+                    err_dict = e.body.get("error", {})
+                    if err_dict.get("code") == "tool_use_failed" or "failed_generation" in err_dict:
+                        is_tool_failure = True
+                        failed_gen = err_dict.get("failed_generation", "")
+
+                if not is_tool_failure or attempt == max_retries - 1:
+                    raise e
+
+                print(f"[GroqToolCallingGuardClient] Intercepted tool call failure: {error_msg}. Retrying (attempt {attempt + 1}/{max_retries})...")
+
+                feedback = (
+                    "CRITICAL ERROR: Your tool call syntax is invalid.\n"
+                    "You MUST format your tool call exactly as:\n"
+                    '<function=tool_name>{"arg_name": "arg_value"}</function>\n'
+                )
+
+                if failed_gen:
+                    feedback += f"\nYour FAILED GENERATION was: {failed_gen.strip()}\n"
+                    if "{" in failed_gen and not failed_gen.split("{")[0].endswith(">"):
+                        feedback += "ERROR DETAIL: You missing the closing `>` after the function name and before the opening `{`.\n"
+                    if failed_gen.startswith("```"):
+                        feedback += "ERROR DETAIL: Do NOT use markdown code blocks (```). Output the tag directly.\n"
+
+                feedback += "\nPlease fix the syntax and try again. Use NO conversational filler."
+
+                current_messages.append(UserMessage(content=feedback, source="System"))
+
+    async def create_stream(
+        self,
+        messages: Sequence[LLMMessage],
+        *,
+        tools: Sequence[Tool | ToolSchema] = [],
+        tool_choice: Union[Tool, Literal["auto", "required", "none"]] = "auto",
+        json_output: Union[bool, type[BaseModel], None] = None,
+        extra_create_args: Mapping[str, Any] = {},
+        cancellation_token: Optional[CancellationToken] = None,
+    ) -> AsyncGenerator[Union[str, CreateResult], None]:
+        max_retries = 3
+        current_messages = list(messages)
+        for attempt in range(max_retries):
+            try:
+                async for chunk in self._client.create_stream(
+                    messages=current_messages,
+                    tools=tools,
+                    tool_choice=tool_choice,
+                    json_output=json_output,
+                    extra_create_args=extra_create_args,
+                    cancellation_token=cancellation_token,
+                ):
+                    yield chunk
+                break
+            except openai.BadRequestError as e:
+                error_msg = str(e)
+                is_tool_failure = "tool_use_failed" in error_msg or "failed_generation" in error_msg
+
+                failed_gen = ""
+                if hasattr(e, "body") and isinstance(e.body, dict):
+                    err_dict = e.body.get("error", {})
+                    if err_dict.get("code") == "tool_use_failed" or "failed_generation" in err_dict:
+                        is_tool_failure = True
+                        failed_gen = err_dict.get("failed_generation", "")
+
+                if not is_tool_failure or attempt == max_retries - 1:
+                    raise e
+
+                print(f"[GroqToolCallingGuardClient] Intercepted stream tool call failure: {error_msg}. Retrying (attempt {attempt + 1}/{max_retries})...")
+
+                feedback = (
+                    "Your previous response had a syntax/formatting error when trying to call a tool.\n"
+                    "You MUST format your tool call exactly as:\n"
+                    '<function=tool_name>{"arg_name": "arg_value"}</function>\n'
+                    "Make sure there is a closing angle bracket `>` right after the tool name (e.g. `<function=search_evidence>` and NOT `<function=search_evidence `).\n"
+                    "Do NOT output markdown code blocks or conversational text around the tool call when invoking it."
+                )
+                if failed_gen:
+                    feedback += f"\nYour failed generation was: {failed_gen.strip()}"
+
+                current_messages.append(UserMessage(content=feedback, source="System"))
+
+    def count_tokens(self, messages: Sequence[LLMMessage], *, tools: Sequence[Tool | ToolSchema] = []) -> int:
+        return self._client.count_tokens(messages, tools=tools)
+
+
+def _build_model_client(
+    model: str = "llama-3.3-70b-versatile", enable_tools: bool = True
+) -> ChatCompletionClient:
+
     load_dotenv()
 
     groq_key = os.getenv("GROQ_API_KEY", "").strip()
@@ -31,18 +180,20 @@ def _build_model_client() -> OpenAIChatCompletionClient:
     if not groq_key:
         raise SystemExit("GROQ_API_KEY is required.")
 
-    return OpenAIChatCompletionClient(
-        model="llama-3.3-70b-versatile",
+    client = OpenAIChatCompletionClient(
+        model=model,
         api_key=groq_key,
         base_url="https://api.groq.com/openai/v1",
         model_info={
             "vision": False,
-            "function_calling": True,
+            "function_calling": enable_tools,
             "json_output": True,
-            "family": "unknown",
+            "family": ModelFamily.LLAMA_3_3_70B if model == "llama-3.3-70b-versatile" else "unknown",
             "structured_output": True,
+            "multiple_system_messages": True,
         },
     )
+    return GroqToolCallingGuardClient(client)
 
 
 def _read_case_text(path: Path) -> str:
@@ -92,6 +243,7 @@ async def run_case(
     case_path: Path,
     outputs_base: Path,
     max_messages: int,
+    no_human: bool = False,
 ):
     case_text = _read_case_text(case_path)
     model_client = _build_model_client()
@@ -114,20 +266,26 @@ async def run_case(
             "Create data\\constitution.txt with ARTICLE headings."
         )
 
-    constitution_text = constitution_path.read_text(encoding="utf-8")
-    constitution_items = parse_constitution_text(constitution_text)
-    if not constitution_items:
-        raise SystemExit(
-            f"Constitution file parsed to zero articles: {constitution_path}. "
-            "Ensure headings like 'ARTICLE 14: ...'."
-        )
-
     w_const = WeaviateEvidenceStore(class_name="ConstitutionChunk")
-    constitution_store = w_const if w_const.is_available() else LocalEvidenceStore(constitution_items)
-    if constitution_store is w_const:
-        try:
-            constitution_store.upsert_all(case_id, constitution_items)
-        except Exception:
+    if w_const.is_available() and w_const.count("shared_constitution") > 0:
+        constitution_store = w_const
+    else:
+        constitution_text = constitution_path.read_text(encoding="utf-8")
+        constitution_items = parse_constitution_text_fast(constitution_text)
+        if not constitution_items:
+            constitution_items = await parse_constitution_text(constitution_text, model_client)
+        if not constitution_items:
+            raise SystemExit(
+                f"Constitution file parsed to zero articles: {constitution_path}."
+            )
+
+        if w_const.is_available():
+            try:
+                w_const.upsert_all("shared_constitution", constitution_items)
+                constitution_store = w_const
+            except Exception:
+                constitution_store = LocalEvidenceStore(constitution_items)
+        else:
             constitution_store = LocalEvidenceStore(constitution_items)
 
     record = SharedCourtRecord()
@@ -175,12 +333,21 @@ async def run_case(
         memory=memories_common,
     )
 
-    participants = [
+    user_input_manager = UserInputManager(input)
+
+    participants: List[AssistantAgent | UserProxyAgent] = [
         judge,
         plaintiff,
         defendant,
-        UserProxyAgent("Human", description="Human reviewer (press Enter to skip)"),
     ]
+    if not no_human:
+        participants.append(
+            UserProxyAgent(
+                "Human",
+                description="Human reviewer (press Enter to skip)",
+                input_func=user_input_manager.get_wrapped_callback(),
+            )
+        )
 
     termination = OrTerminationCondition(
         TextMentionTermination("TERMINATE", sources=["Judge"]),
@@ -192,7 +359,10 @@ async def run_case(
         termination_condition=termination,
     )
 
-    result = await Console(team.run_stream(task=shared_task))
+    result = await ColoredConsole(
+        team.run_stream(task=shared_task),
+        user_input_manager=user_input_manager,
+    )
 
     outputs = _outputs_dir(outputs_base)
 
@@ -239,6 +409,12 @@ def main() -> None:
     )
 
 
+    parser.add_argument(
+        "--no-human",
+        action="store_true",
+        help="Disable human-in-the-loop agent.",
+    )
+
     args = parser.parse_args()
 
     outputs = asyncio.run(
@@ -246,6 +422,7 @@ def main() -> None:
             Path(args.case),
             Path(args.out),
             args.max_messages,
+            no_human=args.no_human,
         )
     )
 

@@ -1,0 +1,23 @@
+=== VERDICT ===
+The Plaintiff, Acme Corp., wins on the claim of breach of contract. The Defendant, Jordan Smith, failed to deliver the software module by the deadline of 2025-01-31 as specified in the "Statement of Work" (E1).
+
+=== FINDINGS OF FACT ===
+- The Defendant requested database access by 2025-01-15 to stay on schedule (E3).
+- Access was granted on 2025-02-05 (E4), which is after the requested date.
+- The parties agreed to a revised scope on 2025-02-06, and Acme asked to keep the original deadline (E5).
+- The Defendant failed to deliver the software module by the deadline of 2025-01-31 (E1).
+- Acme Corp. incurred $35,000 in rework costs (E6).
+- Integration did not start until 2025-03-01, well after the deadline (E7).
+
+=== CONCLUSIONS OF LAW ===
+- The Defendant's breach of contract is established by their failure to meet the deadline.
+- The Defendant's claim of impossibility/prevention is not supported by the evidence.
+- The Plaintiff is entitled to damages for the breach of contract.
+
+=== ORDER / REMEDY ===
+The Defendant, Jordan Smith, is ordered to pay Acme Corp. $50,000 in damages.
+
+=== FULL WRITTEN OPINION ===
+The court finds that the Defendant's failure to deliver the software module by the deadline constitutes a breach of contract. The evidence shows that the Defendant had sufficient opportunity to complete the work, but failed to do so. The Plaintiff has incurred significant damages as a result of the breach, including $35,000 in rework costs. The court rejects the Defendant's claim of impossibility/prevention, as the evidence does not support this claim.
+
+TERMINATE

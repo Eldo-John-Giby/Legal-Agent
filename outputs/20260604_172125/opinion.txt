@@ -1,0 +1,20 @@
+=== VERDICT ===
+The Plaintiff, Acme Corp., has failed to prove that the Defendant, Jordan Smith, breached the contract. The Defendant has successfully argued that the Plaintiff's actions, particularly the late change in requirements and denial of necessary access, made it impossible for him to deliver the software module on time.
+
+=== FINDINGS OF FACT ===
+- The Plaintiff sent an email on 2025-01-10 (E2) requesting additional reporting fields to be included in the same delivery.
+- The Defendant responded on 2025-01-12 (E3) stating that he could do that, but needed database access by 2025-01-15 to stay on schedule.
+- The integration started on 2025-03-01 (E7), which is after the original deadline.
+- The Plaintiff and Defendant agreed to a revised scope on 2025-02-06 (E5), but the Plaintiff insisted on keeping the original deadline.
+
+=== CONCLUSIONS OF LAW ===
+- The Plaintiff's actions, as evidenced by E2 and E5, constitute a breach of the principle of equality before law (Art. 14) and the right to carry on any occupation, trade or business (Art. 19).
+- The Defendant's inability to deliver the software module on time was a direct result of the Plaintiff's actions, and therefore, the Defendant is not liable for the damages claimed by the Plaintiff.
+
+=== ORDER / REMEDY ===
+The Plaintiff's claim for $50,000 in damages is dismissed. The Defendant is entitled to recover his costs incurred in defending this action.
+
+=== FULL WRITTEN OPINION ===
+The court has carefully considered the evidence and arguments presented by both parties. The Plaintiff's failure to provide timely access to the necessary resources and their insistence on keeping the original deadline despite the revised scope have made it impossible for the Defendant to deliver the software module on time. The court finds that the Plaintiff's actions have breached the principles of equality before law and the right to carry on any occupation, trade or business. The Defendant's actions, on the other hand, have been reasonable and in good faith. Therefore, the Plaintiff's claim for damages is dismissed, and the Defendant is entitled to recover his costs.
+
+TERMINATE

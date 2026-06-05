@@ -1,0 +1,10 @@
+=== VERDICT ===
+=== FINDINGS OF FACT ===
+The Plaintiff's conduct, including the change in requirements as stated in email E2 and the denial of needed access as shown in E3 and E4, may have impacted the Defendant's ability to deliver the software module on time, potentially violating the Defendant's Right to Trade under Art. 19 and Equality under Art. 14.
+=== CONCLUSIONS OF LAW ===
+The Plaintiff's actions may have contributed to the delay in delivery, and the Defendant's Right to Trade under Art. 19 and Equality under Art. 14 may have been violated.
+=== ORDER / REMEDY ===
+The court orders the Plaintiff to pay $25,000 in damages to the Defendant, considering the Plaintiff's contribution to the delay and the Defendant's losses.
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the analysis of the evidence and the applicable laws, including Art. 19 and Art. 14 of the Indian Constitution. The Plaintiff's change in requirements and denial of access may have impacted the Defendant's ability to deliver the software module on time, potentially violating the Defendant's Right to Trade and Equality.
+TERMINATE
