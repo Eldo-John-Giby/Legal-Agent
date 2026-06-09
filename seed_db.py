@@ -49,6 +49,10 @@ async def seed_database(
     if constitution_path.exists():
         const_store = WeaviateEvidenceStore(class_name="ConstitutionChunk")
 
+        if force_constitution:
+            print(f"[INFO] Force-constitution enabled: clearing existing 'shared_constitution' records...")
+            const_store.delete_all("shared_constitution")
+
         constitution_text = constitution_path.read_text(encoding="utf-8")
 
         if (constitution_mode or "fast").lower() == "llm":

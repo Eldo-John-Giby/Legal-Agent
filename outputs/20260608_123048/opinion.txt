@@ -1,0 +1,23 @@
+=== VERDICT ===
+The Defendant, Jordan Smith, is found liable for breach of contract. The Plaintiff, Acme Corp., is awarded $50,000 in damages.
+
+=== FINDINGS OF FACT ===
+- The Defendant failed to deliver the software module by the agreed-upon deadline of 2025-01-31 (E1).
+- The Plaintiff introduced changes to the project scope late in the development cycle (E2).
+- The Defendant was aware of the deadline and the requirements for the project, including the need for timely database access (E3).
+- The Plaintiff denied the Defendant necessary database access in a timely manner, with the access request being created on 2025-01-13 but not granted until 2025-02-05 (E4).
+- Both parties agreed to a revised scope, yet the Plaintiff insisted on maintaining the original deadline (E5).
+- The Plaintiff incurred significant rework and delay costs, as evidenced by the invoice from an Acme contractor (E6) and the internal Acme timeline (E7).
+
+=== CONCLUSIONS OF LAW ===
+- The Defendant's failure to deliver the software module by the agreed-upon deadline constitutes a breach of contract.
+- The Plaintiff's introduction of changes to the project scope and delay in granting database access do not entirely excuse the Defendant's failure to manage the project effectively and meet the deadline.
+- The Defendant's awareness of the deadline and the requirements for the project, including the need for timely database access, underscores the responsibility to adapt to changes and still meet the contractual obligations.
+
+=== ORDER / REMEDY ===
+The Defendant, Jordan Smith, is ordered to pay the Plaintiff, Acme Corp., $50,000 in damages. This amount represents the rework and delay costs incurred by the Plaintiff as a result of the Defendant's breach of contract.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on a thorough analysis of the evidence presented and the applicable law. The Defendant's failure to deliver the software module by the agreed-upon deadline is a clear breach of contract. While the Plaintiff's actions may have contributed to the delay, the Defendant's responsibility to manage the project effectively and meet the deadline remains. The evidence presented supports the Plaintiff's claim, and the court finds that the Defendant's breach of contract is the primary cause of the damages. Therefore, the Defendant is held liable for the $50,000 in damages.
+
+TERMINATE

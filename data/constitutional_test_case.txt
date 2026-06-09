@@ -1,0 +1,24 @@
+TITLE: State of X v. Doe
+JURISDICTION: Constitutional Mock Trial
+
+PARTIES:
+- PLAINTIFF: John Doe (Citizen)
+- DEFENDANT: State of X (Government)
+
+CLAIMS (PLAINTIFF):
+- Violation of Right to Equality: The State's new recruitment policy discriminates based on place of birth.
+- Violation of Fundamental Rights: The policy is inconsistent with Part III of the Constitution.
+
+DEFENSES (DEFENDANT):
+- Reasonable Classification: The policy is intended for the advancement of backward classes.
+- State Power: The State has the power to make special provisions for certain regions.
+
+EVIDENCE:
+E1: Government Order #123: "Only residents of District A are eligible for recruitment in Department B."
+E2: Doe's Birth Certificate: Shows place of birth as District C.
+E3: Doe's Application Rejection: "Rejected due to non-residency in District A."
+E4: State Statistical Report: Shows District A has the lowest employment rate in the state.
+
+REQUESTED RELIEF:
+- Plaintiff asks to strike down the policy as unconstitutional.
+- Defendant asks to uphold the policy as a valid special provision.

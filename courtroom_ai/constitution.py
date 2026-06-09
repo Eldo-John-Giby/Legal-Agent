@@ -11,7 +11,7 @@ from autogen_ext.models.openai import OpenAIChatCompletionClient
 from .rag import EvidenceItem
 
 _ARTICLE_WORD_HDR_RE = re.compile(
-    r"^ARTICLE\s+(\d+[A-Z]?)\b\s*[:\-–—]?\s*(.*)$",
+    r"^ARTICLE\s+(\d+[A-Z]?)\b\.?\s*[:\-–—]?\s*(.*)$",
     re.IGNORECASE,
 )
 # Matches the common body format in official PDFs: "1. Title.—(1) ..." or "1. Title ..."

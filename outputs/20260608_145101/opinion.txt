@@ -1,0 +1,22 @@
+=== VERDICT ===
+The Court finds in favor of the Plaintiff, Acme Corp., on the claim of breach of contract, as the Defendant, Jordan Smith, failed to deliver the software module by the agreed-upon deadline (E1), despite agreeing to the revised scope (E5) and having access granted (E4). However, the Court also finds that the Plaintiff's own actions, including the late changes and delays, contributed to the breach and damages.
+
+=== FINDINGS OF FACT ===
+- The Defendant failed to deliver the software module by the agreed-upon deadline (E1).
+- The Plaintiff requested changes to the scope (E2), which the Defendant agreed to (E5).
+- The Plaintiff delayed in granting necessary access (E4), which contributed to the breach.
+- The Plaintiff incurred $35,000 in rework costs (E6) due to the breach.
+- The meeting notes (E5) and ticket log excerpt (E4) provide evidence of the changes and delays.
+
+=== CONCLUSIONS OF LAW ===
+- The Defendant's failure to deliver the software module by the deadline constitutes a breach of contract, as supported by the principle of contract law and the precedent of PRE_AIR_INDIA.
+- The Plaintiff's own actions, including the late changes and delays, contributed to the breach and damages, as considered under the principles of Art. 19 and the 'Golden Triangle' (PRE_MANEKA_GANDHI).
+- The reasonableness of the restrictions and the interconnection of rights, as guided by PRE_CHINTAMAN_RAO and PRE_AIR_INDIA, support the Court's finding that the Plaintiff's requirements changes and delays were unreasonable and lacked a nexus to the Defendant's obligations.
+
+=== ORDER / REMEDY ===
+The Court orders the Defendant to pay $25,000 in damages to the Plaintiff, considering the contributory negligence of the Plaintiff and the evidence presented.
+
+=== FULL WRITTEN OPINION ===
+The Court's decision is based on the evidence presented and the applicable legal principles. The breach of contract by the Defendant is clear, but the Court also recognizes the contributory negligence of the Plaintiff. The principles of Art. 19 and the 'Golden Triangle' (PRE_MANEKA_GANDHI) guide the Court's consideration of the reasonableness of the restrictions and the interconnection of rights. The precedents of PRE_CHINTAMAN_RAO and PRE_AIR_INDIA support the Court's finding that the Plaintiff's requirements changes and delays were unreasonable and lacked a nexus to the Defendant's obligations.
+
+TERMINATE

@@ -20,11 +20,20 @@ class RagMemoryConfig:
 class EvidenceRagMemory(Memory):
     """RAG memory that injects relevant evidence snippets into the model context."""
 
-    def __init__(self, store: EvidenceStore, case_id: str, *, top_k: int = 5, max_chars: int = 2500) -> None:
+    def __init__(
+        self,
+        store: EvidenceStore,
+        case_id: str,
+        *,
+        top_k: int = 5,
+        max_chars: int = 2500,
+        prefix: str = "Retrieved evidence (cite by id, e.g. (E2)):",
+    ) -> None:
         self._store = store
         self._case_id = case_id
         self._top_k = top_k
         self._max_chars = max_chars
+        self._prefix = prefix
         self._last_results: List[MemoryContent] = []
 
     async def update_context(self, model_context: ChatCompletionContext) -> UpdateContextResult:
@@ -50,8 +59,7 @@ class EvidenceRagMemory(Memory):
         # if we are about to inject new ones.
         current_msgs = await model_context.get_messages()
         # We only want to remove messages that we added (starting with our header)
-        prefix = "Retrieved evidence (cite by id, e.g. (E2)):"
-        new_msgs = [m for m in current_msgs if not (isinstance(m, SystemMessage) and m.content.startswith(prefix))]
+        new_msgs = [m for m in current_msgs if not (isinstance(m, SystemMessage) and m.content.startswith(self._prefix))]
         
         if len(new_msgs) != len(current_msgs):
             await model_context.clear()
@@ -59,7 +67,7 @@ class EvidenceRagMemory(Memory):
                 await model_context.add_message(m)
 
         lines = [
-            prefix,
+            self._prefix,
             *[f"- {h.evidence_id}: {h.text}" for h in hits],
         ]
         msg = "\n".join(lines)

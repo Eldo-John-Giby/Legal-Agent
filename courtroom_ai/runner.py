@@ -307,7 +307,25 @@ async def run_case(
 
     memories_common = [EvidenceRagMemory(store, case_id), CourtRecordMemory(record)]
     if constitution_store is not None:
-        memories_common = [EvidenceRagMemory(constitution_store, case_id, top_k=3)] + memories_common
+        memories_common = [
+            EvidenceRagMemory(
+                constitution_store,
+                "shared_constitution",
+                top_k=2,
+                prefix="Retrieved constitution articles (cite as Art. #):",
+            )
+        ] + memories_common
+
+    authority_store = WeaviateEvidenceStore.get_authority_store()
+    if authority_store:
+        memories_common = [
+            EvidenceRagMemory(
+                authority_store,
+                "shared_precedents",
+                top_k=2,
+                prefix="Retrieved legal precedents (cite by ID, e.g. PRE_#):",
+            )
+        ] + memories_common
 
     judge = AssistantAgent(
         name="Judge",

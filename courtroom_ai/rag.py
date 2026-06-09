@@ -109,6 +109,9 @@ class EvidenceStore:
     def upsert_all(self, case_id: str, items: Iterable[EvidenceItem], batch_size: int = 40) -> None:
         raise NotImplementedError
 
+    def delete_all(self, case_id: str) -> None:
+        raise NotImplementedError
+
     def search(self, case_id: str, query: str, k: int = 5) -> List[EvidenceItem]:
         raise NotImplementedError
 
@@ -145,6 +148,11 @@ class LocalEvidenceStore(EvidenceStore):
 
     def upsert_all(self, case_id: str, items: Iterable[EvidenceItem]) -> None:
         _ = case_id, items
+
+    def delete_all(self, case_id: str) -> None:
+        _ = case_id
+        self._items = []
+        self._by_id = {}
 
     def get(self, case_id: str, evidence_id: str) -> Optional[EvidenceItem]:
         _ = case_id
@@ -310,6 +318,27 @@ class WeaviateEvidenceStore(EvidenceStore):
             offset += page_size
 
         return out
+
+    def delete_all(self, case_id: str) -> None:
+        """Deletes all objects for a given case_id using Weaviate's batch delete API."""
+        payload = {
+            "match": {
+                "class": self.class_name,
+                "where": {
+                    "path": ["case_id"],
+                    "operator": "Equal",
+                    "valueText": case_id
+                }
+            }
+        }
+        try:
+            res = self._request("DELETE", "/v1/batch/objects", payload)
+            results = res.get("results", {})
+            successful = results.get("successful", 0)
+            failed = results.get("failed", 0)
+            print(f"[INFO] Deleted {successful} items for case_id '{case_id}' in {self.class_name}. (Failed: {failed})")
+        except Exception as e:
+            print(f"[ERROR] Failed to delete items for case_id '{case_id}': {e}")
 
     def ensure_schema(self) -> None:
         schema = self._request("GET", "/v1/schema")
