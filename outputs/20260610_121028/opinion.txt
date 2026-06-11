@@ -1,0 +1,23 @@
+=== VERDICT ===
+Based on the evidence presented and the arguments made by both sides, I find the accused, Rajesh Verma, guilty of criminal breach of trust and misappropriation of company funds.
+
+=== FINDINGS OF FACT ===
+The key findings of fact in this case are:
+1. The accused made multiple transfers totaling ₹12,50,000 from the company account to RV Business Solutions between 2024-01-15 and 2024-04-20.
+2. The accused had authority to process payments up to ₹5,00,000, but the transfers in question exceeded this limit and lacked proper documentation.
+3. The internal audit report found no invoices, work orders, or service agreements for payments made to RV Business Solutions.
+4. The registration records show that the accused's spouse is the proprietor of RV Business Solutions, indicating a potential conflict of interest.
+
+=== CONCLUSIONS OF LAW ===
+The conclusions of law in this case are:
+1. The accused exceeded his authority by making transfers without proper approval and documentation.
+2. The accused's actions constitute a breach of trust and misappropriation of company funds.
+3. The prosecution has proven beyond reasonable doubt that the accused acted with dishonest intent.
+
+=== ORDER / REMEDY ===
+The accused, Rajesh Verma, is hereby ordered to repay the misappropriated amount of ₹12,50,000 to Zenith Logistics Pvt. Ltd. within a period of six months from the date of this judgment.
+
+=== FULL WRITTEN OPINION ===
+The full written opinion of the court will be made available in due course, providing a detailed analysis of the evidence, legal principles, and constitutional provisions that guided this decision.
+
+TERMINATE

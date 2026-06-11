@@ -1,27 +1,95 @@
-TITLE: Acme Corp. v. Smith
-JURISDICTION: Common-law mock trial
+TITLE: State of Maharashtra v. Rajesh Verma
+JURISDICTION: India – Criminal Trial (Indian Penal Code, 1860 / Bharatiya Nyaya Sanhita equivalent may be assumed)
 
 PARTIES:
-- PLAINTIFF: Acme Corp.
-- DEFENDANT: Jordan Smith
 
-CLAIMS (PLAINTIFF):
-- Breach of contract: Defendant failed to deliver agreed software module by the deadline.
-- Damages: $50,000 in rework and delay costs.
+PROSECUTION: State of Maharashtra
+ACCUSED: Rajesh Verma
 
-DEFENSES (DEFENDANT):
-- Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
-- No causation: Plaintiff’s own delays caused most damages.
+CHARGES (PROSECUTION):
+
+Criminal breach of trust by employee.
+Misappropriation of company funds amounting to ₹12,50,000.
+Falsification of financial records to conceal unauthorized transfers.
+
+DEFENSES (ACCUSED):
+
+Authorized transactions: Transfers were approved verbally by senior management.
+Lack of intent: No dishonest intention to cause wrongful loss.
+Investigation defects: Police failed to collect complete accounting records and ignored exculpatory evidence.
+
+FACTS:
+
+Rajesh Verma worked as Finance Manager at Zenith Logistics Pvt. Ltd.
+Between January and April 2024, multiple transfers totaling ₹12,50,000 were made from the company account to a consulting firm called "RV Business Solutions."
+The prosecution alleges that RV Business Solutions was secretly controlled by Rajesh Verma.
+An internal audit discovered the transfers and filed a police complaint.
+Rajesh claims the consulting firm provided legitimate business services and that management was aware of the payments.
 
 EVIDENCE:
-E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
-E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
-E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
-E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
-E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
-E6: Invoice from Acme contractor: $35,000 for rework.
-E7: Internal Acme timeline: integration started 2025-03-01.
+
+E1: Employment Contract
+
+Rajesh Verma appointed Finance Manager with authority to process payments up to ₹5,00,000 subject to documentation requirements.
+
+E2: Bank Statement
+
+Shows five transfers totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions between 2024-01-15 and 2024-04-20.
+
+E3: Internal Audit Report
+
+Concludes no invoices, work orders, or service agreements exist for payments made to RV Business Solutions.
+
+E4: Registrar of Companies / Business Registration Records
+
+Lists Rajesh Verma's spouse as proprietor of RV Business Solutions.
+
+E5: Email dated 2024-02-03
+
+Rajesh to Accounts Team: "Process payment urgently. Management approval already obtained."
+
+E6: Testimony of Managing Director
+
+States no approval was granted for payments to RV Business Solutions and that he first learned of the firm during the audit.
+
+E7: WhatsApp Chat dated 2024-01-14
+
+Managing Director to Rajesh: "We need outside help for vendor optimization. Please handle it."
+Defense argues this message demonstrates authorization to engage consultants.
+
+E8: Tax Invoice
+
+Submitted by defense, showing consultancy services worth ₹4,00,000 allegedly provided by RV Business Solutions.
+
+E9: Police Investigation Report
+
+Records seizure of accounting records and statements from company employees.
+
+ISSUES FOR DETERMINATION:
+
+Whether Rajesh Verma had authority to make the disputed payments.
+Whether RV Business Solutions provided genuine services to the company.
+Whether the accused dishonestly misappropriated company funds.
+Whether the prosecution has proved guilt beyond reasonable doubt.
 
 REQUESTED RELIEF:
-- Plaintiff asks for $50,000 damages + costs.
-- Defendant asks for dismissal or reduction.
+
+PROSECUTION:
+
+Conviction of the accused.
+Recovery of ₹12,50,000.
+Appropriate sentence under applicable criminal law.
+
+DEFENSE:
+
+Acquittal of all charges.
+Alternatively, benefit of doubt due to insufficient proof of dishonest intent.
+
+POTENTIAL WITNESSES:
+
+PW1: Managing Director of Zenith Logistics Pvt. Ltd.
+PW2: Internal Auditor.
+PW3: Investigating Officer.
+DW1: Rajesh Verma (Accused).
+DW2: Proprietor of RV Business Solutions.
+DW3: Accounts Executive who processed the transfers.

@@ -1,0 +1,436 @@
+[user]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: Acme Corp. v. Smith
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+- PLAINTIFF: Acme Corp.
+- DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+- Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+- Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+- Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+- No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+E6: Invoice from Acme contractor: $35,000 for rework.
+E7: Internal Acme timeline: integration started 2025-03-01.
+
+REQUESTED RELIEF:
+- Plaintiff asks for $50,000 damages + costs.
+- Defendant asks for dismissal or reduction.
+
+---
+
+
+
+[Judge]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 51
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+[Memory] Retrieved: 'Case: Acme Corp. v. Smith | Ju...', 'Claims: Breach of contract: De...', 'Defenses: Impossibility/Preven...', 'Evidence ids: E1, E2, E3, E4, ...'
+
+[Judge]
+This court is now in session. The case before us is Acme Corp. v. Smith, a common-law mock trial. The Plaintiff, Acme Corp., claims that the Defendant, Jordan Smith, breached their contract by failing to deliver an agreed software module by the deadline and is seeking $50,000 in damages for rework and delay costs. The Defendant has raised two defenses: impossibility/prevention due to late changes in requirements and denial of needed access, and no causation, arguing that the Plaintiff's own delays caused most of the damages.
+
+We will proceed with the trial in the structured format as outlined. The Plaintiff will make their opening statement first. 
+
+Plaintiff, please proceed with your opening statement. <function=note_to_record>{"note": "Trial commenced with Plaintiff's opening statement."}</function>
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Plaintiff]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Plaintiff]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Plaintiff]
+[FunctionCall(id='4zk500kc7', arguments='{"note":"Plaintiff\'s opening statement: The Defendant, Jordan Smith, failed to deliver the agreed software module by the deadline of 2025-01-31, as specified in the Statement of Work (E1), resulting in significant rework and delay costs for Acme Corp."}', name='note_to_record')]
+
+[Plaintiff]
+[Memory] Retrieved: 'ok...'
+
+[Plaintiff]
+ok
+
+
+[Defendant]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_ROYAPPA
+
+[Defendant]
+[Memory] Retrieved: Art. 358, Art. 14
+
+[Defendant]
+[Memory] Retrieved: E4, E3, E2, E6, E7
+
+[Defendant]
+[Memory] Retrieved: 'Plaintiff's opening statement:...'
+
+[Defendant]
+[FunctionCall(id='n8f0w89rs', arguments='{"note":"The Plaintiff has commenced their opening statement, in which they will outline the alleged breaches of contract by the Defendant."}', name='note_to_record')]
+
+[Defendant]
+[Memory] Retrieved: 'ok...'
+
+[Defendant]
+ok
+
+
+[Judge]
+[Memory] Retrieved: 'The Plaintiff has commenced th...'
+
+[Judge]
+I acknowledge that the Plaintiff has commenced their opening statement. Now, it is the Defendant's turn. 
+
+Defendant, please proceed with your opening statement. <function=note_to_record>{"note": "Defendant to proceed with opening statement."}</function>
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Plaintiff]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Plaintiff]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Plaintiff]
+[FunctionCall(id='c6s60ryfr', arguments='{"note":"Defendant\'s opening statement: The Plaintiff, Acme Corp., unilaterally changed the requirements of the software module on 2025-01-10 (E2), and subsequently denied the Defendant necessary database access until 2025-02-05 (E4), thereby preventing the Defendant from delivering the software module by the original deadline."}', name='note_to_record')]
+
+[Plaintiff]
+[Memory] Retrieved: 'ok...'
+
+[Plaintiff]
+ok
+
+
+[Defendant]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Defendant]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Defendant]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Defendant]
+[Memory] Retrieved: 'Defendant's opening statement:...'
+
+[Defendant]
+[FunctionCall(id='njr41nyea', arguments='{"note":"The Defendant, Jordan Smith, failed to deliver the agreed software module by the deadline of 2025-01-31, as specified in the Statement of Work (E1), but this was due to the Plaintiff\'s unilateral changes to the requirements on 2025-01-10 (E2) and the subsequent denial of necessary database access until 2025-02-05 (E4), thereby preventing the Defendant from delivering the software module by the original deadline."}', name='note_to_record')]
+
+[Defendant]
+[Memory] Retrieved: 'ok...'
+
+[Defendant]
+ok
+
+
+[Judge]
+[Memory] Retrieved: 'The Defendant, Jordan Smith, f...'
+
+[Judge]
+I acknowledge that the Defendant has completed their opening statement. Now, it is the Plaintiff's turn to present their argument and cite relevant evidence.
+
+Plaintiff, please proceed with your argument and citations. Remember to reference the evidence ids (e.g., E1, E2, etc.) and any relevant legal precedents or constitutional articles.
+
+
+
+[Judge]
+[FunctionCall(id='v6c7nhn5r', arguments='{"note":"Plaintiff to present argument and citations."}', name='note_to_record')]
+
+[Judge]
+[Memory] Retrieved: 'ok...'
+
+[Judge]
+ok
+
+
+[Plaintiff]
+[Memory] Retrieved: 'Plaintiff to present argument ...'
+
+[Plaintiff]
+[FunctionCall(id='c1j9xxvkm', arguments='{"note":"Plaintiff to present argument and citations."}', name='note_to_record'), FunctionCall(id='eq4cy5rvp', arguments='{"k":5,"query":"contract breach"}', name='search_evidence')]
+
+[Plaintiff]
+[Memory] Retrieved: 'ok...', '(no evidence found)...'
+
+[Plaintiff]
+ok
+(no evidence found)
+
+
+[Defendant]
+[Memory] Retrieved: 'Plaintiff to present argument ...'
+
+[Defendant]
+[FunctionCall(id='4mwcqabmf', arguments='{"note":"Defendant\'s opening statement completed, citing E1, E2, and E4 as evidence of Plaintiff\'s actions that prevented timely delivery."}', name='note_to_record')]
+
+[Defendant]
+[Memory] Retrieved: 'ok...'
+
+[Defendant]
+ok
+
+
+[Judge]
+[Memory] Retrieved: 'Defendant's opening statement ...'
+
+[Judge]
+I acknowledge that the Plaintiff has presented their argument and citations. Now, it is the Defendant's turn.
+
+Defendant, please present your argument and citations, and raise any objections you may have. <function=note_to_record>{"note": "Defendant to present argument, citations, and objections."}</function>
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Plaintiff]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Plaintiff]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Plaintiff]
+[FunctionCall(id='p8raecmj4', arguments='{"note":"Defendant presents argument: The Plaintiff\'s late changes to the software module requirements (E2) and denial of necessary database access (E4) constitute a breach of the implied covenant of good faith and fair dealing, thereby excusing the Defendant\'s inability to deliver the software module by the original deadline."}', name='note_to_record'), FunctionCall(id='0q3mzdwdw', arguments='{"k":5,"query":"implied covenant of good faith and fair dealing"}', name='search_evidence'), FunctionCall(id='snyhsv2m1', arguments='{"k":5,"query":"reasonable restrictions on trade"}', name='search_constitution')]
+
+[Plaintiff]
+[Memory] Retrieved: 'ok...', '(no evidence found)...', 'Art. 304: Restrictions on trad...'
+
+[Plaintiff]
+ok
+(no evidence found)
+Art. 304: Restrictions on trade, commerce and intercourse among States. A State may by law impose on goods imported from other States any tax to which similar goods manufactured in that State are subject, and may impose reasonable restrictions on the freedom of trade, commerce or intercourse with other States in the public interest, but any such Bill shall not be introduced without the previous sanction of the President.
+Art. 302: Power of Parliament to impose restrictions on trade, commerce and intercourse. Parliament may by law impose such restrictions on the freedom of trade, commerce or intercourse between one State and another or within any part of India as may be required in the public interest.
+Art. 19: Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression; to assemble peacefully and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; to practice any profession, or to carry on any occupation, trade or business. The State may make reasonable restrictions on these rights in the interests of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.
+Art. 303: Restrictions on the legislative powers of the Union and of the States with regard to trade and commerce. Parliament shall not have power to make any law giving preference to one State over another, nor shall the Legislature of a State have power to make any law giving preference to one district over another. This does not prevent Parliament from making laws for dealing with a scarcity of goods.
+Art. 286: Restrictions as to imposition of tax on the sale or purchase of goods. No law of a State shall impose a tax on the sale or purchase of goods where such sale or purchase takes place outside the State, or in the course of import into or export from India. Parliament may by law formulate principles for determining when a sale or purchase takes place in the course of inter-State trade or commerce.
+
+
+[Defendant]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Defendant]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Defendant]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Defendant]
+[Memory] Retrieved: 'Defendant presents argument: T...'
+
+[Defendant]
+[FunctionCall(id='k1z4325z0', arguments='{"note":"The Defendant argues that the Plaintiff\'s actions, as evidenced by E2 and E4, constituted a breach of the implied covenant of good faith and fair dealing, and that the Defendant was prevented from delivering the software module by the original deadline due to these actions."}', name='note_to_record')]
+
+[Defendant]
+[Memory] Retrieved: 'ok...'
+
+[Defendant]
+ok
+
+
+[Judge]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+[Memory] Retrieved: 'The Defendant argues that the ...'
+
+[Judge]
+I acknowledge that the Defendant has presented their argument, citations, and objections.
+
+Now, it's my turn as the Judge to question both sides. 
+
+
+
+[Judge]
+[FunctionCall(id='c31s30djw', arguments='{"note":"Judge to question both sides."}', name='note_to_record')]
+
+[Judge]
+[Memory] Retrieved: 'ok...'
+
+[Judge]
+ok
+
+
+[Plaintiff]
+[Memory] Retrieved: 'Judge to question both sides....'
+
+[Plaintiff]
+[FunctionCall(id='9a5s16vgp', arguments='{"note":"Judge to question both sides."}', name='note_to_record')]
+
+[Plaintiff]
+[Memory] Retrieved: 'ok...'
+
+[Plaintiff]
+ok
+
+
+[Defendant]
+[Memory] Retrieved: 'Judge to question both sides....'
+
+[Defendant]
+[FunctionCall(id='k5yzc91ec', arguments='{"note":"The Defendant cites Art. 19, which protects the right to practice any profession or carry on any occupation, trade, or business, and argues that the Plaintiff\'s denial of necessary database access (E4) was an unreasonable restriction on the Defendant\'s right to carry on their business, thereby excusing the Defendant\'s inability to deliver the software module by the original deadline."}', name='note_to_record')]
+
+[Defendant]
+[Memory] Retrieved: 'ok...'
+
+[Defendant]
+ok
+
+
+[Judge]
+[Memory] Retrieved: 'The Defendant cites Art. 19, w...'
+
+[Judge]
+[FunctionCall(id='7gsxkztkv', arguments='{"note":"Closing statements to commence with Plaintiff."}', name='note_to_record')]
+
+[Judge]
+[Memory] Retrieved: 'ok...'
+
+[Judge]
+ok
+
+
+[Plaintiff]
+[Memory] Retrieved: 'Closing statements to commence...'
+
+[Plaintiff]
+[FunctionCall(id='c3b3dyrz7', arguments='{"article_id":"Art. 19"}', name='get_article'), FunctionCall(id='z9hvq2db5', arguments='{"evidence_id":"E2"}', name='get_evidence'), FunctionCall(id='weef4xjbt', arguments='{"evidence_id":"E4"}', name='get_evidence')]
+
+[Plaintiff]
+[Memory] Retrieved: 'Art. 19: Protection of certain...', 'E2: Email 2025-01-10 from Acme...', 'E4: Ticket log excerpt: Access...'
+
+[Plaintiff]
+Art. 19: Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression; to assemble peacefully and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; to practice any profession, or to carry on any occupation, trade or business. The State may make reasonable restrictions on these rights in the interests of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+
+
+[Defendant]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Defendant]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Defendant]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Defendant]
+[FunctionCall(id='yfrw899x2', arguments='{"note":"The Defendant raises an objection to the Plaintiff\'s claim for $50,000 in damages, citing lack of causation and arguing that the Plaintiff\'s own delays, as evidenced by E5 and E7, contributed significantly to the rework and delay costs, and therefore the damages should be reduced accordingly."}', name='note_to_record')]
+
+[Defendant]
+[Memory] Retrieved: 'ok...'
+
+[Defendant]
+ok
+
+
+[Judge]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+[Memory] Retrieved: 'The Defendant raises an object...'
+
+[Judge]
+[FunctionCall(id='nw75nkfbx', arguments='{"note":"Defendant to present closing statement."}', name='note_to_record')]
+
+[Judge]
+[Memory] Retrieved: 'ok...'
+
+[Judge]
+ok
+
+
+[Plaintiff]
+[Memory] Retrieved: 'Defendant to present closing s...'
+
+[Plaintiff]
+[FunctionCall(id='kddm0ev69', arguments='{"note":"Plaintiff to present closing statement."}', name='note_to_record'), FunctionCall(id='6z7tqj303', arguments='{"note":"Plaintiff argues that the Defendant\'s failure to deliver the software module by the deadline, despite agreeing to the revised scope (E5), constitutes a breach of contract, and that the Plaintiff is entitled to damages for rework and delay costs."}', name='note_to_record')]
+
+[Plaintiff]
+[Memory] Retrieved: 'ok...', 'ok...'
+
+[Plaintiff]
+ok
+ok
+
+
+[Defendant]
+[Memory] Retrieved: 'Plaintiff to present closing s...', 'Plaintiff argues that the Defe...'
+
+[Defendant]
+[FunctionCall(id='5r7v98zab', arguments='{"note":"The Defendant also cites PRE_MANEKA_GANDHI, which establishes the \'Golden Triangle\' of Articles 14, 19, and 21, and argues that the Plaintiff\'s actions must satisfy all three tests of fairness, reasonableness, and non-arbitrariness, which they failed to do by unilaterally changing the requirements (E2) and denying necessary database access (E4), thereby breaching the implied covenant of good faith and fair dealing."}', name='note_to_record')]
+
+[Defendant]
+[Memory] Retrieved: 'ok...'
+
+[Defendant]
+ok
+
+
+[Judge]
+[Memory] Retrieved: 'The Defendant also cites PRE_M...'
+
+[Judge]
+=== VERDICT ===
+Based on the evidence presented and the arguments made by both parties, the court finds in favor of the Defendant, Jordan Smith.
+
+=== FINDINGS OF FACT ===
+- The Plaintiff, Acme Corp., unilaterally changed the requirements of the software module on January 10, 2025 (E2).
+- The Defendant, Jordan Smith, requested database access by January 15, 2025, to stay on schedule, but access was not granted until February 5, 2025 (E4).
+- The Plaintiff's actions prevented the Defendant from delivering the software module by the original deadline.
+
+=== CONCLUSIONS OF LAW ===
+- The Plaintiff's unilateral changes to the requirements and denial of necessary database access constituted a breach of the implied covenant of good faith and fair dealing.
+- The Defendant's inability to deliver the software module by the original deadline was caused by the Plaintiff's actions, and therefore, the Defendant is not liable for damages.
+
+=== ORDER / REMEDY ===
+- The Plaintiff's claim for $50,000 in damages is dismissed.
+- The Defendant's request for dismissal or reduction is granted.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the analysis of the evidence and the application of relevant legal principles. The Plaintiff's actions were found to be the primary cause of the Defendant's inability to deliver the software module by the original deadline. The Defendant's arguments, supported by evidence and legal precedents, demonstrated that the Plaintiff's breach of the implied covenant of good faith and fair dealing excused the Defendant's performance.
+
+TERMINATE

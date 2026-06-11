@@ -10,6 +10,7 @@ def build_tools(
     *,
     record: SharedCourtRecord | None = None,
     constitution_store: EvidenceStore | None = None,
+    sc_precedents_store: EvidenceStore | None = None,
     max_record_items: int = 30,
 ):
     async def search_evidence(query: str, k: int = 5) -> str:
@@ -50,13 +51,14 @@ def build_tools(
 
     if record is not None:
         async def search_precedents(query: str, k: int = 3) -> str:
-            """Search for legal precedents and landmark rulings (e.g. Maneka Gandhi, Puttaswamy)."""
-            authority_store = EvidenceStore.get_authority_store() # We will add this factory method
-            if not authority_store:
-                return "No precedent database available."
-            hits = authority_store.search("shared_precedents", query, k=k)
+            """Search for legal precedents and landmark Supreme Court judgments (e.g. from the 26,000 case corpus)."""
+            if not sc_precedents_store:
+                return "Supreme Court precedent database (RAG) is unavailable."
+            
+            hits = sc_precedents_store.search("sc_precedents", query, k=k)
             if not hits:
                 return "(no precedents found)"
+                
             return "\n\n".join(f"{h.evidence_id}: {h.text}" for h in hits)
 
         tools.append(search_precedents)

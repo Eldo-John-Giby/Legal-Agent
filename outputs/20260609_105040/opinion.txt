@@ -1,0 +1,20 @@
+=== VERDICT ===
+The Defendant is not liable for the alleged breach of contract to the extent claimed by the Plaintiff.
+
+=== FINDINGS OF FACT ===
+- The Plaintiff's insistence on maintaining the original deadline despite the revised scope and delayed access to necessary resources was unreasonable (E5).
+- The Plaintiff's own delays, as evidenced by the internal timeline (E7), contributed to the project's delays and costs.
+- The Defendant's actions, including their efforts to secure necessary access and their communication with the Plaintiff, were reasonable under the circumstances (E3, E4).
+
+=== CONCLUSIONS OF LAW ===
+- The principles of fairness, reasonableness, and mutual cooperation in contractual relationships are essential in managing scope changes and ensuring the successful completion of projects (PRE_ROYAPPA).
+- The protection of trade and commerce rights under Art. 19 of the Indian Constitution is subject to reasonable restrictions in the interests of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.
+- The balancing of individual and public interests in trade and commerce is crucial in contractual disputes (Art. 19, Art. 302).
+
+=== ORDER / REMEDY ===
+The Plaintiff is awarded damages, but in an amount reduced from the original claim, taking into account the Plaintiff's contribution to the delays and costs.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on a careful evaluation of the evidence and arguments presented, considering the principles of fairness, reasonableness, and mutual cooperation in contractual relationships, as well as the balancing of individual and public interests in trade and commerce. The court recognizes the importance of reasonable restrictions on trade and commerce rights and the need for parties to act in good faith and cooperate in managing scope changes and project timelines.
+
+TERMINATE

@@ -12,7 +12,7 @@ from autogen_agentchat.agents import AssistantAgent, UserProxyAgent
 from autogen_agentchat.base import OrTerminationCondition
 from autogen_agentchat.conditions import MaxMessageTermination, TextMentionTermination
 from autogen_agentchat.messages import TextMessage
-from autogen_agentchat.teams import RoundRobinGroupChat
+from autogen_agentchat.teams import SelectorGroupChat
 from autogen_agentchat.ui._console import UserInputManager
 from .colored_console import ColoredConsole
 from autogen_ext.models.openai import OpenAIChatCompletionClient
@@ -99,13 +99,22 @@ class GroqToolCallingGuardClient(ChatCompletionClient):
                 feedback = (
                     "CRITICAL ERROR: Your tool call syntax is invalid.\n"
                     "You MUST format your tool call exactly as:\n"
-                    '<function=tool_name>{"arg_name": "arg_value"}</function>\n'
+                    '<function=tool_name>{"arg_name": "arg_value"}</function>\n\n'
+                    "RIGHT: <function=get_evidence>{\"evidence_id\": \"E1\"}</function>\n"
+                    "WRONG: <function=get_evidence={\"evidence_id\": \"E1\"}</function>\n"
+                    "WRONG: <function=get_evidence({\"evidence_id\": \"E1\"})</function>\n\n"
+                    "COMMON ERRORS TO AVOID:\n"
+                    "- Do NOT use dots: <function.tool_name> is WRONG.\n"
+                    "- Do NOT use parentheses: <function(name)> is WRONG.\n"
+                    "- Do NOT use commas: <function=name, is WRONG.\n"
+                    "- DO NOT forget the closing `>` after the function name.\n"
+                    "- DO NOT put an `=` sign where the `>` should be.\n"
                 )
 
                 if failed_gen:
                     feedback += f"\nYour FAILED GENERATION was: {failed_gen.strip()}\n"
                     if "{" in failed_gen and not failed_gen.split("{")[0].endswith(">"):
-                        feedback += "ERROR DETAIL: You missing the closing `>` after the function name and before the opening `{`.\n"
+                        feedback += "ERROR DETAIL: You are missing the closing `>` after the function name and before the opening `{`.\n"
                     if failed_gen.startswith("```"):
                         feedback += "ERROR DETAIL: Do NOT use markdown code blocks (```). Output the tag directly.\n"
 
@@ -156,8 +165,10 @@ class GroqToolCallingGuardClient(ChatCompletionClient):
                 feedback = (
                     "Your previous response had a syntax/formatting error when trying to call a tool.\n"
                     "You MUST format your tool call exactly as:\n"
-                    '<function=tool_name>{"arg_name": "arg_value"}</function>\n'
-                    "Make sure there is a closing angle bracket `>` right after the tool name (e.g. `<function=search_evidence>` and NOT `<function=search_evidence `).\n"
+                    '<function=tool_name>{"arg_name": "arg_value"}</function>\n\n'
+                    "RIGHT: <function=get_evidence>{\"evidence_id\": \"E1\"}</function>\n"
+                    "WRONG: <function=get_evidence={\"evidence_id\": \"E1\"}</function>\n\n"
+                    "Make sure there is a closing angle bracket `>` right after the tool name (e.g. `<function=search_evidence>` and NOT `<function=search_evidence ` or `<function=search_evidence=`).\n"
                     "Do NOT output markdown code blocks or conversational text around the tool call when invoking it."
                 )
                 if failed_gen:
@@ -215,26 +226,97 @@ def _outputs_dir(base: Path):
 
 def _format_messages(messages) -> str:
     lines = []
+    last_source = None
+    memory_buffer = []
+
+    def flush_memory():
+        nonlocal memory_buffer
+        if memory_buffer:
+            lines.append(f"[{last_source}] [Memory] Retrieved: {', '.join(memory_buffer)}\n")
+            memory_buffer = []
 
     for m in messages:
+        source = getattr(m, "source", "System")
+        content_str = getattr(m, "content", str(m))
+        
+        # Skip messages that are just waiting for a turn
+        if "[WAITING FOR TURN]" in content_str:
+            continue
+            
+        # If source changed or message is NOT a memory event, flush the buffer
+        is_memory_event = False
+        raw_content = getattr(m, "content", str(m))
+        if isinstance(raw_content, list) and len(raw_content) > 0 and hasattr(raw_content[0], "content"):
+            is_memory_event = True
+
+        if source != last_source or not is_memory_event:
+            flush_memory()
+
+        # Add a newline if the source has changed to separate agents
+        if last_source and source != last_source:
+            lines.append("")
+        
+        last_source = source
+
         if isinstance(m, TextMessage):
             lines.append(f"[{m.source}]\n{m.content}\n")
+        elif is_memory_event:
+            # Add to buffer instead of lines
+            for item in raw_content:
+                c = item.content
+                if isinstance(c, dict) and "evidence_id" in c:
+                    memory_buffer.append(c["evidence_id"])
+                elif isinstance(c, dict) and "id" in c:
+                    memory_buffer.append(c["id"])
+                else:
+                    snippet = str(c).strip()
+                    if snippet.lower() == "ok":
+                        continue
+                    snippet = snippet[:30].replace("\n", " ")
+                    memory_buffer.append(f"'{snippet}...'")
         else:
             src = getattr(m, "source", m.__class__.__name__)
-            content = getattr(m, "content", str(m))
+            # Simplify FunctionCall, and FunctionExecutionResult
+            
+            # Detect FunctionCall
+            if isinstance(raw_content, list) and len(raw_content) > 0 and raw_content[0].__class__.__name__ == "FunctionCall":
+                calls = []
+                for c in raw_content:
+                    import json
+                    try:
+                        args = json.loads(c.arguments) if isinstance(c.arguments, str) else c.arguments
+                        arg_vals = ", ".join([str(v) for v in args.values()])
+                        calls.append(f"{c.name}: {arg_vals}")
+                    except:
+                        calls.append(f"{c.name}({c.arguments})")
+                content = f"[Action] {', '.join(calls)}"
+            # Detect FunctionExecutionResult
+            elif isinstance(raw_content, list) and len(raw_content) > 0 and raw_content[0].__class__.__name__ == "FunctionExecutionResult":
+                results = []
+                for r in raw_content:
+                    res_val = str(getattr(r, "content", "ok")).strip()
+                    if len(res_val) > 100:
+                        res_val = res_val[:100] + "..."
+                    results.append(f"{r.name}: {res_val}")
+                content = f"[Result] {', '.join(results)}"
+            else:
+                content = str(raw_content)
+
             lines.append(f"[{src}]\n{content}\n")
 
+    flush_memory()
     return "\n".join(lines).strip() + "\n"
 
 
 def _extract_final_opinion(messages) -> str:
     for m in reversed(messages):
         if getattr(m, "source", "") == "Judge" and isinstance(m, TextMessage):
-            if (
-                "=== VERDICT ===" in m.content
-                and "=== FULL WRITTEN OPINION ===" in m.content
-            ):
-                return m.content.strip() + "\n"
+            # Check for various verdict/opinion markers
+            content = m.content.upper()
+            if "VERDICT" in content or "OPINION" in content or "ORDER" in content:
+                # If it's a long message from the Judge at the end, it's likely the opinion
+                if len(m.content) > 200:
+                    return m.content.strip() + "\n"
 
     return "(No final opinion found.)\n"
 
@@ -306,6 +388,8 @@ async def run_case(
     shared_task = INITIAL_TASK_TEMPLATE.format(case_text=case_text)
 
     memories_common = [EvidenceRagMemory(store, case_id), CourtRecordMemory(record)]
+    
+    # 1. Constitution Memory
     if constitution_store is not None:
         memories_common = [
             EvidenceRagMemory(
@@ -316,38 +400,47 @@ async def run_case(
             )
         ] + memories_common
 
-    authority_store = WeaviateEvidenceStore.get_authority_store()
-    if authority_store:
-        memories_common = [
-            EvidenceRagMemory(
-                authority_store,
-                "shared_precedents",
-                top_k=2,
-                prefix="Retrieved legal precedents (cite by ID, e.g. PRE_#):",
-            )
-        ] + memories_common
+    # 2. Large-scale Supreme Court Corpus Memory
+    sc_precedents_store = WeaviateEvidenceStore(class_name="SC_Precedents")
+    if not sc_precedents_store.is_available():
+        raise SystemExit("CRITICAL ERROR: Weaviate SC_Precedents collection is unavailable. Generalized framework requires RAG access.")
+
+    memories_common = [
+        EvidenceRagMemory(
+            sc_precedents_store,
+            "sc_precedents", # case_id is ignored for SC_Precedents
+            top_k=4,
+            prefix="Retrieved Supreme Court Judgments (cite by case name):",
+        )
+    ] + memories_common
 
     judge = AssistantAgent(
         name="Judge",
         model_client=model_client,
         system_message=JUDGE_SYSTEM,
-        tools=build_tools(store, case_id, record=record, constitution_store=constitution_store),
+        description="The presiding judge who controls the trial flow and invites parties to speak. Always selected first and after each major statement.",
+        tools=build_tools(store, case_id, record=record, constitution_store=constitution_store, sc_precedents_store=sc_precedents_store),
         memory=memories_common,
     )
+
+    plaintiff_name = summary.plaintiff or "Plaintiff"
+    defendant_name = summary.defendant or "Defendant"
 
     plaintiff = AssistantAgent(
         name="Plaintiff",
         model_client=model_client,
-        system_message=PLAINTIFF_SYSTEM,
-        tools=build_tools(store, case_id, record=record, constitution_store=constitution_store),
+        system_message=PLAINTIFF_SYSTEM.format(plaintiff_name=plaintiff_name),
+        description=f"Counsel for {plaintiff_name}. ONLY speaks when the Judge says 'Plaintiff' or invites the Plaintiff to speak.",
+        tools=build_tools(store, case_id, record=record, constitution_store=constitution_store, sc_precedents_store=sc_precedents_store),
         memory=memories_common,
     )
 
     defendant = AssistantAgent(
         name="Defendant",
         model_client=model_client,
-        system_message=DEFENDANT_SYSTEM,
-        tools=build_tools(store, case_id, record=record, constitution_store=constitution_store),
+        system_message=DEFENDANT_SYSTEM.format(defendant_name=defendant_name),
+        description=f"Counsel for {defendant_name}. ONLY speaks when the Judge says 'Defendant' or invites the Defendant to speak.",
+        tools=build_tools(store, case_id, record=record, constitution_store=constitution_store, sc_precedents_store=sc_precedents_store),
         memory=memories_common,
     )
 
@@ -372,8 +465,9 @@ async def run_case(
         MaxMessageTermination(max_messages=max_messages),
     )
 
-    team = RoundRobinGroupChat(
+    team = SelectorGroupChat(
         participants=participants,
+        model_client=model_client,
         termination_condition=termination,
     )
 

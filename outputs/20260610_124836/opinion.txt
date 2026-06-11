@@ -1,0 +1,20 @@
+The Police Investigation Report, E9, records the seizure of accounting records and statements from company employees.
+
+Now that both sides have presented their closing statements, I will review the evidence and arguments presented.
+
+=== VERDICT ===
+Based on the evidence presented, I find Rajesh Verma guilty of misappropriating company funds and falsifying financial records.
+
+=== FINDINGS OF FACT ===
+The prosecution has proven that Rajesh Verma made unauthorized transactions totaling ₹12,50,000 to RV Business Solutions, a company controlled by his spouse. The defense's claim of authorization is not supported by sufficient documentation.
+
+=== CONCLUSIONS OF LAW ===
+The actions of Rajesh Verma constitute a criminal breach of trust and misappropriation of company funds, as defined under the Indian Penal Code.
+
+=== ORDER / REMEDY ===
+Rajesh Verma is hereby ordered to return the misappropriated amount of ₹12,50,000 to Zenith Logistics Pvt. Ltd. and to face appropriate criminal penalties.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the analysis of the evidence presented, including the Bank Statement (E2), Employment Contract (E1), WhatsApp Chat (E7), Tax Invoice (E8), Email (E5), Internal Audit Report (E3), and Police Investigation Report (E9).
+
+TERMINATE

@@ -95,8 +95,20 @@ async def ColoredConsole(
 
     last_processed: Optional[T] = None
     streaming_chunks: List[str] = []
+    last_source: Optional[str] = None
 
     async for message in stream:
+        current_source = getattr(message, "source", None)
+        if isinstance(message, Response):
+            current_source = message.chat_message.source
+
+        if current_source and last_source and current_source != last_source:
+            if not streaming_chunks:
+                await aprint("", flush=True)
+
+        if current_source:
+            last_source = current_source
+
         if isinstance(message, TaskResult):
             duration = time.time() - start_time
             if output_stats:
@@ -154,7 +166,18 @@ async def ColoredConsole(
             message = cast(BaseAgentEvent | BaseChatMessage, message)  # type: ignore
             color = _color_for(getattr(message, "source", ""))
 
-            if not streaming_chunks:
+            # Simplify MemoryQueryEvent and similar verbose objects
+            raw_content = getattr(message, "content", None)
+            is_memory_event = isinstance(raw_content, list) and len(raw_content) > 0 and hasattr(raw_content[0], "content")
+            
+            # Check for tool call or result
+            is_tool_call = False
+            is_tool_result = False
+            if isinstance(raw_content, list) and len(raw_content) > 0:
+                is_tool_call = raw_content[0].__class__.__name__ == "FunctionCall"
+                is_tool_result = raw_content[0].__class__.__name__ == "FunctionExecutionResult"
+
+            if not streaming_chunks and not is_memory_event and not is_tool_call and not is_tool_result:
                 hdr = f"{'-' * 10} {message.__class__.__name__} ({message.source}) {'-' * 10}"
                 await aprint(_wrap(color, hdr), end="\n", flush=True)
 
@@ -162,11 +185,42 @@ async def ColoredConsole(
                 await aprint(_wrap(color, message.to_text()), end="", flush=True)
                 streaming_chunks.append(message.content)
             else:
-                if streaming_chunks:
-                    streaming_chunks.clear()
-                    await aprint("", end="\n", flush=True)
-                elif isinstance(message, MultiModalMessage):
-                    await aprint(_wrap(color, message.to_text(iterm=render_image_iterm and not no_inline_images)), end="\n", flush=True)
+                if is_memory_event:
+                    ids = []
+                    for item in raw_content:
+                        c = item.content
+                        if isinstance(c, dict) and "evidence_id" in c:
+                            ids.append(c["evidence_id"])
+                        elif isinstance(c, dict) and "id" in c:
+                            ids.append(c["id"])
+                        else:
+                            # Skip "ok" artifacts
+                            snippet = str(c).strip()
+                            if snippet.lower() == "ok":
+                                continue
+                            snippet = snippet[:50].replace("\n", " ")
+                            ids.append(f"'{snippet}...'")
+                    
+                    if not ids:
+                        continue
+                    display_text = f"[{message.source}] [Memory] {', '.join(ids)}"
+                    await aprint(_wrap(color, display_text), end="\n", flush=True)
+                elif is_tool_call:
+                    import json
+                    calls = []
+                    for c in raw_content:
+                        try:
+                            args = json.loads(c.arguments) if isinstance(c.arguments, str) else c.arguments
+                            arg_vals = ", ".join([str(v) for v in args.values()])
+                            calls.append(f"{c.name}: {arg_vals}")
+                        except:
+                            calls.append(f"{c.name}({c.arguments})")
+                    display_text = f"[{message.source}] [Action] {', '.join(calls)}"
+                    await aprint(_wrap(color, display_text), end="\n", flush=True)
+                elif is_tool_result:
+                    results = [f"{r.name}: {'ok' if not getattr(r, 'is_error', False) else 'error'}" for r in raw_content]
+                    display_text = f"[{message.source}] [Result] {', '.join(results)}"
+                    await aprint(_wrap(color, display_text), end="\n", flush=True)
                 else:
                     await aprint(_wrap(color, message.to_text()), end="\n", flush=True)
 

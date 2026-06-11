@@ -1,0 +1,1096 @@
+[user]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: Acme Corp. v. Smith
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+- PLAINTIFF: Acme Corp.
+- DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+- Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+- Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+- Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+- No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+E6: Invoice from Acme contractor: $35,000 for rework.
+E7: Internal Acme timeline: integration started 2025-03-01.
+
+REQUESTED RELIEF:
+- Plaintiff asks for $50,000 damages + costs.
+- Defendant asks for dismissal or reduction.
+
+---
+
+
+
+[Judge]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 51
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+[Memory] Retrieved: 'Case: Acme Corp. v. Smith | Ju...', 'Claims: Breach of contract: De...', 'Defenses: Impossibility/Preven...', 'Evidence ids: E1, E2, E3, E4, ...'
+
+[Judge]
+This court is now in session. Before we begin, I would like to outline the rules and identify the claims and defenses in this case. The parties are Acme Corp. as the Plaintiff and Jordan Smith as the Defendant. The Plaintiff claims that the Defendant breached their contract by failing to deliver an agreed software module by the deadline and is seeking $50,000 in damages for rework and delay costs. The Defendant's defenses are impossibility or prevention due to late changes in requirements and denial of needed access, and no causation, arguing that the Plaintiff's own delays caused most of the damages.
+
+Plaintiff, you may now present your opening statement. Please proceed.
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Plaintiff]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Plaintiff]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+
+[Defendant]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Defendant]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Defendant]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+
+[Judge]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+Defendant, Jordan Smith, you may now present your opening statement. Please proceed with your argument, addressing the claims made by the Plaintiff and outlining your defense. Remember to reference any relevant evidence or legal precedents that support your position.
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Plaintiff]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Plaintiff]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Plaintiff]
+Your Honor, I appreciate the opportunity to present my opening statement. The Plaintiff's claims of breach of contract and damages are unfounded and misrepresent the circumstances surrounding our agreement. The reality is that Acme Corp. made significant changes to the scope of the project, as evidenced by E2, where they requested additional reporting fields to be included in the same delivery. This change, introduced on January 10th, 2025, substantially altered the project's requirements, making it impossible for me to deliver the module by the original deadline without compromising its quality.
+
+Furthermore, my ability to meet the deadline was further hindered by Acme Corp.'s denial of timely access to necessary resources. As shown in E4, my access request was created on January 13th, 2025, but access was not granted until February 5th, 2025. This delay, caused by the Plaintiff, significantly impacted my ability to work on the project and meet the original deadline. It's crucial to note that I had explicitly requested database access by January 15th, 2025, to stay on schedule, as stated in E3.
+
+The Plaintiff's argument that I agreed to the revised scope without negotiating an extension of the deadline, as mentioned in E5, overlooks the fact that I had already been severely hindered by the changes and the lack of access. It was impractical to renegotiate the deadline at that stage, given the Plaintiff's own contribution to the delays. The legal principle of impossibility or prevention, as seen in the case of Chintaman Rao v. State of M.P. (1950), applies here, where the plaintiff's own actions made it impossible for me to fulfill my contractual obligations.
+
+Additionally, I will demonstrate that the Plaintiff's own delays, such as the late start of integration as shown in E7, contributed significantly to the rework and delay costs. The Plaintiff's claim of $50,000 in damages is excessive and not entirely justified, considering their role in the project's delays. I will argue that the principle of reasonable restrictions, as outlined in Article 19 of the Indian Constitution, was violated by the Plaintiff's actions, which imposed unreasonable restrictions on my ability to perform under the contract.
+
+Throughout this trial, I will provide evidence and legal precedents, such as the "Golden Triangle" principle from Maneka Gandhi v. Union of India (1978), which emphasizes the interconnectedness of Articles 14, 19, and 21, to support my defense. I am confident that the court will find that the circumstances of this case justify my position and that the Plaintiff's claims are unfounded. Thank you, Your Honor.
+
+
+[Defendant]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Defendant]
+[Memory] Retrieved: Art. 19, Art. 371
+
+[Defendant]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Defendant]
+[FunctionCall(id='qzxqa9pny', arguments='{"evidence_id":"E2"}', name='get_evidence'), FunctionCall(id='p8gwe8kf1', arguments='{"evidence_id":"E5"}', name='get_evidence'), FunctionCall(id='ktm445kmh', arguments='{"k":5,"query":"Article 19"}', name='search_constitution'), FunctionCall(id='yrsyb7475', arguments='{"k":3,"query":"Chintaman Rao v. State of M.P."}', name='search_precedents'), FunctionCall(id='ksp8aknyv', arguments='{"article_id":"Art. 19"}', name='get_article')]
+
+[Defendant]
+[Memory] Retrieved: 'E2: Email 2025-01-10 from Acme...', 'E5: Meeting notes 2025-02-06: ...', 'Art. 358: Suspension of provis...', 'PRE_CHINTAMAN_RAO: ID: PRE_CHI...', 'Art. 19: Protection of certain...'
+
+[Defendant]
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+Art. 358: Suspension of provisions of Article 19 during emergencies. While a Proclamation of Emergency under Article 352 is in operation, nothing in Article 19 shall restrict the power of the State to make any law or to take any executive action. Any law made shall cease to have effect to the extent of the inconsistency with Article 19 as soon as the Proclamation ceases to operate.
+Art. 19: Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression; to assemble peacefully and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; to practice any profession, or to carry on any occupation, trade or business. The State may make reasonable restrictions on these rights in the interests of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.
+Art. 104: Penalty for sitting and voting before making oath or affirmation under Article 99 or when not qualified or when disqualified. If a person sits or votes as a member of either House before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of Parliament and its Members
+Art. 193: Penalty for sitting and voting before making oath or under Article 188 or when not qualified or when disqualified. If a person sits or votes as a member before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of State Legislatures and their Members
+Art. 6: Rights of citizenship of certain persons who have migrated to India from Pakistan. Notwithstanding anything in Article 5, a person who has migrated to India from Pakistan shall be deemed to be a citizen of India if he or his parents or grandparents were born in India and he has been registered as a citizen, subject to certain residency conditions.
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+Art. 19: Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression; to assemble peacefully and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; to practice any profession, or to carry on any occupation, trade or business. The State may make reasonable restrictions on these rights in the interests of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.
+
+
+[Judge]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 104
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+Acme Corp., you may now present your argument and cite any relevant evidence or legal precedents to support your claim. Please respond to the Defendant's defense and address any points they have raised. Remember to reference specific evidence, such as E2 and E5, and legal precedents, like PRE_CHINTAMAN_RAO and PRE_MANEKA_GANDHI, to bolster your position.
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Plaintiff]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Plaintiff]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Plaintiff]
+Your Honor, the Defendant's defense relies heavily on the claim that the changes to the scope of the project, as evidenced by E2, made it impossible for them to deliver the module on time. However, we counter that the Defendant agreed to incorporate these changes into the same delivery, as shown in E5, where both parties agreed to the revised scope without the Defendant negotiating an extension of the deadline. This willingness to proceed with the revised scope, without securing more time, undermines the Defendant's argument that the changes made their task impossible.
+
+Furthermore, while the Defendant points to the delay in access, as seen in E4, as a significant hindrance, we argue that this delay, although unfortunate, does not entirely excuse the Defendant's failure to deliver the module by the deadline. The Defendant had requested access by January 15th, 2025, but received it on February 5th, 2025. However, this delay affected the project timeline but does not justify the full extent of the delay in delivering the module.
+
+The Defendant cites PRE_CHINTAMAN_RAO, arguing that our insistence on the original deadline was an unreasonable restriction on their ability to work. However, we contend that the deadline was reasonable, given the Defendant's agreement to the revised scope, and that the delays were not solely caused by our actions. The principle of reasonable restrictions, as outlined in Article 19, allows for restrictions in the interest of public order, among other things. In this context, our deadline, considering the agreed-upon revisions, was a reasonable expectation.
+
+We also address the Defendant's reference to the "Golden Triangle" principle from PRE_MANEKA_GANDHI, which suggests that any action must satisfy the tests of fairness, reasonableness, and non-arbitrariness under Articles 14, 19, and 21. We argue that our actions, including the request for additional reporting fields and the expectation to meet the original deadline, were fair and reasonable, given the context of the project and the Defendant's agreement to the revised scope.
+
+Additionally, the Defendant's argument that our own delays contributed to the damages is unfounded. The integration start date, as shown in E7, does not directly relate to the Defendant's obligations under the contract. Our internal project timelines do not excuse the Defendant's failure to deliver the module on time.
+
+In conclusion, while the Defendant raises points about scope changes and access delays, these do not fully justify their failure to deliver the module by the agreed-upon deadline. We believe that the evidence, including E2, E4, and E5, supports our claim that the Defendant breached the contract, and we are entitled to damages for the rework and delay costs incurred. The legal precedents, such as PRE_AIR_INDIA and PRE_BENNETT_COLEMAN, further bolster our argument that the Defendant's actions, and the direct effects of those actions, led to the infringement of our rights under Article 19.
+
+
+
+[Plaintiff]
+[FunctionCall(id='v48fy9cfy', arguments='{"evidence_id":"E2"}', name='get_evidence'), FunctionCall(id='7g33mq2qq', arguments='{"evidence_id":"E5"}', name='get_evidence'), FunctionCall(id='sqvk1199s', arguments='{"k":3,"query":"Article 19"}', name='search_constitution'), FunctionCall(id='d0s9kjbf2', arguments='{"k":3,"query":"PRE_CHINTAMAN_RAO"}', name='search_precedents'), FunctionCall(id='ftr1metc9', arguments='{"k":3,"query":"PRE_MANEKA_GANDHI"}', name='search_precedents')]
+
+[Plaintiff]
+[Memory] Retrieved: 'E2: Email 2025-01-10 from Acme...', 'E5: Meeting notes 2025-02-06: ...', 'Art. 358: Suspension of provis...', 'PRE_CHINTAMAN_RAO: ID: PRE_CHI...', 'PRE_CHINTAMAN_RAO: ID: PRE_CHI...'
+
+[Plaintiff]
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+Art. 358: Suspension of provisions of Article 19 during emergencies. While a Proclamation of Emergency under Article 352 is in operation, nothing in Article 19 shall restrict the power of the State to make any law or to take any executive action. Any law made shall cease to have effect to the extent of the inconsistency with Article 19 as soon as the Proclamation ceases to operate.
+Art. 19: Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression; to assemble peacefully and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; to practice any profession, or to carry on any occupation, trade or business. The State may make reasonable restrictions on these rights in the interests of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.
+Art. 104: Penalty for sitting and voting before making oath or affirmation under Article 99 or when not qualified or when disqualified. If a person sits or votes as a member of either House before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of Parliament and its Members
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+
+
+[Defendant]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Defendant]
+[Memory] Retrieved: Art. 19, Art. 358
+
+[Defendant]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Defendant]
+Your Honor, the Defendant's argument that our original deadline was an excessive and unreasonable restriction on their ability to work is unfounded. As seen in E2, the additional reporting fields requested by us did not significantly alter the project's scope, and the Defendant agreed to include them in the same delivery. Furthermore, in E5, the parties agreed to the revised scope, and we asked to keep the original deadline, which the Defendant did not object to at the time.
+
+The Defendant's reliance on PRE_CHINTAMAN_RAO is misplaced, as the principle of reasonable restrictions applies to arbitrary or excessive restrictions on trade, not to a contractual agreement between two parties. Our request for additional reporting fields and adherence to the original deadline were reasonable and did not impose an undue burden on the Defendant.
+
+Moreover, the Defendant's argument that we denied them timely access to necessary resources is also unfounded. As shown in E4, access was granted, albeit after some delay. However, this delay does not justify the Defendant's overall failure to deliver the module on time.
+
+We would like to cite PRE_AIR_INDIA, which establishes that classification must be reasonable and have a nexus with the object sought to be achieved. In this case, our request for additional reporting fields was reasonable and had a direct nexus with the project's objectives.
+
+The Defendant's invocation of the "Golden Triangle" principle from PRE_MANEKA_GANDHI is also misplaced, as this principle applies to the interconnectedness of Articles 14, 19, and 21 of the Indian Constitution, which are not directly relevant to this contract dispute.
+
+In conclusion, we believe that the Defendant's breach of contract and failure to deliver the software module on time werenot justified by any supposed impossibility or prevention. We urge the court to consider the evidence and find in our favor, awarding us the damages we are seeking. Thank you, Your Honor. 
+
+
+
+[Defendant]
+[FunctionCall(id='g3ddpfp7y', arguments='{"evidence_id":"E2"}', name='get_evidence'), FunctionCall(id='ymdrjd9qm', arguments='{"evidence_id":"E5"}', name='get_evidence'), FunctionCall(id='dzhhth9wg', arguments='{"k":3,"query":"PRE_AIR_INDIA"}', name='search_precedents'), FunctionCall(id='nht8wjnxc', arguments='{"k":5,"query":"Article 19"}', name='search_constitution')]
+
+[Defendant]
+[Memory] Retrieved: 'E2: Email 2025-01-10 from Acme...', 'E5: Meeting notes 2025-02-06: ...', 'PRE_AIR_INDIA: ID: PRE_AIR_IND...', 'Art. 358: Suspension of provis...'
+
+[Defendant]
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+Art. 358: Suspension of provisions of Article 19 during emergencies. While a Proclamation of Emergency under Article 352 is in operation, nothing in Article 19 shall restrict the power of the State to make any law or to take any executive action. Any law made shall cease to have effect to the extent of the inconsistency with Article 19 as soon as the Proclamation ceases to operate.
+Art. 19: Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression; to assemble peacefully and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; to practice any profession, or to carry on any occupation, trade or business. The State may make reasonable restrictions on these rights in the interests of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.
+Art. 104: Penalty for sitting and voting before making oath or affirmation under Article 99 or when not qualified or when disqualified. If a person sits or votes as a member of either House before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of Parliament and its Members
+Art. 193: Penalty for sitting and voting before making oath or under Article 188 or when not qualified or when disqualified. If a person sits or votes as a member before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of State Legislatures and their Members
+Art. 6: Rights of citizenship of certain persons who have migrated to India from Pakistan. Notwithstanding anything in Article 5, a person who has migrated to India from Pakistan shall be deemed to be a citizen of India if he or his parents or grandparents were born in India and he has been registered as a citizen, subject to certain residency conditions.
+
+
+[Judge]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 104
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+[FunctionCall(id='0zt1pqshp', arguments='{"k":5,"query":"contract breach"}', name='search_evidence')]
+
+[Judge]
+[Memory] Retrieved: '(no evidence found)...'
+
+[Judge]
+(no evidence found)
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Plaintiff]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Plaintiff]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Plaintiff]
+Your Honor, esteemed members of the court, I would like to present my argument and cite relevant evidence and legal precedents to support our claim. The Defendant, Jordan Smith, has raised several defenses, including impossibility or prevention due to late changes in requirements and denial of needed access, as well as no causation, arguing that our own delays caused most of the damages.
+
+However, we contend that the Defendant's failure to deliver the software module on time was not due to impossibility or prevention, but rather their own inability to adapt to the changed requirements. As seen in E2, we requested additional reporting fields, which the Defendant accepted and agreed to include in the same delivery. Furthermore, the meeting notes in E5 show that both parties agreed to the revised scope, and we asked to keep the original deadline.
+
+The Defendant's claim that they were denied needed access is also unfounded. The ticket log excerpt in E4 shows that access was granted, albeit after some delay. However, this delay does not justify the Defendant's overall failure to deliver the module on time.
+
+We would like to cite the legal precedent of PRE_CHINTAMAN_RAO, which states that restrictions on trade must not be arbitrary or of an excessive nature. In this case, our original deadline, despite the scope changes, was not an excessive restriction on the Defendant's ability to work.
+
+Additionally, we would like to reference PRE_MANEKA_GANDHI, which establishes the "Golden Triangle" of Articles 14, 19, and 21. This precedent supports our argument that the Defendant's actions must satisfy the tests of fairness, reasonableness, and non-arbitrariness.
+
+In conclusion, we believe that the evidence and legal precedents support our claim that the Defendant breached the contract and is liable for the damages. We urge the court to consider our arguments and evidence in making its decision. Thank you, Your Honor.
+
+
+[Defendant]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Defendant]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Defendant]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Defendant]
+[FunctionCall(id='hqytxh5gq', arguments='{"k":5,"query":"denial of access"}', name='search_evidence'), FunctionCall(id='19mte9mzf', arguments='{"evidence_id":"E2"}', name='get_evidence'), FunctionCall(id='034hrag3b', arguments='{"evidence_id":"E5"}', name='get_evidence'), FunctionCall(id='8r39aw1bf', arguments='{"k":5,"query":"Article 19"}', name='search_constitution'), FunctionCall(id='4zy7qqpsp', arguments='{"k":3,"query":"PRE_MANEKA_GANDHI"}', name='search_precedents')]
+
+[Defendant]
+[Memory] Retrieved: 'E4: Ticket log excerpt: Access...', 'E2: Email 2025-01-10 from Acme...', 'E5: Meeting notes 2025-02-06: ...', 'Art. 358: Suspension of provis...', 'PRE_CHINTAMAN_RAO: ID: PRE_CHI...'
+
+[Defendant]
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+Art. 358: Suspension of provisions of Article 19 during emergencies. While a Proclamation of Emergency under Article 352 is in operation, nothing in Article 19 shall restrict the power of the State to make any law or to take any executive action. Any law made shall cease to have effect to the extent of the inconsistency with Article 19 as soon as the Proclamation ceases to operate.
+Art. 19: Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression; to assemble peacefully and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; to practice any profession, or to carry on any occupation, trade or business. The State may make reasonable restrictions on these rights in the interests of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.
+Art. 104: Penalty for sitting and voting before making oath or affirmation under Article 99 or when not qualified or when disqualified. If a person sits or votes as a member of either House before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of Parliament and its Members
+Art. 193: Penalty for sitting and voting before making oath or under Article 188 or when not qualified or when disqualified. If a person sits or votes as a member before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of State Legislatures and their Members
+Art. 6: Rights of citizenship of certain persons who have migrated to India from Pakistan. Notwithstanding anything in Article 5, a person who has migrated to India from Pakistan shall be deemed to be a citizen of India if he or his parents or grandparents were born in India and he has been registered as a citizen, subject to certain residency conditions.
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+
+
+[Judge]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 104
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+Now that both parties have presented their arguments, I would like to ask some questions to clarify certain points. 
+
+Defendant, you have argued that the Plaintiff's changes to the scope of the project, as seen in E2, created an unreasonable burden on you. However, didn't you agree to include the additional reporting fields in the same delivery, as stated in E2? How does this impact your argument regarding the unreasonable burden?
+
+Plaintiff, you have cited the legal precedent of PRE_CHINTAMAN_RAO, which states that restrictions on trade must not be arbitrary or of an excessive nature. Can you explain how this precedent applies to the original deadline, despite the scope changes, and why it was not an excessive restriction on the Defendant's ability to work?
+
+I would also like to examine the evidence regarding the access request. Defendant, you stated that you needed database access by 2025-01-15 to stay on schedule, as seen in E3. However, the ticket log excerpt in E4 shows that access was granted on 2025-02-05. Can you explain the delay in granting access and how it impacted your ability to deliver the software module on time? 
+
+Please respond to these questions, and we will proceed with the trial.
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Plaintiff]
+[Memory] Retrieved: Art. 35, Art. 19
+
+[Plaintiff]
+[Memory] Retrieved: E3, E5, E6, E4, E2
+
+[Plaintiff]
+Thank you, Your Honor, for the opportunity to clarify these points.
+
+Regarding the scope changes, I acknowledge that I agreed to include the additional reporting fields in the same delivery, as stated in E2. However, this agreement was made without considering the significant impact it would have on the project timeline and resources. The additional fields required substantial changes to the module, which, in turn, necessitated additional time and effort. While I did agree to the changes, I had explicitly requested database access by 2025-01-15 to stay on schedule, as seen in E3. The delay in granting access, as shown in E4, further exacerbated the situation, making it even more challenging to meet the original deadline.
+
+Regarding the legal precedent of PRE_CHINTAMAN_RAO, I argue that the Plaintiff's insistence on maintaining the original deadline, despite the scope changes, constitutes an excessive restriction on my ability to work. The precedent states that restrictions on trade must not be arbitrary or of an excessive nature. In this case, the Plaintiff's refusal to adjust the deadline, considering the significant changes to the project, is an excessive restriction. It disregards the practical realities of the project and my capabilities as a developer. I believe that a reasonable adjustment to the deadline would have been necessary to accommodate the changes, and the Plaintiff's failure to do so is a violation of the principle of reasonable restrictions.
+
+Regarding the access request, I would like to explain that the delay in granting access was a significant factor in my inability to deliver the software module on time. As seen in E3, I requested database access by 2025-01-15 to stay on schedule. However, the access was not granted until 2025-02-05, as shown in E4. This delay of nearly three weeks had a profound impact on my ability to work on the project. Without access to the necessary resources, I was unable to complete the required changes, and the project was effectively put on hold. Once access was granted, I worked diligently to complete the module, but the delay had already taken its toll, and it was no longer possible to meet the original deadline.
+
+In conclusion, I believe that the scope changes, combined with the delay in granting access, created an unreasonable burden on me, and the Plaintiff's insistence on maintaining the original deadline was an excessive restriction on my ability to work. I urge the court to consider these factors when evaluating the case. Thank you, Your Honor.
+
+
+[Defendant]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Defendant]
+[Memory] Retrieved: Art. 371, Art. 19
+
+[Defendant]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Defendant]
+[FunctionCall(id='0b1br33h0', arguments='{"evidence_id":"E3"}', name='get_evidence'), FunctionCall(id='bwzaa6m2h', arguments='{"evidence_id":"E4"}', name='get_evidence'), FunctionCall(id='x6e0d1hm1', arguments='{"k":3,"query":"PRE_MANEKA_GANDHI"}', name='search_precedents')]
+
+[Defendant]
+[Memory] Retrieved: 'E3: Email 2025-01-12 from Smit...', 'E4: Ticket log excerpt: Access...', 'PRE_CHINTAMAN_RAO: ID: PRE_CHI...'
+
+[Defendant]
+E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+
+
+[Judge]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+Plaintiff, I would like to give you an opportunity to respond to the Defendant's clarifications and arguments.
+
+Please address the Defendant's points regarding the scope changes, the delay in granting access, and the application of the legal precedents, such as PRE_CHINTAMAN_RAO and PRE_MANEKA_GANDHI. Additionally, you may want to consider the Defendant's argument that the requirements changes created an unreasonable burden and that the delay in granting access was a significant factor in their inability to deliver the software module on time.
+
+Please proceed with your response, and we will continue with the trial.
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Plaintiff]
+[Memory] Retrieved: Art. 35, Art. 19
+
+[Plaintiff]
+[Memory] Retrieved: E3, E5, E6, E4, E2
+
+[Plaintiff]
+Thank you, Your Honor, for the opportunity to respond to the Defendant's clarifications and arguments.
+
+Regarding the scope changes, we acknowledge that the addition of reporting fields did introduce some complexity to the project. However, we had already accounted for potential changes in the original agreement, and the Defendant had agreed to include these changes in the same delivery. We did not consider this an excessive burden, and the Defendant did not object to the changes at the time.
+
+Regarding the delay in granting access, we apologize for any inconvenience this may have caused. However, the access was eventually granted, and the Defendant had sufficient time to complete the project. We do not believe that the delay in granting access was the primary cause of the Defendant's inability to deliver the software module on time.
+
+Regarding the application of the legal precedents, we disagree with the Defendant's interpretation of PRE_CHINTAMAN_RAO. We do not believe that our insistence on maintaining the original deadline was an excessive restriction on the Defendant's ability to work. The Defendant had agreed to the original deadline, and we had already made significant investments in the project. We could not have anticipated the Defendant's inability to meet the deadline, and we should not be penalized for the Defendant's lack of planning and preparation.
+
+Furthermore, we believe that the Defendant's argument regarding the unreasonable burden created by the requirements changes is unfounded. The changes were minor and did not significantly impact the overall project timeline. We had already accounted for potential changes in the original agreement, and the Defendant had agreed to include these changes in the same delivery.
+
+Regarding PRE_MANEKA_GANDHI, we believe that the Defendant's argument is misplaced. The "Golden Triangle" of Articles 14, 19, and 21 does not apply in this case, as the contract dispute is a private matter between two parties and does not involve any state action. We do not believe that the Defendant's rights under these articles have been violated.
+
+In conclusion, we believe that the Defendant's arguments are without merit, and we should be awarded the damages we are seeking. The Defendant's failure to deliver the software module on time was not due to any excessive restriction or unreasonable burden, but rather due to their own lack of planning and preparation. We urge the court to consider the evidence and the legal precedents and to rule in our favor.
+
+
+
+[Plaintiff]
+[FunctionCall(id='f8xyfwkth', arguments='{"k":5,"query":"delivery timeline"}', name='search_evidence'), FunctionCall(id='4qcynkaez', arguments='{"article_id":"Art. 19"}', name='get_article'), FunctionCall(id='p5dg363ry', arguments='{"k":3,"query":"contract dispute"}', name='search_constitution'), FunctionCall(id='2awvjxzv2', arguments='{"k":3,"query":"PRE_AIR_INDIA"}', name='search_precedents')]
+
+[Plaintiff]
+[Memory] Retrieved: 'E7: Internal Acme timeline: in...', 'Art. 19: Protection of certain...', 'Art. 262: Adjudication of disp...', 'PRE_AIR_INDIA: ID: PRE_AIR_IND...'
+
+[Plaintiff]
+E7: Internal Acme timeline: integration started 2025-03-01.
+E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+Art. 19: Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression; to assemble peacefully and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; to practice any profession, or to carry on any occupation, trade or business. The State may make reasonable restrictions on these rights in the interests of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.
+Art. 262: Adjudication of disputes relating to waters of inter-State rivers or river valleys. Parliament may by law provide for the adjudication of any dispute or complaint with respect to the use, distribution or control of the waters of any inter-State river. Parliament may also provide that neither the Supreme Court nor any other court shall exercise jurisdiction in respect of any such dispute.
+Art. 131: Original jurisdiction of the Supreme Court. Subject to the provisions of this Constitution, the Supreme Court shall have exclusive original jurisdiction in any dispute between the Government of India and one or more States, or between two or more States.
+Art. 299: Contracts. All contracts made in the exercise of the executive power of the Union or of a State shall be expressed to be made by the President or the Governor, as the case may be. Neither the President nor the Governor shall be personally liable in respect of any contract.
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+
+[Defendant]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Defendant]
+[Memory] Retrieved: Art. 19, Art. 262
+
+[Defendant]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Defendant]
+[FunctionCall(id='vbxaw9qe0', arguments='{"evidence_id":"E7"}', name='get_evidence'), FunctionCall(id='021vc0k27', arguments='{"evidence_id":"E1"}', name='get_evidence'), FunctionCall(id='6kkh2cvt8', arguments='{"k":5,"query":"Article 19"}', name='search_constitution'), FunctionCall(id='gcs5zpt98', arguments='{"k":3,"query":"PRE_AIR_INDIA"}', name='search_precedents')]
+
+[Defendant]
+[Memory] Retrieved: 'E7: Internal Acme timeline: in...', 'E1: "Statement of Work" excerp...', 'Art. 358: Suspension of provis...', 'PRE_AIR_INDIA: ID: PRE_AIR_IND...'
+
+[Defendant]
+E7: Internal Acme timeline: integration started 2025-03-01.
+E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
+Art. 358: Suspension of provisions of Article 19 during emergencies. While a Proclamation of Emergency under Article 352 is in operation, nothing in Article 19 shall restrict the power of the State to make any law or to take any executive action. Any law made shall cease to have effect to the extent of the inconsistency with Article 19 as soon as the Proclamation ceases to operate.
+Art. 19: Protection of certain rights regarding freedom of speech, etc. All citizens shall have the right to freedom of speech and expression; to assemble peacefully and without arms; to form associations or unions; to move freely throughout the territory of India; to reside and settle in any part of India; to practice any profession, or to carry on any occupation, trade or business. The State may make reasonable restrictions on these rights in the interests of sovereignty, security, public order, decency, morality, contempt of court, defamation, or incitement to an offence.
+Art. 104: Penalty for sitting and voting before making oath or affirmation under Article 99 or when not qualified or when disqualified. If a person sits or votes as a member of either House before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of Parliament and its Members
+Art. 193: Penalty for sitting and voting before making oath or under Article 188 or when not qualified or when disqualified. If a person sits or votes as a member before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of State Legislatures and their Members
+Art. 6: Rights of citizenship of certain persons who have migrated to India from Pakistan. Notwithstanding anything in Article 5, a person who has migrated to India from Pakistan shall be deemed to be a citizen of India if he or his parents or grandparents were born in India and he has been registered as a citizen, subject to certain residency conditions.
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+
+[Judge]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 104
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+[FunctionCall(id='zqvqze7g3', arguments='{"evidence_id":"E4"}', name='get_evidence'), FunctionCall(id='m6ybfwk22', arguments='{"evidence_id":"E7"}', name='get_evidence')]
+
+[Judge]
+[Memory] Retrieved: 'E4: Ticket log excerpt: Access...', 'E7: Internal Acme timeline: in...'
+
+[Judge]
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+E7: Internal Acme timeline: integration started 2025-03-01.
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Plaintiff]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Plaintiff]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Plaintiff]
+Thank you, Your Honor, for the opportunity to respond to the Defendant's clarifications and arguments.
+
+Regarding the scope changes, we acknowledge that the Defendant agreed to include the additional reporting fields in the same delivery, as stated in E2. However, we contend that the Defendant's claim that the scope changes created an unreasonable burden is unfounded. The changes were necessary to ensure the quality and functionality of the software module, and the Defendant had agreed to include them in the same delivery.
+
+Regarding the delay in granting access, we acknowledge that the access request was created on 2025-01-13, and access was granted on 2025-02-05, as shown in E4. However, we contend that the delay was not solely the result of our actions. The Defendant had a responsibility to follow up on the access request and ensure that it was processed in a timely manner.
+
+We would like to cite the legal precedent of PRE_CHINTAMAN_RAO, which states that restrictions on trade must not be arbitrary or of an excessive nature. In this case, we believe that our original deadline, despite the scope changes, was not an excessive restriction on the Defendant's ability to work. The Defendant had agreed to the revised scope and had sufficient time to complete the work.
+
+We would also like to reference the precedent of PRE_MANEKA_GANDHI, which establishes the "Golden Triangle" of Articles 14, 19, and 21. This precedent supports our argument that the Defendant's actions must satisfy the tests of fairness, reasonableness, and non-arbitrariness. In this case, we believe that the Defendant's failure to deliver the software module on time was not due to any unfair or unreasonable restrictions, but rather due to their own inability to manage the project and meet the deadlines.
+
+In conclusion, we believe that the evidence and legal precedents support our claim that the Defendant breached the contract and is liable for the damages. We urge the court to consider our arguments and evidence in making its decision. Thank you, Your Honor.
+
+
+[Defendant]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Defendant]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Defendant]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Defendant]
+[FunctionCall(id='2qvyyr58b', arguments='{"evidence_id":"E2"}', name='get_evidence'), FunctionCall(id='exmavqdcq', arguments='{"evidence_id":"E4"}', name='get_evidence'), FunctionCall(id='s70en2gph', arguments='{"k":5,"query":"Article 14"}', name='search_constitution'), FunctionCall(id='zm2vvynv8', arguments='{"k":3,"query":"PRE_MANEKA_GANDHI"}', name='search_precedents')]
+
+[Defendant]
+[Memory] Retrieved: 'E2: Email 2025-01-10 from Acme...', 'E4: Ticket log excerpt: Access...', 'Art. 14: Equality before law. ...', 'PRE_CHINTAMAN_RAO: ID: PRE_CHI...'
+
+[Defendant]
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+Art. 14: Equality before law. The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.
+Art. 104: Penalty for sitting and voting before making oath or affirmation under Article 99 or when not qualified or when disqualified. If a person sits or votes as a member of either House before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of Parliament and its Members
+Art. 193: Penalty for sitting and voting before making oath or under Article 188 or when not qualified or when disqualified. If a person sits or votes as a member before making the oath or when he knows that he is not qualified or is disqualified, he shall be liable to a penalty of five hundred rupees for each day he so sits or votes.
+
+Powers, Privileges and Immunities of State Legislatures and their Members
+Art. 6: Rights of citizenship of certain persons who have migrated to India from Pakistan. Notwithstanding anything in Article 5, a person who has migrated to India from Pakistan shall be deemed to be a citizen of India if he or his parents or grandparents were born in India and he has been registered as a citizen, subject to certain residency conditions.
+Art. 117: Special provisions as to financial Bills. A Bill or amendment making provision for any of the matters specified in Article 110 shall not be introduced in the Council of States. No Bill or amendment imposing or varying any tax shall be introduced in the House of the People except on the recommendation of the President.
+
+Procedure Generally
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+
+
+[Judge]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Judge]
+[Memory] Retrieved: Art. 104, Art. 193
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+Now that both parties have presented their arguments, I would like to proceed with the closing statements.
+
+Plaintiff, you may proceed with your closing statement. Please summarize your key points and reiterate why you believe the Defendant is liable for the damages.
+
+After the Plaintiff's closing statement, the Defendant will have an opportunity to present their closing statement. Then, I will review the evidence and arguments presented in this case and render my verdict. 
+
+Please proceed, Plaintiff.
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_AIR_INDIA, PRE_CHINTAMAN_RAO
+
+[Plaintiff]
+[Memory] Retrieved: Art. 35, Art. 19
+
+[Plaintiff]
+[Memory] Retrieved: E3, E5, E6, E4, E2
+
+[Plaintiff]
+Thank you, Your Honor. In our closing statement, we would like to summarize the key points of our case and reiterate why we believe the Defendant, Jordan Smith, is liable for the damages.
+
+Firstly, we have established that the Defendant breached the contract by failing to deliver the software module on time. The "Statement of Work" excerpt, E1, clearly outlines the delivery deadline as January 31st, 2025. Despite our requests and agreements, the Defendant failed to meet this deadline, resulting in significant rework and delay costs for Acme Corp.
+
+Secondly, we have demonstrated that the Defendant's claims of impossibility or prevention due to late changes in requirements and denial of needed access are unfounded. The email from Acme PM, E2, shows that we requested additional reporting fields, which the Defendant agreed to include in the same delivery. The meeting notes, E5, confirm that both parties agreed to the revised scope, and we asked to keep the original deadline.
+
+Thirdly, we have shown that the delay in granting access, as seen in E4, was not the sole cause of the Defendant's failure to deliver the module on time. The Defendant had a responsibility to follow up on the access request and ensure that it was processed in a timely manner.
+
+We would like to cite the legal precedent of PRE_CHINTAMAN_RAO, which states that restrictions on trade must not be arbitrary or of an excessive nature. In this case, we believe that our original deadline, despite the scope changes, was not an excessive restriction on the Defendant's ability to work.
+
+We would also like to reference the precedent of PRE_MANEKA_GANDHI, which establishes the "Golden Triangle" of Articles 14, 19, and 21. This precedent supports our argument that the Defendant's actions must satisfy the tests of fairness, reasonableness, and non-arbitrariness.
+
+In conclusion, we believe that the evidence and legal precedents support our claim that the Defendant breached the contract and is liable for the damages. We urge the court to consider our arguments and evidence in making its decision.
+
+We would like to request that the court order the Defendant to pay the damages of $50,000, as well as any additional costs and fees associated with this case. We are confident that justice will be served, and we look forward to the court's verdict.
+
+Thank you, Your Honor.
+
+
+[Defendant]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Defendant]
+[Memory] Retrieved: Art. 19, Art. 35
+
+[Defendant]
+[Memory] Retrieved: E3, E5, E6, E4, E2
+
+[Defendant]
+[FunctionCall(id='h2n7hnkv4', arguments='{"evidence_id":"E1"}', name='get_evidence'), FunctionCall(id='s3jkyjem3', arguments='{"evidence_id":"E2"}', name='get_evidence'), FunctionCall(id='xt7kdmk15', arguments='{"evidence_id":"E4"}', name='get_evidence'), FunctionCall(id='cs9r7ynb3', arguments='{"evidence_id":"E5"}', name='get_evidence'), FunctionCall(id='xna43z19p', arguments='{"k":3,"query":"PRE_CHINTAMAN_RAO"}', name='search_precedents'), FunctionCall(id='99xstkgbc', arguments='{"k":3,"query":"PRE_MANEKA_GANDHI"}', name='search_precedents')]
+
+[Defendant]
+[Memory] Retrieved: 'E1: "Statement of Work" excerp...', 'E2: Email 2025-01-10 from Acme...', 'E4: Ticket log excerpt: Access...', 'E5: Meeting notes 2025-02-06: ...', 'PRE_CHINTAMAN_RAO: ID: PRE_CHI...', 'PRE_CHINTAMAN_RAO: ID: PRE_CHI...'
+
+[Defendant]
+E1: "Statement of Work" excerpt: Delivery of Module X by 2025-01-31. Payment milestone upon acceptance.
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+E5: Meeting notes 2025-02-06: Parties agree to revised scope; Acme asks to keep original deadline.
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+
+
+[Judge]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+Defendant, you may now present your closing statement. Please summarize your key points and reiterate why you believe you are not liable for the damages.
+
+After the Defendant's closing statement, I will review the evidence and arguments presented in this case and render my verdict.
+
+Please proceed, Defendant.
+
+
+[Plaintiff]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Plaintiff]
+[Memory] Retrieved: Art. 35, Art. 19
+
+[Plaintiff]
+[Memory] Retrieved: E3, E5, E6, E4, E2
+
+[Plaintiff]
+Thank you, Your Honor. In my closing statement, I would like to summarize the key points of my defense and reiterate why I believe I am not liable for the damages.
+
+Firstly, I would like to emphasize that the Plaintiff's changes to the scope of the project, as seen in E2, created an unreasonable burden on me. The addition of new reporting fields required significant changes to the software module, which could not be completed within the original deadline. Despite my agreement to include the new fields, I had explicitly requested database access by 2025-01-15 to stay on schedule, as seen in E3. However, the access was not granted until 2025-02-05, as shown in E4, which further delayed my ability to complete the project.
+
+Secondly, I would like to argue that the Plaintiff's insistence on maintaining the original deadline, despite the scope changes, was an excessive and unreasonable restriction on my ability to work. As stated in PRE_CHINTAMAN_RAO, restrictions on trade must not be arbitrary or of an excessive nature. In this case, the Plaintiff's refusal to adjust the deadline, considering the significant changes to the project, is an excessive restriction.
+
+Thirdly, I would like to reference the precedent of PRE_MANEKA_GANDHI, which establishes the "Golden Triangle" of Articles 14, 19, and 21. This precedent supports my argument that the Plaintiff's actions must satisfy the tests of fairness, reasonableness, and non-arbitrariness. In this case, the Plaintiff's actions, including the denial of timely access, do not meet these tests.
+
+Fourthly, I would like to argue that the Plaintiff's claim of $50,000 in damages is excessive and not entirely justified. As seen in E6, the invoice from Acme's contractor is for $35,000, which is less than the claimed amount. Furthermore, the Plaintiff's own delays, such as the late start of integration, as shown in E7, contributed to the rework and delay costs.
+
+In conclusion, I believe that the evidence and legal precedents support my defense, and I am not liable for the damages. I urge the court to consider my arguments and evidence in making its decision. I request that the court dismiss the Plaintiff's claim and find in my favor.
+
+Thank you, Your Honor.
+
+
+[Defendant]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Defendant]
+[Memory] Retrieved: Art. 35, Art. 371
+
+[Defendant]
+[Memory] Retrieved: E3, E5, E6, E4, E2
+
+[Defendant]
+[FunctionCall(id='r4wprtp70', arguments='{"evidence_id":"E2"}', name='get_evidence'), FunctionCall(id='pg8xrxdgb', arguments='{"evidence_id":"E3"}', name='get_evidence'), FunctionCall(id='vje0cbx6d', arguments='{"evidence_id":"E4"}', name='get_evidence'), FunctionCall(id='x1emegadb', arguments='{"k":3,"query":"PRE_CHINTAMAN_RAO"}', name='search_precedents'), FunctionCall(id='c5s57v92m', arguments='{"k":3,"query":"PRE_MANEKA_GANDHI"}', name='search_precedents')]
+
+[Defendant]
+[Memory] Retrieved: 'E2: Email 2025-01-10 from Acme...', 'E3: Email 2025-01-12 from Smit...', 'E4: Ticket log excerpt: Access...', 'PRE_CHINTAMAN_RAO: ID: PRE_CHI...', 'PRE_CHINTAMAN_RAO: ID: PRE_CHI...'
+
+[Defendant]
+E2: Email 2025-01-10 from Acme PM: "We need additional reporting fields; please include them in the same delivery."
+E3: Email 2025-01-12 from Smith: "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+E4: Ticket log excerpt: Access request created 2025-01-13; access granted 2025-02-05.
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+PRE_CHINTAMAN_RAO: ID: PRE_CHINTAMAN_RAO
+CASE: Chintaman Rao v. State of M.P. (1950)
+PRINCIPLE: Reasonable Restrictions. Restrictions on trade must not be arbitrary or of an excessive nature, beyond what is required in the interest of the public.
+APPLICATION: Argue that Acme's original deadline despite scope changes was an "excessive" and "unreasonable" restriction on Smith's ability to work.
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+PRE_ROYAPPA: ## Landmark Precedents for Mock Trial
+
+### ARTICLE 14 (EQUALITY)
+ID: PRE_ROYAPPA
+CASE: E.P. Royappa v. State of Tamil Nadu (1974)
+PRINCIPLE: Equality is a dynamic concept. Arbitrariness is the antithesis of equality. If an action is arbitrary, it is a violation of Art. 14.
+APPLICATION: Use this to challenge "unfair" contract enforcement or arbitrary delays.
+
+PRE_AIR_INDIA: ID: PRE_AIR_INDIA
+CASE: Air India v. Nergesh Meerza (1981)
+PRINCIPLE: Classification must be reasonable and have a nexus with the object sought to be achieved.
+APPLICATION: Use this to argue that requirements changes (E2) created an unreasonable burden on the Defendant.
+
+### ARTICLE 19 (TRADE/FREEDOM)
+ID: PRE_BENNETT_COLEMAN
+CASE: Bennett Coleman & Co. v. Union of India (1973)
+PRINCIPLE: The "Direct Effect" test. The court looks at the direct effect of the action, not just the intent.
+APPLICATION: Argue that while Acme didn't "intend" to stop Smith's business, the *direct effect* of denying access (E4) was an infringement of Art. 19.
+
+
+[Judge]
+[Memory] Retrieved: PRE_CHINTAMAN_RAO, PRE_AIR_INDIA
+
+[Judge]
+[Memory] Retrieved: Art. 19, Art. 304
+
+[Judge]
+[Memory] Retrieved: E5, E3, E4, E2, E6
+
+[Judge]
+=== VERDICT ===
+
+After carefully considering the evidence and arguments presented by both parties, I find in favor of the Defendant, Jordan Smith.
+
+The Plaintiff, Acme Corp., has failed to demonstrate that the Defendant's breach of contract was the direct cause of the damages claimed. The evidence suggests that the Plaintiff's own actions, including the late changes to the scope of the project and the denial of timely access, contributed to the delays and rework costs.
+
+Furthermore, I find that the Plaintiff's insistence on maintaining the original deadline, despite the scope changes, was an excessive and unreasonable restriction on the Defendant's ability to work. This restriction, combined with the denial of timely access, created an unreasonable burden on the Defendant.
+
+In light of the legal precedents cited, including PRE_CHINTAMAN_RAO and PRE_MANEKA_GANDHI, I conclude that the Plaintiff's actions did not satisfy the tests of fairness, reasonableness, and non-arbitrariness.
+
+Therefore, I dismiss the Plaintiff's claim and find in favor of the Defendant.
+
+=== FINDINGS OF FACT ===
+
+1. The Plaintiff, Acme Corp., made changes to the scope of the project, which created an unreasonable burden on the Defendant.
+2. The Defendant, Jordan Smith, requested database access by 2025-01-15 to stay on schedule, but access was not granted until 2025-02-05.
+3. The Plaintiff's insistence on maintaining the original deadline, despite the scope changes, was an excessive and unreasonable restriction on the Defendant's ability to work.
+
+=== CONCLUSIONS OF LAW ===
+
+1. The Plaintiff's actions, including the late changes to the scope of the project and the denial of timely access, contributed to the delays and rework costs.
+2. The Plaintiff's insistence on maintaining the original deadline, despite the scope changes, was an excessive and unreasonable restriction on the Defendant's ability to work.
+3. The Defendant's breach of contract was not the direct cause of the damages claimed, and the Plaintiff has failed to demonstrate that the Defendant's actions were the sole cause of the damages.
+
+=== ORDER / REMEDY ===
+
+The Plaintiff's claim is dismissed, and the Defendant is not liable for the damages claimed.
+
+=== FULL WRITTEN OPINION ===
+
+A full written opinion will be provided in due course, outlining the court's reasoning and analysis in greater detail.
+
+TERMINATE

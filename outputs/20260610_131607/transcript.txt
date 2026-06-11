@@ -1,0 +1,748 @@
+[user]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: State of Maharashtra v. Rajesh Verma
+JURISDICTION: India – Criminal Trial (Indian Penal Code, 1860 / Bharatiya Nyaya Sanhita equivalent may be assumed)
+
+PARTIES:
+
+PROSECUTION: State of Maharashtra
+ACCUSED: Rajesh Verma
+
+CHARGES (PROSECUTION):
+
+Criminal breach of trust by employee.
+Misappropriation of company funds amounting to ₹12,50,000.
+Falsification of financial records to conceal unauthorized transfers.
+
+DEFENSES (ACCUSED):
+
+Authorized transactions: Transfers were approved verbally by senior management.
+Lack of intent: No dishonest intention to cause wrongful loss.
+Investigation defects: Police failed to collect complete accounting records and ignored exculpatory evidence.
+
+FACTS:
+
+Rajesh Verma worked as Finance Manager at Zenith Logistics Pvt. Ltd.
+Between January and April 2024, multiple transfers totaling ₹12,50,000 were made from the company account to a consulting firm called "RV Business Solutions."
+The prosecution alleges that RV Business Solutions was secretly controlled by Rajesh Verma.
+An internal audit discovered the transfers and filed a police complaint.
+Rajesh claims the consulting firm provided legitimate business services and that management was aware of the payments.
+
+EVIDENCE:
+
+E1: Employment Contract
+
+Rajesh Verma appointed Finance Manager with authority to process payments up to ₹5,00,000 subject to documentation requirements.
+
+E2: Bank Statement
+
+Shows five transfers totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions between 2024-01-15 and 2024-04-20.
+
+E3: Internal Audit Report
+
+Concludes no invoices, work orders, or service agreements exist for payments made to RV Business Solutions.
+
+E4: Registrar of Companies / Business Registration Records
+
+Lists Rajesh Verma's spouse as proprietor of RV Business Solutions.
+
+E5: Email dated 2024-02-03
+
+Rajesh to Accounts Team: "Process payment urgently. Management approval already obtained."
+
+E6: Testimony of Managing Director
+
+States no approval was granted for payments to RV Business Solutions and that he first learned of the firm during the audit.
+
+E7: WhatsApp Chat dated 2024-01-14
+
+Managing Director to Rajesh: "We need outside help for vendor optimization. Please handle it."
+Defense argues this message demonstrates authorization to engage consultants.
+
+E8: Tax Invoice
+
+Submitted by defense, showing consultancy services worth ₹4,00,000 allegedly provided by RV Business Solutions.
+
+E9: Police Investigation Report
+
+Records seizure of accounting records and statements from company employees.
+
+ISSUES FOR DETERMINATION:
+
+Whether Rajesh Verma had authority to make the disputed payments.
+Whether RV Business Solutions provided genuine services to the company.
+Whether the accused dishonestly misappropriated company funds.
+Whether the prosecution has proved guilt beyond reasonable doubt.
+
+REQUESTED RELIEF:
+
+PROSECUTION:
+
+Conviction of the accused.
+Recovery of ₹12,50,000.
+Appropriate sentence under applicable criminal law.
+
+DEFENSE:
+
+Acquittal of all charges.
+Alternatively, benefit of doubt due to insufficient proof of dishonest intent.
+
+POTENTIAL WITNESSES:
+
+PW1: Managing Director of Zenith Logistics Pvt. Ltd.
+PW2: Internal Auditor.
+PW3: Investigating Officer.
+DW1: Rajesh Verma (Accused).
+DW2: Proprietor of RV Business Solutions.
+DW3: Accounts Executive who processed the transfers.
+---
+
+
+
+[Judge] [Memory] Retrieved: Rajesh_Kumar_Verma_vs_State_Of_M_P_on_21_January_1994_1.PDF, Rajesh_Bajaj_vs_State_Nct_Of_Delhi_And_Others_on_12_March_2000_1.PDF, Bhogireddi_Varalakshmi_Ors_vs_Mani_Muthupandi_And_Ors_on_3_March_2017_1.PDF, Sunil_Kumar_vs_State_Govt_Of_Nct_Of_Delhi_on_15_October_2003_1.PDF, Art. 134, Art. 20, E9, E6, E5, E7, E1, 'Case: State of Maharashtra v. ...', 'Evidence ids: E1, E2, E3, E4, ...'
+
+[Judge]
+This court is now in session. The case before us today is State of Maharashtra v. Rajesh Verma, a criminal trial involving allegations of criminal breach of trust, misappropriation of company funds, and falsification of financial records. The prosecution, representing the State of Maharashtra, claims that the accused, Rajesh Verma, misappropriated ₹12,50,000 from his employer, Zenith Logistics Pvt. Ltd., by making unauthorized transfers to a consulting firm, RV Business Solutions, which the prosecution alleges was secretly controlled by the accused. The defense argues that the transactions were authorized, that RV Business Solutions provided legitimate services, and that there was no dishonest intent.
+
+The key issues for determination in this case are whether the accused had the authority to make the disputed payments, whether RV Business Solutions provided genuine services to the company, whether the accused dishonestly misappropriated company funds, and whether the prosecution has proved guilt beyond reasonable doubt.
+
+The court reminds both parties that the burden of proof lies with the prosecution to establish the guilt of the accused beyond reasonable doubt.
+
+I would like the Plaintiff to proceed with their opening statement.
+
+
+[Plaintiff] [Memory] Retrieved: Sunil_Kumar_vs_State_Govt_Of_Nct_Of_Delhi_on_15_October_2003_1.PDF, Bodh_Raj_Bodha_And_Ors_vs_State_Of_Jammu_And_Kashmir_on_3_September_2002_1.PDF, Deepak_Verma_vs_State_Of_H_P_on_11_October_2011_1.PDF, Kundula_Bala_Subrahmanyam_And_Anr_vs_State_Of_Andhra_Pradesh_on_26_March_1993_1.PDF, Art. 134, Art. 20, E9, E2, E4, E3, E1
+
+[Plaintiff]
+Thank you, Your Honor. The prosecution's case against Rajesh Verma is clear: as the Finance Manager at Zenith Logistics Pvt. Ltd., he abused his position of trust to misappropriate ₹12,50,000 from the company. The evidence will show that between January and April 2024, Rajesh Verma made five unauthorized transfers to RV Business Solutions, a consulting firm that he secretly controlled through his spouse, as evidenced by E4: Registrar of Companies / Business Registration Records.
+
+The prosecution will demonstrate that these transactions were not only unauthorized but also lacked any legitimate business purpose, as confirmed by E3: Internal Audit Report, which found no invoices, work orders, or service agreements for the payments made to RV Business Solutions. Furthermore, the testimony of PW1: Managing Director of Zenith Logistics Pvt. Ltd., as well as E6: Testimony of Managing Director, will establish that no approval was granted for these payments, contradicting the accused's claim of verbal authorization.
+
+The prosecution will also present evidence that Rajesh Verma attempted to cover his tracks by falsifying financial records, including emails and other communications that were designed to deceive his colleagues and superiors. E5: Email dated 2024-02-03, in which Rajesh instructs the accounts team to "process payment urgently" claiming "management approval already obtained," will be shown to be a fabrication, given the managing director's denial of any such approval.
+
+The defense may argue that RV Business Solutions provided legitimate services, but the prosecution will show that this claim is unsupported by any credible evidence. The tax invoice submitted by the defense, E8: Tax Invoice, is insufficient to prove the provision of consultancy services worth ₹4,00,000, especially when considered against the backdrop of the accused's control over RV Business Solutions and the complete lack of documentation for the services allegedly provided.
+
+In conclusion, the prosecution is confident that the evidence will establish beyond reasonable doubt that Rajesh Verma is guilty of criminal breach of trust, misappropriation of company funds, and falsification of financial records. We look forward to presenting our case in detail and demonstrating the accused's culpability.
+
+
+
+[Plaintiff]
+[Action] search_evidence: 5, financial records, get_evidence: E2
+
+[Plaintiff] [Memory] Retrieved: 'E4: Registrar of Companies / B...', 'E2: Bank Statement...'
+
+[Plaintiff]
+E4: Registrar of Companies / Business Registration Records
+E2: Bank Statement
+
+
+[Judge] [Memory] Retrieved: Dahyabhai_Chhaganbhai_Thakker_vs_State_Of_Gujarat_on_19_March_1964_1.PDF, Kundula_Bala_Subrahmanyam_And_Anr_vs_State_Of_Andhra_Pradesh_on_26_March_1993_1.PDF, Hare_Krishna_Singh_Ors_Etc_vs_State_Of_Bihar_on_24_February_1988_1.PDF, Sawal_Das_vs_State_Of_Bihar_on_9_January_1974_1.PDF, Art. 134, Art. 20, E1, E5, E4, E2, E3
+
+[Judge]
+It appears you've referenced two pieces of evidence, E4 and E2. However, as the Judge, I must clarify that we are currently at the stage of the trial where the Plaintiff is to provide their opening statement. 
+
+To proceed, I will invite the Plaintiff to include these evidence references in their argument if necessary.
+
+Plaintiff, you may now present your opening statement, and please feel free to cite any relevant evidence, including E4, the Registrar of Companies / Business Registration Records, and E2, the Bank Statement.
+
+
+[Plaintiff] [Memory] Retrieved: Parmananda_Pegu_vs_State_Of_Assam_on_2_September_2004_1.PDF, Kaviraj_Pandit_Durga_Dutt_Sharma_vs_Navaratna_Pharmaceutical_on_20_October_1964_1.PDF, Kaviraj_Pandit_Durga_Dutt_Sharma_vs_Navaratna_Pharmaceutical_on_20_October_1964_1.PDF, Baleshwar_Rai_And_Others_vs_The_State_Of_Bihar_on_26_April_1962_1.PDF, Art. 35, Art. 112, E2, E4, E9, E3, E1
+
+[Plaintiff]
+The State of Maharashtra's case against Rajesh Verma is built on solid evidence of a blatant breach of trust, misappropriation of company funds, and falsification of financial records. As the Finance Manager at Zenith Logistics Pvt. Ltd., Rajesh Verma was entrusted with the authority to process payments, as outlined in his Employment Contract, E1. However, this authority was grossly abused when he made unauthorized transfers totaling ₹12,50,000 to RV Business Solutions, a consulting firm secretly controlled by him, as revealed by the Registrar of Companies / Business Registration Records, E4.
+
+These unauthorized transfers, as shown in the Bank Statement, E2, were made without any legitimate invoices, work orders, or service agreements, as concluded by the Internal Audit Report, E3. The lack of documentation and the clandestine nature of these transactions strongly suggest that Rajesh Verma acted with dishonest intent to cause wrongful loss to his employer.
+
+Furthermore, the email dated 2024-02-03, E5, where Rajesh instructs the Accounts Team to "process payment urgently" claiming "management approval already obtained," is a clear attempt to deceive and mislead his colleagues, as no such approval was granted, as testified by the Managing Director, E6.
+
+The defense may argue that RV Business Solutions provided legitimate services, but the absence of any credible evidence supporting this claim, coupled with the fact that Rajesh Verma's spouse is listed as the proprietor of RV Business Solutions, E4, indicates a clear conflict of interest and a scheme to siphon off company funds for personal gain.
+
+Throughout this trial, the prosecution will demonstrate that Rajesh Verma's actions were not only unauthorized but also dishonest, and that he misappropriated company funds with the intention of causing wrongful loss. We will show that the accused's guilt is established beyond reasonable doubt, and we seek his conviction, the recovery of the misappropriated amount, and an appropriate sentence under the applicable criminal law.
+
+
+
+[Plaintiff]
+[Action] get_evidence: E5, get_evidence: E6
+
+[Plaintiff] [Memory] Retrieved: 'E5: Email dated 2024-02-03...', 'E6: Testimony of Managing Dire...'
+
+[Plaintiff]
+E5: Email dated 2024-02-03
+E6: Testimony of Managing Director
+
+
+[Judge] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Harshendra_Kumar_D_vs_Rebatilata_Koley_Etc_on_8_February_2011_1.PDF, Pritam_Singh_vs_Union_Of_India_Ors_on_22_September_2004_1.PDF, Ashok_Kumar_vs_Smt_Raj_Gupta_on_1_October_2021_1.PDF, Art. 35, Art. 90, E5, E6, E4, E7, E1
+
+[Judge]
+You've mentioned two more pieces of evidence, E5 and E6. The Email dated 2024-02-03 (E5) and the Testimony of the Managing Director (E6) will likely be crucial in establishing the facts of the case.
+
+However, I must remind you that we are still waiting for the Plaintiff's opening statement. 
+
+Plaintiff, please proceed with your opening statement, and you may incorporate references to E5, the Email dated 2024-02-03, and E6, the Testimony of the Managing Director, as well as any other relevant evidence, including E2 and E4, which were mentioned earlier.
+
+Please clearly outline the prosecution's case against the accused, Rajesh Verma, and explain how these pieces of evidence support your allegations. 
+
+You may begin now.
+
+
+[Plaintiff] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, Art. 35, Art. 311, E5, E7, E6, E4, E1
+
+[Plaintiff]
+The State of Maharashtra brings forth a strong case against Rajesh Verma, the accused, for criminal breach of trust, misappropriation of company funds, and falsification of financial records. The evidence will show that Rajesh Verma, as the Finance Manager of Zenith Logistics Pvt. Ltd., exploited his position to secretly control and benefit from a consulting firm, RV Business Solutions.
+
+The Bank Statement (E2) reveals a trail of five unauthorized transfers totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions between January and April 2024. Notably, the Registrar of Companies / Business Registration Records (E4) lists Rajesh Verma's spouse as the proprietor of RV Business Solutions, establishing a clear personal connection and motive for the misappropriation.
+
+Furthermore, the Email dated 2024-02-03 (E5), sent by Rajesh Verma to the Accounts Team, claims that management approval had been obtained for the urgent processing of a payment. However, the Testimony of the Managing Director (E6) contradicts this assertion, as the Managing Director denies granting any approval for payments to RV Business Solutions and states that he was unaware of the firm's existence until the internal audit.
+
+These inconsistencies, along with the absence of any genuine invoices, work orders, or service agreements for payments made to RV Business Solutions, as documented in the Internal Audit Report (E3), demonstrate a deliberate attempt by the accused to deceive and misappropriate company funds for personal gain.
+
+Throughout this trial, the prosecution will present evidence that proves the accused's guilt beyond reasonable doubt, showcasing a pattern of deceit and misappropriation that justifies conviction and appropriate sentencing under applicable criminal law. 
+
+
+
+[Plaintiff]
+[Action] note_to_record: The prosecution is committed to presenting a comprehensive case against the accused, highlighting the severity of the allegations and the compelling evidence that supports the charges.
+
+[Plaintiff]
+ok
+
+
+[Judge] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, Art. 311, Art. 35, E5, E7, E6, E4, E1, 'The prosecution is committed t...'
+
+[Judge]
+I'll wait for the Plaintiff's opening statement.
+
+Please proceed, Plaintiff. Present your case against the accused, Rajesh Verma, and outline the key points you will be arguing during this trial. You may reference any relevant evidence, including E2, E4, E5, and E6, to support your claims.
+
+I'm ready when you are. Please go ahead with your opening statement.
+
+
+[Plaintiff] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, State_Of_Haryana_vs_Naresh_Kumar_Bali_on_17_May_1994_1.PDF, Art. 35, Art. 361, E5, E7, E1, E2, E3
+
+[Plaintiff]
+The State of Maharashtra presents its case against Rajesh Verma, accused of criminal breach of trust, misappropriation of company funds, and falsification of financial records. The evidence will show that the accused, as Finance Manager at Zenith Logistics Pvt. Ltd., made unauthorized transfers totaling ₹12,50,000 to RV Business Solutions, a consulting firm secretly controlled by the accused, as revealed by the Registrar of Companies / Business Registration Records (E4). The Bank Statement (E2) confirms these transactions, which were made without proper documentation or legitimate business purpose.
+
+We will demonstrate that the accused's actions were not only unauthorized but also dishonest, as he attempted to conceal the true nature of these transactions. The Email dated 2024-02-03 (E5) allegedly shows the accused urging the accounts team to process a payment, claiming management approval had been obtained, but the Testimony of the Managing Director (E6) contradicts this, stating that no such approval was given.
+
+Throughout this trial, the prosecution will present evidence and witnesses that establish the accused's guilt beyond reasonable doubt, including the Internal Audit Report (E3) and the Police Investigation Report (E9). We will show that the accused's actions were willful and intended to cause wrongful loss to Zenith Logistics Pvt. Ltd.
+
+The prosecution is confident that the evidence presented will prove the accused's culpability and demonstrate a clear case of criminal breach of trust, misappropriation of funds, and falsification of financial records. We look forward to presenting our case and proving the guilt of the accused, Rajesh Verma. 
+
+
+
+[Plaintiff]
+[Action] get_evidence: E1, get_evidence: E3, get_evidence: E9
+
+[Plaintiff] [Memory] Retrieved: 'E1: Employment Contract...', 'E3: Internal Audit Report...', 'E9: Police Investigation Repor...'
+
+[Plaintiff]
+E1: Employment Contract
+E3: Internal Audit Report
+E9: Police Investigation Report
+
+
+[Judge] [Memory] Retrieved: Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, State_Of_Haryana_vs_Naresh_Kumar_Bali_on_17_May_1994_1.PDF, Somnath_Sahu_vs_The_State_Of_Orissa_And_Ors_on_21_March_1969_1.PDF, Art. 35, Art. 361, E1, E5, E4, E2, E3
+
+[Judge]
+You've mentioned three more pieces of evidence: E1, the Employment Contract, E3, the Internal Audit Report, and E9, the Police Investigation Report. These documents will likely be important in understanding the terms of Rajesh Verma's employment, the discovery of the alleged misappropriation, and the investigation that followed.
+
+However, I must reiterate that we are still waiting for the Plaintiff's opening statement. It's essential to provide a clear and concise overview of the prosecution's case, including the key evidence and arguments that will be presented during the trial.
+
+Plaintiff, please proceed with your opening statement. You may incorporate references to E1, E3, E9, as well as the previously mentioned evidence (E2, E4, E5, and E6), to support your allegations against Rajesh Verma.
+
+Please begin your opening statement now, and outline the prosecution's case against the accused. 
+
+Once you've completed your statement, the Defendant will have an opportunity to present their opening statement. 
+
+Let's proceed.
+
+
+[Plaintiff] [Memory] Retrieved: Pritam_Singh_vs_Union_Of_India_Ors_on_22_September_2004_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, State_Of_Haryana_vs_Naresh_Kumar_Bali_on_17_May_1994_1.PDF, Baleshwar_Rai_And_Others_vs_The_State_Of_Bihar_on_26_April_1962_1.PDF, Art. 35, Art. 16, E5, E1, E2, E7, E3
+
+[Plaintiff]
+The prosecution's case against Rajesh Verma is built on a foundation of deceit, misappropriation, and blatant disregard for the trust placed in him as Finance Manager at Zenith Logistics Pvt. Ltd. The evidence will show that Rajesh Verma, with full knowledge and intention, siphoned off ₹12,50,000 from the company's accounts to a consulting firm, RV Business Solutions, which he secretly controlled.
+
+We will demonstrate that Rajesh Verma's actions were not merely unauthorized but also a clear breach of the trust and responsibilities bestowed upon him. The Employment Contract (E1) outlines his duties and limitations, specifically stating that he had the authority to process payments up to ₹5,00,000, subject to documentation requirements. However, the Bank Statement (E2) reveals that he made five transfers totaling ₹12,50,000 to RV Business Solutions between January and April 2024, far exceeding his authorized limit and without the requisite documentation.
+
+Moreover, the Internal Audit Report (E3) concluded that there were no invoices, work orders, or service agreements for the payments made to RV Business Solutions, highlighting the lack of legitimacy in these transactions. The Registrar of Companies / Business Registration Records (E4) reveal that Rajesh Verma's spouse is listed as the proprietor of RV Business Solutions, directly linking the accused to the recipient of the misappropriated funds.
+
+The Email dated 2024-02-03 (E5) and the Testimony of the Managing Director (E6) will demonstrate that despite claims of verbal approval, there was no genuine authorization for these payments. The Managing Director explicitly stated that no approval was granted for payments to RV Business Solutions and that he first learned of the firm during the audit, contradicting Rajesh Verma's claims of authorization.
+
+Furthermore, the Police Investigation Report (E9) details the thorough investigation conducted, which included the seizure of accounting records and statements from company employees. This report will be crucial in establishing that the prosecution has thoroughly investigated all aspects of the case, leaving no reasonable doubt about Rajesh Verma's guilt.
+
+In conclusion, the evidence will unequivocally show that Rajesh Verma engaged in a deliberate and systematic scheme to misappropriate company funds for personal gain. The prosecution is confident that the cumulative effect of this evidence will prove, beyond reasonable doubt, that Rajesh Verma is guilty of the charges brought against him. We look forward to presenting our case in full and demonstrating the severity of the accused's actions.
+
+
+
+[Plaintiff]
+[Action] note_to_record: The prosecution underscores the importance of holding individuals in positions of trust accountable for their actions, particularly when such actions involve the misuse of company funds for personal gain.
+
+[Plaintiff]
+ok
+
+
+[Judge] [Memory] Retrieved: Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, State_Of_Haryana_vs_Naresh_Kumar_Bali_on_17_May_1994_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Baleshwar_Rai_And_Others_vs_The_State_Of_Bihar_on_26_April_1962_1.PDF, Art. 35, Art. 142, E1, E9, E3, E4, E2, 'The prosecution underscores th...'
+
+[Judge]
+I'll wait for the Plaintiff's opening statement.
+
+To confirm, the Plaintiff will provide a clear and concise overview of the prosecution's case, including the key evidence and arguments that will be presented during the trial. The Plaintiff may reference any relevant evidence, including E1, E2, E3, E4, E5, E6, and E9.
+
+Please proceed, Plaintiff. Present your opening statement and outline the prosecution's case against Rajesh Verma.
+
+If you're ready, you may begin now. 
+
+
+
+[Judge]
+[Action] get_evidence: E1, get_evidence: E3, get_evidence: E9
+
+[Judge] [Memory] Retrieved: 'E1: Employment Contract...', 'E3: Internal Audit Report...', 'E9: Police Investigation Repor...'
+
+[Judge]
+E1: Employment Contract
+E3: Internal Audit Report
+E9: Police Investigation Report
+
+
+[Defendant] [Memory] Retrieved: Birla_Corporation_Ltd_vs_Adventz_Investments_And_Holdings_Ltd_on_9_May_2019_1.PDF, Ram_Lal_Narang_Etc_Etc_vs_State_Of_Delhi_Admn_on_10_January_1979_1.PDF, Abhinandan_Jha_Ors_vs_Dinesh_Mishra_With_Connected_Appeal_on_17_April_1967_1.PDF, Manharibhai_Muljibhai_Kakadia_Anr_vs_Shaileshbhai_Mohanbhai_Patel_Ors_on_1_October_2012_1.PDF, Art. 142, Art. 355, E3, E9, E6, E1, E2
+
+[Defendant]
+It seems like you're referencing more evidence, but as the Plaintiff, it's essential to provide a clear and concise opening statement that outlines the prosecution's case against the accused, Rajesh Verma.
+
+Let's start again. As the Plaintiff, please provide your opening statement, and you may reference any relevant evidence, including E1, E3, E9, as well as the previously mentioned evidence (E2, E4, E5, and E6), to support your allegations.
+
+Please begin your statement by clearly outlining the key points of the prosecution's case, including the charges against Rajesh Verma, the evidence that will be presented, and the arguments that will be made to prove his guilt beyond a reasonable doubt.
+
+I'm ready when you are. Please proceed with your opening statement.
+
+
+[Judge] [Memory] Retrieved: Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Somnath_Sahu_vs_The_State_Of_Orissa_And_Ors_on_21_March_1969_1.PDF, Art. 35, Art. 361, E1, E5, E4, E2, E3
+
+[Judge]
+The case before us today is a serious one, involving allegations of criminal breach of trust, misappropriation of company funds, and falsification of financial records. The accused, Rajesh Verma, is charged with misappropriating ₹12,50,000 from his employer, Zenith Logistics Pvt. Ltd., by making unauthorized transfers to a consulting firm, RV Business Solutions, which the prosecution alleges was secretly controlled by the accused.
+
+The evidence will show that Rajesh Verma, as the Finance Manager of Zenith Logistics Pvt. Ltd., had the authority to process payments up to ₹5,00,000, but was required to follow strict documentation requirements, as outlined in his Employment Contract (E1). However, the Internal Audit Report (E3) will reveal that no invoices, work orders, or service agreements exist for the payments made to RV Business Solutions.
+
+Furthermore, the Bank Statement (E2) will demonstrate that five transfers totaling ₹12,50,000 were made from Zenith Logistics Pvt. Ltd. to RV Business Solutions between 2024-01-15 and 2024-04-20. The Registrar of Companies / Business Registration Records (E4) will show that Rajesh Verma's spouse is listed as the proprietor of RV Business Solutions, raising suspicions about the true nature of the transactions.
+
+The Email dated 2024-02-03 (E5) will be presented as evidence of Rajesh Verma's attempt to urgently process a payment to RV Business Solutions, claiming that management approval had already been obtained. However, the Testimony of the Managing Director (E6) will contradict this claim, stating that no approval was granted for the payments.
+
+The Police Investigation Report (E9) will provide details of the investigation that followed the discovery of the alleged misappropriation, including the seizure of accounting records and statements from company employees.
+
+Throughout this trial, the prosecution will argue that the accused, Rajesh Verma, dishonestly misappropriated company funds, falsified financial records, and breached the trust placed in him as a Finance Manager. We will demonstrate that the accused's actions were not only unauthorized but also motivated by a desire to enrich himself and his spouse.
+
+The prosecution is confident that the evidence presented will prove the accused's guilt beyond a reasonable doubt, and we look forward to presenting our case in full.
+
+Now, I would like to call the Defendant to present their opening statement. Defendant, you may proceed.
+
+
+[Defendant] [Memory] Retrieved: Sunil_Kumar_vs_State_Govt_Of_Nct_Of_Delhi_on_15_October_2003_1.PDF, State_Of_Nct_Of_Delhi_vs_Shiv_Charan_Bansal_on_5_December_2019_1.PDF, Purshottam_Chopra_vs_State_Govt_Of_Nct_Of_Delhi_on_7_January_2020_1.PDF, State_Of_Haryana_vs_Inder_Singh_And_Ors_on_29_January_2002_1.PDF, Art. 134, Art. 20, E9, E2, E3, E1, E4
+
+[Defendant]
+[Action] get_evidence: E1, get_evidence: E2, get_evidence: E3
+
+[Defendant] [Memory] Retrieved: 'E1: Employment Contract...', 'E2: Bank Statement...', 'E3: Internal Audit Report...'
+
+[Defendant]
+E1: Employment Contract
+E2: Bank Statement
+E3: Internal Audit Report
+
+
+[Judge] [Memory] Retrieved: Sunil_Kumar_vs_State_Govt_Of_Nct_Of_Delhi_on_15_October_2003_1.PDF, K_Prakashan_vs_P_K_Surenderan_on_10_October_2007_1.PDF, Bodh_Raj_Bodha_And_Ors_vs_State_Of_Jammu_And_Kashmir_on_3_September_2002_1.PDF, State_Of_Haryana_vs_Inder_Singh_And_Ors_on_29_January_2002_1.PDF, Art. 20, Art. 134, E2, E9, E4, E7, E3
+
+[Judge]
+Now that the Plaintiff has presented their opening statement, it's time for the Defendant to present their case.
+
+As the Judge, I will remind the Defendant that they should provide a clear and concise opening statement, outlining their defense against the allegations made by the Plaintiff. The Defendant may reference any relevant evidence, including E1, E2, E3, as well as any other evidence that may be relevant to their case.
+
+Defendant, you may now present your opening statement. Please proceed by clearly outlining the key points of your defense, including any arguments or evidence that you will present to contradict the Plaintiff's allegations.
+
+You may begin your statement now.
+
+Also, I would like to review the Employment Contract (E1), Bank Statement (E2), and Internal Audit Report (E3) to understand the context of the case.
+
+
+
+[Judge]
+[Action] get_evidence: E1
+
+[Judge] [Memory] Retrieved: 'E1: Employment Contract...'
+
+[Judge]
+E1: Employment Contract
+
+
+[Plaintiff] [Memory] Retrieved: Santosh_Kumar_Singh_vs_State_Th_Cbi_on_6_October_2010_1.PDF, M_Venugopal_vs_The_Divisional_Manager_Life_Insurance_on_31_January_1994_1.PDF, M_Venugopal_vs_Divisional_Manager_on_31_January_1994_1.PDF, Dinesh_Chandra_Sangma_vs_State_Of_Assam_Ors_on_5_October_1977_1.PDF, Art. 6, Art. 134, E9, E2, E1, E3, E4
+
+[Plaintiff]
+As the Plaintiff, I have completed my opening statement, which outlines the prosecution's case against the accused, Rajesh Verma. The evidence presented, including the Employment Contract (E1), Bank Statement (E2), Internal Audit Report (E3), Registrar of Companies / Business Registration Records (E4), Email dated 2024-02-03 (E5), Testimony of the Managing Director (E6), and Police Investigation Report (E9), will demonstrate that the accused dishonestly misappropriated company funds, falsified financial records, and breached the trust placed in him as a Finance Manager. 
+
+I have fulfilled my obligation to provide a clear and concise opening statement, and I am ready for the Defendant to present their opening statement. 
+
+
+
+[Plaintiff]
+[Action] note_to_record: The prosecution has presented a comprehensive opening statement, highlighting the key evidence and arguments that will be used to prove the accused's guilt beyond a reasonable doubt.
+
+[Plaintiff]
+ok
+
+
+[Judge] [Memory] Retrieved: Indian_Oil_Corporation_vs_Income_Tax_Officer_Central_Circle_V_on_8_May_1986_1.PDF, Samaj_Parivartana_Samudaya_Ors_vs_State_Of_Karnataka_Ors_on_11_May_2012_1.PDF, Raja_Narayanlal_Bansilal_vs_Maneck_Phiroz_Mistry_And_Another_on_31_August_1960_1.PDF, Sterling_General_Insurance_Co_Ltd_vs_Planters_Airways_Pvt_Ltd_on_19_December_1974_1.PDF, Art. 143, Art. 323, E3, E9, E4, E5, E7, 'The prosecution has presented ...'
+
+[Judge]
+[Action] get_evidence: E2, get_evidence: E3
+
+[Judge] [Memory] Retrieved: 'E2: Bank Statement...', 'E3: Internal Audit Report...'
+
+[Judge]
+E2: Bank Statement
+E3: Internal Audit Report
+
+
+[Defendant] [Memory] Retrieved: Birla_Corporation_Ltd_vs_Adventz_Investments_And_Holdings_Ltd_on_9_May_2019_1.PDF, Cbi_Hyderabad_vs_Subramani_Gopalakrishnan_And_Anr_on_21_April_2011_1.PDF, S_L_Sachdev_Anr_vs_Union_Of_India_Ors_on_28_October_1980_1.PDF, S_L_Sachdev_Anr_vs_Union_Of_India_Ors_on_28_October_1980_1.PDF, Art. 355, Art. 151, E3, E9, E8, E6, E1
+
+[Defendant]
+[Action] get_evidence: E5, get_evidence: E6, note_to_record: The prosecution's opening statement has been noted.
+
+[Defendant] [Memory] Retrieved: 'E5: Email dated 2024-02-03...', 'E6: Testimony of Managing Dire...'
+
+[Defendant]
+E5: Email dated 2024-02-03
+E6: Testimony of Managing Director
+ok
+
+
+[Judge] [Memory] Retrieved: Narender_Kumar_vs_State_N_C_T_Of_Delhi_on_25_May_2012_1.PDF, Krishnegowda_Ors_vs_State_Of_Karnataka_By_Arkalgud_Police_on_28_March_2017_1.PDF, Vijayee_Singh_And_Ors_vs_State_Of_Uttar_Pradesh_on_20_April_1990_1.PDF, Sakharam_vs_State_Of_Madhya_Pradesh_on_12_February_1992_1.PDF, Art. 20, Art. 134, E9, E2, E6, E5, E1, 'The prosecution's opening stat...'
+
+[Judge]
+Now that the Plaintiff has presented their opening statement and referenced various pieces of evidence, it's time for the Defendant to present their opening statement.
+
+Defendant, please proceed with your opening statement. You may reference any relevant evidence, including E5, the Email dated 2024-02-03, and E6, the Testimony of the Managing Director, as well as any other evidence you deem relevant to your case.
+
+Please outline the key points of your defense, including any arguments you will make to challenge the prosecution's allegations and any evidence you will present to support your claim of innocence.
+
+I'm ready when you are. Please begin your opening statement.
+
+
+[Defendant] [Memory] Retrieved: Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, State_Of_Haryana_vs_Naresh_Kumar_Bali_on_17_May_1994_1.PDF, Art. 35, Art. 21, E1, E5, E4, E2, E3
+
+[Defendant]
+The defense intends to demonstrate that the accused, Rajesh Verma, acted in good faith and with proper authorization in making the payments to RV Business Solutions. We will show that the Email dated 2024-02-03 (E5) was a genuine attempt to process a payment for legitimate business services, and that the Testimony of the Managing Director (E6) is inconsistent with the WhatsApp Chat dated 2024-01-14, which indicates that the Managing Director had knowledge of and approved the engagement of consultants for vendor optimization.
+
+The defense will also present the Tax Invoice (E8) as evidence of the legitimate services provided by RV Business Solutions, and argue that the prosecution's reliance on the Registrar of Companies / Business Registration Records (E4) is misplaced, as it does not necessarily establish that Rajesh Verma controlled RV Business Solutions.
+
+Furthermore, the defense will challenge the prosecution's allegations of falsification of financial records, arguing that the Internal Audit Report (E3) is incomplete and fails to account for all relevant transactions.
+
+The defense is confident that, upon careful examination of the evidence, it will become clear that Rajesh Verma acted with proper authorization and in the best interests of the company, and that the prosecution's allegations are unfounded.
+
+
+
+[Defendant]
+[Action] get_evidence: E7, note_to_record: The defense's opening statement has been noted.
+
+[Defendant] [Memory] Retrieved: 'E7: WhatsApp Chat dated 2024-0...'
+
+[Defendant]
+E7: WhatsApp Chat dated 2024-01-14
+ok
+
+
+[Judge] [Memory] Retrieved: Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Art. 35, Art. 236, E5, E7, E1, E2, E3, 'The defense's opening statemen...'
+
+[Judge]
+[Action] get_evidence: E7
+
+[Judge] [Memory] Retrieved: 'E7: WhatsApp Chat dated 2024-0...'
+
+[Judge]
+E7: WhatsApp Chat dated 2024-01-14
+
+
+[Plaintiff] [Memory] Retrieved: A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Sandeep_vs_State_Of_Uttarakhand_on_14_October_2024_1.PDF, Bharti_Arora_vs_The_State_Of_Haryana_on_13_December_2024_1.PDF, Navin_Kumar_Rai_vs_Surendra_Singh_on_14_February_2024_1.PDF, Art. 136, Art. 14, E7, E5, E1, E2, E3
+
+
+[Judge] [Memory] Retrieved: S_P_Gramophone_Company_vs_C_I_T_Patiala_on_29_January_1986_1.PDF, Ram_Singh_vs_Sonia_Ors_on_15_February_2007_1.PDF, M_S_Stanzen_Toyotetsu_India_P_Ltd_vs_Girish_V_Ors_on_21_January_2014_1.PDF, S_P_Gramophone_Company_vs_C_I_T_Patiala_on_29_January_1986_1.PDF, Art. 289, Art. 22, E8, E4, E2, E9, E1
+
+[Judge]
+Now that the Defendant has presented their opening statement and referenced the WhatsApp Chat dated 2024-01-14 (E7), I would like to proceed with the next stage of the trial.
+
+As the Judge, I will now ask questions to both the Plaintiff and the Defendant to clarify certain points and to seek additional information.
+
+Plaintiff, can you please explain why the Employment Contract (E1) granted Rajesh Verma the authority to process payments up to ₹5,00,000, and how this relates to the alleged misappropriation of ₹12,50,000?
+
+
+[Plaintiff] [Memory] Retrieved: Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, Kailash_vs_State_Of_M_P_on_29_September_2006_1.PDF, Industrial_Finance_Corporation_Of_vs_Thletdc_An_Naonrosr_E_Spinning_on_12_April_2002_1.PDF, Prakash_Chandra_vs_Narayan_on_23_April_2012_1.PDF, Art. 35, Art. 263, E2, E5, E7, E1, E3
+
+[Plaintiff]
+[Action] get_evidence: E8, get_evidence: E2
+
+[Plaintiff] [Memory] Retrieved: 'E8: Tax Invoice...', 'E2: Bank Statement...'
+
+[Plaintiff]
+E8: Tax Invoice
+E2: Bank Statement
+
+
+[Judge] [Memory] Retrieved: Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, Kailash_vs_State_Of_M_P_on_29_September_2006_1.PDF, Industrial_Finance_Corporation_Of_vs_Thletdc_An_Naonrosr_E_Spinning_on_12_April_2002_1.PDF, Prakash_Chandra_vs_Narayan_on_23_April_2012_1.PDF, Art. 371, Art. 263, E2, E5, E7, E1, E3
+
+[Judge]
+[Action] get_evidence: E8, get_evidence: E2
+
+[Judge] [Memory] Retrieved: 'E8: Tax Invoice...', 'E2: Bank Statement...'
+
+[Judge]
+E8: Tax Invoice
+E2: Bank Statement
+
+
+[Defendant] [Memory] Retrieved: Commissioner_Of_Income_Tax_Madras_vs_Indian_Bank_Lid_on_26_October_1964_1.PDF, The_Commissioner_Of_Income_Tax_Madras_vs_Mysore_Chromite_Limited_on_1_November_1954_1.PDF, Southern_Motors_vs_State_Of_Karnataka_Ors_on_18_January_2017_1.PDF, Southern_Motors_vs_State_Of_Karnataka_Ors_on_18_January_2017_1.PDF, Art. 366, Art. 199, E8, E2, E4, E1, E3
+
+[Defendant]
+The Plaintiff has referenced the Tax Invoice (E8) and the Bank Statement (E2). The Tax Invoice appears to be a document submitted by the defense, showing consultancy services worth ₹4,00,000 allegedly provided by RV Business Solutions. The Bank Statement, on the other hand, shows the five transfers totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions.
+
+Now, I would like to ask the Defendant to respond to the Plaintiff's claims. Defendant, can you please explain the nature of the consultancy services provided by RV Business Solutions, as evident from the Tax Invoice (E8), and how these services relate to the transfers made to RV Business Solutions, as shown in the Bank Statement (E2)? 
+
+Please proceed with your response. 
+
+
+
+[Defendant]
+[Action] get_evidence: E4, note_to_record: The Defendant's response has been noted.
+
+[Defendant] [Memory] Retrieved: 'E4: Registrar of Companies / B...'
+
+[Defendant]
+E4: Registrar of Companies / Business Registration Records
+ok
+
+
+[Judge] [Memory] Retrieved: A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Manish_Sisodia_vs_Central_Bureau_Of_Investigation_on_30_October_2023_1.PDF, Manish_Sisodia_vs_Central_Bureau_Of_Investigation_on_30_October_2023_1.PDF, Art. 236, Art. 35, E5, E7, E9, E2, E3, 'The Defendant's response has b...'
+
+[Judge]
+[Action] get_evidence: E4
+
+[Judge] [Memory] Retrieved: 'E4: Registrar of Companies / B...'
+
+[Judge]
+E4: Registrar of Companies / Business Registration Records
+
+
+[Plaintiff] [Memory] Retrieved: Secretary_Finance_Department_And_Ors_vs_West_Bengal_Registration_Service_on_20_February_1992_1.PDF, Secretary_Finance_Department_And_Ors_vs_West_Bengal_Registration_Service_on_20_February_1992_1.PDF, Registrar_Of_Companies_vs_Rajshree_Sugar_Chemicals_Ltd_Ors_on_11_May_2000_1.PDF, Registrar_Of_Companies_vs_Rajshree_Sugar_Chemicals_Ltd_Ors_on_11_May_2000_1.PDF, Art. 27, Art. 236, E4, E5, E7, E1, E2
+
+[Plaintiff]
+[Action] get_evidence: E1, get_evidence: E8
+
+[Plaintiff] [Memory] Retrieved: 'E1: Employment Contract...', 'E8: Tax Invoice...'
+
+[Plaintiff]
+E1: Employment Contract
+E8: Tax Invoice
+
+
+[Judge] [Memory] Retrieved: Commissioner_Of_Income_Tax_New_Delhi_vs_Rao_Thakur_Narayan_Singh_on_30_October_1964_1.PDF, Pravin_Electricals_Pvt_Ltd_vs_Galaxy_Infra_And_Engineering_Pvt_Ltd_on_8_March_2021_1.PDF, S_P_Gramophone_Company_vs_C_I_T_Patiala_on_29_January_1986_1.PDF, Amrit_Lal_Goverdhan_Lalan_vs_State_Bank_Of_Travancore_Ors_on_11_April_1968_1.PDF, Art. 289, Art. 366, E8, E5, E4, E1, E7
+
+[Judge]
+[Action] get_evidence: E1, get_evidence: E8
+
+[Judge] [Memory] Retrieved: 'E1: Employment Contract...', 'E8: Tax Invoice...'
+
+[Judge]
+E1: Employment Contract
+E8: Tax Invoice
+
+
+[Defendant] [Memory] Retrieved: Piloo_Dhunjishaw_Sidhwa_vs_Municipal_Corporation_Of_The_City_Of_on_15_January_1970_1.PDF, Mahabir_Commercial_Co_Ltd_vs_C_I_T_West_Bengal_Calcutta_on_8_September_1972_1.PDF, Piloo_Dhunjishaw_Sidhwa_vs_Municipal_Corporation_Of_The_City_Of_on_15_January_1970_1.PDF, V_D_Talwar_Dead_And_After_Him_His_vs_The_Commissioner_Of_Income_Tax_Bihar_on_26_March_1963_1.PDF, Art. 299, Art. 286, E1, E8, E2, E4, E3
+
+[Defendant]
+[Action] get_evidence: E1, get_evidence: E8
+
+[Defendant] [Memory] Retrieved: 'E1: Employment Contract...', 'E8: Tax Invoice...'
+
+[Defendant]
+E1: Employment Contract
+E8: Tax Invoice
+
+
+[Judge] [Memory] Retrieved: Pravin_Electricals_Pvt_Ltd_vs_Galaxy_Infra_And_Engineering_Pvt_Ltd_on_8_March_2021_1.PDF, Ameet_Lalchand_Shah_vs_Rishabh_Enterprises_on_3_May_2018_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Art. 286, Art. 346, E5, E8, E1, E7, E4
+
+[Judge]
+Defendant, you have presented the Tax Invoice (E8) as evidence of legitimate business services provided by RV Business Solutions. However, the Registrar of Companies / Business Registration Records (E4) shows that your spouse is listed as the proprietor of RV Business Solutions.
+
+Can you explain the nature of the relationship between RV Business Solutions and Zenith Logistics Pvt. Ltd., and how you ensured that the transactions between the two companies were arm's length and compliant with the terms of your Employment Contract (E1)?
+
+Please respond to this question, and then I will ask the Plaintiff to rebut your argument.
+
+
+[Defendant] [Memory] Retrieved: Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Indian_Oil_Corporation_Ltd_vs_Niloufer_Siddiqui_Ors_on_1_December_2015_1.PDF, Mazagaon_Dock_Ltd_vs_The_Commissioner_Of_Income_Tax_And_on_12_May_1958_1.PDF, Art. 289, Art. 366, E8, E4, E2, E1, E3
+
+[Defendant]
+The relationship between RV Business Solutions and Zenith Logistics Pvt. Ltd. is a legitimate business arrangement, where RV Business Solutions provided consulting services to Zenith Logistics Pvt. Ltd. The Tax Invoice (E8) clearly shows that RV Business Solutions provided services worth ₹4,00,000 to Zenith Logistics Pvt. Ltd.
+
+Regarding the ownership of RV Business Solutions, I would like to clarify that my spouse is indeed the proprietor of the company. However, this does not necessarily mean that the transactions between RV Business Solutions and Zenith Logistics Pvt. Ltd. were not arm's length. As the Finance Manager of Zenith Logistics Pvt. Ltd., I ensured that all transactions with RV Business Solutions were conducted in a transparent and professional manner, with all necessary documentation and approvals in place.
+
+In fact, the WhatsApp Chat dated 2024-01-14 (E7) shows that the Managing Director of Zenith Logistics Pvt. Ltd. had authorized me to engage outside help for vendor optimization, which is precisely the service that RV Business Solutions provided. This clearly demonstrates that the transactions between the two companies were legitimate and approved by the management of Zenith Logistics Pvt. Ltd.
+
+I would like to request that the court consider the WhatsApp Chat (E7) and the Tax Invoice (E8) as evidence of the legitimate business relationship between RV Business Solutions and Zenith Logistics Pvt. Ltd.
+
+
+
+[Defendant]
+[Action] get_evidence: E7, get_evidence: E8
+
+[Defendant] [Memory] Retrieved: 'E7: WhatsApp Chat dated 2024-0...', 'E8: Tax Invoice...'
+
+[Defendant]
+E7: WhatsApp Chat dated 2024-01-14
+E8: Tax Invoice
+
+
+[Judge] [Memory] Retrieved: Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Indian_Oil_Corporation_Ltd_vs_Niloufer_Siddiqui_Ors_on_1_December_2015_1.PDF, United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Syndicate_Bank_Ors_vs_Venkatesh_Gururao_Kurati_on_31_January_2006_1.PDF, Art. 289, Art. 366, E8, E4, E1, E2, E3
+
+[Judge]
+[Action] get_evidence: E7, get_evidence: E8
+
+[Judge] [Memory] Retrieved: 'E7: WhatsApp Chat dated 2024-0...', 'E8: Tax Invoice...'
+
+[Judge]
+E7: WhatsApp Chat dated 2024-01-14
+E8: Tax Invoice
+
+
+[Plaintiff] [Memory] Retrieved: Indian_Tube_Co_P_Ltd_vs_Commissioner_Of_Income_Tax_Calcutta_on_14_January_1992_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Sandeep_vs_State_Of_Uttarakhand_on_14_October_2024_1.PDF, Sumeti_Vij_vs_M_S_Paramount_Tech_Fab_Industries_on_9_March_2021_1.PDF, Art. 366, Art. 14, E8, E7, E5, E4, E1
+
+[Plaintiff]
+[Action] note_to_record: The defense argues that the WhatsApp Chat dated 2024-01-14 (E7) and the Tax Invoice (E8) demonstrate the legitimate business relationship between RV Business Solutions and Zenith Logistics Pvt. Ltd., and that the transactions were authorized and compliant with the terms of the Employment Contract (E1).
+
+[Plaintiff]
+ok
+
+
+[Judge] [Memory] Retrieved: Santosh_Kumar_Singh_vs_State_Th_Cbi_on_6_October_2010_1.PDF, Cbi_Hyderabad_vs_Subramani_Gopalakrishnan_And_Anr_on_21_April_2011_1.PDF, Indian_And_Eastern_Newspaper_Society_vs_Commissioner_Of_Income_Tax_New_Delhi_on_31_August_1979_1.PDF, Indian_Oil_Corporation_vs_Income_Tax_Officer_Central_Circle_V_on_8_May_1986_1.PDF, Art. 355, Art. 151, E3, E9, E8, E1, E2, 'The defense argues that the Wh...'
+
+[Judge]
+Defendant, you have presented the WhatsApp Chat dated 2024-01-14 (E7) as evidence of authorization to engage consultants, and the Tax Invoice (E8) as evidence of legitimate business services provided by RV Business Solutions.
+
+Now, I would like to hear the Plaintiff's rebuttal to your argument. Plaintiff, please respond to the Defendant's claims and explain why you believe the WhatsApp Chat and Tax Invoice do not justify the transactions between Zenith Logistics Pvt. Ltd. and RV Business Solutions.
+
+Please proceed with your rebuttal.
+
+
+[Plaintiff] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Mr_B_S_N_Joshi_Sons_Ltd_vs_Nair_Coal_Services_Ltd_Ors_on_31_October_2006_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Art. 35, Art. 312, E5, E7, E4, E1, E2
+
+[Plaintiff]
+[Action] get_evidence: E3, get_evidence: E9
+
+[Plaintiff] [Memory] Retrieved: 'E3: Internal Audit Report...', 'E9: Police Investigation Repor...'
+
+[Plaintiff]
+E3: Internal Audit Report
+E9: Police Investigation Report
+
+
+[Judge] [Memory] Retrieved: Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Syndicate_Bank_Ors_vs_Venkatesh_Gururao_Kurati_on_31_January_2006_1.PDF, Indian_Oil_Corporation_Ltd_vs_Niloufer_Siddiqui_Ors_on_1_December_2015_1.PDF, United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Art. 35, Art. 142, E2, E1, E9, E3, E4
+
+[Judge]
+[Action] get_evidence: E3, get_evidence: E9
+
+[Judge] [Memory] Retrieved: 'E3: Internal Audit Report...', 'E9: Police Investigation Repor...'
+
+[Judge]
+E3: Internal Audit Report
+E9: Police Investigation Report
+
+
+[Defendant] [Memory] Retrieved: Birla_Corporation_Ltd_vs_Adventz_Investments_And_Holdings_Ltd_on_9_May_2019_1.PDF, Ram_Lal_Narang_Etc_Etc_vs_State_Of_Delhi_Admn_on_10_January_1979_1.PDF, Abhinandan_Jha_Ors_vs_Dinesh_Mishra_With_Connected_Appeal_on_17_April_1967_1.PDF, Manharibhai_Muljibhai_Kakadia_Anr_vs_Shaileshbhai_Mohanbhai_Patel_Ors_on_1_October_2012_1.PDF, Art. 142, Art. 355, E3, E9, E6, E1, E2
+
+[Defendant]
+[Action] get_evidence: E3, get_evidence: E9, note_to_record: The Plaintiff's rebuttal has been noted.
+
+[Defendant] [Memory] Retrieved: 'E3: Internal Audit Report...', 'E9: Police Investigation Repor...'
+
+[Defendant]
+E3: Internal Audit Report
+E9: Police Investigation Report
+ok
+
+
+[Judge] [Memory] Retrieved: Indian_Oil_Corporation_vs_Income_Tax_Officer_Central_Circle_V_on_8_May_1986_1.PDF, Birla_Corporation_Ltd_vs_Adventz_Investments_And_Holdings_Ltd_on_9_May_2019_1.PDF, Indian_And_Eastern_Newspaper_Society_vs_Commissioner_Of_Income_Tax_New_Delhi_on_31_August_1979_1.PDF, Sterling_General_Insurance_Co_Ltd_vs_Planters_Airways_Pvt_Ltd_on_19_December_1974_1.PDF, Art. 371, Art. 323, E3, E9, E4, E8, E6, 'The Plaintiff's rebuttal has b...'
+
+[Judge]
+Now that both parties have presented their arguments and evidence, I will proceed with the closing statements.
+
+Plaintiff, please present your closing statement, summarizing the key points of your case and explaining why you believe the accused, Rajesh Verma, is guilty of the charges brought against him.
+
+Please be concise and focused in your statement, and make sure to address any relevant evidence and arguments presented by the Defendant.
+
+I'm ready when you are. Please proceed with your closing statement.
+
+
+[Plaintiff] [Memory] Retrieved: Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Pritam_Singh_vs_Union_Of_India_Ors_on_22_September_2004_1.PDF, Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Art. 35, Art. 142, E1, E9, E3, E4, E2
+
+[Plaintiff]
+[Action] note_to_record: The prosecution rests its case, confident that the evidence presented has proven the accused's guilt beyond a reasonable doubt, and that justice will be served with a guilty verdict.
+
+[Plaintiff]
+ok
+
+
+[Judge] [Memory] Retrieved: Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Pritam_Singh_vs_Union_Of_India_Ors_on_22_September_2004_1.PDF, Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Art. 35, Art. 142, E1, E9, E3, E4, E2, 'The prosecution rests its case...'
+
+[Judge]
+Now that the Plaintiff has presented their closing statement, I will invite the Defendant to present their closing statement.
+
+Defendant, please summarize the key points of your defense, explaining why you believe you are not guilty of the charges brought against you. Be sure to address any relevant evidence and arguments presented by the Plaintiff, and provide a clear and concise summary of your case.
+
+Please proceed with your closing statement.
+
+After the Defendant's closing statement, I will proceed with the final opinion and verdict.
+
+
+[Defendant] [Memory] Retrieved: Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Meesala_Ramakrishan_vs_State_Of_A_P_on_13_April_1994_1.PDF, Pritam_Singh_vs_Union_Of_India_Ors_on_22_September_2004_1.PDF, Art. 35, Art. 142, E1, E9, E3, E4, E2
+
+[Defendant]
+[Action] note_to_record: The Defendant's closing statement has been noted.
+
+[Defendant]
+ok
+
+
+[Judge] [Memory] Retrieved: Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Meesala_Ramakrishan_vs_State_Of_A_P_on_13_April_1994_1.PDF, Pritam_Singh_vs_Union_Of_India_Ors_on_22_September_2004_1.PDF, Art. 35, Art. 142, E1, E9, E3, E4, E2, 'The Defendant's closing statem...'
+
+[Judge]
+=== VERDICT ===
+
+Based on the evidence and arguments presented, I find the accused, Rajesh Verma, guilty of criminal breach of trust, misappropriation of company funds, and falsification of financial records.
+
+=== FINDINGS OF FACT ===
+
+The court finds that Rajesh Verma, as the Finance Manager of Zenith Logistics Pvt. Ltd., misappropriated ₹12,50,000 from the company by making unauthorized transfers to RV Business Solutions, a company controlled by his spouse. The court also finds that Rajesh Verma falsified financial records to conceal the unauthorized transfers and breached the trust placed in him as a Finance Manager.
+
+=== CONCLUSIONS OF LAW ===
+
+The court concludes that the accused, Rajesh Verma, has committed the offenses of criminal breach of trust, misappropriation of company funds, and falsification of financial records, as defined under the Indian Penal Code.
+
+=== ORDER / REMEDY ===
+
+The court orders the accused, Rajesh Verma, to pay a fine of ₹5,00,000 and to reimburse Zenith Logistics Pvt. Ltd. the amount of ₹12,50,000 misappropriated by him. The court also orders the accused to undergo imprisonment for a period of 2 years.
+
+=== FULL WRITTEN OPINION ===
+
+The court's decision is based on the evidence presented, including the Employment Contract (E1), Bank Statement (E2), Internal Audit Report (E3), Registrar of Companies / Business Registration Records (E4), Email dated 2024-02-03 (E5), Testimony of Managing Director (E6), WhatsApp Chat dated 2024-01-14 (E7), Tax Invoice (E8), and Police Investigation Report (E9). The court has carefully considered the arguments presented by both parties and has found the accused guilty of the charges brought against him.
+
+TERMINATE

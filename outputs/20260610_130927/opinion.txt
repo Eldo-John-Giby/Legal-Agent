@@ -1,0 +1,33 @@
+=== VERDICT ===
+
+After careful consideration of the evidence presented and the arguments made by both the prosecution and the defense, I find the accused, Rajesh Verma, guilty of criminal breach of trust.
+
+The prosecution has presented a compelling case, demonstrating that the accused misappropriated ₹12,50,000 from Zenith Logistics Pvt. Ltd. through unauthorized transactions to RV Business Solutions, a company controlled by his spouse. The evidence, including bank statements (E2), internal audit reports (E3), and company registration records (E4), clearly shows that these transactions were not legitimate business expenses, but rather a dishonest misappropriation of company funds.
+
+While the defense has raised some inconsistencies in the prosecution's case, I find that the prosecution has met its burden of proving the accused's guilt beyond a reasonable doubt. The WhatsApp chat (E7) and tax invoice (E8) presented by the defense are insufficient to establish that the payments were authorized or legitimate, and the defense's explanation for the discrepancies in the Managing Director's testimony is unconvincing.
+
+=== FINDINGS OF FACT ===
+
+1. The accused, Rajesh Verma, was the Finance Manager of Zenith Logistics Pvt. Ltd. and had the authority to process payments up to ₹5,00,000.
+2. The accused made multiple transactions totaling ₹12,50,000 to RV Business Solutions, a company controlled by his spouse, without proper authorization or documentation.
+3. The Managing Director of Zenith Logistics Pvt. Ltd. did not grant approval for these transactions, contrary to the accused's claims.
+4. The email dated 2024-02-03 (E5) was a fabricated attempt to legitimize the unauthorized transactions.
+
+=== CONCLUSIONS OF LAW ===
+
+1. The accused, Rajesh Verma, has committed a criminal breach of trust under Section 405 of the Indian Penal Code.
+2. The prosecution has met its burden of proving the accused's guilt beyond a reasonable doubt.
+
+=== ORDER / REMEDY ===
+
+I hereby sentence the accused, Rajesh Verma, to a term of imprisonment for a period of 3 years and order him to pay a fine of ₹1,00,000. I also order the accused to repay the misappropriated amount of ₹12,50,000 to Zenith Logistics Pvt. Ltd.
+
+=== FULL WRITTEN OPINION ===
+
+The court's decision is based on a careful evaluation of the evidence presented and the arguments made by both parties. The prosecution's case has demonstrated a clear breach of trust by the accused, and the defense's arguments have been insufficient to raise a reasonable doubt.
+
+The court has considered the relevant legal precedents, including the case of Bhagwati Prasad vs. Shri Chandramaul, which establishes that the substance of the pleadings and evidence should be considered, not just their form.
+
+In conclusion, the evidence and arguments presented have led the court to conclude that the accused, Rajesh Verma, is guilty of criminal breach of trust.
+
+TERMINATE

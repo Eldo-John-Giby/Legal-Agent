@@ -450,11 +450,28 @@ class WeaviateEvidenceStore(EvidenceStore):
                 return []
             out: List[EvidenceItem] = []
             for h in hits:
-                evid = h.get("evidence_id")
-                text = h.get("text")
-                if evid and text:
-                    out.append(EvidenceItem(evidence_id=evid, text=text))
+                # Handle SC_Precedents class mapping
+                if self.class_name == "SC_Precedents":
+                    evid = h.get("case_name", "UNKNOWN")
+                    text = h.get("headnote_chunk", "")
+                    if text:
+                        out.append(EvidenceItem(evidence_id=evid, text=text))
+                else:
+                    evid = h.get("evidence_id")
+                    text = h.get("text")
+                    if evid and text:
+                        out.append(EvidenceItem(evidence_id=evid, text=text))
             return out
+
+        # For SC_Precedents, we don't filter by case_id
+        where_clause = ""
+        if self.class_name != "SC_Precedents":
+            where_clause = f'where: {{path: ["case_id"], operator: Equal, valueText: {json.dumps(case_id)}}}'
+
+        # Map fields for SC_Precedents
+        fields = "evidence_id text"
+        if self.class_name == "SC_Precedents":
+            fields = "case_name headnote_chunk"
 
         # Try semantic search first; fall back to BM25 for non-vectorized Weaviate.
         gql_near = {
@@ -462,21 +479,21 @@ class WeaviateEvidenceStore(EvidenceStore):
             {
               Get {
                 %s(
-                  where: {path: [\"case_id\"], operator: Equal, valueText: %s}
+                  %s
                   nearText: {concepts: [%s]}
                   limit: %d
                 ) {
-                  evidence_id
-                  text
+                  %s
                 }
               }
             }
             """
             % (
                 self.class_name,
-                json.dumps(case_id),
+                where_clause,
                 json.dumps(query),
                 int(k),
+                fields,
             )
         }
 
@@ -488,21 +505,21 @@ class WeaviateEvidenceStore(EvidenceStore):
                 {
                   Get {
                     %s(
-                      where: {path: [\"case_id\"], operator: Equal, valueText: %s}
+                      %s
                       bm25: {query: %s}
                       limit: %d
                     ) {
-                      evidence_id
-                      text
+                      %s
                     }
                   }
                 }
                 """
                 % (
                     self.class_name,
-                    json.dumps(case_id),
+                    where_clause,
                     json.dumps(query),
                     int(k),
+                    fields,
                 )
             }
             try:

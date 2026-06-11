@@ -1,0 +1,32 @@
+=== VERDICT ===
+
+After careful consideration of the evidence and arguments presented by both parties, I find the accused, Rajesh Verma, guilty of misappropriating company funds and falsifying financial records.
+
+The evidence, including the Bank Statement (E2) and the Internal Audit Report (E3), clearly establishes that ₹12,50,000 was transferred to RV Business Solutions without proper authorization or documentation. The Registrar of Companies / Business Registration Records (E4) reveals that Rajesh Verma's spouse is the proprietor of RV Business Solutions, creating a clear conflict of interest.
+
+The defense's claim of verbal confirmation from the Managing Director is contradicted by the Managing Director's own testimony (E6), which states that no approval was given for payments to RV Business Solutions. The WhatsApp chat (E7) does not provide sufficient authorization for the payments, and the tax invoice (E8) submitted by the defense is insufficient to prove that the payments were for legitimate business purposes.
+
+=== FINDINGS OF FACT ===
+
+1. Rajesh Verma made unauthorized payments to RV Business Solutions, totaling ₹12,50,000.
+2. Rajesh Verma's spouse is the proprietor of RV Business Solutions, creating a conflict of interest.
+3. The Managing Director did not give approval for the payments to RV Business Solutions.
+4. The defense failed to provide sufficient evidence to prove that the payments were for legitimate business purposes.
+
+=== CONCLUSIONS OF LAW ===
+
+Based on the findings of fact, I conclude that Rajesh Verma has committed the offenses of misappropriation of company funds and falsification of financial records. The prosecution has proved beyond a reasonable doubt that Rajesh Verma had the requisite intent to commit the alleged offenses.
+
+=== ORDER / REMEDY ===
+
+I hereby sentence Rajesh Verma to imprisonment for a period of 5 years and order him to pay a fine of ₹50,000. Additionally, I order Rajesh Verma to repay the misappropriated amount of ₹12,50,000 to Zenith Logistics Pvt. Ltd.
+
+=== FULL WRITTEN OPINION ===
+
+The court's decision is based on a thorough analysis of the evidence and arguments presented by both parties. The prosecution has presented a strong case, with evidence that clearly establishes the accused's guilt. The defense's arguments have been carefully considered, but ultimately, the court finds that they are insufficient to rebut the prosecution's evidence.
+
+The court notes that the defense's reliance on the WhatsApp chat (E7) as evidence of authorization is misplaced, as it does not provide sufficient evidence to prove that the payments were authorized. Similarly, the tax invoice (E8) submitted by the defense is insufficient to prove that the payments were for legitimate business purposes.
+
+In conclusion, the court finds that the accused, Rajesh Verma, is guilty of misappropriating company funds and falsifying financial records. The court's decision is based on a thorough analysis of the evidence and arguments presented by both parties, and the court is confident that justice has been served.
+
+TERMINATE

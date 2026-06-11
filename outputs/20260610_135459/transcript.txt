@@ -1,0 +1,670 @@
+[user]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: State of Maharashtra v. Rajesh Verma
+JURISDICTION: India – Criminal Trial (Indian Penal Code, 1860 / Bharatiya Nyaya Sanhita equivalent may be assumed)
+
+PARTIES:
+
+PROSECUTION: State of Maharashtra
+ACCUSED: Rajesh Verma
+
+CHARGES (PROSECUTION):
+
+Criminal breach of trust by employee.
+Misappropriation of company funds amounting to ₹12,50,000.
+Falsification of financial records to conceal unauthorized transfers.
+
+DEFENSES (ACCUSED):
+
+Authorized transactions: Transfers were approved verbally by senior management.
+Lack of intent: No dishonest intention to cause wrongful loss.
+Investigation defects: Police failed to collect complete accounting records and ignored exculpatory evidence.
+
+FACTS:
+
+Rajesh Verma worked as Finance Manager at Zenith Logistics Pvt. Ltd.
+Between January and April 2024, multiple transfers totaling ₹12,50,000 were made from the company account to a consulting firm called "RV Business Solutions."
+The prosecution alleges that RV Business Solutions was secretly controlled by Rajesh Verma.
+An internal audit discovered the transfers and filed a police complaint.
+Rajesh claims the consulting firm provided legitimate business services and that management was aware of the payments.
+
+EVIDENCE:
+
+E1: Employment Contract
+
+Rajesh Verma appointed Finance Manager with authority to process payments up to ₹5,00,000 subject to documentation requirements.
+
+E2: Bank Statement
+
+Shows five transfers totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions between 2024-01-15 and 2024-04-20.
+
+E3: Internal Audit Report
+
+Concludes no invoices, work orders, or service agreements exist for payments made to RV Business Solutions.
+
+E4: Registrar of Companies / Business Registration Records
+
+Lists Rajesh Verma's spouse as proprietor of RV Business Solutions.
+
+E5: Email dated 2024-02-03
+
+Rajesh to Accounts Team: "Process payment urgently. Management approval already obtained."
+
+E6: Testimony of Managing Director
+
+States no approval was granted for payments to RV Business Solutions and that he first learned of the firm during the audit.
+
+E7: WhatsApp Chat dated 2024-01-14
+
+Managing Director to Rajesh: "We need outside help for vendor optimization. Please handle it."
+Defense argues this message demonstrates authorization to engage consultants.
+
+E8: Tax Invoice
+
+Submitted by defense, showing consultancy services worth ₹4,00,000 allegedly provided by RV Business Solutions.
+
+E9: Police Investigation Report
+
+Records seizure of accounting records and statements from company employees.
+
+ISSUES FOR DETERMINATION:
+
+Whether Rajesh Verma had authority to make the disputed payments.
+Whether RV Business Solutions provided genuine services to the company.
+Whether the accused dishonestly misappropriated company funds.
+Whether the prosecution has proved guilt beyond reasonable doubt.
+
+REQUESTED RELIEF:
+
+PROSECUTION:
+
+Conviction of the accused.
+Recovery of ₹12,50,000.
+Appropriate sentence under applicable criminal law.
+
+DEFENSE:
+
+Acquittal of all charges.
+Alternatively, benefit of doubt due to insufficient proof of dishonest intent.
+
+POTENTIAL WITNESSES:
+
+PW1: Managing Director of Zenith Logistics Pvt. Ltd.
+PW2: Internal Auditor.
+PW3: Investigating Officer.
+DW1: Rajesh Verma (Accused).
+DW2: Proprietor of RV Business Solutions.
+DW3: Accounts Executive who processed the transfers.
+---
+
+
+
+[Judge] [Memory] Retrieved: Rajesh_Kumar_Verma_vs_State_Of_M_P_on_21_January_1994_1.PDF, Rajesh_Bajaj_vs_State_Nct_Of_Delhi_And_Others_on_12_March_2000_1.PDF, Bhogireddi_Varalakshmi_Ors_vs_Mani_Muthupandi_And_Ors_on_3_March_2017_1.PDF, Sunil_Kumar_vs_State_Govt_Of_Nct_Of_Delhi_on_15_October_2003_1.PDF, Art. 134, Art. 20, E9, E6, E5, E7, E1, 'Case: State of Maharashtra v. ...', 'Evidence ids: E1, E2, E3, E4, ...'
+
+[Judge]
+This court is now in session. Before we begin, I would like to outline the rules and identify the claims and defenses in this case. The State of Maharashtra has charged Rajesh Verma with criminal breach of trust, misappropriation of company funds, and falsification of financial records. The defense argues that the transactions were authorized, there was no intent to cause wrongful loss, and the investigation was flawed. 
+
+The key issues for determination include whether Rajesh Verma had the authority to make the disputed payments, whether RV Business Solutions provided genuine services, and whether the accused misappropriated company funds. The prosecution seeks conviction, recovery of ₹12,50,000, and an appropriate sentence, while the defense seeks acquittal or the benefit of doubt due to insufficient proof of dishonest intent.
+
+Plaintiff, you may now present your opening statement.
+
+
+[Plaintiff] [Memory] Retrieved: Rajesh_Kumar_Verma_vs_State_Of_M_P_on_21_January_1994_1.PDF, Rajesh_Bajaj_vs_State_Nct_Of_Delhi_And_Others_on_12_March_2000_1.PDF, Bhogireddi_Varalakshmi_Ors_vs_Mani_Muthupandi_And_Ors_on_3_March_2017_1.PDF, Purshottam_Chopra_vs_State_Govt_Of_Nct_Of_Delhi_on_7_January_2020_1.PDF, Art. 134, Art. 136, E9, E6, E5, E7, E1
+
+[Plaintiff]
+The State of Maharashtra brings forth a compelling case against Rajesh Verma, the former Finance Manager of Zenith Logistics Pvt. Ltd., who has been accused of perpetrating a egregious breach of trust. The evidence will demonstrate that between January and April 2024, Rajesh Verma made multiple unauthorized transactions totaling ₹12,50,000 from the company account to RV Business Solutions, a consulting firm secretly controlled by the accused himself. 
+
+Our investigation has revealed that these transactions were not only unauthorized but also lacked any legitimate business purpose, as confirmed by the Internal Audit Report (E3) and testimony from the Managing Director (E6). The prosecution will show that Rajesh Verma falsified financial records to conceal these unauthorized transfers, demonstrating a clear intent to deceive and misappropriate company funds for personal gain.
+
+Furthermore, the Registrar of Companies records (E4) and other evidence will establish that RV Business Solutions is, in fact, a business entity linked to Rajesh Verma's spouse, further solidifying the argument that these transactions were not genuine business expenses but rather a cleverly disguised scheme to embezzle company funds.
+
+The defense may claim that the transactions were authorized and that RV Business Solutions provided legitimate services, but we will demonstrate through witness testimony and documentary evidence that such claims are unfounded. The WhatsApp chat (E7) cited by the defense as proof of authorization is, in fact, taken out of context and does not provide the blanket approval they suggest.
+
+Throughout this trial, the prosecution will present a comprehensive case, weaving together the evidence to prove beyond a reasonable doubt that Rajesh Verma is guilty of the charges brought against him. We are confident that the evidence will demonstrate a clear pattern of dishonesty and misappropriation of company funds, and we look forward to presenting our case in full.
+
+
+
+[Plaintiff]
+[Action] search_evidence: 5, RV Business Solutions, get_evidence: E1
+
+[Plaintiff] [Memory] Retrieved: 'E4: Registrar of Companies / B...', 'E1: Employment Contract...'
+
+[Plaintiff]
+E4: Registrar of Companies / Business Registration Records
+E1: Employment Contract
+
+
+[Judge] [Memory] Retrieved: Sardul_Singh_Caveeshar_vs_The_State_Of_Bombay_And_Connected_on_23_May_1957_1.PDF, Sushil_Kumar_Gupta_vs_Joy_Shankar_Bhattacharyya_on_23_February_1970_1.PDF, Jaikrishnadas_Manohardasdesai_And_vs_The_State_Of_Bombay_on_16_March_1960_1.PDF, Indore_Malwa_United_Mills_Ltd_Indore_vs_State_Of_Madhya_Bharat_And_Others_on_1_October_1964_1.PDF, Art. 134, Art. 283, E1, E5, E4, E2, E3
+
+[Judge]
+[Action] get_evidence: E4
+
+[Judge] [Memory] Retrieved: 'E4: Registrar of Companies / B...'
+
+[Judge]
+E4: Registrar of Companies / Business Registration Records
+
+
+[Defendant] [Memory] Retrieved: Secretary_Finance_Department_And_Ors_vs_West_Bengal_Registration_Service_on_20_February_1992_1.PDF, Secretary_Finance_Department_And_Ors_vs_West_Bengal_Registration_Service_on_20_February_1992_1.PDF, Registrar_Of_Companies_vs_Rajshree_Sugar_Chemicals_Ltd_Ors_on_11_May_2000_1.PDF, Registrar_Of_Companies_vs_Rajshree_Sugar_Chemicals_Ltd_Ors_on_11_May_2000_1.PDF, Art. 27, Art. 236, E4, E5, E7, E1, E2
+
+[Defendant]
+[Action] get_evidence: E4
+
+[Defendant] [Memory] Retrieved: 'E4: Registrar of Companies / B...'
+
+[Defendant]
+E4: Registrar of Companies / Business Registration Records
+
+
+[Judge] [Memory] Retrieved: Secretary_Finance_Department_And_Ors_vs_West_Bengal_Registration_Service_on_20_February_1992_1.PDF, Secretary_Finance_Department_And_Ors_vs_West_Bengal_Registration_Service_on_20_February_1992_1.PDF, Secretary_Finance_Department_And_Ors_vs_West_Bengal_Registration_Service_on_20_February_1992_1.PDF, Registrar_Of_Companies_vs_Rajshree_Sugar_Chemicals_Ltd_Ors_on_11_May_2000_1.PDF, Art. 27, Art. 236, E4, E5, E7, E1, E2
+
+[Judge]
+[Action] get_evidence: E1
+
+[Judge] [Memory] Retrieved: 'E1: Employment Contract...'
+
+[Judge]
+E1: Employment Contract
+
+
+[Plaintiff] [Memory] Retrieved: Secretary_Finance_Department_And_Ors_vs_West_Bengal_Registration_Service_on_20_February_1992_1.PDF, Gujarat_Electricity_Board_Thermal_vs_Hind_Mazdoor_Sabha_Ors_on_9_May_1995_1.PDF, Registrar_Of_Companies_vs_Rajshree_Sugar_Chemicals_Ltd_Ors_on_11_May_2000_1.PDF, Registrar_Of_Companies_vs_Rajshree_Sugar_Chemicals_Ltd_Ors_on_11_May_2000_1.PDF, Art. 39, Art. 2, E4, E1, E5, E2, E3
+
+[Plaintiff]
+The State of Maharashtra will demonstrate that Rajesh Verma, as the Finance Manager at Zenith Logistics Pvt. Ltd., abused his position of trust by making unauthorized transactions to RV Business Solutions, a company secretly controlled by him, as evidenced by E4: Registrar of Companies / Business Registration Records, which lists Rajesh Verma's spouse as the proprietor of RV Business Solutions. 
+
+According to E1: Employment Contract, Rajesh Verma was authorized to process payments up to ₹5,00,000, but this authority was subject to documentation requirements, which were not met in the case of the transfers to RV Business Solutions, as shown by the lack of invoices, work orders, or service agreements in E3: Internal Audit Report. 
+
+Furthermore, E2: Bank Statement reveals five transfers totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions between 2024-01-15 and 2024-04-20, which exceeds the authorized limit and lacks proper documentation. The email dated 2024-02-03 (E5) does not constitute proper management approval, as testified by the Managing Director in E6: Testimony of Managing Director, who states no approval was granted for payments to RV Business Solutions.
+
+The WhatsApp Chat dated 2024-01-14 (E7) does not demonstrate authorization for the specific payments made to RV Business Solutions. The Tax Invoice (E8) submitted by the defense is questionable, given the circumstances. The Police Investigation Report (E9) details the seizure of accounting records and statements from company employees, further supporting the prosecution's case.
+
+We will show that Rajesh Verma's actions constitute a criminal breach of trust, misappropriation of company funds, and falsification of financial records. The prosecution will prove that the accused acted with dishonest intent, and we seek conviction, recovery of ₹12,50,000, and an appropriate sentence under applicable criminal law.
+
+
+
+[Plaintiff]
+[Action] note_to_record: The prosecution has outlined its case against Rajesh Verma, highlighting the unauthorized transactions, lack of documentation, and dishonest intent.
+
+[Plaintiff]
+ok
+
+
+[Judge] [Memory] Retrieved: A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Ameet_Lalchand_Shah_vs_Rishabh_Enterprises_on_3_May_2018_1.PDF, Art. 236, Art. 35, E5, E7, E1, E2, E3, 'The prosecution has outlined i...'
+
+[Judge]
+Now that we have reviewed the Registrar of Companies / Business Registration Records (E4) and the Employment Contract (E1), let's proceed with the trial. 
+
+Plaintiff, please present your argument and cite any relevant evidence or legal precedents to support your case. Remember to address the key issues for determination, including whether Rajesh Verma had the authority to make the disputed payments and whether RV Business Solutions provided genuine services.
+
+
+[Defendant] [Memory] Retrieved: Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Sabharwal_Brothers_Another_vs_Smt_Guna_Amrit_Thandani_Of_Bombay_on_29_March_1972_1.PDF, Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Art. 35, Art. 361, E1, E5, E4, E2, E3
+
+[Defendant]
+The prosecution's case is built around the fact that Rajesh Verma, as the Finance Manager of Zenith Logistics Pvt. Ltd., made unauthorized transactions totaling ₹12,50,000 to RV Business Solutions, a company secretly controlled by him. According to E1: Employment Contract, Rajesh Verma was authorized to process payments up to ₹5,00,000, but this authority was subject to documentation requirements, which were not met in this case. 
+
+Moreover, E4: Registrar of Companies / Business Registration Records reveals that Rajesh Verma's spouse is the proprietor of RV Business Solutions, establishing a clear conflict of interest. The absence of invoices, work orders, or service agreements for payments made to RV Business Solutions, as noted in E3: Internal Audit Report, suggests that no genuine services were provided. 
+
+The testimony of the Managing Director (E6) also contradicts Rajesh Verma's claim that he had obtained management approval for the payments. In light of these findings, it is clear that Rajesh Verma exceeded his authority and misappropriated company funds for personal gain. 
+
+We request that the court consider the evidence and find the accused guilty of the charges brought against him. 
+
+
+
+[Defendant]
+[Action] search_evidence: 5, transactions made by Rajesh Verma, get_evidence: E2, get_evidence: E3
+
+[Defendant] [Memory] Retrieved: '(no evidence found)...', 'E2: Bank Statement...', 'E3: Internal Audit Report...'
+
+[Defendant]
+(no evidence found)
+E2: Bank Statement
+E3: Internal Audit Report
+
+
+[Judge] [Memory] Retrieved: Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Lachminarayan_Madan_Lal_vs_Commissioner_Of_Income_Tax_West_on_13_September_1972_1.PDF, Samaj_Parivartana_Samudaya_Ors_vs_State_Of_Karnataka_Ors_on_11_May_2012_1.PDF, Art. 35, Art. 142, E1, E9, E3, E4, E2
+
+[Judge]
+[Action] get_evidence: E2, get_evidence: E3
+
+[Judge] [Memory] Retrieved: 'E2: Bank Statement...', 'E3: Internal Audit Report...'
+
+[Judge]
+E2: Bank Statement
+E3: Internal Audit Report
+
+
+[Plaintiff] [Memory] Retrieved: Birla_Corporation_Ltd_vs_Adventz_Investments_And_Holdings_Ltd_on_9_May_2019_1.PDF, Cbi_Hyderabad_vs_Subramani_Gopalakrishnan_And_Anr_on_21_April_2011_1.PDF, S_L_Sachdev_Anr_vs_Union_Of_India_Ors_on_28_October_1980_1.PDF, S_L_Sachdev_Anr_vs_Union_Of_India_Ors_on_28_October_1980_1.PDF, Art. 355, Art. 151, E3, E9, E8, E6, E1
+
+[Plaintiff]
+The prosecution's case hinges on the fact that Rajesh Verma made unauthorized transactions to RV Business Solutions, a company secretly controlled by him, as evidenced by the Registrar of Companies / Business Registration Records (E4). The Bank Statement (E2) shows five transfers totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions between 2024-01-15 and 2024-04-20, which were made without proper documentation or approval, as highlighted in the Internal Audit Report (E3).
+
+The Employment Contract (E1) granted Rajesh Verma authority to process payments up to ₹5,00,000, but this authority was subject to documentation requirements, which were not met in this case. The email dated 2024-02-03 (E5) and the WhatsApp Chat dated 2024-01-14 (E7) do not constitute valid approvals for the payments, as they do not specify the amount or purpose of the transactions. Furthermore, the Managing Director's testimony (E6) contradicts Rajesh Verma's claim of management approval.
+
+The Tax Invoice (E8) submitted by the defense is questionable, as it only accounts for ₹4,00,000 of the total amount transferred, leaving ₹8,50,000 unexplained. The Police Investigation Report (E9) corroborates the prosecution's allegations, recording the seizure of accounting records and statements from company employees.
+
+In light of these findings, it is clear that Rajesh Verma exceeded his authority, misappropriated company funds, and falsified financial records. The prosecution urges the court to consider the evidence and applicable legal precedents, such as the Indian Penal Code, 1860, and relevant case law, to determine the guilt of the accused beyond reasonable doubt.
+
+
+
+[Plaintiff]
+[Action] search_constitution: 5, criminal breach of trust, search_precedents: 3, misappropriation of company funds, get_evidence: E6
+
+[Plaintiff] [Memory] Retrieved: 'Art. 134: Appellate jurisdicti...', 'Deputy_General_Manager_Appella...', 'E6: Testimony of Managing Dire...'
+
+[Plaintiff]
+Art. 134: Appellate jurisdiction of Supreme Court in regard to criminal matters. An appeal shall lie to the Supreme Court from any judgment in a criminal proceeding of a High Court if the High Court has reversed an order of acquittal and sentenced the accused to death, or has withdrawn a case for trial and sentenced the accused to death, or certifies that the case is a fit one for appeal.
+Art. 28: Freedom as to attendance at religious instruction or religious worship in certain educational institutions. No religious instruction shall be provided in any educational institution wholly maintained out of State funds. Nothing in this article applies to institutions administered by the State but established under any endowment or trust requiring religious instruction.
+
+Cultural and Educational Rights
+Art. 18: Abolition of titles. No title, not being a military or academic distinction, shall be conferred by the State. No citizen of India shall accept any title from any foreign State. No person holding any office of profit or trust under the State shall accept any present, emolument, or office from or under any foreign State without the consent of the President.
+
+Right to Freedom
+Art. 375: Courts, authorities and officers to continue to function subject to the provisions of the Constitution. All courts of civil, criminal and revenue jurisdiction, all authorities and all officers, judicial, executive and ministerial, throughout the territory of India, shall continue to exercise their respective functions subject to the provisions of this Constitution.
+Art. 361: Protection of President and Governors and Rajpramukhs. The President, or the Governor of a State, shall not be answerable to any court for the exercise and performance of the powers and duties of his office. No criminal proceedings whatsoever shall be instituted or continued against the President or a Governor in any court during his term of office. No civil proceedings shall be instituted against the President or a Governor in any court in respect of any act done in his personal capacity until after the expiration of two months next after notice in writing has been delivered to him.
+Deputy_General_Manager_Appellate_vs_Ajai_Kumar_Srivastava_on_5_January_2021_1.PDF: misconduct was committed by him for which he was placed under suspension in the first place by
+order dated 14 th August, 1995 and later the charge€sheet dated 11 th April, 1996 was served upon
+him detailing seven charges of misappropriation of funds which he had committed in discharge of
+Deputy General Manager (Appellate ... vs Ajai Kumar Srivastava on 5 January, 2021
+Indian Kanoon - http://indiankanoon.org/doc/53737201/ 1
+
+P_V_Jagannath_Rao_And_Ors_vs_State_Of_Orissa_And_Ors_on_30_April_1968_1.PDF: Orissa have or had interest, control or concern in utter disregard of the interests of the State in breach of the trust imposed on them by virtue of their Constitutional positions; (5) resorted to misuse of power, interfered in the processes of elections and administration of Local Bodies not only to help their friends, favourites and partymen but also at times for their own personal benefits; (6) acquired directly properties of the State either for themselves or for the benefit of the members of their families or relations or others in whom they were interested; (7) advanced money and loans by way of favoritism out of the State exchequer in favour of themselves, members of their families, their relations and other persons in whom they were interested; (8) permitted wastage, misuse, misutilisation and misappropriation of the funds of the State in several ways to the detriment of the interests of the State in utter disregard of the canons of financial propriety and established rules and procedure from which a presumption of personal gains for themselves or for persons as aforesaid directly or indirectly arises; (9) caused wastage, misuse, misutilisation, misappropriation, illegal or irregular use of the funds of the State through contracts or other monetary transactions entered P.V
+
+Nayagarh_Co_Operative_Central_Bank_vs_Shri_Narayana_Rath_And_Ors_on_8_August_1975_1.PDF: also connived with the management of the society in their irregularities and helped in
+misappropriation of funds so as to achieve his selfish motive.
+The first respondent filed three writ petitions before the Orissa High Court for
+quashing the proceedings against him on the ground that the appellant Bank had no
+jurisdiction to initiate disputes against him under Section 68 of the Act and also
+alleged that the said proceedings! were malafide. The High Court found that the
+allegations against the f
+E6: Testimony of Managing Director
+
+
+[Judge] [Memory] Retrieved: P_V_Jagannath_Rao_And_Ors_vs_State_Of_Orissa_And_Ors_on_30_April_1968_1.PDF, Deputy_General_Manager_Appellate_vs_Ajai_Kumar_Srivastava_on_5_January_2021_1.PDF, Nayagarh_Co_Operative_Central_Bank_vs_Shri_Narayana_Rath_And_Ors_on_8_August_1975_1.PDF, Deputy_General_Manager_Appellate_vs_Ajai_Kumar_Srivastava_on_5_January_2021_1.PDF, Art. 134, Art. 28, E7, E2, E5, E1, E3
+
+[Judge]
+[Action] get_evidence: E6
+
+[Judge] [Memory] Retrieved: 'E6: Testimony of Managing Dire...'
+
+[Judge]
+E6: Testimony of Managing Director
+
+
+[Defendant] [Memory] Retrieved: P_V_Jagannath_Rao_And_Ors_vs_State_Of_Orissa_And_Ors_on_30_April_1968_1.PDF, Deputy_General_Manager_Appellate_vs_Ajai_Kumar_Srivastava_on_5_January_2021_1.PDF, Nayagarh_Co_Operative_Central_Bank_vs_Shri_Narayana_Rath_And_Ors_on_8_August_1975_1.PDF, Deputy_General_Manager_Appellate_vs_Ajai_Kumar_Srivastava_on_5_January_2021_1.PDF, Art. 53, Art. 21, E7, E2, E5, E1, E3
+
+[Defendant]
+The Plaintiff's argument is that Rajesh Verma did not have the authority to make the disputed payments, as evidenced by the Bank Statement (E2) and the Internal Audit Report (E3), which show that the transactions were made without proper documentation or approval. The Plaintiff also argues that RV Business Solutions did not provide genuine services to the company, as there are no invoices, work orders, or service agreements to support the payments.
+
+The Plaintiff cites the case of Deputy General Manager (Appellate ... vs Ajai Kumar Srivastava on 5 January, 2021, which establishes that misappropriation of funds is a serious offense. The Plaintiff also relies on the Constitutional provisions, such as Art. 134, which provides for appellate jurisdiction in criminal matters, and Art. 28, which ensures freedom fromreligious instruction in educational institutions.
+
+Furthermore, the Plaintiff points out that the Testimony of the Managing Director (E6) states that no approval was granted for the payments to RV Business Solutions, and that the Managing Director first learned of the firm during the audit. This testimony suggests that Rajesh Verma acted without authority and with the intention of misappropriating company funds.
+
+In light of these arguments and evidence, the Plaintiff requests that the Court find Rajesh Verma guilty of criminal breach of trust, misappropriation of company funds, and falsification of financial records. 
+
+
+
+[Defendant]
+[Action] get_evidence: E5, get_evidence: E7, note_to_record: The Plaintiff rests its case.
+
+[Defendant] [Memory] Retrieved: 'E5: Email dated 2024-02-03...', 'E7: WhatsApp Chat dated 2024-0...'
+
+[Defendant]
+E5: Email dated 2024-02-03
+E7: WhatsApp Chat dated 2024-01-14
+ok
+
+
+[Judge] [Memory] Retrieved: A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Art. 236, Art. 35, E5, E7, E1, E2, E3, 'The Plaintiff rests its case....'
+
+[Judge]
+[Action] get_evidence: E5, get_evidence: E7
+
+[Judge] [Memory] Retrieved: 'E5: Email dated 2024-02-03...', 'E7: WhatsApp Chat dated 2024-0...'
+
+[Judge]
+E5: Email dated 2024-02-03
+E7: WhatsApp Chat dated 2024-01-14
+
+
+[Plaintiff] [Memory] Retrieved: Navin_Kumar_Rai_vs_Surendra_Singh_on_14_February_2024_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Art. 134, Art. 136, E5, E7, E1, E2, E3
+
+[Plaintiff]
+The plaintiff's argument is that Rajesh Verma, the accused, made unauthorized transactions totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions, a company secretly controlled by him. The internal audit report (E3) and bank statement (E2) confirm these transactions. The employment contract (E1) does not grant Rajesh Verma the authority to make such large payments without proper documentation. The testimony of the Managing Director (E6) also states that no approval was granted for these payments.
+
+The email dated 2024-02-03 (E5) and WhatsApp chat dated 2024-01-14 (E7) are being relied upon by the defense to suggest authorization, but these do not constitute formal approval for the transactions in question. The prosecution alleges that RV Business Solutions did not provide genuine services, and the lack of invoices, work orders, or service agreements (as mentioned in the internal audit report) supports this claim.
+
+The legal precedents, such as the cases of Deputy General Manager (Appellate) vs Ajai Kumar Srivastava and P.V. Jagannath Rao And Ors vs State Of Orissa And Ors, highlight the seriousness of misappropriation of funds and breach of trust. The prosecution argues that Rajesh Verma's actions constitute a criminal breach of trust, misappropriation of company funds, and falsification of financial records.
+
+The prosecution seeks conviction of the accused, recovery of ₹12,50,000, and an appropriate sentence under applicable criminal law.
+
+
+
+[Plaintiff]
+[Action] note_to_record: The prosecution has presented its argument, emphasizing the unauthorized nature of the transactions, the lack of genuine services provided by RV Business Solutions, and the accused's dishonest intent.
+
+[Plaintiff]
+ok
+
+
+[Judge] [Memory] Retrieved: Shyam_Lal_vs_Deepa_Dass_Chela_Ram_Chela_Garib_Dass_on_27_February_2015_1.PDF, Shri_Partap_Singh_Since_Dead_Thr_His_vs_Shiv_Ram_Since_Dead_Thr_Lrs_on_20_February_2020_1.PDF, Union_Of_India_Ors_vs_Vasavi_Co_Op_Housing_Society_Ltd_Ors_on_7_January_2014_1.PDF, Shri_Partap_Singh_Since_Dead_Thr_His_vs_Shiv_Ram_Since_Dead_Thr_Lrs_on_20_February_2020_1.PDF, Art. 215, Art. 129, E6, E1, E4, E2, E3, 'The prosecution has presented ...'
+
+[Judge]
+Now that we have reviewed the email dated 2024-02-03 (E5) and the WhatsApp chat dated 2024-01-14 (E7), let's proceed with the trial.
+
+Defendant, you may now present your argument and cite any relevant evidence or legal precedents to support your case. Remember to address the key issues for determination, including whether Rajesh Verma had the authority to make the disputed payments and whether RV Business Solutions provided genuine services.
+
+Please respond with your argument and any relevant citations.
+
+
+[Defendant] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Indian_Oil_Corporation_Limited_vs_M_S_Sathyanarayana_Service_Station_on_9_May_2023_1.PDF, Sachalmal_Parasram_vs_Ratnabai_And_Ors_on_13_January_1972_1.PDF, Art. 35, Art. 120, E5, E7, E4, E1, E2
+
+[Defendant]
+The Defense argues that Rajesh Verma had the authority to make the disputed payments, as evidenced by the WhatsApp chat dated 2024-01-14 (E7), which shows that the Managing Director had authorized him to handle vendor optimization. This authorization implies that Rajesh Verma had the necessary approval to engage consultants, including RV Business Solutions.
+
+Furthermore, the Defense cites the email dated 2024-02-03 (E5), in which Rajesh Verma instructs the Accounts Team to process a payment, stating that "Management approval already obtained." This email suggests that Rajesh Verma had obtained the necessary approval for the payment, which contradicts the Prosecution's claim that he acted without authority.
+
+The Defense also argues that RV Business Solutions provided genuine services to the company, as supported by the tax invoice (E8) submitted by the Defense. This invoice shows that consultancy services worth ₹4,00,000 were provided by RV Business Solutions, demonstrating that the company did receive legitimate services from the firm.
+
+In light of these findings, the Defense requests that the Court consider the evidence and arguments presented and acquit Rajesh Verma of all charges.
+
+
+
+[Defendant]
+[Action] search_evidence: 5, authority to make payments, get_evidence: E8
+
+[Defendant] [Memory] Retrieved: '(no evidence found)...', 'E8: Tax Invoice...'
+
+[Defendant]
+(no evidence found)
+E8: Tax Invoice
+
+
+[Judge] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Indian_Oil_Corporation_Limited_vs_M_S_Sathyanarayana_Service_Station_on_9_May_2023_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Art. 35, Art. 65, E5, E7, E1, E2, E3
+
+[Judge]
+[Action] get_evidence: E8
+
+[Judge] [Memory] Retrieved: 'E8: Tax Invoice...'
+
+[Judge]
+E8: Tax Invoice
+
+
+[Defendant] [Memory] Retrieved: A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Pravin_Electricals_Pvt_Ltd_vs_Galaxy_Infra_And_Engineering_Pvt_Ltd_on_8_March_2021_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Art. 35, Art. 371, E5, E7, E8, E1, E2
+
+[Defendant]
+The defense argues that Rajesh Verma had the authority to make the disputed payments, as evidenced by the WhatsApp chat dated 2024-01-14 (E7), which suggests that the Managing Director had given him permission to engage consultants for vendor optimization. Additionally, the email dated 2024-02-03 (E5) indicates that Rajesh Verma had obtained management approval for the payments. 
+
+The defense also argues that RV Business Solutions provided genuine services to the company, as supported by the tax invoice (E8) submitted by the defense, which shows consultancy services worth ₹4,00,000 allegedly provided by RV Business Solutions.
+
+
+
+[Defendant]
+[Action] search_constitution: 5, criminal breach of trust, note_to_record: The Defendant rests its case.
+
+[Defendant] [Memory] Retrieved: 'Art. 134: Appellate jurisdicti...'
+
+[Defendant]
+Art. 134: Appellate jurisdiction of Supreme Court in regard to criminal matters. An appeal shall lie to the Supreme Court from any judgment in a criminal proceeding of a High Court if the High Court has reversed an order of acquittal and sentenced the accused to death, or has withdrawn a case for trial and sentenced the accused to death, or certifies that the case is a fit one for appeal.
+Art. 28: Freedom as to attendance at religious instruction or religious worship in certain educational institutions. No religious instruction shall be provided in any educational institution wholly maintained out of State funds. Nothing in this article applies to institutions administered by the State but established under any endowment or trust requiring religious instruction.
+
+Cultural and Educational Rights
+Art. 18: Abolition of titles. No title, not being a military or academic distinction, shall be conferred by the State. No citizen of India shall accept any title from any foreign State. No person holding any office of profit or trust under the State shall accept any present, emolument, or office from or under any foreign State without the consent of the President.
+
+Right to Freedom
+Art. 375: Courts, authorities and officers to continue to function subject to the provisions of the Constitution. All courts of civil, criminal and revenue jurisdiction, all authorities and all officers, judicial, executive and ministerial, throughout the territory of India, shall continue to exercise their respective functions subject to the provisions of this Constitution.
+Art. 361: Protection of President and Governors and Rajpramukhs. The President, or the Governor of a State, shall not be answerable to any court for the exercise and performance of the powers and duties of his office. No criminal proceedings whatsoever shall be instituted or continued against the President or a Governor in any court during his term of office. No civil proceedings shall be instituted against the President or a Governor in any court in respect of any act done in his personal capacity until after the expiration of two months next after notice in writing has been delivered to him.
+ok
+
+
+[Judge] [Memory] Retrieved: State_Of_Rajasthan_Ors_Etc_Etc_vs_Union_Of_India_Etc_Etc_on_6_May_1977_1.PDF, Bihar_State_Board_Religious_Trust_vs_Mahant_Sri_Biseshwar_Das_on_9_February_1971_1.PDF, State_Of_Rajasthan_Ors_Etc_Etc_vs_Union_Of_India_Etc_Etc_on_6_May_1977_1.PDF, Dheeraj_Mor_vs_Honble_High_Court_Of_Delhi_on_19_February_2020_1.PDF, Art. 28, Art. 134, E1, E5, E4, E2, E3, 'The Defendant rests its case....'
+
+[Judge]
+Now that we have reviewed the relevant articles of the Indian Constitution, I would like to proceed with the trial.
+
+As the Judge, I would like to ask both parties a few questions to clarify certain points. 
+
+Plaintiff, can you explain how the evidence presented, including the bank statement (E2) and the internal audit report (E3), supports the charge of criminal breach of trust against Rajesh Verma?
+
+Please respond with your explanation.
+
+
+[Plaintiff] [Memory] Retrieved: Bihar_State_Board_Religious_Trust_vs_Mahant_Sri_Biseshwar_Das_on_9_February_1971_1.PDF, State_Of_Rajasthan_Ors_Etc_Etc_vs_Union_Of_India_Etc_Etc_on_6_May_1977_1.PDF, Dheeraj_Mor_vs_Honble_High_Court_Of_Delhi_on_19_February_2020_1.PDF, T_N_Seshan_Chief_Election_vs_Union_Of_India_Ors_on_14_July_1995_1.PDF, Art. 163, Art. 74, E1, E5, E4, E2, E3
+
+[Plaintiff]
+The bank statement (E2) shows five transfers totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions between 2024-01-15 and 2024-04-20. This evidence suggests that Rajesh Verma, as the Finance Manager, made these transactions without proper authorization, as there are no invoices, work orders, or service agreements to support these payments, as indicated in the internal audit report (E3). Furthermore, the Registrar of Companies / Business Registration Records (E4) lists Rajesh Verma's spouse as the proprietor of RV Business Solutions, which implies a personal connection and potential conflict of interest.
+
+The email dated 2024-02-03 (E5) from Rajesh Verma to the Accounts Team, instructing them to process a payment "urgently" and claiming that "management approval" had already been obtained, raises suspicions about the legitimacy of the transactions. The testimony of the Managing Director (E6) contradicts Rajesh Verma's claim, stating that no approval was granted for payments to RV Business Solutions.
+
+In light of these findings, it is clear that Rajesh Verma abused his position as Finance Manager to misappropriate company funds for personal gain, thereby committing criminal breach of trust. The prosecution urges the court to consider the cumulative effect of this evidence and the lack of credible explanations from the defense to justify these transactions.
+
+
+
+[Plaintiff]
+[Action] search_evidence: 5, criminal breach of trust, get_article: Art. 361
+
+[Plaintiff] [Memory] Retrieved: '(no evidence found)...', 'Art. 361: Protection of Presid...'
+
+[Plaintiff]
+(no evidence found)
+Art. 361: Protection of President and Governors and Rajpramukhs. The President, or the Governor of a State, shall not be answerable to any court for the exercise and performance of the powers and duties of his office. No criminal proceedings whatsoever shall be instituted or continued against the President or a Governor in any court during his term of office. No civil proceedings shall be instituted against the President or a Governor in any court in respect of any act done in his personal capacity until after the expiration of two months next after notice in writing has been delivered to him.
+
+
+[Judge] [Memory] Retrieved: Amar_Nath_Dogra_vs_Union_Of_India_Uoi_on_10_April_1962_1.PDF, T_N_Seshan_Chief_Election_vs_Union_Of_India_Ors_on_14_July_1995_1.PDF, A_A_Padmanbhan_vs_The_State_Of_Kerala_on_16_February_2018_1.PDF, State_Of_Rajasthan_Ors_Etc_Etc_vs_Union_Of_India_Etc_Etc_on_6_May_1977_1.PDF, Art. 361, Art. 324, E2, E7, E1, E4, E3
+
+[Judge]
+[Action] search_constitution: 5, criminal breach of trust
+
+[Judge] [Memory] Retrieved: 'Art. 134: Appellate jurisdicti...'
+
+[Judge]
+Art. 134: Appellate jurisdiction of Supreme Court in regard to criminal matters. An appeal shall lie to the Supreme Court from any judgment in a criminal proceeding of a High Court if the High Court has reversed an order of acquittal and sentenced the accused to death, or has withdrawn a case for trial and sentenced the accused to death, or certifies that the case is a fit one for appeal.
+Art. 28: Freedom as to attendance at religious instruction or religious worship in certain educational institutions. No religious instruction shall be provided in any educational institution wholly maintained out of State funds. Nothing in this article applies to institutions administered by the State but established under any endowment or trust requiring religious instruction.
+
+Cultural and Educational Rights
+Art. 18: Abolition of titles. No title, not being a military or academic distinction, shall be conferred by the State. No citizen of India shall accept any title from any foreign State. No person holding any office of profit or trust under the State shall accept any present, emolument, or office from or under any foreign State without the consent of the President.
+
+Right to Freedom
+Art. 375: Courts, authorities and officers to continue to function subject to the provisions of the Constitution. All courts of civil, criminal and revenue jurisdiction, all authorities and all officers, judicial, executive and ministerial, throughout the territory of India, shall continue to exercise their respective functions subject to the provisions of this Constitution.
+Art. 361: Protection of President and Governors and Rajpramukhs. The President, or the Governor of a State, shall not be answerable to any court for the exercise and performance of the powers and duties of his office. No criminal proceedings whatsoever shall be instituted or continued against the President or a Governor in any court during his term of office. No civil proceedings shall be instituted against the President or a Governor in any court in respect of any act done in his personal capacity until after the expiration of two months next after notice in writing has been delivered to him.
+
+
+[Plaintiff] [Memory] Retrieved: State_Of_Rajasthan_Ors_Etc_Etc_vs_Union_Of_India_Etc_Etc_on_6_May_1977_1.PDF, Bihar_State_Board_Religious_Trust_vs_Mahant_Sri_Biseshwar_Das_on_9_February_1971_1.PDF, State_Of_Rajasthan_Ors_Etc_Etc_vs_Union_Of_India_Etc_Etc_on_6_May_1977_1.PDF, Dheeraj_Mor_vs_Honble_High_Court_Of_Delhi_on_19_February_2020_1.PDF, Art. 28, Art. 134, E1, E5, E4, E2, E3
+
+[Plaintiff]
+The prosecution's case relies heavily on the evidence presented, including the bank statement (E2) and the internal audit report (E3). The bank statement shows a series of transactions totaling ₹12,50,000 being transferred from Zenith Logistics Pvt. Ltd. to RV Business Solutions, a company allegedly controlled by Rajesh Verma. This, in itself, is suspicious and warrants further investigation.
+
+The internal audit report (E3) reveals that there were no invoices, work orders, or service agreements in place for these payments, which suggests that the transactions were not legitimate business expenses. This lack of documentation, combined with the fact that the payments were made to a company linked to Rajesh Verma, raises serious questions about the authenticity of the transactions and Rajesh Verma's potential role in misappropriating company funds.
+
+Furthermore, the testimony of the Managing Director (E6) states that no approval was granted for payments to RV Business Solutions, and that he first learned of the firm during the audit. This contradicts Rajesh Verma's claim that the transactions were authorized, and instead suggests that he may have acted without proper authority.
+
+The email dated 2024-02-03 (E5) and the WhatsApp chat dated 2024-01-14 (E7) do provide some context, but they do not convincingly establish that the transactions were legitimate or authorized. The tax invoice (E8) submitted by the defense is also questionable, as it is unclear whether it was genuine or fabricated to support Rajesh Verma's claims.
+
+In light of this evidence, it is reasonable to conclude that Rajesh Verma did indeed commit a criminal breach of trust by misappropriating company funds for personal gain. The lack of proper documentation, the suspicious nature of the transactions, and the contradictory testimony all point to a deliberate attempt by Rajesh Verma to deceive and exploit his position for personal benefit.
+
+
+
+[Plaintiff]
+[Action] note_to_record: The prosecution has presented a strong case, highlighting the suspicious transactions, lack of documentation, and contradictory testimony, which collectively suggest that Rajesh Verma committed a criminal breach of trust.
+
+[Plaintiff]
+ok
+
+
+[Judge] [Memory] Retrieved: Santosh_Kumar_Singh_vs_State_Th_Cbi_on_6_October_2010_1.PDF, Indian_Oil_Corporation_vs_Income_Tax_Officer_Central_Circle_V_on_8_May_1986_1.PDF, Cbi_Hyderabad_vs_Subramani_Gopalakrishnan_And_Anr_on_21_April_2011_1.PDF, Indian_And_Eastern_Newspaper_Society_vs_Commissioner_Of_Income_Tax_New_Delhi_on_31_August_1979_1.PDF, Art. 6, Art. 371, E3, E9, E4, E8, E1, 'The prosecution has presented ...'
+
+[Judge]
+Now that we have reviewed the relevant articles of the Indian Constitution, I would like to proceed with the trial.
+
+Defendant, can you explain how the evidence presented, including the tax invoice (E8) and the WhatsApp chat (E7), supports your defense against the charge of criminal breach of trust?
+
+Please respond with your explanation.
+
+After the defendant's response, we will proceed with the closing statements. Plaintiff, you will present your closing statement first, followed by the defendant's closing statement. 
+
+Please be prepared to present your closing statements.
+
+
+[Defendant] [Memory] Retrieved: Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, State_Of_Haryana_vs_Naresh_Kumar_Bali_on_17_May_1994_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, The_Management_Of_The_Express_vs_The_Presiding_Officer_Labour_Court_on_18_December_1963_1.PDF, Art. 35, Art. 361, E9, E1, E4, E2, E3
+
+[Defendant]
+The tax invoice (E8) and the WhatsApp chat (E7) are crucial pieces of evidence that support my defense against the charge of criminal breach of trust. The tax invoice (E8) shows that RV Business Solutions provided legitimate services to Zenith Logistics Pvt. Ltd., which contradicts the prosecution's claim that the payments were made without any genuine services being provided. The WhatsApp chat (E7) between the Managing Director and myself clearly indicates that I had the authority to engage consultants for vendor optimization, which further supports my claim that the transactions were authorized.
+
+
+
+[Defendant]
+[Action] get_evidence: E1, get_evidence: E4
+
+[Defendant] [Memory] Retrieved: 'E1: Employment Contract...', 'E4: Registrar of Companies / B...'
+
+[Defendant]
+E1: Employment Contract
+E4: Registrar of Companies / Business Registration Records
+
+
+[Judge] [Memory] Retrieved: State_Of_Haryana_vs_Naresh_Kumar_Bali_on_17_May_1994_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Somnath_Sahu_vs_The_State_Of_Orissa_And_Ors_on_21_March_1969_1.PDF, Art. 35, Art. 197, E9, E1, E4, E2, E3
+
+[Judge]
+[Action] get_evidence: E1, get_evidence: E4
+
+[Judge] [Memory] Retrieved: 'E1: Employment Contract...', 'E4: Registrar of Companies / B...'
+
+[Judge]
+E1: Employment Contract
+E4: Registrar of Companies / Business Registration Records
+
+
+[Plaintiff] [Memory] Retrieved: Secretary_Finance_Department_And_Ors_vs_West_Bengal_Registration_Service_on_20_February_1992_1.PDF, Gujarat_Electricity_Board_Thermal_vs_Hind_Mazdoor_Sabha_Ors_on_9_May_1995_1.PDF, Registrar_Of_Companies_vs_Rajshree_Sugar_Chemicals_Ltd_Ors_on_11_May_2000_1.PDF, Registrar_Of_Companies_vs_Rajshree_Sugar_Chemicals_Ltd_Ors_on_11_May_2000_1.PDF, Art. 39, Art. 2, E4, E1, E5, E2, E3
+
+[Plaintiff]
+[Action] search_precedents: 3, criminal breach of trust cases, get_evidence: E9
+
+[Plaintiff] [Memory] Retrieved: 'Madanlal_vs_State_Of_Punjab_on...', 'E9: Police Investigation Repor...'
+
+[Plaintiff]
+Madanlal_vs_State_Of_Punjab_on_5_April_1967_1.PDF: ACT
+Indian Penal Code, 1860 (Act 45 of 1860), ss. 120B, 196(2) and 409-Officer authorised his clerk to receive and disburse moneys-Moneys not paid to persons concerned-Clerk admits receipt but alleges handing over to officer-Value of admission-Both charged for conspiracy and criminal breach of trust-Officer acquitted-If clerk could be convicted for criminal breach of trust-Sanction not obtained-If conviction for criminal breach of trust vitiated.
+
+Ranchhodlal_vs_State_Of_Madhya_Pradesh_on_27_November_1964_1.PDF: HEADNOTE
+: The appellant was convicted in four cases for an offence under s. 409 I.P.C. He was sentenced to imprisonment and line in the first two cases. The sentences imposed in the other two cases for the offence under S. 409 I.P.C. were to run consecutively. The High Court dismissed the appellant's appeal. HELD : (i) There had been no illegality in the Court's trying the appellant in four cases regarding amounts embezzled within a few months and in not
+
+ACT
+Criminal Procedure Code, 1898, (Act 5 of 1898), ss. 222, 233, 234 and 235--Indian Penal Code, 1860 (Act 45 of 1860), s. 409--Criminal Breach of Trust--Separate Trials--Sentence Awarded--To run consecutively--Whether illegal.
+
+M_S_D_N_Singh_Through_Partner_vs_Commissioner_Of_Income_Tax_on_16_May_2023_1.PDF: . CRIMINAL BREACH OF TRUST 41. Section 405 of the Indian Penal Code, 1860 reads as follows: €405. Criminal Breach of Trust Whoever, being in any manner entrusted with property, or with any dominion over property, dishonestly misappropriates or converts to his own use that property, or dishonestly uses or disposes of that property in violation of any direction of law prescribing the mode in which such trust is to be discharged, or of any legal contract, express or implied, which he has made touching the discharge of such trust, or wilfully suffers any other person so to do, commits "criminal breach of trust". Illustration (f) under Section 405 is apposite and it reads as follows: - €Illustration f. A, a carrier, is entrusted by Z with property to be carried by land or by water. A dishonestly misappropriates the property. A has committed a criminal breach of trust.□ G. THE SALE OF GOODS ACT, 1930 42. Section 39 of the Sale of Goods Act, 1930, inter alia, contemplates delivery pursuant to a contract of sale by the seller to the carrier as prima facie to be deemed to be the delivery of the goods to the buyer. It becomes the responsibility of the buyer of a carrier to fulfil its contractual obligations and deliver the goods to the consignee or as per its instructions. Section 27 of the Sale of Goods Act deals with sale by a person who is not the owner. It reads as follows: - €27. Sale by person not the owner
+E9: Police Investigation Report
+
+
+[Judge] [Memory] Retrieved: M_S_D_N_Singh_Through_Partner_vs_Commissioner_Of_Income_Tax_on_16_May_2023_1.PDF, Ranchhodlal_vs_State_Of_Madhya_Pradesh_on_27_November_1964_1.PDF, Madanlal_vs_State_Of_Punjab_on_5_April_1967_1.PDF, M_S_D_N_Singh_Through_Partner_vs_Commissioner_Of_Income_Tax_on_16_May_2023_1.PDF, Art. 286, Art. 134, E8, E1, E4, E2, E3
+
+[Judge]
+[Action] get_evidence: E9
+
+[Judge] [Memory] Retrieved: 'E9: Police Investigation Repor...'
+
+[Judge]
+E9: Police Investigation Report
+
+
+[Plaintiff] [Memory] Retrieved: Manish_Sisodia_vs_Central_Bureau_Of_Investigation_on_30_October_2023_1.PDF, Santosh_Kumar_Singh_vs_State_Th_Cbi_on_6_October_2010_1.PDF, Sajjan_Kumar_vs_C_B_I_on_20_September_2010_1.PDF, Manish_Sisodia_vs_Central_Bureau_Of_Investigation_on_30_October_2023_1.PDF, Art. 338, Art. 339, E5, E9, E7, E2, E3
+
+[Plaintiff]
+[Action] note_to_record: The defense has presented a strong case, highlighting the lack of evidence and contradictory testimony, which collectively suggest that Rajesh Verma did not commit a criminal breach of trust.
+
+[Plaintiff]
+ok
+
+
+[Judge] [Memory] Retrieved: Santosh_Kumar_Singh_vs_State_Th_Cbi_on_6_October_2010_1.PDF, Cbi_Hyderabad_vs_Subramani_Gopalakrishnan_And_Anr_on_21_April_2011_1.PDF, Indian_And_Eastern_Newspaper_Society_vs_Commissioner_Of_Income_Tax_New_Delhi_on_31_August_1979_1.PDF, Indian_Oil_Corporation_vs_Income_Tax_Officer_Central_Circle_V_on_8_May_1986_1.PDF, Art. 355, Art. 151, E3, E9, E8, E1, E2, 'The defense has presented a st...'
+
+[Judge]
+Now that we have reviewed the Police Investigation Report (E9) and the relevant legal precedents, I would like to proceed with the closing statements.
+
+Plaintiff, you may now present your closing statement. Please summarize the key points of your case and explain why you believe the defendant, Rajesh Verma, is guilty of criminal breach of trust.
+
+After the plaintiff's closing statement, the defendant will present their closing statement. 
+
+Please proceed with your closing statement.
+
+
+[Plaintiff] [Memory] Retrieved: Pritam_Singh_vs_Union_Of_India_Ors_on_22_September_2004_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Syndicate_Bank_Ors_vs_Venkatesh_Gururao_Kurati_on_31_January_2006_1.PDF, Olia_Mallick_Alias_Oliruddin_Mallick_vs_The_State_Of_West_Bengal_on_26_February_1974_1.PDF, Art. 35, Art. 202, E5, E2, E7, E9, E3
+
+[Plaintiff]
+[Action] search_constitution: 5, rights of the accused, get_article: Art. 134, note_to_record: The plaintiff has presented a strong case, highlighting the evidence of criminal breach of trust and the defendant's guilt.
+
+[Plaintiff] [Memory] Retrieved: 'Art. 134: Appellate jurisdicti...', 'Art. 134: Appellate jurisdicti...'
+
+[Plaintiff]
+Art. 134: Appellate jurisdiction of Supreme Court in regard to criminal matters. An appeal shall lie to the Supreme Court from any judgment in a criminal proceeding of a High Court if the High Court has reversed an order of acquittal and sentenced the accused to death, or has withdrawn a case for trial and sentenced the accused to death, or certifies that the case is a fit one for appeal.
+Art. 20: Protection in respect of conviction for offences. No person shall be convicted of any offence except for violation of a law in force at the time of the act. No person shall be prosecuted and punished for the same offence more than once. No person accused of any offence shall be compelled to be a witness against himself.
+Art. 362: [Repealed – originally related to rights and privileges of rulers of Indian States]
+Art. 33: Power of Parliament to modify the rights conferred by this Part in their application to Forces. Parliament may determine to what extent any of the rights conferred by this Part shall apply to members of the Armed Forces, police forces, or persons employed in intelligence or counter-intelligence, so as to ensure proper discharge of duties and maintenance of discipline.
+Art. 13: Laws inconsistent with or in derogation of the fundamental rights. All laws in force immediately before the commencement of this Constitution, insofar as they are inconsistent with the provisions of this Part, shall be void. The State shall not make any law which takes away or abridges the rights conferred by this Part. Any law contravening this clause shall be void.
+
+Right to Equality
+Art. 134: Appellate jurisdiction of Supreme Court in regard to criminal matters. An appeal shall lie to the Supreme Court from any judgment in a criminal proceeding of a High Court if the High Court has reversed an order of acquittal and sentenced the accused to death, or has withdrawn a case for trial and sentenced the accused to death, or certifies that the case is a fit one for appeal.
+ok
+
+
+[Judge] [Memory] Retrieved: Sunder_Singh_vs_State_Of_Uttar_Pradesh_on_3_November_1955_1.PDF, Ous_Kutilingal_Achudan_Nair_And_Ors_vs_Union_Of_India_Ors_on_20_November_1975_1.PDF, Kesavananda_Bharati_Sripadagalvaru_vs_State_Of_Kerala_And_Anr_on_24_April_1973_1.PDF, In_The_Matter_Of__Under_Article_143_Of_The_vs_Unknown_on_30_September_1964_1.PDF, Art. 134, Art. 33, E9, E1, E4, E2, E3, 'The plaintiff has presented a ...'
+
+[Judge]
+Now that we have reviewed the relevant articles of the Indian Constitution, I would like to proceed with the closing statements.
+
+Defendant, you may now present your closing statement. Please summarize the key points of your defense and explain why you believe you are not guilty of criminal breach of trust.
+
+After the defendant's closing statement, I will review the evidence and arguments presented in this case and deliver my verdict.
+
+Please proceed with your closing statement.
+
+
+[Defendant] [Memory] Retrieved: Ous_Kutilingal_Achudan_Nair_And_Ors_vs_Union_Of_India_Ors_on_20_November_1975_1.PDF, Sunder_Singh_vs_State_Of_Uttar_Pradesh_on_3_November_1955_1.PDF, Kesavananda_Bharati_Sripadagalvaru_vs_State_Of_Kerala_And_Anr_on_24_April_1973_1.PDF, In_The_Matter_Of__Under_Article_143_Of_The_vs_Unknown_on_30_September_1964_1.PDF, Art. 134, Art. 33, E9, E1, E4, E2, E3
+
+[Defendant]
+[Action] note_to_record: The Defendant requests that the Court consider the evidence presented, including the tax invoice (E8) and the WhatsApp chat (E7), and find the Defendant not guilty of criminal breach of trust.
+
+[Defendant]
+ok
+
+
+[Judge] [Memory] Retrieved: Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Chilukuri_Venkateswarlu_vs_Chilukuri_Venkatanarayana_on_8_December_1953_1.PDF, Meesala_Ramakrishan_vs_State_Of_A_P_on_13_April_1994_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Art. 35, Art. 361, E1, E5, E4, E2, E3, 'The Defendant requests that th...'
+
+[Judge]
+=== VERDICT ===
+
+After carefully considering the evidence and arguments presented in this case, I find the defendant, Rajesh Verma, guilty of criminal breach of trust.
+
+=== FINDINGS OF FACT ===
+
+The prosecution has presented sufficient evidence to prove that Rajesh Verma, as the Finance Manager of Zenith Logistics Pvt. Ltd., had misappropriated company funds totaling ₹12,50,000 by making unauthorized transactions to RV Business Solutions, a company controlled by his spouse.
+
+The evidence, including the bank statement (E2), internal audit report (E3), and employment contract (E1), establishes that Rajesh Verma had the authority to process payments but exceeded his limits and failed to provide adequate documentation for the transactions.
+
+The defense's argument that the transactions were authorized and that RV Business Solutions provided legitimate services is not supported by sufficient evidence. The tax invoice (E8) submitted by the defense is not credible, and the WhatsApp chat (E7) does not provide conclusive evidence of authorization.
+
+=== CONCLUSIONS OF LAW ===
+
+Based on the findings of fact, I conclude that Rajesh Verma has committed criminal breach of trust under Section 405 of the Indian Penal Code, 1860. The prosecution has proved beyond reasonable doubt that Rajesh Verma had misappropriated company funds with the intention of causing wrongful loss to the company.
+
+=== ORDER / REMEDY ===
+
+I hereby sentence Rajesh Verma to imprisonment for a period of two years and fine him ₹5,00,000. I also order Rajesh Verma to pay restitution to Zenith Logistics Pvt. Ltd. in the amount of ₹12,50,000.
+
+=== FULL WRITTEN OPINION ===
+
+The full written opinion of this court will be available in due course, detailing the reasoning and analysis behind this verdict.
+
+TERMINATE

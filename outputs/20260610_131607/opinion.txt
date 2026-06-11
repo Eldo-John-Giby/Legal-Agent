@@ -1,0 +1,21 @@
+=== VERDICT ===
+
+Based on the evidence and arguments presented, I find the accused, Rajesh Verma, guilty of criminal breach of trust, misappropriation of company funds, and falsification of financial records.
+
+=== FINDINGS OF FACT ===
+
+The court finds that Rajesh Verma, as the Finance Manager of Zenith Logistics Pvt. Ltd., misappropriated ₹12,50,000 from the company by making unauthorized transfers to RV Business Solutions, a company controlled by his spouse. The court also finds that Rajesh Verma falsified financial records to conceal the unauthorized transfers and breached the trust placed in him as a Finance Manager.
+
+=== CONCLUSIONS OF LAW ===
+
+The court concludes that the accused, Rajesh Verma, has committed the offenses of criminal breach of trust, misappropriation of company funds, and falsification of financial records, as defined under the Indian Penal Code.
+
+=== ORDER / REMEDY ===
+
+The court orders the accused, Rajesh Verma, to pay a fine of ₹5,00,000 and to reimburse Zenith Logistics Pvt. Ltd. the amount of ₹12,50,000 misappropriated by him. The court also orders the accused to undergo imprisonment for a period of 2 years.
+
+=== FULL WRITTEN OPINION ===
+
+The court's decision is based on the evidence presented, including the Employment Contract (E1), Bank Statement (E2), Internal Audit Report (E3), Registrar of Companies / Business Registration Records (E4), Email dated 2024-02-03 (E5), Testimony of Managing Director (E6), WhatsApp Chat dated 2024-01-14 (E7), Tax Invoice (E8), and Police Investigation Report (E9). The court has carefully considered the arguments presented by both parties and has found the accused guilty of the charges brought against him.
+
+TERMINATE

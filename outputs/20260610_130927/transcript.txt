@@ -1,0 +1,309 @@
+[user]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: State of Maharashtra v. Rajesh Verma
+JURISDICTION: India – Criminal Trial (Indian Penal Code, 1860 / Bharatiya Nyaya Sanhita equivalent may be assumed)
+
+PARTIES:
+
+PROSECUTION: State of Maharashtra
+ACCUSED: Rajesh Verma
+
+CHARGES (PROSECUTION):
+
+Criminal breach of trust by employee.
+Misappropriation of company funds amounting to ₹12,50,000.
+Falsification of financial records to conceal unauthorized transfers.
+
+DEFENSES (ACCUSED):
+
+Authorized transactions: Transfers were approved verbally by senior management.
+Lack of intent: No dishonest intention to cause wrongful loss.
+Investigation defects: Police failed to collect complete accounting records and ignored exculpatory evidence.
+
+FACTS:
+
+Rajesh Verma worked as Finance Manager at Zenith Logistics Pvt. Ltd.
+Between January and April 2024, multiple transfers totaling ₹12,50,000 were made from the company account to a consulting firm called "RV Business Solutions."
+The prosecution alleges that RV Business Solutions was secretly controlled by Rajesh Verma.
+An internal audit discovered the transfers and filed a police complaint.
+Rajesh claims the consulting firm provided legitimate business services and that management was aware of the payments.
+
+EVIDENCE:
+
+E1: Employment Contract
+
+Rajesh Verma appointed Finance Manager with authority to process payments up to ₹5,00,000 subject to documentation requirements.
+
+E2: Bank Statement
+
+Shows five transfers totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions between 2024-01-15 and 2024-04-20.
+
+E3: Internal Audit Report
+
+Concludes no invoices, work orders, or service agreements exist for payments made to RV Business Solutions.
+
+E4: Registrar of Companies / Business Registration Records
+
+Lists Rajesh Verma's spouse as proprietor of RV Business Solutions.
+
+E5: Email dated 2024-02-03
+
+Rajesh to Accounts Team: "Process payment urgently. Management approval already obtained."
+
+E6: Testimony of Managing Director
+
+States no approval was granted for payments to RV Business Solutions and that he first learned of the firm during the audit.
+
+E7: WhatsApp Chat dated 2024-01-14
+
+Managing Director to Rajesh: "We need outside help for vendor optimization. Please handle it."
+Defense argues this message demonstrates authorization to engage consultants.
+
+E8: Tax Invoice
+
+Submitted by defense, showing consultancy services worth ₹4,00,000 allegedly provided by RV Business Solutions.
+
+E9: Police Investigation Report
+
+Records seizure of accounting records and statements from company employees.
+
+ISSUES FOR DETERMINATION:
+
+Whether Rajesh Verma had authority to make the disputed payments.
+Whether RV Business Solutions provided genuine services to the company.
+Whether the accused dishonestly misappropriated company funds.
+Whether the prosecution has proved guilt beyond reasonable doubt.
+
+REQUESTED RELIEF:
+
+PROSECUTION:
+
+Conviction of the accused.
+Recovery of ₹12,50,000.
+Appropriate sentence under applicable criminal law.
+
+DEFENSE:
+
+Acquittal of all charges.
+Alternatively, benefit of doubt due to insufficient proof of dishonest intent.
+
+POTENTIAL WITNESSES:
+
+PW1: Managing Director of Zenith Logistics Pvt. Ltd.
+PW2: Internal Auditor.
+PW3: Investigating Officer.
+DW1: Rajesh Verma (Accused).
+DW2: Proprietor of RV Business Solutions.
+DW3: Accounts Executive who processed the transfers.
+---
+
+
+
+[Judge] [Memory] Retrieved: Rajesh_Kumar_Verma_vs_State_Of_M_P_on_21_January_1994_1.PDF, Rajesh_Bajaj_vs_State_Nct_Of_Delhi_And_Others_on_12_March_2000_1.PDF, Bhogireddi_Varalakshmi_Ors_vs_Mani_Muthupandi_And_Ors_on_3_March_2017_1.PDF, PRE_CHINTAMAN_RAO, PRE_AIR_INDIA, Art. 134, Art. 26, E4, E2, E1, E5, E3, 'Case: State of Maharashtra v. ...', 'Evidence ids: E1, E2, E3, E4, ...'
+
+[Judge]
+This court is now in session. The case before us today is State of Maharashtra v. Rajesh Verma, a criminal trial under the Indian Penal Code, 1860. The prosecution alleges that the accused, Rajesh Verma, committed criminal breach of trust by misappropriating company funds amounting to ₹12,50,000 and falsifying financial records. The defense claims that the transactions were authorized, lacked intent to cause wrongful loss, and that the investigation was flawed. 
+
+I would like the Plaintiff to proceed with their opening statement.
+
+
+[Plaintiff] [Memory] Retrieved: Rajesh_Kumar_Verma_vs_State_Of_M_P_on_21_January_1994_1.PDF, Rajesh_Bajaj_vs_State_Nct_Of_Delhi_And_Others_on_12_March_2000_1.PDF, Bhogireddi_Varalakshmi_Ors_vs_Mani_Muthupandi_And_Ors_on_3_March_2017_1.PDF, PRE_CHINTAMAN_RAO, PRE_AIR_INDIA, Art. 134, Art. 26, E4, E2, E1, E5, E3
+
+[Plaintiff]
+The prosecution will demonstrate that Rajesh Verma, as the Finance Manager of Zenith Logistics Pvt. Ltd, abused his authority to misappropriate ₹12,50,000 from the company accounts to a consulting firm, RV Business Solutions, which is secretly controlled by him. We will present evidence, including bank statements (E2), internal audit reports (E3), and company registration records (E4), to show that these transactions were unauthorized and intended to cause wrongful loss to the company. The email dated 2024-02-03 (E5) will be shown to be a falsified attempt to legitimize the payments after the fact. The testimony of the Managing Director (E6) and other witnesses will further establish the lack of authorization and the dishonest intent behind these actions. <function=get_evidence>{"evidence_id": "E2"}</function>
+
+
+[Defendant] [Memory] Retrieved: Rajesh_Bajaj_vs_State_Nct_Of_Delhi_And_Others_on_12_March_2000_1.PDF, Bhogireddi_Varalakshmi_Ors_vs_Mani_Muthupandi_And_Ors_on_3_March_2017_1.PDF, M_S_Telestar_Travels_Pvt_Ltd_Ors_vs_Special_Director_Of_Enforcement_on_13_February_2013_1.PDF, PRE_CHINTAMAN_RAO, PRE_AIR_INDIA, Art. 134, Art. 19, E4, E2, E1, E5, E3
+
+[Defendant]
+Now it's my turn as the Defendant. The defense will vigorously argue that the prosecution's case relies heavily on circumstantial evidence and ignores crucial facts that demonstrate my client's innocence. We will show that the transactions in question were for legitimate business services provided by RV Business Solutions, as evidenced by the tax invoice (E8) and the WhatsApp chat dated 2024-01-14 (E7), which clearly indicates authorization from the Managing Director to engage consultants for vendor optimization. The email dated 2024-02-03 (E5) will be contextualized to demonstrate its authenticity as a genuine instruction to process a payment based on prior management approval. Furthermore, we will highlight the investigative flaws, including the failure to collect complete accounting records, which casts significant doubt on the prosecution's allegations. <function=get_evidence>{"evidence_id": "E7"}</function>
+
+
+[Judge] [Memory] Retrieved: M_S_Telestar_Travels_Pvt_Ltd_Ors_vs_Special_Director_Of_Enforcement_on_13_February_2013_1.PDF, C_B_I_vs_V_Vijay_Sai_Reddy_on_9_May_2013_1.PDF, India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, PRE_CHINTAMAN_RAO, PRE_AIR_INDIA, Art. 26, Art. 19, E4, E2, E1, E5, E3
+
+[Judge]
+The Plaintiff and the Defendant have both presented their opening statements. Now, I would like to invite the Plaintiff to present their argument, citing relevant evidence and legal precedents to support their claims. Please proceed, Plaintiff.
+
+
+[Plaintiff] [Memory] Retrieved: Bhagwati_Prasad_vs_Shri_Chandramaul_on_19_October_1965_1.PDF, Nusrat_Parween_vs_The_State_Of_Jharkhand_on_10_December_2024_1.PDF, Wadla_Bheemaraidu_vs_The_State_Of_Telangana_on_3_December_2024_1.PDF, PRE_AIR_INDIA, PRE_IPC_403, Art. 198, Art. 109, E4, E1, E7, E2, E3
+
+[Plaintiff]
+The prosecution argues that the accused, Rajesh Verma, has committed a criminal breach of trust by misappropriating company funds. The evidence clearly shows that Rajesh Verma made multiple transfers totaling ₹12,50,000 to RV Business Solutions, a company controlled by his spouse (E4), without proper authorization or documentation (E3). The testimony of the Managing Director (E6) confirms that no approval was granted for these payments, contrary to the accused's claims. The email dated 2024-02-03 (E5) is a clear attempt to cover up these unauthorized transactions. We rely on the precedent set in the case of Bhagwati Prasad vs. Shri Chandramaul (PRE_BENNETT_COLEMAN is not applicable here, but the principle of dishonest misappropriation is relevant), where it was established that the substance of the pleadings and evidence should be considered, not just their form. In this case, the substance of the evidence points to a clear breach of trust by the accused. Furthermore, the prosecution cites Section 403 of the Indian Penal Code (PRE_IPC_403), which punishers dishonest misappropriation of property. The accused's actions fall squarely within this provision. <function=get_evidence>{"evidence_id": "E6"}</function> <function=search_precedents>{"query": "criminal breach of trust", "k": 3}</function>
+
+
+[Judge] [Memory] Retrieved: Bhagwati_Prasad_vs_Shri_Chandramaul_on_19_October_1965_1.PDF, Jaikrishnadas_Manohardasdesai_And_vs_The_State_Of_Bombay_on_16_March_1960_1.PDF, Khandu_Sonu_Dhobi_And_Anr_vs_State_Of_Maharashtra_on_15_February_1972_1.PDF, PRE_CHINTAMAN_RAO, PRE_IPC_403, Art. 26, Art. 134, E1, E7, E4, E2, E3
+
+[Judge]
+The Plaintiff has presented their argument, citing relevant evidence and legal precedents. Now, I would like to invite the Defendant to present their argument, citing any objections or alternative explanations for the evidence presented, as well as any relevant legal precedents or authorities that may support their case. Please proceed, Defendant.
+
+
+[Defendant] [Memory] Retrieved: Bhagwati_Prasad_vs_Shri_Chandramaul_on_19_October_1965_1.PDF, Khandu_Sonu_Dhobi_And_Anr_vs_State_Of_Maharashtra_on_15_February_1972_1.PDF, Jaikrishnadas_Manohardasdesai_And_vs_The_State_Of_Bombay_on_16_March_1960_1.PDF, PRE_IPC_403, PRE_CHINTAMAN_RAO, Art. 134, Art. 26, E1, E7, E4, E2, E3
+
+[Defendant]
+The defense argues that the prosecution's case is built on incomplete and misleading evidence. We object to the characterization of the email dated 2024-02-03 (E5) as an attempt to cover up unauthorized transactions, as it was merely an instruction to process a payment based on prior management approval, which is corroborated by the WhatsApp chat dated 2024-01-14 (E7). This chat clearly indicates that the Managing Director authorized Rajesh Verma to engage consultants for vendor optimization, which RV Business Solutions provided, as evidenced by the tax invoice (E8). The lack of invoices or work orders in the internal audit report (E3) does not necessarily imply that the services were not provided, as these documents may have been missed in the investigation or not required for the nature of the services. 
+
+We also raise objections to the prosecution's reliance on Section 403 of the Indian Penal Code, as the key element of "dishonest intention" is not adequately proven. The prosecution's interpretation of the evidence ignores the possibility of legitimate business transactions, which is supported by the tax invoice (E8) and the context of the email (E5) and WhatsApp chat (E7). The precedent set in the case of Khandu Sonu Dhobi (PRECEDENT_KHANDU_SONU_DHOBI) is relevant, as it highlights the importance of considering all aspects of the evidence and not just selective parts that support the prosecution's narrative. Furthermore, the principle established in PRE_CHINTAMAN_RAO, regarding reasonable restrictions, can be applied here to question the reasonableness of the prosecution's expectations regarding documentation for the transactions, especially given the verbal authorization and the nature of the services provided.
+
+
+
+[Defendant]
+[Action] get_evidence: E8, search_precedents: 3, dishonest intention and authorization, note_to_record: The defense requests that the court consider the totality of the evidence, including the WhatsApp chat and tax invoice, in determining the legitimacy of the transactions and the presence or absence of dishonest intention.
+
+[Defendant] [Memory] Retrieved: 'E8: Tax Invoice...', '--- Hand-picked Precedents ---...'
+
+[Defendant]
+E8: Tax Invoice
+--- Hand-picked Precedents ---
+PRE_IPC_403: ID: PRE_IPC_403
+PROVISION: Section 403, Indian Penal Code - Dishonest misappropriation of property
+PRINCIPLE: Whoever dishonestly misappropriates or converts to his own use any movable property, shall be punished...
+APPLICATION: Relevant where there is misappropriation without a formal trust relationship (though 405/408 are more specific here).
+
+### THE GOLDEN TRIANGLE
+ID: PRE_MANEKA_GANDHI
+CASE: Maneka Gandhi v. Union of India (1978)
+PRINCIPLE: Articles 14, 19, and 21 are not silos. They are a "Golden Triangle." Any action must satisfy all three tests of fairness, reasonableness, and non-arbitrariness.
+APPLICATION: The foundational argument for why a contract dispute can be viewed through a constitutional lens.
+
+--- Supreme Court Judgments (Corpus) ---
+Veer_Prakash_Sharma_vs_Anil_Kumar_Agarwal_Anr_on_1_August_2007_1.PDF: ™4. On a reading of the section it is manifest that in the definition there are set forth two separate classes of acts which the person deceived may be induced to do. In the first place he may be induced fraudulently or dishonestly to deliver any property to any person. The second class of acts set forth in the section is the doing or omitting to do anything which the person deceived would not do or omit to do if he were not so deceived. In the first class of cases the inducing must be fradulent or dishonest. In the second class of acts, the inducing must be intentional but not fraudulent or dishonest. 15. In determining the question it has to be kept in mind that the distinction between mere breach of contract and the offence of cheating is a fine one. It depends upon the intention of the accused at the time to inducement which may be judged by his subsequent conduct but for this subsequent conduct is not the sole test. Mere breach of contract cannot give rise to criminal prosecution for cheating unless fraudulent or dishonest intention is shown right at the beginning of the transaction, that is the time when the offence is said to have been committed. Therefore it is the intention which is the gist of the offence. To hold a person guilty of cheating it is necessary to show that he had fraudulent or dishonest intention at the time of making the promise
+
+B_Suresh_Yadav_vs_Sharifa_Bee_Anr_on_12_October_2007_1.PDF: . From his making failure to keep promise subsequently, such a culpable intention right at the beginning that is at the time when the promise was made cannot be presumed. It is seen from the records that the exemption certificate contained necessary conditions which were required to be complied with after importation of the machine. Since the GCS could not comply with it, therefore, it rightly paid the necessary duties without taking advantage of the exemption certificate. The conduct of the GCS clearly B. Suresh Yadav vs Sharifa Bee & Anr on 12 October, 2007 Indian Kanoon - http://indiankanoon.org/doc/678316/ 4 indicates that there was no fraudulent or dishonest intention of either the GCS or the appellants in their capacities as office-bearers right at the time of making application for exemption . As there was absence of dishonest and fraudulent intention, the question of committing offence under Section 420 of the Indian Penal Code does not arise.□ {See also Hira Lal Hari Lal Bhagwati v. CBI, New Delhi [(2005) 3 SCC 670] and Indian Oil Corporation v. NEPC India Ltd. & Ors. [(2006) 6 SCC 736]}. 18. For the reasons aforementioned, the impugned
+
+All_Cargo_Movers_I_Pvt_Ltd_Ors_vs_Dhanesh_Badarmal_Jain_Anr_on_12_October_2007_1.PDF: . From his making failure to keep promise subsequently, such a culpable intention right at the beginning that is at the time when the promise was made cannot be presumed. It is seen from the records that the exemption certificate contained necessary conditions which were required to be complied with after importation of the machine. Since the All Cargo Movers (I) Pvt. Ltd. & Ors vs Dhanesh Badarmal Jain & Anr on 12 October, 2007 Indian Kanoon - http://indiankanoon.org/doc/1756347/ 6 GCS could not comply with it, therefore, it rightly paid the necessary duties without taking advantage of the exemption certificate. The conduct of the GCS clearly indicates that there was no fraudulent or dishonest intention of either the GCS or the appellants in their capacities as office-bearers right at the time of making application for exemption . As there was absence of dishonest and fraudulent intention, the question of committing offence under Section 420 of the Indian Penal Code does not arise.□ {See also Hira Lal Hari Lal Bhagwati v. CBI, New Delhi [(2005) 3 SCC 670] and Indian Oil Corporation v. NEPC India Ltd. & Ors. [(2006) 6 SCC 736]}. 22. For the reasons aforementioned, the impugned
+ok
+
+
+[Judge] [Memory] Retrieved: All_Cargo_Movers_I_Pvt_Ltd_Ors_vs_Dhanesh_Badarmal_Jain_Anr_on_12_October_2007_1.PDF, B_Suresh_Yadav_vs_Sharifa_Bee_Anr_on_12_October_2007_1.PDF, Veer_Prakash_Sharma_vs_Anil_Kumar_Agarwal_Anr_on_1_August_2007_1.PDF, PRE_IPC_403, PRE_CHINTAMAN_RAO, Art. 26, Art. 134A, E1, E7, E4, E2, E3, 'The defense requests that the ...'
+
+[Judge]
+The Defendant has presented their argument, citing relevant evidence and legal precedents. Now, I would like to ask questions to both sides to clarify certain points. 
+
+I would like to start by asking the Plaintiff: Can you explain how the email dated 2024-02-03 (E5) is a clear attempt to cover up the unauthorized transactions, and how it relates to the testimony of the Managing Director (E6)? <function=get_evidence>{"evidence_id": "E5"}</function> 
+
+Please respond, Plaintiff.
+
+
+[Plaintiff] [Memory] Retrieved: All_Cargo_Movers_I_Pvt_Ltd_Ors_vs_Dhanesh_Badarmal_Jain_Anr_on_12_October_2007_1.PDF, B_Suresh_Yadav_vs_Sharifa_Bee_Anr_on_12_October_2007_1.PDF, Veer_Prakash_Sharma_vs_Anil_Kumar_Agarwal_Anr_on_1_August_2007_1.PDF, PRE_IPC_403, PRE_AIR_INDIA, Art. 35, Art. 134A, E4, E1, E7, E2, E3
+
+[Plaintiff]
+The email dated 2024-02-03 (E5) is a self-serving document created by the accused to justify the unauthorized payments to RV Business Solutions. The email claims that management approval was obtained for the payment, but the Managing Director's testimony (E6) contradicts this, stating that no such approval was given. This discrepancy suggests that the accused fabricated the email to provide a false paper trail, attempting to legitimize the disputed transactions. The timing of the email, sent after the transactions were made, further supports the inference that it was a belated attempt to cover up the accused's misappropriation of company funds. The prosecution submits that this email, in conjunction with the lack of supporting documentation and the Managing Director's testimony, demonstrates the accused's dishonest intention to deceive and conceal the true nature of the transactions. <function=get_evidence>{"evidence_id": "E6"}</function> <function=search_precedents>{"query": "fabrication of evidence", "k": 3}</function>
+
+
+[Judge] [Memory] Retrieved: The_Managing_Director_Mig_Hindustan_vs_Ajit_Prasad_Tarway_on_5_November_1971_1.PDF, State_Of_Nct_Of_Delhi_vs_Rajiv_Khurana_on_30_July_2010_1.PDF, M_S_Arif_Azim_Co_Ltd_vs_M_S_Aptech_Ltd_on_1_March_2024_1.PDF, PRE_AIR_INDIA, PRE_CHINTAMAN_RAO, Art. 134, Art. 76, E4, E2, E1, E5, E3
+
+[Judge]
+The Plaintiff has provided an explanation for the email dated 2024-02-03 (E5) and its relation to the testimony of the Managing Director (E6). Now, I would like to ask the Defendant to respond to these allegations and provide their own explanation for the email and the discrepancies in the testimony.
+
+Defendant, can you explain why the email dated 2024-02-03 (E5) was sent, and how it relates to the authorization for the payments to RV Business Solutions? How do you respond to the Plaintiff's allegation that the email is a fabrication, and what evidence can you provide to support your claim that the payments were legitimate and authorized?
+
+Please respond, Defendant. <function=get_evidence>{"evidence_id": "E7"}</function>
+
+
+[Defendant] [Memory] Retrieved: Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, PRE_AIR_INDIA, PRE_IPC_403, Art. 35, Art. 51, E4, E1, E7, E2, E3
+
+[Defendant]
+The email dated 2024-02-03 (E5) was sent as a follow-up to ensure that the accounts team processed the payment to RV Business Solutions in a timely manner, as it was urgent and had already been authorized by the Managing Director, as evident from the WhatsApp chat dated 2024-01-14 (E7). This chat clearly shows that the Managing Director authorized me to handle the vendor optimization, which included engaging consultants like RV Business Solutions. The email (E5) was merely a routine instruction to the accounts team to effect the payment, based on the prior approval obtained. 
+
+I strongly object to the Plaintiff's allegation that the email is a fabrication. The WhatsApp chat (E7) and the tax invoice (E8) submitted by the defense demonstrate that the services provided by RV Business Solutions were legitimate and that the payments were made for genuine business purposes. The discrepancy in the Managing Director's testimony (E6) can be attributed to a lapse in memory or a misunderstanding, as the WhatsApp chat (E7) clearly indicates that authorization was given for the engagement of consultants. I request that the court consider the totality of the evidence, including the electronic communications and the documentary evidence, to determine the authenticity of the authorization for the payments. 
+
+Furthermore, I would like to highlight that the investigation was flawed, as it failed to consider all relevant evidence, including the WhatsApp chat (E7) and the tax invoice (E8), which support my claim of authorization and legitimate business transactions. <function=search_evidence>{"query": "authorization for payments", "k": 5}</function> <function=note_to_record>{"note": "The defense requests that the court take into consideration the electronic evidence and the documentary evidence in determining the authenticity of the authorization for the payments."}</function>
+
+
+[Judge] [Memory] Retrieved: Pravin_Electricals_Pvt_Ltd_vs_Galaxy_Infra_And_Engineering_Pvt_Ltd_on_8_March_2021_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Pravin_Electricals_Pvt_Ltd_vs_Galaxy_Infra_And_Engineering_Pvt_Ltd_on_8_March_2021_1.PDF, PRE_AIR_INDIA, PRE_IPC_403, Art. 26, Art. 371, E4, E1, E7, E2, E3
+
+[Judge]
+The Defendant has provided an explanation for the email dated 2024-02-03 (E5) and the discrepancies in the testimony. The Defendant has also objected to the Plaintiff's allegation that the email is a fabrication and has provided alternative explanations for the Managing Director's testimony.
+
+I have taken note of the Defendant's request to consider the totality of the evidence, including the electronic communications and documentary evidence, to determine the authenticity of the authorization for the payments.
+
+Now, I would like to invite the Plaintiff to present their closing statement, summarizing their case and reiterating their arguments. Please proceed, Plaintiff.
+
+After the Plaintiff's closing statement, the Defendant will have the opportunity to present their closing statement. 
+
+Then, I will proceed to deliver my verdict, considering all the evidence and arguments presented during the trial. <function=note_to_record>{"note": "The court will consider all the evidence and arguments presented during the trial in delivering its verdict."}</function>
+
+
+[Plaintiff] [Memory] Retrieved: Bharat_Barrel_And_Drum_Manufacturing_vs_Amin_Chand_Payrelal_on_18_February_1999_1.PDF, Pravin_Electricals_Pvt_Ltd_vs_Galaxy_Infra_And_Engineering_Pvt_Ltd_on_8_March_2021_1.PDF, Naganna_Dead_By_Lrs___Smt_Devamma_vs_Siddaramegowda_Since_Deceased_By_Lrs_on_19_March_2025_1.PDF, PRE_AIR_INDIA, PRE_IPC_403, Art. 35, Art. 26, E4, E1, E7, E2, E3
+
+[Plaintiff]
+The prosecution has presented a compelling case, demonstrating that the accused, Rajesh Verma, misappropriated ₹12,50,000 from Zenith Logistics Pvt. Ltd. through unauthorized transactions to RV Business Solutions, a company controlled by his spouse. The evidence, including bank statements (E2), internal audit reports (E3), and company registration records (E4), clearly shows that these transactions were not legitimate business expenses, but rather a dishonest misappropriation of company funds.
+
+The prosecution has also established that the accused attempted to cover up these transactions through a fabricated email (E5) and false claims of management approval. The testimony of the Managing Director (E6) confirms that no such approval was given, and the accused's actions were a clear breach of trust.
+
+The prosecution argues that the defense's claims of authorization and legitimate business transactions are not supported by credible evidence. The WhatsApp chat (E7) and tax invoice (E8) are insufficient to establish that the payments were authorized or legitimate, and the defense's explanation for the discrepancies in the Managing Director's testimony is unconvincing.
+
+The prosecution relies on the precedent set in the case of Bhagwati Prasad vs. Shri Chandramaul, which establishes that the substance of the pleadings and evidence should be considered, not just their form. In this case, the substance of the evidence points to a clear breach of trust by the accused.
+
+The prosecution urges the court to consider the totality of the evidence and to hold the accused accountable for his actions. The prosecution seeks a conviction and recovery of the misappropriated funds, as well as an appropriate sentence under the applicable criminal law.
+
+The prosecution is confident that the evidence presented has established the accused's guilt beyond a reasonable doubt and looks forward to the court's verdict. <function=note_to_record>{"note": "The prosecution has concluded its closing statement."}</function> <function=search_precedents>{"query": "breach of trust", "k": 3}</function>
+
+
+[Defendant] [Memory] Retrieved: Sawal_Das_vs_State_Of_Bihar_on_9_January_1974_1.PDF, Asraf_Ali_vs_State_Of_Assam_on_17_July_2008_1.PDF, Vasant_Sampat_Dupare_vs_State_Of_Maharashtra_on_28_October_2014_1.PDF, PRE_AIR_INDIA, PRE_CHINTAMAN_RAO, Art. 134, Art. 20, E4, E2, E1, E5, E3
+
+[Defendant]
+### Closing Statement for the Defense
+
+The defense has consistently argued that the accused, Rajesh Verma, acted within the scope of his authority as Finance Manager of Zenith Logistics Pvt. Ltd. and that the transactions in question were legitimate business expenses authorized by the Managing Director. The WhatsApp chat dated 2024-01-14 (E7) clearly indicates that the Managing Director authorized the engagement of consultants for vendor optimization, which includes the services provided by RV Business Solutions.
+
+Furthermore, the tax invoice (E8) submitted by the defense demonstrates that RV Business Solutions provided genuine services to the company, thereby substantiating the legitimacy of the payments. The defense contests the prosecution's characterization of the email dated 2024-02-03 (E5) as a fabrication, arguing instead that it was a genuine instruction to the accounts team to process a payment based on prior management approval.
+
+The defense also highlights the inconsistencies in the prosecution's case, particularly the lack of direct evidence linking the accused to the alleged misappropriation of funds. The internal audit report (E3) and company registration records (E4) do not conclusively prove that the transactions were unauthorized or that the accused acted with dishonest intent.
+
+The defense relies on the principle established in the case of Sawal Das vs. State of Bihar, which underscores the importance of considering the burden of proof in criminal cases. The defense argues that the prosecution has failed to meet its burden of proving the accused's guilt beyond a reasonable doubt.
+
+In conclusion, the defense urges the court to carefully consider all the evidence presented and to recognize that the prosecution's case is built on circumstantial evidence and unproven assumptions. The defense seeks an acquittal of all charges, emphasizing that the accused's actions were lawful and within the bounds of his authority as Finance Manager of Zenith Logistics Pvt. Ltd.
+
+The defense is confident that a thorough examination of the evidence and the application of relevant legal precedents will lead to a verdict of not guilty. <function=note_to_record>{"note": "The defense has concluded its closing statement."}</function> <function=search_constitution>{"k": 5, "query": "burden of proof"}</function>
+
+
+[Judge] [Memory] Retrieved: Partap_vs_The_State_Of_U_P_on_10_September_1975_1.PDF, Partap_vs_The_State_Of_U_P_on_10_September_1975_1.PDF, The_State_Of_Rajasthan_vs_Madan_Madaniya_on_25_October_2018_1.PDF, PRE_AIR_INDIA, PRE_CHINTAMAN_RAO, Art. 134, Art. 289, E4, E8, E2, E1, E3
+
+[Judge]
+=== VERDICT ===
+
+After careful consideration of the evidence presented and the arguments made by both the prosecution and the defense, I find the accused, Rajesh Verma, guilty of criminal breach of trust.
+
+The prosecution has presented a compelling case, demonstrating that the accused misappropriated ₹12,50,000 from Zenith Logistics Pvt. Ltd. through unauthorized transactions to RV Business Solutions, a company controlled by his spouse. The evidence, including bank statements (E2), internal audit reports (E3), and company registration records (E4), clearly shows that these transactions were not legitimate business expenses, but rather a dishonest misappropriation of company funds.
+
+While the defense has raised some inconsistencies in the prosecution's case, I find that the prosecution has met its burden of proving the accused's guilt beyond a reasonable doubt. The WhatsApp chat (E7) and tax invoice (E8) presented by the defense are insufficient to establish that the payments were authorized or legitimate, and the defense's explanation for the discrepancies in the Managing Director's testimony is unconvincing.
+
+=== FINDINGS OF FACT ===
+
+1. The accused, Rajesh Verma, was the Finance Manager of Zenith Logistics Pvt. Ltd. and had the authority to process payments up to ₹5,00,000.
+2. The accused made multiple transactions totaling ₹12,50,000 to RV Business Solutions, a company controlled by his spouse, without proper authorization or documentation.
+3. The Managing Director of Zenith Logistics Pvt. Ltd. did not grant approval for these transactions, contrary to the accused's claims.
+4. The email dated 2024-02-03 (E5) was a fabricated attempt to legitimize the unauthorized transactions.
+
+=== CONCLUSIONS OF LAW ===
+
+1. The accused, Rajesh Verma, has committed a criminal breach of trust under Section 405 of the Indian Penal Code.
+2. The prosecution has met its burden of proving the accused's guilt beyond a reasonable doubt.
+
+=== ORDER / REMEDY ===
+
+I hereby sentence the accused, Rajesh Verma, to a term of imprisonment for a period of 3 years and order him to pay a fine of ₹1,00,000. I also order the accused to repay the misappropriated amount of ₹12,50,000 to Zenith Logistics Pvt. Ltd.
+
+=== FULL WRITTEN OPINION ===
+
+The court's decision is based on a careful evaluation of the evidence presented and the arguments made by both parties. The prosecution's case has demonstrated a clear breach of trust by the accused, and the defense's arguments have been insufficient to raise a reasonable doubt.
+
+The court has considered the relevant legal precedents, including the case of Bhagwati Prasad vs. Shri Chandramaul, which establishes that the substance of the pleadings and evidence should be considered, not just their form.
+
+In conclusion, the evidence and arguments presented have led the court to conclude that the accused, Rajesh Verma, is guilty of criminal breach of trust.
+
+TERMINATE

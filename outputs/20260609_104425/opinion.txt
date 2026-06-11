@@ -1,0 +1,25 @@
+=== VERDICT ===
+The court finds in favor of the Plaintiff, Acme Corp, and rules that the Defendant, Jordan Smith, is liable for breach of contract and damages.
+
+=== FINDINGS OF FACT ===
+- The Defendant failed to deliver the software module by the agreed-upon deadline of 2025-01-31 (E1).
+- The Plaintiff and Defendant agreed to a revised scope that included additional reporting fields (E2 and E5).
+- The Defendant requested database access by 2025-01-15 to stay on schedule, but it was only granted on 2025-02-05 (E3 and E4).
+- The Plaintiff incurred rework and delay costs totaling $35,000, as evidenced by the invoice from Acme's contractor (E6).
+- The Plaintiff started integration on 2025-03-01, as per the internal timeline (E7).
+
+=== CONCLUSIONS OF LAW ===
+- The Defendant's failure to deliver the module on time constitutes a breach of contract, as they failed to meet the agreed-upon deadline despite the revised scope (E2 and E5).
+- The Plaintiff's insistence on keeping the original deadline was reasonable, considering the Defendant's agreement to the revised scope (E5).
+- The Defendant's actions were unreasonable, and their failure to deliver the module on time hindered the Plaintiff's ability to conduct business (Art. 19).
+- The legal precedent PRE_AIR_INDIA supports the conclusion that the Defendant's actions were unreasonable and hindered the Plaintiff's ability to conduct business.
+
+=== ORDER / REMEDY ===
+The court orders the Defendant to pay the Plaintiff $35,000 in damages, as evidenced by the invoice from Acme's contractor (E6). The court also orders the Defendant to pay reasonable costs and fees associated with the breach of contract.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable law. The Defendant's failure to deliver the module on time and their subsequent excuses regarding late requirement changes and denied access are untenable. The Plaintiff's actions were reasonable, and the Defendant's failure to deliver the module on time constitutes a breach of contract. The court relied on the legal precedent PRE_AIR_INDIA and Art. 19 of the Indian Constitution to support its conclusions.
+
+The court notes that the Defendant's request to dismiss the Plaintiff's claim or reduce the damages to a reasonable amount is denied, as the evidence presented supports the Plaintiff's claim for $35,000 in damages.
+
+TERMINATE
