@@ -1,0 +1,308 @@
+[Judge]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: Acme Corp. v. Smith
+
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+
+* PLAINTIFF: Acme Corp.
+* DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+
+* Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+* Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+
+* Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+* No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+
+E1: Statement of Work (Excerpt)
+
+* Delivery of Module X by 2025-01-31.
+* Payment milestone upon acceptance.
+
+E2: Email dated 2025-01-10 from Acme Project Manager
+
+* "We need additional reporting fields; please include them in the same delivery."
+
+E3: Email dated 2025-01-12 from Jordan Smith
+
+* "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+
+E4: Ticket Log Excerpt
+
+* Access request created: 2025-01-13.
+* Access granted: 2025-02-05.
+
+E5: Meeting Notes dated 2025-02-06
+
+* Parties agree to revised scope.
+* Acme requests that the original deadline remain unchanged.
+
+E6: Invoice from Acme Contractor
+
+* $35,000 charged for rework.
+
+E7: Internal Acme Timeline
+
+* Integration work began on 2025-03-01.
+
+REQUESTED RELIEF:
+
+Plaintiff:
+
+* $50,000 in damages.
+* Court costs.
+
+Defendant:
+
+* Dismissal of all claims.
+* Alternatively, reduction of damages.
+
+---
+[Retrieving: Art. 371, Art. 134]
+[Retrieving: E2, E3, E6, E5, E1]
+This court is now in session. The case before us is Acme Corp. v. Smith, a common-law mock trial. The Plaintiff, Acme Corp., claims that the Defendant, Jordan Smith, breached their contract by failing to deliver an agreed-upon software module by the deadline, resulting in $50,000 in damages. The Defendant argues that it was impossible to meet the deadline due to changes in requirements by the Plaintiff and lack of necessary access, and furthermore, that the Plaintiff's own delays were the primary cause of the damages.
+[Retrieving: Art. 134, Art. 136]
+[Retrieving: E3, E2, E5, E6, E1]
+This court is now in session. The case before us is Acme Corp. v. Smith, a common-law mock trial. The plaintiff, Acme Corp., claims that the defendant, Jordan Smith, breached their contract by failing to deliver a software module by the agreed-upon deadline, resulting in $50,000 in damages. The defendant argues that it was impossible to meet the deadline due to changes in requirements and lack of access, and that the plaintiff's own delays caused most of the damages.
+
+We have retrieved the relevant evidence, including the Statement of Work, emails from the Acme Project Manager and Jordan Smith, and other documents. We will review these documents carefully as we proceed with the trial.
+
+The floor is now open to the plaintiff for their opening statement.
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 371, Art. 134]
+[Retrieving: E3, E2, E6, E1, E5]
+The defendant, Jordan Smith, failed to deliver the agreed-upon software module by the deadline of 2025-01-31, as specified in the Statement of Work (E1). This breach of contract has resulted in significant damages to Acme Corp., totaling $50,000 in rework and delay costs. We intend to demonstrate that the defendant's actions, or lack thereof, were the primary cause of these damages. The email from the Acme Project Manager (E2) shows that the request for additional reporting fields was made on 2025-01-10, which still allowed for ample time to complete the project by the deadline. The defendant's subsequent email (E3) on 2025-01-12 requesting database access is not a valid excuse for missing the deadline, as it was the defendant's responsibility to ensure they had all necessary resources to complete the project. We will provide further evidence and testimony to support our claim.
+E1: Statement of Work (Excerpt)
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+
+
+[Judge]
+[Retrieving: Art. 371, Art. 394]
+[Retrieving: E3, E2, E1, E6, E5]
+The case before us is Acme Corp. v. Smith, a common-law mock trial. The plaintiff, Acme Corp., claims that the defendant, Jordan Smith, breached their contract by failing to deliver a software module by the agreed-upon deadline, resulting in $50,000 in damages. The defendant argues that it was impossible to meet the deadline due to changes in requirements and lack of access, and that the plaintiff's own delays caused most of the damages.
+
+We have the following evidence: 
+E1: Statement of Work (Excerpt) - Delivery of Module X by 2025-01-31, Payment milestone upon acceptance.
+E2: Email dated 2025-01-10 from Acme Project Manager - Additional reporting fields were requested.
+E3: Email dated 2025-01-12 from Jordan Smith - Access to the database was requested to stay on schedule.
+
+The plaintiff may now present their opening statement.
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 27, Art. 35]
+[Retrieving: E2, E3, E5, E6, E1]
+The defendant, Jordan Smith, had a clear obligation to deliver Module X by January 31st, 2025, as outlined in the Statement of Work, E1. However, the defendant failed to meet this deadline, resulting in significant rework and delay costs for Acme Corp. We will demonstrate that the defendant's failure to deliver the module on time was a breach of contract, and that the plaintiff is entitled to damages in the amount of $50,000.
+
+The email from the Acme Project Manager, E2, shows that a request for additional reporting fields was made, but this did not relieve the defendant of their obligation to meet the original deadline. In fact, the defendant's own email, E3, indicates that they believed they could still meet the deadline if they were given access to the database by January 15th, 2025.
+E4: Ticket Log Excerpt
+E5: Meeting Notes dated 2025-02-06
+E6: Invoice from Acme Contractor
+E7: Internal Acme Timeline
+
+
+[Judge]
+[Retrieving: Art. 134, Art. 263]
+[Retrieving: E2, E3, E5, E6, E1]
+[Retrieving: Art. 134, Art. 134A]
+[Retrieving: E3, E2, E5, E6, E1]
+[Retrieving: Art. 134, Art. 134A]
+[Retrieving: E3, E2, E5, E6, E1]
+We have reviewed the additional evidence:
+E4: Ticket Log Excerpt - Access request created on 2025-01-13 and granted on 2025-02-05.
+E5: Meeting Notes dated 2025-02-06 - Parties agreed to a revised scope, and Acme requested that the original deadline remain unchanged.
+E6: Invoice from Acme Contractor - $35,000 charged for rework.
+E7: Internal Acme Timeline - Integration work began on 2025-03-01.
+
+The defendant may now present their opening statement.
+Defendant, proceed.
+
+
+[Defendant]
+[Retrieving: Art. 134, Art. 132]
+[Retrieving: E3, E5, E2, E6, E1]
+E1: Statement of Work (Excerpt)
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+E4: Ticket Log Excerpt
+E5: Meeting Notes dated 2025-02-06
+E6: Invoice from Acme Contractor
+E7: Internal Acme Timeline
+
+
+[Judge]
+[Retrieving: Art. 134, Art. 132]
+[Retrieving: E3, E5, E2, E6, E1]
+With all the evidence in mind, the court will now review the claims and defenses. 
+
+The plaintiff, Acme Corp., claims that the defendant, Jordan Smith, breached their contract by failing to deliver a software module by the agreed-upon deadline, resulting in $50,000 in damages.
+
+The defendant argues that it was impossible to meet the deadline due to changes in requirements and lack of access, and that the plaintiff's own delays caused most of the damages.
+
+We have the following evidence:
+E1: Statement of Work (Excerpt) - Delivery of Module X by 2025-01-31, Payment milestone upon acceptance.
+E2: Email dated 2025-01-10 from Acme Project Manager - Additional reporting fields were requested.
+E3: Email dated 2025-01-12 from Jordan Smith - Access to the database was requested to stay on schedule.
+E4: Ticket Log Excerpt - Access request created on 2025-01-13 and granted on 2025-02-05.
+E5: Meeting Notes dated 2025-02-06 - Parties agreed to a revised scope, and Acme requested that the original deadline remain unchanged.
+E6: Invoice from Acme Contractor - $35,000 charged for rework.
+E7: Internal Acme Timeline - Integration work began on 2025-03-01.
+
+The plaintiff may now present their argument and cite any relevant evidence or legal precedents.
+The_Authorised_Officer_Central_Bank_Of_vs_Shanmugavelu_on_2_February_2024_1.PDF: . 14. Illustration (k) to S. 73 of the Contract Act is apt for the purpose of this case. According to that illustration, the person committing breach of contract has to pay to the other party the difference between the contract price of the articles agreed to be sold and the sum paid by the other party for purchasing another article on account of the default of the first party, but the first party has not to pay the compensation which the second party had to pay to third parties as he had not been told at the time of the contract that the second party was making the purchase of the article for delivery to such third parties." 52. Damages can be awarded only for the loss directly suffered on account of the breach and not for any remote or indirect loss sustained by reason of the breach of contract. The general rule is that where two parties enter into a contract and one of them commits breach, the other party will be entitled to receive as damages in respect of such breach of contract, such sum as may fairly and reasonably be considered arising naturally, that is according to the usual course of things, from such breach of contract itself or such as may reasonably be supposed to have been in the contemplation of both parties at the time they made the contract, as the probable result of the breach of it
+
+State_Of_Karnataka_Etc_vs_Shri_Rameshwara_Rice_Mills_on_24_February_1987_1.PDF: ACT
+Indian Contract Act, 1872--s. 73 --Agreement--Clause 12Interpretation of--Right to assess damages when arises--Damages for breach of condition of agreement--As- sessment to be made by an independent body and not by par- ties to the contract. Revenue Recovery Act--Damages for breach of conditions of contract--Whether recoverable as arrears of land revenue.
+
+Smt_Aslhing_Lhingjanong_vs_L_S_John_Ors_on_22_November_1983_1.PDF: HEADNOTE
+: The respondent who was a party to a subsisting contract with the Government for widening or a road wrote a letter to the concerned Executive Engineer stating that he was closing the said contract. 1 he appellant contended that the contents of the letter did not have the effect of putting an end to the contract. Dismissing the appeal, ^ HELD: After the letter, the contract came to an end by breach and was no longer subsisting. Acceptance of the Smt. Aslhing @ Lhingjanong vs L.S. John & Ors on 22 November, 1983 Indian Kanoon - http://indiankanoon.org/doc/844075/ 1 letter by the authorities was unnecessary for putting an end to the contract although the breach may give rise to an action for damages. [864 B-C]
+
+HELD
+After the letter, the contract came to an end by breach and was no longer subsisting. Acceptance of the Smt. Aslhing @ Lhingjanong vs L.S. John & Ors on 22 November, 1983 Indian Kanoon - http://indiankanoon.org/doc/844075/ 1 letter by the authorities was unnecessary for putting an end to the contract although the breach may give rise to an action for damages. [864 B-C]
+[Retrieving: Art. 134, Art. 134A]
+[Retrieving: E3, E2, E5, E6, E1]
+We have reviewed the precedents related to breach of contract. The plaintiff may now present their argument and cite relevant evidence.
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 299, Art. 291]
+[Retrieving: E6, E3, E2, E1, E4]
+E1, the Statement of Work, clearly outlines the delivery deadline of Module X as 2025-01-31. However, the defendant failed to meet this deadline, resulting in significant damages to Acme Corp.
+E1: Statement of Work (Excerpt)
+
+
+[Judge]
+[Retrieving: Art. 290A, Art. 283]
+[Retrieving: E6, E3, E2, E1, E4]
+[Retrieving: Art. 283, Art. 110]
+[Retrieving: E2, E8, E6, E3, E1]
+We have reviewed the precedents related to impossibility of performance and contract law. The defendant may now present their argument and cite relevant evidence.
+Defendant, proceed.
+
+
+[Defendant]
+[Retrieving: Art. 299, Art. 361]
+[Retrieving: E6, E3, E2, E1, E4]
+(no evidence found)
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+E4: Ticket Log Excerpt
+
+
+[Judge]
+[Retrieving: Art. 23, Art. 278]
+[Retrieving: E2, E3, E5, E1, E6]
+The_Naihati_Jute_Mills_Ltd_vs_Hyaliram_Jagannath_on_19_October_1967_1.PDF: ACT
+Contract-frustration impossibility of performance due to intervening circumstances-Whether contract discharged on an implied term or on Court deciding performance impossible- Contract Act ss. 32 and 56-Scope of-Whether damages could be awarded on the basis of public policy of Pakistan Government.
+
+National_Agricultural_Cooperative_vs_Alimenta_S_A_on_22_April_2020_1.PDF: . Although various theories have been propounded by the Judges and jurists in England regarding the juridical basis of the doctrine of frustration, yet the essential idea upon which the doctrine is based is that of impossibility of performance of the contract; in fact, impossibility and frustration are often used as interchangeable expressions. The changed circumstances, it is said, make the performance of the contract impossible and the parties are absolved from the further performance of it as they did not promise to perform an impossibility. The parties shall be excused, as Lord Loreburn says, see … Tamplin Steamship Co. Ltd. v. Anglo Mexican Petroleum Products Co. Ltd., 1916-2 AO 297 at p 403 (A). ƒIf substantially the whole contract becomes impossible of performance or in other words impracticable by some cause for which neither was responsible.„ In - Joseph Constantine Steamship Line Limited v. Imperial Smelting Corporation Ltd.‚, 1942-AO 154 at p 168 (B) Viscount Maugham observed that the ƒdoctrine of frustration is only a special case of the discharge of contract by an impossibility of performance arising after the contract was made.„ Lord Porter agreed with this view and rested the doctrine on the same basis. The question was considered and discussed by a Division Bench of the Nagpur High Court in Kesari Chand v
+
+M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF: . It must be that the impossibility causes the duty to cease to exist. For a duty either exists or it does not - that is to say, every duty continues until it is discharged, and discharge is the only process known to the law by which a duty once legally undertaken can be put off the shoulders of the obligee. Its effect is a complete removal of the obligation, and discharge by impossibility of performance is no less perfect than discharge by the performance of the original promise. In the words of Professor Corbin already cited, 'society no longer commands performance' - M.D., Army Welfare Housing ... vs Sumangal Services Pvt. Ltd on 8 October, 2003 Indian Kanoon - http://indiankanoon.org/doc/231673/ 34 nothing more can be demanded of the promisor." In Emden and Gill's Buildings Contracts and Practice, Seventh Edition, page 162-163, it is stated that liability to pay damages for non-performance of an impossibility only arises where the contract is absolute and unrestricted by any condition expressed or implied. It is further stated that a difficulty may not in all circumstances amount to impossibility. But even in that event the terms and conditions relating to performance of the contract may stand eclipsed. The transaction was a commercial one. Sumangal could not plead frustration of contract if it itself had abandoned it. (See Hauman Vs. Nortje [1914] A.D. 293, at p. 297 and Hoenig Vs. Issacs [1952] 2 All E.R. 176, at p. 178H)
+E5: Meeting Notes dated 2025-02-06
+[Retrieving: Art. 15, Art. 29]
+[Retrieving: E6, E3, E8, E2, E1]
+We have reviewed the precedents related to impossibility of performance due to changed circumstances. The defendant has presented their argument and cited relevant evidence, including the Meeting Notes dated 2025-02-06, which show that the parties agreed to a revised scope and the plaintiff requested that the original deadline remain unchanged.
+
+The court will now ask questions to both sides to clarify their positions.
+ok
+[Retrieving: Art. 15, Art. 16]
+[Retrieving: E6, E3, E2, E1, E4]
+We have reviewed the precedents related to impossibility of performance due to changed circumstances and retrieved the Meeting Notes dated 2025-02-06. The court will now ask questions to both sides to clarify their positions.
+Judge: Can the plaintiff provide evidence that the defendant was responsible for the delays in the project?
+Judge: Can the defendant provide evidence that the plaintiff's changes to the scope of work contributed to the delays?
+Plaintiff, please respond to the first question.
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 35, Art. 76]
+[Retrieving: E3, E2, E1, E5, E6]
+E4: Ticket Log Excerpt
+E6: Invoice from Acme Contractor
+E7: Internal Acme Timeline
+
+
+[Judge]
+[Retrieving: Art. 31, Art. 134]
+[Retrieving: E6, E3, E1, E2, E4]
+[Retrieving: Art. 134, Art. 134A]
+[Retrieving: E6, E3, E2, E1, E4]
+We have reviewed the Ticket Log Excerpt, Invoice from Acme Contractor, and Internal Acme Timeline. The plaintiff has provided evidence of the delays and costs associated with the project.
+
+Judge: Can the defendant explain why they were unable to meet the original deadline, despite the plaintiff's changes to the scope of work?
+
+Defendant, please respond to the question.
+Defendant, proceed.
+
+
+[Defendant]
+[Retrieving: Art. 31, Art. 42]
+[Retrieving: E6, E1, E3, E2, E4]
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+E4: Ticket Log Excerpt
+
+
+[Judge]
+[Retrieving: Art. 315, Art. 35]
+[Retrieving: E2, E3, E5, E1, E6]
+The defendant has provided evidence of the emails and ticket log excerpt.
+ok
+[Retrieving: Art. 35, Art. 51]
+[Retrieving: E6, E3, E2, E1, E4]
+The court has reviewed all the evidence and will now hear closing statements. The plaintiff and defendant will each have the opportunity to summarize their arguments and evidence.
+
+Plaintiff, please present your closing statement.
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 335, Art. 201]
+[Retrieving: E1, E5, E4, E2, E3]
+
+
+[Judge]
+[Retrieving: Art. 335, Art. 201]
+[Retrieving: E1, E5, E4, E2, E3]
+=== VERDICT ===
+The court finds in favor of the plaintiff, Acme Corp. The defendant, Jordan Smith, is liable for breach of contract and must pay damages to the plaintiff.
+
+=== FINDINGS OF FACT ===
+The court finds that the defendant failed to deliver the software module by the agreed-upon deadline, resulting in delays and additional costs for the plaintiff. The plaintiff's changes to the scope of work did not excuse the defendant's failure to perform.
+
+=== CONCLUSIONS OF LAW ===
+The court concludes that the defendant's failure to deliver the software module by the agreed-upon deadline constitutes a breach of contract. The plaintiff is entitled to damages for the delays and additional costs incurred as a result of the defendant's breach.
+
+=== ORDER / REMEDY ===
+The defendant is ordered to pay the plaintiff $50,000 in damages.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable law. The defendant's failure to deliver the software module by the agreed-upon deadline was a clear breach of contract. The plaintiff's changes to the scope of work did not excuse the defendant's failure to perform. The court has considered all the evidence and arguments presented and has made its decision based on the law and the facts of the case.
+
+TERMINATE

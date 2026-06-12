@@ -1,0 +1,327 @@
+[Judge]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: Acme Corp. v. Smith
+
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+
+* PLAINTIFF: Acme Corp.
+* DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+
+* Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+* Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+
+* Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+* No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+
+E1: Statement of Work (Excerpt)
+
+* Delivery of Module X by 2025-01-31.
+* Payment milestone upon acceptance.
+
+E2: Email dated 2025-01-10 from Acme Project Manager
+
+* "We need additional reporting fields; please include them in the same delivery."
+
+E3: Email dated 2025-01-12 from Jordan Smith
+
+* "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+
+E4: Ticket Log Excerpt
+
+* Access request created: 2025-01-13.
+* Access granted: 2025-02-05.
+
+E5: Meeting Notes dated 2025-02-06
+
+* Parties agree to revised scope.
+* Acme requests that the original deadline remain unchanged.
+
+E6: Invoice from Acme Contractor
+
+* $35,000 charged for rework.
+
+E7: Internal Acme Timeline
+
+* Integration work began on 2025-03-01.
+
+REQUESTED RELIEF:
+
+Plaintiff:
+
+* $50,000 in damages.
+* Court costs.
+
+Defendant:
+
+* Dismissal of all claims.
+* Alternatively, reduction of damages.
+
+---
+[Retrieving: Art. 371, Art. 134]
+[Retrieving: E2, E3, E6, E5, E1]
+This court is now in session. The case before us is Acme Corp. v. Smith, a common-law mock trial. The plaintiff, Acme Corp., claims that the defendant, Jordan Smith, breached their contract by failing to deliver an agreed-upon software module by the deadline, resulting in $50,000 in damages. The defendant argues that it was impossible to meet the deadline due to changed requirements and denied access, and that the plaintiff's own delays caused most of the damages.
+
+The court has reviewed the case file and is familiar with the claims, defenses, and evidence. The procedure for this trial will be as follows: the plaintiff will make an opening statement, followed by the defendant's opening statement. Then, the plaintiff will present their argument and cite relevant evidence, followed by the defendant's argument and any objections. The court will then question both sides, and finally, each side will make a closing statement.
+
+Let us begin with the plaintiff's opening statement.
+[Retrieving: Art. 134, Art. 136]
+[Retrieving: E3, E2, E5, E6, E1]
+This court is now in session. The case before us is Acme Corp. v. Smith, a common-law mock trial. The Plaintiff, Acme Corp., claims that the Defendant, Jordan Smith, breached their contract by failing to deliver an agreed-upon software module by the deadline, resulting in $50,000 in damages. The Defendant argues that it was impossible to meet the deadline due to changes in requirements by the Plaintiff and lack of necessary access.
+
+The claims and defenses have been identified. The Plaintiff will now proceed with their opening statement.
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 371, Art. 394]
+[Retrieving: E1, E3, E2, E6, E5]
+The case at hand is a clear-cut example of a breach of contract, where the Defendant, Jordan Smith, failed to deliver the software module as agreed upon in the Statement of Work (E1). The Statement of Work explicitly states that the delivery of Module X was to be made by 2025-01-31, and the payment milestone was contingent upon acceptance. However, the Defendant failed to meet this deadline, resulting in significant rework and delay costs for Acme Corp.
+
+It is essential to note that the changes to the requirements, as requested by Acme Corp. (E2), were minor and did not significantly impact the overall scope of the project. Moreover, the Defendant had ample opportunity to request necessary access and resources to complete the project on time. The email dated 2025-01-12 from Jordan Smith (E3) requesting database access is a prime example of this. Despite this, the Defendant failed to deliver the module, and Acme Corp. was forced to incur additional costs to complete the project.
+
+We will demonstrate throughout this trial that the Defendant's actions, or lack thereof, constitute a clear breach of contract, and we will provide evidence to support our claim for $50,000 in damages. We will also show that the Defendant's defense of impossibility and lack of causation is unfounded and does not hold up to scrutiny.
+E1: Statement of Work (Excerpt)
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+
+
+[Judge]
+[Retrieving: Art. 371, Art. 394]
+[Retrieving: E2, E3, E6, E1, E5]
+[Retrieving: Art. 371, Art. 394]
+[Retrieving: E3, E6, E2, E1, E4]
+The court has reviewed the Statement of Work (E1), which outlines the delivery of Module X by 2025-01-31 and payment milestones upon acceptance. The email from Acme Project Manager (E2) requests additional reporting fields to be included in the same delivery. The email from Jordan Smith (E3) acknowledges this request but requires database access by 2025-01-15 to stay on schedule.
+
+The Plaintiff's opening statement is noted. The Defendant will now proceed with their opening statement.
+Defendant, proceed.
+
+
+[Defendant]
+[Retrieving: Art. 35, Art. 284]
+[Retrieving: E2, E3, E5, E6, E1]
+The Plaintiff's claims of breach of contract and damages are unfounded, as the circumstances that led to the delay were beyond the Defendant's control. The introduction of new requirements by the Plaintiff, as seen in the email from Acme Project Manager (E2), significantly altered the scope of the project. Furthermore, the Defendant's timely request for database access, as stated in the email dated 2025-01-12 (E3), was not fulfilled until 2025-02-05, as per the Ticket Log Excerpt (E4). This lack of access, coupled with the change in requirements, made it impossible for the Defendant to meet the original deadline. The Defendant had initially agreed to deliver the module by 2025-01-31, as outlined in the Statement of Work (E1), but the Plaintiff's actions, or lack thereof, prevented the Defendant from fulfilling this obligation. It is essential to examine the entire sequence of events and consider the role of the Plaintiff's actions in causing the delay.
+E4: Ticket Log Excerpt
+E5: Meeting Notes dated 2025-02-06
+
+
+[Judge]
+[Retrieving: Art. 278, Art. 35]
+[Retrieving: E2, E3, E5, E6, E1]
+[Retrieving: Art. 35, Art. 51]
+[Retrieving: E6, E3, E2, E1, E4]
+The court has reviewed the Ticket Log Excerpt (E4), which shows that an access request was created on 2025-01-13 but was not granted until 2025-02-05. The Meeting Notes (E5) indicate that the parties agreed to a revised scope on 2025-02-06 and that Acme requested the original deadline remain unchanged.
+
+The Defendant's opening statement is noted. The Plaintiff will now proceed with their argument and citations.
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 134, Art. 132]
+[Retrieving: E5, E3, E2, E6, E9]
+The Defendant's claim of impossibility is unfounded, as they had sufficient opportunity to deliver the software module on time. The email from Acme Project Manager (E2) requesting additional reporting fields does not constitute a significant change in requirements, and the Defendant's own email (E3) indicates that they could have met the deadline with timely access. However, the Ticket Log Excerpt (E4) shows that the access request was granted on 2025-02-05, which is still within a reasonable timeframe for the Defendant to have completed the work.
+
+The Meeting Notes (E5) further support the Plaintiff's claim, as they demonstrate that the parties agreed to a revised scope and the Plaintiff requested that the original deadline remain unchanged. This clearly indicates that the Plaintiff did not waive the deadline and expected the Defendant to deliver the software module as originally agreed.
+
+Furthermore, the Invoice from Acme Contractor (E6) shows that the Plaintiff incurred significant rework costs, totaling $35,000, as a direct result of the Defendant's failure to deliver the software module on time. This substantiates the Plaintiff's claim for damages.
+
+In light of these facts, it is clear that the Defendant breached the contract by failing to deliver the software module by the agreed-upon deadline. The Plaintiff requests that the court hold the Defendant liable for the damages incurred and award the requested relief.
+E6: Invoice from Acme Contractor
+ok
+
+
+[Judge]
+[Retrieving: Art. 300A, Art. 371]
+[Retrieving: E5, E3, E2, E6, E1]
+[Retrieving: Art. 134, Art. 133]
+[Retrieving: E3, E2, E5, E6, E1]
+The court has reviewed the Invoice from Acme Contractor (E6), which shows a charge of $35,000 for rework.
+
+The Plaintiff's argument and citations are noted. The Defendant will now proceed with their argument, citations, and any objections.
+Defendant, proceed.
+
+
+[Defendant]
+[Retrieving: Art. 371, Art. 369]
+[Retrieving: E6, E3, E2, E8, E5]
+As the Defendant, I argue that the Plaintiff's claims of breach of contract are unfounded, as the changes in requirements and lack of necessary access made it impossible for me to deliver the software module by the deadline. The email from Acme Project Manager (E2) requesting additional reporting fields, and the subsequent email from myself (E3) requesting database access, demonstrate that the Plaintiff's actions contributed to the delay.
+
+The Ticket Log Excerpt (E4) shows that the access request was not granted until 2025-02-05, which is well beyond the requested date of 2025-01-15. This lack of access, combined with the changes in requirements, made it impossible for me to meet the original deadline. The Meeting Notes (E5) further support this argument, as they show that the parties agreed to a revised scope, but the Plaintiff still insisted on maintaining the original deadline.
+
+I also object to the Plaintiff's claim of $50,000 in damages, as the Invoice from Acme Contractor (E6) only shows a charge of $35,000 for rework. This discrepancy suggests that the Plaintiff's damages claim is exaggerated.
+
+Furthermore, I would like to cite the case of Hansraj Gupta And Co. vs Union Of India (Uoi) on 5 September, 1973, which establishes that a party cannot claim damages for a breach of contract if they themselves have contributed to the breach. In this case, the Plaintiff's changes in requirements and lack of access have contributed to the delay, and therefore, they cannot claim damages.
+Hansraj_Gupta_And_Co_vs_Union_Of_India_Uoi_on_5_September_1973_1.PDF: Hansraj Gupta And Co. vs Union Of India (Uoi) on 5 September,
+1973
+Equivalent citations: AIR1973SC2724, (1973)2SCC637, 1973(5)UJ821(SC), AIR
+1973 SUPREME COURT 2724, 1973 2 SCC 637, 1973 2 SCWR 509, 1973 SCD
+1037
+Bench: K.K. Mathew, M.H. Beg
+JUDGMENT
+Beg, J.
+1. This is a plaintiff's appeal by special leave. The plaintiff M/s. Hansraj Gupta & Co., (hereinafter
+referred to as "the Company") had brought a suit on 1 2-1950 on the basis of a contract for supply of
+fire-wood to the Military Units at Dehradun and Clement Town from 1-4-1944 to 31-3-1945 entered
+into by Mahesh Chandra Gupta, defendant No. 2, (hereinafter referred to as "the contractor"), and
+the Government of India, acting through the Comander, U.P. Area, now represented by the Union of
+India, defendant No. 1. The Company claimed as the financier of the contractor and sued on the
+strength of an authority conferred by a power of attorney executed by the Contractor to collect
+moneys due for supplied made under the contract by the supplying contractor. According to the
+plaint, the whole supply was actually made by the Contractor.
+2. The Contract (Ex. A-3), dated 15-2-1944, provided that the parties were to be governed by special
+conditions or stipulations contained in instructions to "tenders" which were to be a part of the
+contract. According to these instructions, the rates agreed upon for the supply of Common fire-wood
+
+Hansraj_Gupta_And_Co_vs_Union_Of_India_Uoi_on_5_September_1973_1.PDF: contract. According to these instructions, the rates agreed upon for the supply of Common fire-wood
+and split fire-wood could not be varied at all for the first six months in a contract for a year like the
+one under consideration. But, revision of rates agreed upon could be recommended, under Clause 13
+of the special conditions by referees appointed by the Government, who presumably constituted the
+"reviewing Tribunal", consisting of "the Deputy Commissioner of his representive, the commander,
+Royal Indian Army Supply Corps (C.R.I. A.S.C.) or his representative, and the local purchase officer
+(Military)". Three members were to constitute the quoram. The clause went on to provide that the
+contractor could present his case for revision which was apparently only to be recommended by the
+Tribunal.
+3. The clause said "The final recommendation in all cases reviewed shall rest with the officer
+sanctioning the contract". This rather nebulous clause apparently made the referees members of the
+Tribunal to be appointed to revise rates conformably with the rise and fall of market rates. It is not
+quite clear whether the referees were also members of the Tribunal; but, presumably they were. It
+also appeared that the function of referees or the Tribunal was nothing more than to recommend the
+Hansraj Gupta And Co. vs Union Of India (Uoi) on 5 September, 1973
+Indian Kanoon - http://indiankanoon.org/doc/1811964/ 1
+
+Hansraj_Gupta_And_Co_vs_Union_Of_India_Uoi_on_5_September_1973_1.PDF: matter to the sanctioning the contract could only recommend a revision. It was not specified when
+the right to obtain payment at revised rates was to accrue and upon whose sanction.
+4. Clause No. 21 in the contract itself, which is also relevant for this case, may be set out he
+E7: Internal Acme Timeline
+
+
+[Judge]
+[Retrieving: Art. 136, Art. 299]
+[Retrieving: E6, E3, E2, E5, E1]
+[Retrieving: Art. 299, Art. 166]
+[Retrieving: E2, E1, E5, E4, E3]
+The court has reviewed the Internal Acme Timeline (E7), which shows that integration work began on 2025-03-01.
+
+The Defendant's argument, citations, and objections are noted. The Judge will now question both sides to clarify any points.
+ok
+[Retrieving: Art. 299, Art. 77]
+[Retrieving: E9, E6, E2, E1, E3]
+The court has reviewed the Internal Acme Timeline (E7) and the judgment in Hansraj Gupta And Co. vs Union Of India (Uoi) on 5 September, 1973. The timeline shows that integration work began on 2025-03-01.
+
+The Defendant's argument, citations, and objections are noted. The Judge will now question both sides to clarify any points.
+
+The Judge asks: Can the Plaintiff provide more details on how the changes in requirements affected the delivery deadline? Can the Defendant explain why they did not inform the Plaintiff of the potential delay earlier?
+
+Plaintiff, please respond to the Judge's questions.
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 136, Art. 133]
+[Retrieving: E6, E3, E2, E1, E5]
+The changes in requirements, as evidenced by Email dated 2025-01-10 from Acme Project Manager (E2), did indeed impact the delivery deadline. However, it is crucial to note that the Defendant, Jordan Smith, acknowledged this request and only later cited the need for database access as a reason for potential delay (E3). The Plaintiff had anticipated that the Defendant would manage the project timeline effectively, considering the revised scope. The delay in granting access, as shown in Ticket Log Excerpt (E4), was a critical factor that contributed to the overall delay. The Plaintiff had expected the Defendant to communicate more proactively about potential delays, especially given the agreed-upon deadline and the importance of meeting it.
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+E4: Ticket Log Excerpt
+
+
+[Judge]
+[Retrieving: Art. 136, Art. 133]
+[Retrieving: E6, E3, E2, E5, E1]
+The court has reviewed the Email dated 2025-01-10 from Acme Project Manager (E2), the Email dated 2025-01-12 from Jordan Smith (E3), and the Ticket Log Excerpt (E4). 
+
+These documents show that the Plaintiff requested changes to the scope of work on January 10, 2025, and the Defendant requested database access on January 12, 2025. The access was granted on February 5, 2025, as shown in the Ticket Log Excerpt (E4).
+
+The Judge's questions have been addressed. The court will now hear closing statements from both parties.
+
+Plaintiff, please proceed with your closing statement.
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 134, Art. 394]
+[Retrieving: E2, E3, E5, E1, E6]
+ok
+Smita_Conductors_Ltd_vs_Euro_Alloys_Ltd_on_31_August_2001_1.PDF: . The arbitrators noticed that the restrictions set by the Reserve Bank of India had created a situation in which the appellants had difficulty in arranging the opening of letters of credit so as to conform with the terms Smita Conductors Ltd vs Euro Alloys Ltd on 31 August, 2001 Indian Kanoon - http://indiankanoon.org/doc/1699016/ 8 of the contract although it could be noted that many applications were submitted by the appellant to the Bank of Baroda after the contractual deadline; that several shipments were made against the letter of credit opened after the contractual deadline; that thus it has been established by the documentary evidence to both contracts Nos. S142 and S336 that declaration of force majeure clause was present though belatedly. The arbitrators ultimately concluded that the Reserve Bank of India directives interfered with the contracts Nos. S142 and S336 which would have the effect of delaying the opening of the letters of credit by the buyer under the specified contracts
+
+The_Authorised_Officer_Central_Bank_Of_vs_Shanmugavelu_on_2_February_2024_1.PDF: . 14. Illustration (k) to S. 73 of the Contract Act is apt for the purpose of this case. According to that illustration, the person committing breach of contract has to pay to the other party the difference between the contract price of the articles agreed to be sold and the sum paid by the other party for purchasing another article on account of the default of the first party, but the first party has not to pay the compensation which the second party had to pay to third parties as he had not been told at the time of the contract that the second party was making the purchase of the article for delivery to such third parties." 52. Damages can be awarded only for the loss directly suffered on account of the breach and not for any remote or indirect loss sustained by reason of the breach of contract. The general rule is that where two parties enter into a contract and one of them commits breach, the other party will be entitled to receive as damages in respect of such breach of contract, such sum as may fairly and reasonably be considered arising naturally, that is according to the usual course of things, from such breach of contract itself or such as may reasonably be supposed to have been in the contemplation of both parties at the time they made the contract, as the probable result of the breach of it
+
+State_Of_Karnataka_Etc_vs_Shri_Rameshwara_Rice_Mills_on_24_February_1987_1.PDF: ACT
+Indian Contract Act, 1872--s. 73 --Agreement--Clause 12Interpretation of--Right to assess damages when arises--Damages for breach of condition of agreement--As- sessment to be made by an independent body and not by par- ties to the contract. Revenue Recovery Act--Damages for breach of conditions of contract--Whether recoverable as arrears of land revenue.
+
+
+[Judge]
+[Retrieving: Art. 299, Art. 206]
+[Retrieving: E5, E6, E3, E2, E1]
+The court has reviewed the provided judgments and notes the relevant points:
+
+1. Smita Conductors Ltd vs Euro Alloys Ltd: The Reserve Bank of India's directives can interfere with contracts, causing delays.
+2. The Authorised Officer Central Bank Of vs Shanmugavelu: Damages can only be awarded for direct losses, not remote or indirect losses. The general rule is that damages should be fairly and reasonably considered as arising naturally from the breach.
+3. State Of Karnataka etc vs Shri Rameshwara Rice Mills: Damages for breach of contract should be assessed by an independent body, not by the parties to the contract.
+
+The Plaintiff's closing statement is noted. The Defendant will now proceed with their closing statement.
+
+Defendant, please proceed with your closing statement.
+Defendant, proceed.
+
+
+[Defendant]
+[Retrieving: Art. 299, Art. 206]
+[Retrieving: E5, E6, E3, E2, E1]
+The Defendant's closing statement is as follows:
+
+The Plaintiff's claims of breach of contract and damages are unfounded. The changes in requirements made by the Plaintiff on January 10, 2025, as seen in Email dated 2025-01-10 from Acme Project Manager (E2), significantly impacted the delivery deadline. The Defendant had requested database access on January 12, 2025, as seen in Email dated 2025-01-12 from Jordan Smith (E3), but it was not granted until February 5, 2025, as shown in the Ticket Log Excerpt (E4). This delay was beyond the Defendant's control and constitutes a valid reason for the delay in delivery.
+
+The Plaintiff's own delays, as evidenced by the Internal Acme Timeline (E7), contributed to the overall delay. The integration work began on 2025-03-01, which indicates that the Plaintiff did not prioritize the project.
+
+The judgments cited, particularly The Authorised Officer Central Bank Of vs Shanmugavelu, support the Defendant's argument that damages can only be awarded for direct losses, not remote or indirect losses. The Plaintiff's claim of $50,000 in damages is excessive and not supported by the evidence.
+
+In conclusion, the Defendant argues that the breach of contract, if any, was not solely the Defendant's responsibility. The Plaintiff's changes in requirements, lack of timely access, and own delays contributed significantly to the delay. The Defendant requests that the court dismiss the Plaintiff's claims or, alternatively, reduce the damages to a reasonable amount.
+E1: Statement of Work (Excerpt)
+
+
+[Judge]
+[Retrieving: Art. 299, Art. 39]
+[Retrieving: E3, E6, E1, E2, E4]
+[Retrieving: Art. 39, Art. 231]
+[Retrieving: E1, E9, E4, E2, E3]
+The court has reviewed the Statement of Work (Excerpt) (E1), which outlines the delivery of Module X by 2025-01-31 and payment milestones upon acceptance.
+
+Both parties have presented their closing statements. The Judge will now issue a final opinion.
+
+=== VERDICT ===
+The court finds in favor of the Plaintiff, Acme Corp.
+
+=== FINDINGS OF FACT ===
+The Defendant, Jordan Smith, failed to deliver the software module by the deadline of 2025-01-31, as agreed upon in the Statement of Work (Excerpt) (E1).
+
+=== CONCLUSIONS OF LAW ===
+The court concludes that the Defendant's failure to deliver the software module by the deadline constitutes a breach of contract. The Plaintiff is entitled to damages for the direct losses incurred as a result of the breach.
+
+=== ORDER / REMEDY ===
+The court orders the Defendant to pay the Plaintiff $50,000 in damages.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented, including the Statement of Work (Excerpt) (E1), the Email dated 2025-01-10 from Acme Project Manager (E2), the Email dated 2025-01-12 from Jordan Smith (E3), and the Ticket Log Excerpt (E4). The court finds that the Defendant's failure to deliver the software module by the deadline was a direct result of their own actions and not due to any unforeseen circumstances.
+
+TERMINATE

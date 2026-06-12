@@ -1,0 +1,405 @@
+[user]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: Acme Corp. v. Smith
+
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+
+* PLAINTIFF: Acme Corp.
+* DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+
+* Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+* Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+
+* Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+* No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+
+E1: Statement of Work (Excerpt)
+
+* Delivery of Module X by 2025-01-31.
+* Payment milestone upon acceptance.
+
+E2: Email dated 2025-01-10 from Acme Project Manager
+
+* "We need additional reporting fields; please include them in the same delivery."
+
+E3: Email dated 2025-01-12 from Jordan Smith
+
+* "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+
+E4: Ticket Log Excerpt
+
+* Access request created: 2025-01-13.
+* Access granted: 2025-02-05.
+
+E5: Meeting Notes dated 2025-02-06
+
+* Parties agree to revised scope.
+* Acme requests that the original deadline remain unchanged.
+
+E6: Invoice from Acme Contractor
+
+* $35,000 charged for rework.
+
+E7: Internal Acme Timeline
+
+* Integration work began on 2025-03-01.
+
+REQUESTED RELIEF:
+
+Plaintiff:
+
+* $50,000 in damages.
+* Court costs.
+
+Defendant:
+
+* Dismissal of all claims.
+* Alternatively, reduction of damages.
+
+---
+
+
+[Judge] [Memory] Retrieved: V_Ravikumar_vs_S_Kumar_on_3_March_2025_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, M_S_J_P_Builders_Anr_vs_A_Ramadas_Rao_Anr_on_22_November_2010_1.PDF, A_T_Brij_Paul_Singh_And_Ors_vs_State_Of_Gujarat_on_25_July_1984_1.PDF, Art. 371, Art. 134, E2, E3, E6, E5, E1, 'Case: Acme Corp. v. Smith | Ju...', 'Evidence ids: E1, E2, E3, E4, ...'
+
+[Judge]
+This court is now in session. Before we proceed, I would like to briefly outline the rules and identify the claims and defenses in this case. The plaintiff, Acme Corp., is suing the defendant, Jordan Smith, for breach of contract, claiming that the defendant failed to deliver an agreed software module by the deadline and seeking $50,000 in damages. The defendant has raised the defenses of impossibility/prevention, stating that the plaintiff changed requirements late and denied needed access, and no causation, arguing that the plaintiff's own delays caused most damages.
+
+I have reviewed the case file and noted the evidence submitted, including emails, meeting notes, and invoices. I will ensure that all arguments and citations are properly considered throughout this trial.
+
+Plaintiff, please proceed with your opening statement.
+
+
+[Plaintiff] [Memory] Retrieved: Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, M_S_J_P_Builders_Anr_vs_A_Ramadas_Rao_Anr_on_22_November_2010_1.PDF, A_T_Brij_Paul_Singh_And_Ors_vs_State_Of_Gujarat_on_25_July_1984_1.PDF, Fateh_Chand_vs_Balkishan_Das_on_15_January_1963_1.PDF, Art. 371, Art. 290, E3, E6, E2, E5, E1
+
+[Plaintiff]
+[Action] search_evidence: contract, get_evidence: E1
+
+[Plaintiff] [Memory] Retrieved: '(no evidence found)...', 'E1: Statement of Work (Excerpt...'
+
+[Plaintiff]
+(no evidence found)
+E1: Statement of Work (Excerpt)
+
+
+[Judge] [Memory] Retrieved: Bharat_Barrel_And_Drum_Manufacturing_vs_Amin_Chand_Payrelal_on_18_February_1999_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, A_T_Brij_Paul_Singh_And_Ors_vs_State_Of_Gujarat_on_25_July_1984_1.PDF, Navaneethammal_vs_Arjuna_Chetty_on_6_September_1996_1.PDF, Art. 92, Art. 201, E3, E2, E6, E5, E1
+
+[Judge]
+It appears that the Statement of Work excerpt, E1, is a relevant document in this case. 
+
+
+
+[Judge]
+[Action] get_evidence: E1
+
+[Judge] [Memory] Retrieved: 'E1: Statement of Work (Excerpt...'
+
+[Judge]
+E1: Statement of Work (Excerpt)
+
+
+[Defendant] [Memory] Retrieved: Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, State_Of_Uttar_Pradesh_vs_Babboo_And_Ors_on_3_February_1978_1.PDF, Pepsico_India_Holding_P_Ltd_vs_Grocery_Market_Shops_Board_Ors_on_12_February_2016_1.PDF, State_Of_Orissa_Ors_vs_Lall_Brothers_on_25_August_1988_1.PDF, Art. 219, Art. 24, E1, E3, E2, E6, E4
+
+[Defendant]
+[Action] get_evidence: E1
+
+[Defendant] [Memory] Retrieved: 'E1: Statement of Work (Excerpt...'
+
+[Defendant]
+E1: Statement of Work (Excerpt)
+
+
+[Judge] [Memory] Retrieved: Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Munshi_Lal_Mahto_vs_Sudhir_Tripathy_on_8_January_2025_1.PDF, Art. 315, Art. 35, E2, E3, E5, E1, E6
+
+[Judge]
+Now that we have reviewed the Statement of Work, which outlines the delivery of Module X by 2025-01-31 and the payment milestone upon acceptance, the Plaintiff may proceed with their opening statement, addressing the claims of breach of contract and damages. Plaintiff, please proceed.
+
+
+[Plaintiff] [Memory] Retrieved: State_Of_Gujarat_vs_M_S_Kothari_Associates_on_16_October_2015_1.PDF, Hind_Construction_Contractors_By_Its_vs_State_Of_Maharashtra_on_30_January_1979_1.PDF, Burmah_Shell_Oil_Storage_Distribution_vs_Burmah_Shell_Management_Staff_on_12_November_1970_1.PDF, Hyderabad_Municipal_Corporation_vs_M_Krishnaswami_Mudaliar_And_Mudaliar_on_6_February_1985_1.PDF, Art. 232, Art. 24, E1, E6, E3, E2, E4
+
+[Plaintiff]
+The case before us today is a clear example of breach of contract, where the defendant, Jordan Smith, failed to deliver the agreed software module by the specified deadline, resulting in significant damages to the plaintiff, Acme Corp. As outlined in the Statement of Work (E1), the defendant was required to deliver Module X by 2025-01-31, with a payment milestone upon acceptance. However, due to the defendant's failure to meet this deadline, Acme Corp. was forced to incur substantial rework and delay costs, totaling $50,000.
+
+The evidence will show that the defendant had sufficient time and resources to complete the module, but failed to do so due to his own lack of diligence. Furthermore, the defendant's claims of impossibility and prevention are unfounded, as the plaintiff did provide access to the necessary resources, albeit with a slight delay (E4: Ticket Log Excerpt). The plaintiff had also agreed to a revised scope of work, with the understanding that the original deadline would remain unchanged (E5: Meeting Notes dated 2025-02-06).
+
+The plaintiff will demonstrate that the defendant's breach of contract was the direct cause of the damages incurred, and that the plaintiff is entitled to compensation for these losses. The plaintiff will also show that the defendant's actions, or lack thereof, were the primary cause of the delays and rework, and that the plaintiff's own actions were reasonable and necessary under the circumstances.
+
+
+
+[Plaintiff]
+[Action] get_evidence: E2, get_evidence: E3, get_evidence: E4, get_evidence: E5, get_evidence: E6
+
+[Plaintiff] [Memory] Retrieved: 'E2: Email dated 2025-01-10 fro...', 'E3: Email dated 2025-01-12 fro...', 'E4: Ticket Log Excerpt...', 'E5: Meeting Notes dated 2025-0...', 'E6: Invoice from Acme Contract...'
+
+[Plaintiff]
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+E4: Ticket Log Excerpt
+E5: Meeting Notes dated 2025-02-06
+E6: Invoice from Acme Contractor
+
+
+[Judge] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, M_S_Ferro_Concrete_Construction_vs_The_State_Of_Rajasthan_on_2_April_2025_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Art. 134, Art. 133, E2, E3, E5, E6, E1
+
+[Judge]
+It appears we have multiple pieces of evidence relevant to the case. I will review each one individually to understand their relevance.
+
+
+
+[Judge]
+[Action] get_evidence: E2, get_evidence: E3
+
+[Judge] [Memory] Retrieved: 'E2: Email dated 2025-01-10 fro...', 'E3: Email dated 2025-01-12 fro...'
+
+[Judge]
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+
+
+[Defendant] [Memory] Retrieved: Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Art. 346, Art. 315, E2, E3, E5, E1, E4
+
+[Defendant]
+[Action] get_evidence: E2
+
+[Defendant] [Memory] Retrieved: 'E2: Email dated 2025-01-10 fro...'
+
+[Defendant]
+E2: Email dated 2025-01-10 from Acme Project Manager
+
+
+[Judge] [Memory] Retrieved: Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Puja_Ferro_Alloys_P_Ltd_vs_State_Of_Goa_And_Ors_on_14_February_2025_1.PDF, Art. 134, Art. 132, E2, E3, E5, E6, E1
+
+[Judge]
+This email indicates that the Acme Project Manager requested additional reporting fields to be included in the same delivery. This change in requirements may be relevant to the defendant's claim of impossibility/prevention.
+
+
+
+[Judge]
+[Action] get_evidence: E4, get_evidence: E5, get_evidence: E6
+
+[Judge] [Memory] Retrieved: 'E4: Ticket Log Excerpt...', 'E5: Meeting Notes dated 2025-0...', 'E6: Invoice from Acme Contract...'
+
+[Judge]
+E4: Ticket Log Excerpt
+E5: Meeting Notes dated 2025-02-06
+E6: Invoice from Acme Contractor
+
+
+[Defendant] [Memory] Retrieved: A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Puja_Ferro_Alloys_P_Ltd_vs_State_Of_Goa_And_Ors_on_14_February_2025_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Art. 134, Art. 132, E3, E5, E2, E6, E1
+
+[Defendant]
+[Action] get_evidence: E3, get_evidence: E4, get_evidence: E5, get_evidence: E6
+
+[Defendant] [Memory] Retrieved: 'E3: Email dated 2025-01-12 fro...', 'E4: Ticket Log Excerpt...', 'E5: Meeting Notes dated 2025-0...', 'E6: Invoice from Acme Contract...'
+
+[Defendant]
+E3: Email dated 2025-01-12 from Jordan Smith
+E4: Ticket Log Excerpt
+E5: Meeting Notes dated 2025-02-06
+E6: Invoice from Acme Contractor
+
+
+[Judge] [Memory] Retrieved: A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Puja_Ferro_Alloys_P_Ltd_vs_State_Of_Goa_And_Ors_on_14_February_2025_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Art. 134, Art. 132, E3, E5, E2, E6, E1
+
+[Judge]
+Having reviewed the emails, ticket log, meeting notes, and invoice, it is clear that there were changes to the original agreement and delays in access being granted. 
+
+The Plaintiff has presented their case, and now it's the Defendant's turn. Defendant, please proceed with your opening statement, addressing the defenses of impossibility/prevention and no causation.
+
+
+[Defendant] [Memory] Retrieved: Pravin_Electricals_Pvt_Ltd_vs_Galaxy_Infra_And_Engineering_Pvt_Ltd_on_8_March_2021_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Art. 278, Art. 346, E3, E2, E6, E5, E8
+
+[Defendant]
+As the Defendant, I would like to highlight that the Plaintiff's own actions contributed significantly to the delays and changes in the project scope. The email dated 2025-01-10 from the Acme Project Manager (E2) introduced new requirements, which inevitably impacted the deadline. Furthermore, my email dated 2025-01-12 (E3) explicitly requested database access by 2025-01-15 to stay on schedule, but this access was not granted until 2025-02-05, as shown in the Ticket Log Excerpt (E4). This denial of necessary access prevented me from delivering the software module on time.
+
+I would also like to point out that the Meeting Notes dated 2025-02-06 (E5) indicate that the parties agreed to a revised scope, but the Plaintiff still expected me to meet the original deadline. This is unreasonable, given the changes and delays that had already occurred.
+
+The Invoice from Acme Contractor (E6) shows that the Plaintiff incurred $35,000 in rework costs, but I argue that these costs are largely due to the Plaintiff's own delays and changes, rather than any breach of contract on my part.
+
+In light of these facts, I assert that the defenses of impossibility/prevention and no causation are valid, and I request that the court consider these factors when evaluating the Plaintiff's claims. 
+
+
+
+[Defendant]
+[Action] search_evidence: 5, access, search_evidence: 5, deadline
+
+[Defendant] [Memory] Retrieved: '(no evidence found)...', '(no evidence found)...'
+
+[Defendant]
+(no evidence found)
+(no evidence found)
+
+
+[Judge] [Memory] Retrieved: R_Lakshmikantham_vs_Devaraji_on_10_July_2019_1.PDF, Tummalla_Atchaiah_vs_Venka_Narasingarao_on_24_January_1978_1.PDF, P_Meenakshisundaram_vs_P_Vijayakumar_on_28_March_2018_1.PDF, Bhagwati_Prasad_vs_Shri_Chandramaul_on_19_October_1965_1.PDF, Art. 134, Art. 363, E2, E3, E6, E5, E1
+
+[Judge]
+It seems that all relevant evidence has been retrieved. Now, let's proceed with the trial. 
+
+Defendant, please present your argument and cite any relevant evidence or legal precedents to support your claims of impossibility/prevention and no causation.
+
+
+[Defendant] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Pravin_Electricals_Pvt_Ltd_vs_Galaxy_Infra_And_Engineering_Pvt_Ltd_on_8_March_2021_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Art. 134, Art. 133, E2, E3, E5, E6, E1
+
+[Defendant]
+As the Defendant, I argue that the Plaintiff's own actions prevented me from fulfilling the contract, thus invoking the defense of impossibility/prevention. The Plaintiff changed the requirements late in the process, as seen in E2: Email dated 2025-01-10 from Acme Project Manager, which requested additional reporting fields. This change necessitated database access, which I requested on E3: Email dated 2025-01-12 from Jordan Smith. However, the access was not granted until much later, as shown in E4: Ticket Log Excerpt, where access was granted on 2025-02-05, well after the deadline.
+
+Furthermore, I argue that there is no causation between my alleged breach of contract and the damages claimed by the Plaintiff. The Plaintiff's own delays and changes to the scope of work contributed significantly to the damages. For instance, the integration work began on 2025-03-01, as per the Internal Acme Timeline, which is after the original deadline. This delay suggests that the Plaintiff's own actions, rather than my failure to deliver, caused a substantial portion of the damages.
+
+I also point to E5: Meeting Notes dated 2025-02-06, where the parties agreed to a revised scope, and the Plaintiff requested that the original deadline remain unchanged. This request, despite knowing about the changes and delays, indicates that the Plaintiff was aware of the challenges in meeting the original deadline but chose to proceed anyway.
+
+In light of these facts and the legal principles of contract law, I request that the court consider the defenses of impossibility/prevention and no causation, and rule in my favor. 
+
+
+
+[Defendant]
+[Action] search_precedents: 3, impossibility contract law, search_precedents: 3, no causation in breach of contract
+
+[Defendant] [Memory] Retrieved: 'Satyabrata_Ghose_vs_Mugneeram_...', 'The_Authorised_Officer_Central...'
+
+[Defendant]
+Satyabrata_Ghose_vs_Mugneeram_Bangur_Co_And_Another_on_16_November_1953_1.PDF: : The doctrine of frustration is really an aspect or part of the law of discharge of contract by reason of supervening impossibility or illegality of the act agreed to be done and hence comes within the purview of S. 56 of the Indian Contract Act.. The view that s. 56 applies only to cases of physical impossibility and that where this section is not applicable recourse can be had to the principles of English law on the subject of frustration is not correct. English cases can have only a persuasive value, and are only helpful in showing how English courts decided cases under similar circumstances. Section 56 of the Indian Contract Act lays down a rule of positive law and does not leave the matter to be determined according to the intention of the parties. According to the Indian Contract Act. a promise may be express or implied. In cases, therefore, where the court gathers as a matter of construction that the contract itself contained impliedly or expressly a term, according to which it would stand discharged on the happening of certain circumstances, the dissolution of the contract would take place under the terms of the contract itself and such cases would be outside the purview of S. 56 altogether. Although in English law these cases are treated as cases of frustration, in India they would be dealt with under s. 32 of the Indian Contract Act which deals with contingent contracts or similar other provisions contained in the Act
+
+M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF: . It must be that the impossibility causes the duty to cease to exist. For a duty either exists or it does not - that is to say, every duty continues until it is discharged, and discharge is the only process known to the law by which a duty once legally undertaken can be put off the shoulders of the obligee. Its effect is a complete removal of the obligation, and discharge by impossibility of performance is no less perfect than discharge by the performance of the original promise. In the words of Professor Corbin already cited, 'society no longer commands performance' - M.D., Army Welfare Housing ... vs Sumangal Services Pvt. Ltd on 8 October, 2003 Indian Kanoon - http://indiankanoon.org/doc/231673/ 34 nothing more can be demanded of the promisor." In Emden and Gill's Buildings Contracts and Practice, Seventh Edition, page 162-163, it is stated that liability to pay damages for non-performance of an impossibility only arises where the contract is absolute and unrestricted by any condition expressed or implied. It is further stated that a difficulty may not in all circumstances amount to impossibility. But even in that event the terms and conditions relating to performance of the contract may stand eclipsed. The transaction was a commercial one. Sumangal could not plead frustration of contract if it itself had abandoned it. (See Hauman Vs. Nortje [1914] A.D. 293, at p. 297 and Hoenig Vs. Issacs [1952] 2 All E.R. 176, at p. 178H)
+
+M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF: . Sumangal, therefore, cannot be said to have committed any illegality in complying with the stop work notice. To what extent it committed breach of the terms of the contract, assuming that it could have carried out some job as pointed out by AWHO would depend upon the commercial viability as a large number of workmen were to be engaged although it cannot carry out the major construction work, which was a relevant factor for determining the quantum of damages. Sumangal might have been partially liable but it cannot be faulted when it refused to carry out any constructional work in violation of the stop work notice which would attract the penal provisions of Section 440 of the West Bengal Municipal Act, 1993. The learned arbitrators were also bound to take into consideration this aspect of the matter. They failed to do so and misdirected themselves in law. In an interesting article titled "The Principle of Impossibility in Contract" by H.W.R. Wade published in Law Quarterly Review Volume 56 page 519, it is stated: "Two points emerge from the argument so far: (I) There can exist no duty to do an impossible act. (II) A promise is, normally and primarily, a promise of performance simply, and not of damages in the alternative. The effect of supervening impossibility on an existing duty can now be determined, and in view of conclusion (I) the answer is a simple one. It must be that the impossibility causes the duty to cease to exist
+The_Authorised_Officer_Central_Bank_Of_vs_Shanmugavelu_on_2_February_2024_1.PDF: . 14. Illustration (k) to S. 73 of the Contract Act is apt for the purpose of this case. According to that illustration, the person committing breach of contract has to pay to the other party the difference between the contract price of the articles agreed to be sold and the sum paid by the other party for purchasing another article on account of the default of the first party, but the first party has not to pay the compensation which the second party had to pay to third parties as he had not been told at the time of the contract that the second party was making the purchase of the article for delivery to such third parties." 52. Damages can be awarded only for the loss directly suffered on account of the breach and not for any remote or indirect loss sustained by reason of the breach of contract. The general rule is that where two parties enter into a contract and one of them commits breach, the other party will be entitled to receive as damages in respect of such breach of contract, such sum as may fairly and reasonably be considered arising naturally, that is according to the usual course of things, from such breach of contract itself or such as may reasonably be supposed to have been in the contemplation of both parties at the time they made the contract, as the probable result of the breach of it
+
+Kanchan_Udyog_Limited_vs_United_Spirits_Limited_on_19_June_2017_1.PDF: . These were cumulatively sufficient to assess estimated loss of production and the profitability that would have accrued if the business had remained operational. This loss of profitability was therefore clearly in contemplation of the parties at the time of entering into the contract, and which alone would be the relevant date for assessment of claim for damages. The breach by the respondent of the bottler€s agreement was the direct cause for loss of anticipated profits. Alternately, the causation had to be determined in a holistic manner by a cumulative assessment. The claim for loss of profitability is based on gross profits, and not net profits, as in that event several heads of claims regarding expenses would automatically get covered. The Project Services Agreement demonstrates that success of the business was primarily the responsibility of the respondent, dependent on the fulfillment of its obligations. 7. The appellant had taken all reasonable steps for mitigation of damages as available to it, by exploring alternate use of its bottling plant by other bottlers, including sale of the plant, relying on the Explanation to Section 73 of the Act. The appellate court, despite noticing the efforts made by the appellant, erred in applying the test for success of the endeavor, instead of the endeavor made. The appellant was not expected to take such steps involving unreasonable expenses, risk or injury to itself
+
+State_Of_Karnataka_Etc_vs_Shri_Rameshwara_Rice_Mills_on_24_February_1987_1.PDF: ACT
+Indian Contract Act, 1872--s. 73 --Agreement--Clause 12Interpretation of--Right to assess damages when arises--Damages for breach of condition of agreement--As- sessment to be made by an independent body and not by par- ties to the contract. Revenue Recovery Act--Damages for breach of conditions of contract--Whether recoverable as arrears of land revenue.
+
+
+[Judge] [Memory] Retrieved: M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF, M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF, M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF, Satyabrata_Ghose_vs_Mugneeram_Bangur_Co_And_Another_on_16_November_1953_1.PDF, Art. 299, Art. 41, E1, E5, E4, E2, E3
+
+[Judge]
+The Defendant has presented their argument, citing various legal precedents to support their claims of impossibility/prevention and no causation. 
+
+Now, I would like to ask questions to both sides to clarify certain points. 
+
+Plaintiff, can you please explain how the changes to the original agreement, as mentioned in Email E2, affected the Defendant's ability to deliver the software module on time? 
+
+Defendant, can you please provide more details on how the lack of access, as mentioned in Email E3, impacted your ability to complete the work, and whether you had explored alternative solutions? 
+
+Please respond to these questions, and we will proceed with the trial.
+
+
+[Plaintiff] [Memory] Retrieved: M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF, M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF, Satyabrata_Ghose_vs_Mugneeram_Bangur_Co_And_Another_on_16_November_1953_1.PDF, M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF, Art. 35, Art. 42, E1, E6, E3, E2, E4
+
+[Plaintiff]
+[Action] get_evidence: E2, get_evidence: E3, get_evidence: E5
+
+[Plaintiff] [Memory] Retrieved: 'E2: Email dated 2025-01-10 fro...', 'E3: Email dated 2025-01-12 fro...', 'E5: Meeting Notes dated 2025-0...'
+
+[Plaintiff]
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+E5: Meeting Notes dated 2025-02-06
+
+
+[Judge] [Memory] Retrieved: Reckitt_Benckiser_India_Private_vs_Reynders_Label_Printing_India_Private_on_1_July_2019_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Art. 35, Art. 278, E3, E2, E5, E6, E1
+
+[Judge]
+[Action] get_evidence: E2, get_evidence: E3, get_evidence: E5
+
+[Judge] [Memory] Retrieved: 'E2: Email dated 2025-01-10 fro...', 'E3: Email dated 2025-01-12 fro...', 'E5: Meeting Notes dated 2025-0...'
+
+[Judge]
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+E5: Meeting Notes dated 2025-02-06
+
+
+[Defendant] [Memory] Retrieved: A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Puja_Ferro_Alloys_P_Ltd_vs_State_Of_Goa_And_Ors_on_14_February_2025_1.PDF, Art. 134, Art. 132, E2, E3, E5, E6, E1
+
+[Defendant]
+[Action] get_evidence: E2, get_evidence: E3
+
+[Defendant] [Memory] Retrieved: 'E2: Email dated 2025-01-10 fro...', 'E3: Email dated 2025-01-12 fro...'
+
+[Defendant]
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+
+
+[Judge] [Memory] Retrieved: Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Art. 35, Art. 11, E2, E3, E5, E6, E1
+
+[Judge]
+Having reviewed the emails and meeting notes, it is clear that there were changes to the original agreement and delays in access being granted. 
+
+The Plaintiff and Defendant have presented their arguments, and I have asked questions to clarify certain points. 
+
+Now, it's time for closing statements. 
+
+Plaintiff, please present your closing statement, summarizing your case and reiterating your claims. 
+
+Then, the Defendant will present their closing statement, addressing the Plaintiff's claims and reiterating their defenses. 
+
+After that, I will review all the evidence and arguments presented and issue my final opinion. 
+
+Please proceed with your closing statements. 
+
+Plaintiff, you may start.
+
+
+[Plaintiff] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Art. 35, Art. 370, E3, E2, E6, E5, E1
+
+[Plaintiff]
+[Action] note_to_record: The Plaintiff rests their case, reiterating that the Defendant's failure to deliver the software module by the deadline constitutes a breach of contract, and the Plaintiff is entitled to $50,000 in damages.
+
+[Plaintiff]
+ok
+
+
+[Defendant] [Memory] Retrieved: Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Art. 35, Art. 395, E2, E6, E3, E1, E4, 'The Plaintiff rests their case...'
+
+[Defendant]
+[Action] note_to_record: The Defendant rests their case, reiterating that the Plaintiff's own delays and changes to the original agreement contributed to the inability to deliver the software module on time.
+
+[Defendant]
+ok
+
+
+[Judge] [Memory] Retrieved: Ashok_Kumar_Singh_Chandel_vs_State_Of_U_P_on_4_November_2022_1.PDF, Shaheen_Welfare_Association_vs_Union_Of_India_Ors_on_27_February_1996_1.PDF, Art. 134, Art. 371, E6, E3, E2, E1, E4, 'The Defendant rests their case...'
+
+[Judge]
+Now that both parties have presented their closing statements, I will review all the evidence and arguments presented.
+
+After careful consideration, I will issue my final opinion.
+
+=== VERDICT ===
+Based on the evidence presented, I find in favor of the Plaintiff, Acme Corp. The Defendant, Jordan Smith, has failed to deliver the software module on time, and the Plaintiff has incurred damages as a result.
+
+=== FINDINGS OF FACT ===
+The court finds that the Defendant was responsible for delivering the software module by 2025-01-31, as stated in the Statement of Work (E1). The Plaintiff requested changes to the original agreement, which were communicated to the Defendant via Email E2. The Defendant requested access to the database, which was granted on 2025-02-05, as shown in the Ticket Log Excerpt (E4).
+
+=== CONCLUSIONS OF LAW ===
+The court concludes that the Defendant's failure to deliver the software module on time constitutes a breach of contract. The Plaintiff's changes to the original agreement did not excuse the Defendant's obligation to deliver the module on time. The Defendant's claim of impossibility/prevention is not supported by the evidence, as they failed to provide adequate notice of any issues that may have prevented them from delivering the module on time.
+
+=== ORDER / REMEDY ===
+The court orders the Defendant to pay the Plaintiff $50,000 in damages, as claimed. The Defendant is also responsible for court costs.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable law. The Defendant's breach of contract and failure to deliver the software module on time have caused damages to the Plaintiff. The Plaintiff's changes to the original agreement did not excuse the Defendant's obligation to deliver the module on time. The Defendant's claim of impossibility/prevention is not supported by the evidence.
+
+TERMINATE

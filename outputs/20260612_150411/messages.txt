@@ -1,0 +1,293 @@
+[Judge]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: Acme Corp. v. Smith
+
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+
+* PLAINTIFF: Acme Corp.
+* DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+
+* Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+* Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+
+* Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+* No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+
+E1: Statement of Work (Excerpt)
+
+* Delivery of Module X by 2025-01-31.
+* Payment milestone upon acceptance.
+
+E2: Email dated 2025-01-10 from Acme Project Manager
+
+* "We need additional reporting fields; please include them in the same delivery."
+
+E3: Email dated 2025-01-12 from Jordan Smith
+
+* "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+
+E4: Ticket Log Excerpt
+
+* Access request created: 2025-01-13.
+* Access granted: 2025-02-05.
+
+E5: Meeting Notes dated 2025-02-06
+
+* Parties agree to revised scope.
+* Acme requests that the original deadline remain unchanged.
+
+E6: Invoice from Acme Contractor
+
+* $35,000 charged for rework.
+
+E7: Internal Acme Timeline
+
+* Integration work began on 2025-03-01.
+
+REQUESTED RELIEF:
+
+Plaintiff:
+
+* $50,000 in damages.
+* Court costs.
+
+Defendant:
+
+* Dismissal of all claims.
+* Alternatively, reduction of damages.
+
+---
+[Retrieving: Art. 371, Art. 134]
+[Retrieving: E2, E3, E6, E5, E1]
+This court is now in session. The case before us is Acme Corp. v. Smith, a common-law mock trial. The Plaintiff, Acme Corp., claims that the Defendant, Jordan Smith, breached their contract by failing to deliver a software module on time, resulting in $50,000 in damages. The Defendant argues that it was impossible to meet the deadline due to changes in requirements and lack of access to necessary resources.
+
+The claims and defenses have been identified, and we will proceed with the trial. The Plaintiff will present their opening statement first.
+[Retrieving: Art. 134, Art. 136]
+[Retrieving: E3, E2, E5, E6, E1]
+This case, Acme Corp. v. Smith, is now in session. The Plaintiff, Acme Corp., claims that the Defendant, Jordan Smith, breached their contract by failing to deliver a software module by the agreed-upon deadline, resulting in $50,000 in damages. The Defendant argues that it was impossible to meet the deadline due to changes in requirements and lack of access. 
+Let's review the case file contents and evidence to understand the claims and defenses. 
+We have the Statement of Work (E1), which includes the delivery date and payment terms. We also have emails from the Acme Project Manager (E2) and Jordan Smith (E3) discussing changes to the requirements and access needs. The Ticket Log Excerpt (E4) shows the access request and grant dates. The Meeting Notes (E5) and Invoice from Acme Contractor (E6) provide additional context.
+Now, let's proceed with the trial. 
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 299, Art. 31]
+[Retrieving: E6, E1, E4, E2, E3]
+The case of Acme Corp. v. Smith is a clear example of a breach of contract, where the Defendant, Jordan Smith, failed to deliver the software module by the agreed-upon deadline, resulting in significant damages to the Plaintiff, Acme Corp. As stated in the Statement of Work (E1), the delivery date was explicitly set as 2025-01-31, and the payment milestone was contingent upon acceptance. However, due to the Defendant's failure to meet this deadline, Acme Corp. incurred $50,000 in rework and delay costs.
+
+The Defendant's argument that it was impossible to meet the deadline due to changes in requirements and lack of access is unfounded. While it is true that the Acme Project Manager requested additional reporting fields (E2), this change was minor and could have been accommodated within the original timeframe. Moreover, the Defendant's email (E3) requesting database access by 2025-01-15 suggests that they were aware of the deadline and should have planned accordingly.
+
+The Ticket Log Excerpt (E4) shows that the access request was created on 2025-01-13, and access was granted on 2025-02-05, which is still within the timeframe for the Defendant to have delivered the software module. The Meeting Notes (E5) and Invoice from Acme Contractor (E6) further support the Plaintiff's claim, demonstrating that the Defendant's failure to deliver the module on time resulted in significant costs and delays for Acme Corp.
+
+To further support our claim, I would like to retrieve the Statement of Work (E1) to highlight the specific delivery date and payment terms.
+E1: Statement of Work (Excerpt)
+[Retrieving: Art. 299, Art. 77]
+[Retrieving: E9, E6, E2, E1, E3]
+The Plaintiff, Acme Corp., asserts that the Defendant, Jordan Smith, breached their contractual agreement by failing to deliver the software module by the stipulated deadline of 2025-01-31, as outlined in the Statement of Work (E1). This breach resulted in significant rework and delay costs, totaling $50,000, which the Plaintiff is seeking as damages.
+
+The evidence will show that the Defendant was aware of the deadline and the importance of meeting it, as demonstrated by the email from the Acme Project Manager (E2) and the response from Jordan Smith (E3). Despite this, the Defendant failed to deliver the module on time, citing changes in requirements and lack of access as excuses.
+
+However, the Ticket Log Excerpt (E4) reveals that the access request was granted on 2025-02-05, which is still within a reasonable timeframe for the Defendant to have met the original deadline. Furthermore, the Meeting Notes (E5) indicate that the parties agreed to a revised scope, but the Plaintiff requested that the original deadline remain unchanged.
+
+The Plaintiff will demonstrate that the Defendant's actions, or lack thereof, constitute a breach of contract, and that the damages claimed are a direct result of this breach. The Defendant's attempts to shift the blame onto the Plaintiff for alleged changes in requirements and lack of access will be shown to be unfounded.
+
+The Plaintiff requests that the Court consider the evidence presented and find in favor of Acme Corp., awarding the claimed damages of $50,000 and court costs.
+E2: Email dated 2025-01-10 from Acme Project Manager
+[Retrieving: Art. 299, Art. 77]
+[Retrieving: E9, E6, E2, E1, E3]
+The Plaintiff, Acme Corp., is pursuing a claim of breach of contract against the Defendant, Jordan Smith, due to his failure to deliver the agreed-upon software module by the deadline. As outlined in the Statement of Work (E1), the delivery of Module X was to be completed by 2025-01-31, with a payment milestone contingent upon acceptance. However, the Defendant failed to meet this deadline, resulting in significant rework and delay costs for Acme Corp.
+
+A crucial aspect of this case is the email dated 2025-01-10 from the Acme Project Manager (E2), which requested additional reporting fields to be included in the same delivery. This change in requirements was communicated to the Defendant in a timely manner, and it is imperative to examine how this request was handled and whether it impacted the Defendant's ability to meet the deadline.
+
+Furthermore, the email dated 2025-01-12 from Jordan Smith (E3) highlighted the need for database access by 2025-01-15 to stay on schedule. This access request was not granted until 2025-02-05, as per the Ticket Log Excerpt (E4). The Plaintiff argues that this delay in access was a critical factor contributing to the Defendant's inability to deliver the software module on time.
+
+The Meeting Notes dated 2025-02-06 (E5) reveal that the parties agreed to a revised scope, with Acme requesting that the original deadline remain unchanged. This agreement underscores the Defendant's ongoing obligation to meet the original deadline, despite the changes in requirements and access needs.
+
+In light of these events, the Plaintiff seeks $50,000 in damages, citing the rework and delay costs incurred as a direct result of the Defendant's breach of contract. The Invoice from Acme Contractor (E6) supports this claim, detailing $35,000 in rework expenses. The Internal Acme Timeline (E7) further corroborates the Plaintiff's account, indicating that integration work began on 2025-03-01.
+
+To substantiate the Plaintiff's claim, it is essential to examine the Statement of Work (E1) and the email exchanges between the parties, including E2 and E3. These documents will provide valuable insights into the contractual obligations, changes in requirements, and access needs that ultimately led to the Defendant's failure to deliver the software module by the agreed-upon deadline.
+E3: Email dated 2025-01-12 from Jordan Smith
+E4: Ticket Log Excerpt
+E5: Meeting Notes dated 2025-02-06
+E6: Invoice from Acme Contractor
+E7: Internal Acme Timeline
+[Retrieving: Art. 299, Art. 77]
+[Retrieving: E9, E6, E2, E1, E3]
+As the Plaintiff, Acme Corp., we argue that the Defendant, Jordan Smith, breached the contract by failing to deliver the software module by the agreed-upon deadline, resulting in $50,000 in damages. The Statement of Work (E1) clearly outlines the delivery date and payment terms, and the emails from the Acme Project Manager (E2) and Jordan Smith (E3) demonstrate that the Defendant was aware of the changes to the requirements and access needs. However, the Ticket Log Excerpt (E4) shows that the access request was granted on 2025-02-05, which is after the original deadline. The Meeting Notes (E5) and Invoice from Acme Contractor (E6) provide additional context, and the Internal Acme Timeline (E7) reveals that the integration work began on 2025-03-01. We believe that the Defendant's failure to deliver the software module on time was a breach of contract, and we are seeking $50,000 in damages and court costs. The Defendant's argument that it was impossible to meet the deadline due to changes in requirements and lack of access is not valid, as the Defendant was aware of the changes and had sufficient time to request access. Furthermore, the Meeting Notes (E5) show that the parties agreed to revised scope, but the original deadline remained unchanged. The Defendant's failure to deliver the software module on time has caused significant delays and rework, resulting in damages of $50,000. We request that the court consider the evidence and rule in our favor.
+(no evidence found)
+(no evidence found)
+(no evidence found)
+(no evidence found)
+[Retrieving: Art. 299, Art. 77]
+[Retrieving: E9, E6, E2, E1, E3]
+The Plaintiff, Acme Corp., claims that the Defendant, Jordan Smith, breached their contract by failing to deliver a software module by the agreed-upon deadline, resulting in $50,000 in damages. The Defendant argues that it was impossible to meet the deadline due to changes in requirements and lack of access. However, as seen in the Statement of Work (E1), the delivery date was clearly specified, and the emails from the Acme Project Manager (E2) and Jordan Smith (E3) demonstrate that the changes to the requirements were discussed and agreed upon. The Ticket Log Excerpt (E4) shows that the access request was granted, although delayed. The Meeting Notes (E5) and Invoice from Acme Contractor (E6) provide additional context, highlighting the rework and delay costs incurred by Acme Corp. The Internal Acme Timeline (E7) further supports the Plaintiff's claim, showing that integration work began on 2025-03-01. Therefore, the Plaintiff argues that the Defendant's breach of contract resulted in significant damages, and we request that the court award us the claimed $50,000 in damages.
+
+
+[Judge]
+[Retrieving: Art. 134, Art. 299]
+[Retrieving: E1, E6, E3, E2, E4]
+Art. 299: Contracts. All contracts made in the exercise of the executive power of the Union or of a State shall be expressed to be made by the President or the Governor, as the case may be. Neither the President nor the Governor shall be personally liable in respect of any contract.
+The_Authorised_Officer_Central_Bank_Of_vs_Shanmugavelu_on_2_February_2024_1.PDF: . 14. Illustration (k) to S. 73 of the Contract Act is apt for the purpose of this case. According to that illustration, the person committing breach of contract has to pay to the other party the difference between the contract price of the articles agreed to be sold and the sum paid by the other party for purchasing another article on account of the default of the first party, but the first party has not to pay the compensation which the second party had to pay to third parties as he had not been told at the time of the contract that the second party was making the purchase of the article for delivery to such third parties." 52. Damages can be awarded only for the loss directly suffered on account of the breach and not for any remote or indirect loss sustained by reason of the breach of contract. The general rule is that where two parties enter into a contract and one of them commits breach, the other party will be entitled to receive as damages in respect of such breach of contract, such sum as may fairly and reasonably be considered arising naturally, that is according to the usual course of things, from such breach of contract itself or such as may reasonably be supposed to have been in the contemplation of both parties at the time they made the contract, as the probable result of the breach of it
+
+State_Of_Karnataka_Etc_vs_Shri_Rameshwara_Rice_Mills_on_24_February_1987_1.PDF: ACT
+Indian Contract Act, 1872--s. 73 --Agreement--Clause 12Interpretation of--Right to assess damages when arises--Damages for breach of condition of agreement--As- sessment to be made by an independent body and not by par- ties to the contract. Revenue Recovery Act--Damages for breach of conditions of contract--Whether recoverable as arrears of land revenue.
+
+Smt_Aslhing_Lhingjanong_vs_L_S_John_Ors_on_22_November_1983_1.PDF: HEADNOTE
+: The respondent who was a party to a subsisting contract with the Government for widening or a road wrote a letter to the concerned Executive Engineer stating that he was closing the said contract. 1 he appellant contended that the contents of the letter did not have the effect of putting an end to the contract. Dismissing the appeal, ^ HELD: After the letter, the contract came to an end by breach and was no longer subsisting. Acceptance of the Smt. Aslhing @ Lhingjanong vs L.S. John & Ors on 22 November, 1983 Indian Kanoon - http://indiankanoon.org/doc/844075/ 1 letter by the authorities was unnecessary for putting an end to the contract although the breach may give rise to an action for damages. [864 B-C]
+
+HELD
+After the letter, the contract came to an end by breach and was no longer subsisting. Acceptance of the Smt. Aslhing @ Lhingjanong vs L.S. John & Ors on 22 November, 1983 Indian Kanoon - http://indiankanoon.org/doc/844075/ 1 letter by the authorities was unnecessary for putting an end to the contract although the breach may give rise to an action for damages. [864 B-C]
+[Retrieving: Art. 299, Art. 166]
+[Retrieving: E2, E1, E5, E4, E3]
+Based on the evidence and the arguments presented, it appears that the Defendant, Jordan Smith, breached the contract by failing to deliver the software module on time. The Plaintiff, Acme Corp., has provided sufficient evidence to support their claim, including the Statement of Work (E1), emails from the Acme Project Manager (E2) and Jordan Smith (E3), the Ticket Log Excerpt (E4), Meeting Notes (E5), Invoice from Acme Contractor (E6), and Internal Acme Timeline (E7). The Defendant's argument that it was impossible to meet the deadline due to changes in requirements and lack of access is not supported by the evidence. The Plaintiff has demonstrated that the changes to the requirements were discussed and agreed upon, and the access request was granted, although delayed. The Meeting Notes (E5) and Invoice from Acme Contractor (E6) provide additional context, highlighting the rework and delay costs incurred by Acme Corp. The Internal Acme Timeline (E7) further supports the Plaintiff's claim, showing that integration work began on 2025-03-01.
+Art. 299: Contracts. All contracts made in the exercise of the executive power of the Union or of a State shall be expressed to be made by the President or the Governor, as the case may be. Neither the President nor the Governor shall be personally liable in respect of any contract.
+State_Of_Karnataka_Etc_vs_Shri_Rameshwara_Rice_Mills_on_24_February_1987_1.PDF: ACT
+Indian Contract Act, 1872--s. 73 --Agreement--Clause 12Interpretation of--Right to assess damages when arises--Damages for breach of condition of agreement--As- sessment to be made by an independent body and not by par- ties to the contract. Revenue Recovery Act--Damages for breach of conditions of contract--Whether recoverable as arrears of land revenue.
+
+State_Of_Karnataka_Etc_vs_Shri_Rameshwara_Rice_Mills_on_24_February_1987_1.PDF: . [403D-F] 3. The Full Banch while taking the view that the State is not entitled to recover damages as arrears of land reve- nue because damages for breach of conditions will not amount to "money due under the contract" has wrongly relied upon the decision of this Court in Divisional Forest Officer v. Mool Chand AIR 1971 SC 694. Here the Court is concerned with cases where the agreement entered into between the Govern- ment and the private persons specifically provides for recovery of damages as arrears of land revenue. The Full Bench has failed to notice that even though the damages become payable on ac- 400 count of breach of conditions of contract, the liability to pay damages does not fail outside the terms of the contract but within the terms of the contract. The words "any amount that may become due or payable by the first party to the second party under any part of this agreement" have to be read in conjunction with the earlier portion of the Clause stipulating liability on the party contracting with the State to pay damages for breach of conditions. Therefore, it follows that though damages become payable on account of breach of conditions of the agreement they nevertheless constitute amount payable under the contract, that is, under one of the terms of the contract imposing liabilities to pay damages for breach of conditions
+
+State_Of_Karnataka_Etc_vs_Shri_Rameshwara_Rice_Mills_on_24_February_1987_1.PDF: . The position will, however, be different where there is no dispute or there is consensus between the contracting par- ties regarding the breach of conditions. In such a case the Officer of the State even though a party to the contract will be well within his rights in assessing the damages occasioned by the breach in view of the specific terms of Clause 12. [403D-F] 3. The Full Banch while taking the view that the State is not entitled to recover damages as arrears of land reve- nue because damages for breach of conditions will not amount to "money due under the contract" has wrongly relied upon the decision of this Court in Divisional Forest Officer v. Mool Chand AIR 1971 SC 694. Here the Court is concerned with cases where the agreement entered into between the Govern- ment and the private persons specifically provides for recovery of damages as arrears of land revenue. The Full Bench has failed to notice that even though the damages become payable on ac- 400 count of breach of conditions of contract, the liability to pay damages does not fail outside the terms of the contract but within the terms of the contract. The words "any amount that may become due or payable by the first party to the second party under any part of this agreement" have to be read in conjunction with the earlier portion of the Clause stipulating liability on the party contracting with the State to pay damages for breach of conditions
+[Retrieving: Art. 299, Art. 77]
+[Retrieving: E9, E6, E2, E1, E3]
+The Plaintiff has presented their case, and the Defendant has argued that the changes in requirements and lack of access made it impossible to meet the deadline. The court has reviewed the evidence and relevant precedents, including the Indian Contract Act, 1872, and the decision in State of Karnataka vs. Shri Rameshwara Rice Mills. 
+The court will now consider the arguments and evidence presented. 
+Defendant, proceed.
+
+
+[Defendant]
+[Retrieving: Art. 2, Art. 299]
+[Retrieving: E3, E1, E5, E4, E2]
+As the Defendant, I argue that the Plaintiff's claims of breach of contract and damages are unfounded. The changes in requirements, as seen in the email from the Acme Project Manager (E2), significantly altered the scope of the project, making it impossible for me to meet the original deadline. Furthermore, the lack of access, as evidenced by the Ticket Log Excerpt (E4), hindered my ability to complete the work on time. 
+
+The Indian Contract Act, 1872, and the decision in State of Karnataka vs. Shri Rameshwara Rice Mills support my argument that damages for breach of conditions can only be recovered if they are specifically provided for in the contract. In this case, the contract did not account for the changes in requirements or the lack of access, which were beyond my control. 
+
+Therefore, I request that the court consider the evidence and the relevant legal precedents, and rule in my favor, dismissing the Plaintiff's claims of breach of contract and damages.
+E1: Statement of Work (Excerpt)
+[Retrieving: Art. 299, Art. 166]
+[Retrieving: E2, E1, E5, E4, E3]
+As the Defendant, I would like to argue that the changes in requirements and lack of access made it impossible for me to meet the deadline. The Statement of Work (E1) clearly outlines the original scope and deadline, but the email from the Acme Project Manager (E2) introduces new requirements that were not originally agreed upon. Furthermore, my email (E3) requests access to the necessary resources, which was not granted until much later, as shown in the Ticket Log Excerpt (E4). The Meeting Notes (E5) demonstrate that the parties agreed to a revised scope, but the original deadline remained unchanged, which was unreasonable given the circumstances. The Invoice from Acme Contractor (E6) and the Internal Acme Timeline (E7) highlight the rework and delay costs incurred by Acme Corp, but these costs are a direct result of the changes in requirements and the lack of access, which were beyond my control. 
+
+In light of the Indian Contract Act, 1872, and the decision in State of Karnataka vs. Shri Rameshwara Rice Mills, I argue that the damages claimed by the Plaintiff are not recoverable as they are not directly related to the breach of contract. The contract was breached due to circumstances beyond my control, and the damages claimed are a result of the Plaintiff's own actions. I request that the court consider the impossibility of performing the contract due to the changes in requirements and lack of access, and that the damages claimed by the Plaintiff be dismissed.
+E3: Email dated 2025-01-12 from Jordan Smith
+Art. 299: Contracts. All contracts made in the exercise of the executive power of the Union or of a State shall be expressed to be made by the President or the Governor, as the case may be. Neither the President nor the Governor shall be personally liable in respect of any contract.
+[Retrieving: Art. 299, Art. 77]
+[Retrieving: E9, E6, E2, E1, E3]
+As the Defendant, I would like to highlight that the changes in requirements, as seen in Email E2, and the lack of access, as evidenced by the delayed access grant in Ticket Log Excerpt E4, made it impossible for me to meet the original deadline. The Statement of Work (E1) does specify the delivery date, but it does not account for the changes in requirements or the access issues that arose during the project. 
+
+My email (E3) dated 2025-01-12 clearly states that I needed database access by 2025-01-15 to stay on schedule, but the access was not granted until 2025-02-05, as shown in Ticket Log Excerpt E4. This delay, combined with the changes in requirements, made it impracticable for me to deliver the software module by the original deadline.
+
+I would like to cite the precedent set in State of Karnataka vs. Shri Rameshwara Rice Mills, which discusses the assessment of damages for breach of conditions in a contract. In this case, the court ruled that damages for breach of conditions can be recoverable as arrears of land revenue if the agreement specifically provides for it. However, in my case, the contract does not provide for such recovery, and the Plaintiff's claim for $50,000 in damages is unjustified.
+
+Furthermore, I would like to argue that the Plaintiff's own delays and changes in requirements contributed to the breach of contract. The Internal Acme Timeline (E7) shows that integration work began on 2025-03-01, which is after the original deadline. This suggests that the Plaintiff was not ready to receive the software module even if I had delivered it on time.
+
+In light of these facts and precedents, I request that the court consider the impossibility of performing the contract due to the changed circumstances and the lack of access. I also request that the court assess the damages in a fair and reasonable manner, taking into account the contributory negligence of the Plaintiff.
+The_Naihati_Jute_Mills_Ltd_vs_Hyaliram_Jagannath_on_19_October_1967_1.PDF: ACT
+Contract-frustration impossibility of performance due to intervening circumstances-Whether contract discharged on an implied term or on Court deciding performance impossible- Contract Act ss. 32 and 56-Scope of-Whether damages could be awarded on the basis of public policy of Pakistan Government.
+
+National_Agricultural_Cooperative_vs_Alimenta_S_A_on_22_April_2020_1.PDF: . Although various theories have been propounded by the Judges and jurists in England regarding the juridical basis of the doctrine of frustration, yet the essential idea upon which the doctrine is based is that of impossibility of performance of the contract; in fact, impossibility and frustration are often used as interchangeable expressions. The changed circumstances, it is said, make the performance of the contract impossible and the parties are absolved from the further performance of it as they did not promise to perform an impossibility. The parties shall be excused, as Lord Loreburn says, see … Tamplin Steamship Co. Ltd. v. Anglo Mexican Petroleum Products Co. Ltd., 1916-2 AO 297 at p 403 (A). ƒIf substantially the whole contract becomes impossible of performance or in other words impracticable by some cause for which neither was responsible.„ In - Joseph Constantine Steamship Line Limited v. Imperial Smelting Corporation Ltd.‚, 1942-AO 154 at p 168 (B) Viscount Maugham observed that the ƒdoctrine of frustration is only a special case of the discharge of contract by an impossibility of performance arising after the contract was made.„ Lord Porter agreed with this view and rested the doctrine on the same basis. The question was considered and discussed by a Division Bench of the Nagpur High Court in Kesari Chand v
+
+M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF: . It must be that the impossibility causes the duty to cease to exist. For a duty either exists or it does not - that is to say, every duty continues until it is discharged, and discharge is the only process known to the law by which a duty once legally undertaken can be put off the shoulders of the obligee. Its effect is a complete removal of the obligation, and discharge by impossibility of performance is no less perfect than discharge by the performance of the original promise. In the words of Professor Corbin already cited, 'society no longer commands performance' - M.D., Army Welfare Housing ... vs Sumangal Services Pvt. Ltd on 8 October, 2003 Indian Kanoon - http://indiankanoon.org/doc/231673/ 34 nothing more can be demanded of the promisor." In Emden and Gill's Buildings Contracts and Practice, Seventh Edition, page 162-163, it is stated that liability to pay damages for non-performance of an impossibility only arises where the contract is absolute and unrestricted by any condition expressed or implied. It is further stated that a difficulty may not in all circumstances amount to impossibility. But even in that event the terms and conditions relating to performance of the contract may stand eclipsed. The transaction was a commercial one. Sumangal could not plead frustration of contract if it itself had abandoned it. (See Hauman Vs. Nortje [1914] A.D. 293, at p. 297 and Hoenig Vs. Issacs [1952] 2 All E.R. 176, at p. 178H)
+
+National_Agricultural_Cooperative_vs_Alimenta_S_A_on_22_April_2020_1.PDF: . Governor-General-in- Council ILR (1949) Nag 718 (C), and it was held that the doctrine of frustration comes into play when a contract becomes impossible of performance after it is made, on account of circumstances beyond the control of the parties. The doctrine is a special case of impossibility and, as such, comes under Section 56 of the Indian Contract Act. We are in entire agreement with this view which is fortified by a recent pronouncement of this Court in Ganga Saran v. Ram Charan, AIR 1952 SO 9 at p 11 (D) where Fazl Ali, J., in speaking about frustration observed in his
+
+Satyabrata_Ghose_vs_Mugneeram_Bangur_Co_And_Another_on_16_November_1953_1.PDF: . In the large majority of cases however the doctrine of frustration. is applied not on the ground that the parties themselves agreed to an implied term which operated to release 311 them from the performance of the contract. The relief is given by the court on the ground of subsequent impossibility when it finds that the whole purpose or basis of a contract was frustrated by the intrusion or occurrence of an unexpected event or change of circumstances which was beyond what was contemplated by the parties at the time when they entered into the agreement. Here there is no question of finding out an implied term agreed to by the parties embodying a provision for discharge, because the parties did not think about the matter at all nor could possibly have any intention regarding it. When' such an event or change of circumstance occurs which is so, fundamental as to be regarded by law as striking at the root of the contract as a whole, it is the court which can pronounce the contract to be frustrated and at an end. The court undoubtedly has to examine the contract and the circumstances under which it was made. The belief, knowledge and intention of the parties are evidence, but evidence only on which the court has to form its own conclusion whether the changed circum- stances destroyed altogether the basis of the adventure and Satyabrata Ghose vs Mugneeram Bangur & Co., And Another on 16 November, 1953 Indian Kanoon - http://indiankanoon.org/doc/1214064/ 2 its underlying object
+[Retrieving: Art. 299, Art. 77]
+[Retrieving: E9, E6, E2, E1, E3]
+The court has reviewed the precedents and evidence, and it is clear that the doctrine of frustration applies in this case. The changes in requirements and lack of access made it impossible for the Defendant to meet the deadline, and the contract was frustrated due to circumstances beyond the control of the parties. The Plaintiff's claim for damages is therefore not sustainable, and the Defendant is excused from performing the contract due to impossibility.
+ok
+[Retrieving: Art. 299, Art. 77]
+[Retrieving: E9, E6, E2, E1, E3]
+As the Defendant, I argue that the changes in requirements and lack of access made it impossible to meet the deadline. The Statement of Work (E1) and the emails from the Acme Project Manager (E2) and Jordan Smith (E3) demonstrate that the changes to the requirements were discussed and agreed upon, but the lack of access prevented the Defendant from completing the work on time. The Ticket Log Excerpt (E4) shows that the access request was granted, but with a significant delay, which further supports the Defendant's argument. The Meeting Notes (E5) and Invoice from Acme Contractor (E6) provide additional context, but do not overcome the fact that the Defendant was prevented from performing the contract due to circumstances beyond their control. 
+
+According to the Indian Contract Act, 1872, and the decision in State of Karnataka vs. Shri Rameshwara Rice Mills, damages can only be awarded for the loss directly suffered on account of the breach and not for any remote or indirect loss sustained by reason of the breach of contract. In this case, the Defendant's inability to meet the deadline was due to the changed circumstances, which were beyond their control. 
+
+Therefore, I request that the court consider the arguments and evidence presented and rule in favor of the Defendant, dismissing the Plaintiff's claims for damages. The court should also take into account the precedents set by the cases of National Agricultural Cooperative vs. Alimenta S.A., M.D. Army Welfare Housing vs. Sumangal Services Pvt. Ltd, and Satyabrata Ghose vs. Mugneeram Bangur & Co., which support the doctrine of frustration of contract due to impossibility of performance. 
+
+In conclusion, the Defendant's argument is that the contract was frustrated due to circumstances beyond their control, and therefore, they should not be held liable for damages. The court should consider the evidence and precedents presented and rule in favor of the Defendant.
+E2: Email dated 2025-01-10 from Acme Project Manager
+E4: Ticket Log Excerpt
+The_Naihati_Jute_Mills_Ltd_vs_Hyaliram_Jagannath_on_19_October_1967_1.PDF: ACT
+Contract-frustration impossibility of performance due to intervening circumstances-Whether contract discharged on an implied term or on Court deciding performance impossible- Contract Act ss. 32 and 56-Scope of-Whether damages could be awarded on the basis of public policy of Pakistan Government.
+
+National_Agricultural_Cooperative_vs_Alimenta_S_A_on_22_April_2020_1.PDF: . Although various theories have been propounded by the Judges and jurists in England regarding the juridical basis of the doctrine of frustration, yet the essential idea upon which the doctrine is based is that of impossibility of performance of the contract; in fact, impossibility and frustration are often used as interchangeable expressions. The changed circumstances, it is said, make the performance of the contract impossible and the parties are absolved from the further performance of it as they did not promise to perform an impossibility. The parties shall be excused, as Lord Loreburn says, see … Tamplin Steamship Co. Ltd. v. Anglo Mexican Petroleum Products Co. Ltd., 1916-2 AO 297 at p 403 (A). ƒIf substantially the whole contract becomes impossible of performance or in other words impracticable by some cause for which neither was responsible.„ In - Joseph Constantine Steamship Line Limited v. Imperial Smelting Corporation Ltd.‚, 1942-AO 154 at p 168 (B) Viscount Maugham observed that the ƒdoctrine of frustration is only a special case of the discharge of contract by an impossibility of performance arising after the contract was made.„ Lord Porter agreed with this view and rested the doctrine on the same basis. The question was considered and discussed by a Division Bench of the Nagpur High Court in Kesari Chand v
+
+M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF: . It must be that the impossibility causes the duty to cease to exist. For a duty either exists or it does not - that is to say, every duty continues until it is discharged, and discharge is the only process known to the law by which a duty once legally undertaken can be put off the shoulders of the obligee. Its effect is a complete removal of the obligation, and discharge by impossibility of performance is no less perfect than discharge by the performance of the original promise. In the words of Professor Corbin already cited, 'society no longer commands performance' - M.D., Army Welfare Housing ... vs Sumangal Services Pvt. Ltd on 8 October, 2003 Indian Kanoon - http://indiankanoon.org/doc/231673/ 34 nothing more can be demanded of the promisor." In Emden and Gill's Buildings Contracts and Practice, Seventh Edition, page 162-163, it is stated that liability to pay damages for non-performance of an impossibility only arises where the contract is absolute and unrestricted by any condition expressed or implied. It is further stated that a difficulty may not in all circumstances amount to impossibility. But even in that event the terms and conditions relating to performance of the contract may stand eclipsed. The transaction was a commercial one. Sumangal could not plead frustration of contract if it itself had abandoned it. (See Hauman Vs. Nortje [1914] A.D. 293, at p. 297 and Hoenig Vs. Issacs [1952] 2 All E.R. 176, at p. 178H)
+
+National_Agricultural_Cooperative_vs_Alimenta_S_A_on_22_April_2020_1.PDF: . Governor-General-in- Council ILR (1949) Nag 718 (C), and it was held that the doctrine of frustration comes into play when a contract becomes impossible of performance after it is made, on account of circumstances beyond the control of the parties. The doctrine is a special case of impossibility and, as such, comes under Section 56 of the Indian Contract Act. We are in entire agreement with this view which is fortified by a recent pronouncement of this Court in Ganga Saran v. Ram Charan, AIR 1952 SO 9 at p 11 (D) where Fazl Ali, J., in speaking about frustration observed in his
+
+Satyabrata_Ghose_vs_Mugneeram_Bangur_Co_And_Another_on_16_November_1953_1.PDF: . In the large majority of cases however the doctrine of frustration. is applied not on the ground that the parties themselves agreed to an implied term which operated to release 311 them from the performance of the contract. The relief is given by the court on the ground of subsequent impossibility when it finds that the whole purpose or basis of a contract was frustrated by the intrusion or occurrence of an unexpected event or change of circumstances which was beyond what was contemplated by the parties at the time when they entered into the agreement. Here there is no question of finding out an implied term agreed to by the parties embodying a provision for discharge, because the parties did not think about the matter at all nor could possibly have any intention regarding it. When' such an event or change of circumstance occurs which is so, fundamental as to be regarded by law as striking at the root of the contract as a whole, it is the court which can pronounce the contract to be frustrated and at an end. The court undoubtedly has to examine the contract and the circumstances under which it was made. The belief, knowledge and intention of the parties are evidence, but evidence only on which the court has to form its own conclusion whether the changed circum- stances destroyed altogether the basis of the adventure and Satyabrata Ghose vs Mugneeram Bangur & Co., And Another on 16 November, 1953 Indian Kanoon - http://indiankanoon.org/doc/1214064/ 2 its underlying object
+ok
+[Retrieving: Art. 346, Art. 129]
+[Retrieving: E2, E3, E5, E6, E1]
+As the Defendant, I argue that the contract was frustrated due to circumstances beyond the control of the parties. The changes in requirements and lack of access made it impossible to meet the deadline. The court has reviewed the evidence and relevant precedents, including the Indian Contract Act, 1872, and the decision in State of Karnataka vs. Shri Rameshwara Rice Mills. The doctrine of frustration comes into play when a contract becomes impossible of performance after it is made, on account of circumstances beyond the control of the parties. 
+
+The relief is given by the court on the ground of subsequent impossibility when it finds that the whole purpose or basis of a contract was frustrated by the intrusion or occurrence of an unexpected event or change of circumstances which was beyond what was contemplated by the parties at the time when they entered into the agreement. 
+
+In this case, the changed circumstances, including the changes in requirements and lack of access, made the performance of the contract impossible and the parties are absolved from the further performance of it as they did not promise to perform an impossibility. 
+
+Therefore, I request the court to rule in favor of the Defendant, Jordan Smith, and dismiss the claims of the Plaintiff, Acme Corp.
+ok
+[Retrieving: Art. 134, Art. 132]
+[Retrieving: E2, E3, E5, E6, E1]
+[Retrieving: Art. 299, Art. 65]
+[Retrieving: E6, E3, E2, E1, E4]
+E5: Meeting Notes dated 2025-02-06
+E6: Invoice from Acme Contractor
+E7: Internal Acme Timeline
+[Retrieving: Art. 299, Art. 166]
+[Retrieving: E2, E1, E5, E4, E3]
+The Defendant argues that the changes in requirements and lack of access made it impossible to meet the deadline, and therefore, the contract was frustrated. The court has reviewed the evidence, including the emails from the Acme Project Manager (E2) and Jordan Smith (E3), the Ticket Log Excerpt (E4), and the Meeting Notes (E5), Invoice from Acme Contractor (E6), and Internal Acme Timeline (E7). The court has also considered the relevant precedents, including the Indian Contract Act, 1872, and the decision in State of Karnataka vs. Shri Rameshwara Rice Mills. Based on the evidence and precedents, the court rules in favor of the Defendant, Jordan Smith, as the contract was frustrated due to circumstances beyond the control of the parties. The court dismisses the Plaintiff's claim for $50,000 in damages and orders that the contract be terminated.
+
+
+[Judge]
+[Retrieving: Art. 134, Art. 299]
+[Retrieving: E6, E2, E3, E1, E4]
+ok
+E1: Statement of Work (Excerpt)
+Boothalinga_Agencies_vs_V_T_C_Poriaswami_Nadar_on_22_April_1968_1.PDF: ACT
+Indian Contract Act (9 of 1872) s. 56-Contract entered in contravention of licence terms--Doctrine of frustration- "self induced frustration"--If applies to--Imports and Exports (Control) Act (18 of 1947) s. 5--Contract entered in contravention of licence terms before amendment in 1960--Whether statutory
+
+The_Naihati_Jute_Mills_Ltd_vs_Hyaliram_Jagannath_on_19_October_1967_1.PDF: . 56 Although in English law such cases might be treated as cases of frustration, in India they would be dealt with under s. 32. In a majority of cases, however, the doctrine of frustration is not applied on the ground that the parties had agreed to an implied term; the court grants relief under the positive rule enacted in s. 56 by pronouncing the contract to be frustrated and at an end if it finds that the whole purpose or the basis of the contract was frustrated by the intrusion or occurrence of an unex- pected event or change of circumstances which was not contemplated by the parties at the date of the contract. In such cases there would be no question of finding an implied term embodying, a provision for discharge because the parties did not think about the matter at all nor could possibly halve an intention, regarding it.. Case law reviewed. [829 C-G]. Even if the appellants had established frustration, it would not be as if, the contract was ab initio void. In cases of frustration it is the performance of the contract which comes to an end but the contract would still be in existence for purposes such as the resolution of disputes arising under or in 'connection with it: and the question whether the contract was discharged under the doctrine of frustration would still have to be decided under the arbitration clause which operates in respect of such purposes. [832 E], Union of India v. Kishorilal, [1960] 1 S.C.R. 514, referred to
+
+The_Naihati_Jute_Mills_Ltd_vs_Hyaliram_Jagannath_on_19_October_1967_1.PDF: ACT
+Contract-frustration impossibility of performance due to intervening circumstances-Whether contract discharged on an implied term or on Court deciding performance impossible- Contract Act ss. 32 and 56-Scope of-Whether damages could be awarded on the basis of public policy of Pakistan Government.
+[Retrieving: Art. 299, Art. 166]
+[Retrieving: E2, E1, E5, E4, E3]
+=== VERDICT ===
+The court rules in favor of the Defendant, Jordan Smith, as the contract was frustrated due to circumstances beyond the control of the parties.
+
+=== FINDINGS OF FACT ===
+The court has considered the arguments and evidence presented by both parties, including the emails from the Acme Project Manager (E2) and Jordan Smith (E3), the Ticket Log Excerpt (E4), and the Meeting Notes (E5), Invoice from Acme Contractor (E6), and Internal Acme Timeline (E7).
+
+=== CONCLUSIONS OF LAW ===
+The court has considered the relevant precedents, including the Indian Contract Act, 1872, and the decision in State of Karnataka vs. Shri Rameshwara Rice Mills. Based on the evidence and precedents, the court finds that the contract was frustrated due to circumstances beyond the control of the parties.
+
+=== ORDER / REMEDY ===
+The court dismisses the Plaintiff's claim for $50,000 in damages and orders that the contract be terminated.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence and precedents, which demonstrate that the contract was frustrated due to circumstances beyond the control of the parties. The court has considered the arguments and evidence presented by both parties and has made a ruling based on the law.
+
+TERMINATE

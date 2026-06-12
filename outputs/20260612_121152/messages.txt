@@ -1,0 +1,459 @@
+[user]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: Acme Corp. v. Smith
+
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+
+* PLAINTIFF: Acme Corp.
+* DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+
+* Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+* Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+
+* Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+* No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+
+E1: Statement of Work (Excerpt)
+
+* Delivery of Module X by 2025-01-31.
+* Payment milestone upon acceptance.
+
+E2: Email dated 2025-01-10 from Acme Project Manager
+
+* "We need additional reporting fields; please include them in the same delivery."
+
+E3: Email dated 2025-01-12 from Jordan Smith
+
+* "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+
+E4: Ticket Log Excerpt
+
+* Access request created: 2025-01-13.
+* Access granted: 2025-02-05.
+
+E5: Meeting Notes dated 2025-02-06
+
+* Parties agree to revised scope.
+* Acme requests that the original deadline remain unchanged.
+
+E6: Invoice from Acme Contractor
+
+* $35,000 charged for rework.
+
+E7: Internal Acme Timeline
+
+* Integration work began on 2025-03-01.
+
+REQUESTED RELIEF:
+
+Plaintiff:
+
+* $50,000 in damages.
+* Court costs.
+
+Defendant:
+
+* Dismissal of all claims.
+* Alternatively, reduction of damages.
+
+---
+
+
+
+[Judge] [Memory] Retrieved: V_Ravikumar_vs_S_Kumar_on_3_March_2025_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, M_S_J_P_Builders_Anr_vs_A_Ramadas_Rao_Anr_on_22_November_2010_1.PDF, A_T_Brij_Paul_Singh_And_Ors_vs_State_Of_Gujarat_on_25_July_1984_1.PDF, Art. 371, Art. 134, E2, E3, E6, E5, E1, 'Case: Acme Corp. v. Smith | Ju...', 'Evidence ids: E1, E2, E3, E4, ...'
+
+[Judge]
+This court is now in session. Before we begin, I would like to review the basic rules of this mock trial. Each party will have the opportunity to present their case, and I will ensure that the proceedings are conducted in a fair and orderly manner. 
+
+The Plaintiff, Acme Corp., claims that the Defendant, Jordan Smith, breached their contract by failing to deliver the agreed-upon software module by the deadline, resulting in $50,000 in damages. The Defendant argues that it was impossible to fulfill the contract due to changes in requirements and lack of access, and that the Plaintiff's own delays caused most of the damages.
+
+With these claims and defenses in mind, I invite the Plaintiff to proceed with their opening statement. Plaintiff, you may now present your case.
+
+
+[Plaintiff] [Memory] Retrieved: Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, A_T_Brij_Paul_Singh_And_Ors_vs_State_Of_Gujarat_on_25_July_1984_1.PDF, M_S_J_P_Builders_Anr_vs_A_Ramadas_Rao_Anr_on_22_November_2010_1.PDF, Fateh_Chand_vs_Balkishan_Das_on_15_January_1963_1.PDF, Art. 134, Art. 371, E6, E3, E2, E1, E5
+
+[Plaintiff]
+Thank you, Your Honor. As the Plaintiff, Acme Corp., we intend to demonstrate that the Defendant, Jordan Smith, breached our contract by failing to deliver the software module on time, causing significant delays and resulting in $50,000 in damages. 
+
+According to the Statement of Work (E1), the Defendant was required to deliver Module X by 2025-01-31. However, despite our initial agreement, the Defendant failed to meet this deadline, citing changes in requirements and lack of access. We will show that these excuses are unfounded and that the Defendant's own negligence caused the delays.
+
+We have evidence (E2) that the request for additional reporting fields was made on 2025-01-10, which was well within the deadline, and the Defendant agreed to include them in the delivery (E3). However, the Defendant then requested database access by 2025-01-15 to stay on schedule, which was granted, but only after significant delays (E4).
+
+Furthermore, we have records (E5) of a meeting where the parties agreed to a revised scope, and Acme requested that the original deadline remain unchanged. The Defendant's failure to meet this deadline has resulted in substantial rework costs, as evidenced by the invoice from Acme Contractor (E6) for $35,000.
+
+We will also present our internal timeline (E7), which shows that integration work began on 2025-03-01, further emphasizing the delays caused by the Defendant's failure to deliver the software module on time.
+
+Throughout this trial, we will demonstrate that the Defendant's breach of contract and subsequent delays have caused significant financial losses to Acme Corp., and we seek $50,000 in damages, as well as court costs. We are confident that the evidence will support our claims, and we look forward to presenting our case. 
+
+
+[Plaintiff]
+[Action] search_evidence: 5, software module deadline, get_evidence: E1
+
+[Plaintiff] [Memory] Retrieved: '(no evidence found)...', 'E1: Statement of Work (Excerpt...'
+
+[Plaintiff]
+(no evidence found)
+E1: Statement of Work (Excerpt)
+
+
+[Judge] [Memory] Retrieved: Hind_Construction_Contractors_By_Its_vs_State_Of_Maharashtra_on_30_January_1979_1.PDF, Bharat_Barrel_And_Drum_Manufacturing_vs_Amin_Chand_Payrelal_on_18_February_1999_1.PDF, A_T_Brij_Paul_Singh_And_Ors_vs_State_Of_Gujarat_on_25_July_1984_1.PDF, Srinivas_Ram_Kumar_vs_Mahabir_Prasad_And_Others_on_9_February_1951_1.PDF, Art. 371, Art. 394, E2, E1, E6, E3, E5
+
+[Judge]
+[Action] get_evidence: E1
+
+[Judge] [Memory] Retrieved: 'E1: Statement of Work (Excerpt...'
+
+[Judge]
+E1: Statement of Work (Excerpt)
+
+
+[Defendant] [Memory] Retrieved: Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, State_Of_Uttar_Pradesh_vs_Babboo_And_Ors_on_3_February_1978_1.PDF, Pepsico_India_Holding_P_Ltd_vs_Grocery_Market_Shops_Board_Ors_on_12_February_2016_1.PDF, State_Of_Orissa_Ors_vs_Lall_Brothers_on_25_August_1988_1.PDF, Art. 219, Art. 24, E1, E3, E2, E6, E4
+
+[Defendant]
+[Action] get_evidence: E1
+
+[Defendant] [Memory] Retrieved: 'E1: Statement of Work (Excerpt...'
+
+[Defendant]
+E1: Statement of Work (Excerpt)
+
+
+[Judge] [Memory] Retrieved: Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Munshi_Lal_Mahto_vs_Sudhir_Tripathy_on_8_January_2025_1.PDF, Art. 315, Art. 35, E2, E3, E5, E1, E6
+
+[Judge]
+Now that we have the Statement of Work (Excerpt) as E1, let's proceed with the trial. As the Judge, I would like to clarify some points regarding the contract between Acme Corp. and Jordan Smith.
+
+I invite the Plaintiff, Acme Corp., to continue with their opening statement, following the review of the Statement of Work (Excerpt). Plaintiff, please proceed.
+
+
+[Plaintiff] [Memory] Retrieved: M_S_Dyna_Technologies_Pvt_Ltd_vs_M_S_Crompton_Greaves_Ltd_on_18_December_2019_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, State_Of_Uttar_Pradesh_vs_Babboo_And_Ors_on_3_February_1978_1.PDF, Union_Of_India_vs_Ibrahim_Uddin_Anr_on_17_July_2012_1.PDF, Art. 42, Art. 35, E1, E6, E2, E3, E4
+
+[Plaintiff]
+The contract between Acme Corp. and Jordan Smith, as outlined in the Statement of Work (Excerpt) (E1), clearly states that the defendant was to deliver the software module by 2025-01-31. However, the defendant failed to meet this deadline, resulting in significant delays and costs for Acme Corp. We intend to demonstrate that the defendant's breach of contract has caused our company $50,000 in damages, including rework and delay costs. 
+
+
+
+[Plaintiff]
+[Action] get_evidence: E2, note_to_record: The Plaintiff claims that the Defendant's failure to deliver the software module on time has caused significant costs and delays.
+
+[Plaintiff] [Memory] Retrieved: 'E2: Email dated 2025-01-10 fro...'
+
+[Plaintiff]
+E2: Email dated 2025-01-10 from Acme Project Manager
+ok
+
+
+[Judge] [Memory] Retrieved: Pimpri_Chinchwad_Municipal_Corp_Ors_vs_M_S_Gayatri_Construction_Company_Anr_on_6_August_2008_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Krishan_Lal_vs_Food_Corpn_Of_India_And_Ors_on_24_February_2012_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Art. 42, Art. 35, E1, E3, E2, E4, E6, 'The Plaintiff claims that the ...'
+
+[Judge]
+[Action] get_evidence: E2
+
+[Judge] [Memory] Retrieved: 'E2: Email dated 2025-01-10 fro...'
+
+[Judge]
+E2: Email dated 2025-01-10 from Acme Project Manager
+
+
+[Defendant] [Memory] Retrieved: The_General_Manager_Personnel_vs_B_S_N_Prasad_on_21_January_2025_1.PDF, The_General_Manager_Personnel_vs_B_S_N_Prasad_on_21_January_2025_1.PDF, Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, M_S_Arif_Azim_Co_Ltd_vs_M_S_Aptech_Ltd_on_1_March_2024_1.PDF, Art. 133, Art. 21, E2, E3, E5, E9, E6
+
+[Defendant]
+As the Plaintiff, I would like to highlight that the email dated 2025-01-10 from our Project Manager (E2) clearly shows that we requested additional reporting fields to be included in the same delivery, which is a reasonable request and does not constitute a change in the scope of work that would have caused significant delays. 
+
+I'd like to retrieve the email sent by Jordan Smith in response to our request. 
+
+
+[Defendant]
+[Action] get_evidence: E3
+
+[Defendant] [Memory] Retrieved: 'E3: Email dated 2025-01-12 fro...'
+
+[Defendant]
+E3: Email dated 2025-01-12 from Jordan Smith
+
+
+[Judge] [Memory] Retrieved: Shri_Partap_Singh_Since_Dead_Thr_His_vs_Shiv_Ram_Since_Dead_Thr_Lrs_on_20_February_2020_1.PDF, Shri_Partap_Singh_Since_Dead_Thr_His_vs_Shiv_Ram_Since_Dead_Thr_Lrs_on_20_February_2020_1.PDF, Bipromasz_Bipron_Trading_Sa_vs_Bharat_Electronics_Limited_Bel_on_8_May_2012_1.PDF, Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Art. 215, Art. 129, E3, E2, E6, E1, E4
+
+[Judge]
+[Action] get_evidence: E3
+
+[Judge] [Memory] Retrieved: 'E3: Email dated 2025-01-12 fro...'
+
+[Judge]
+E3: Email dated 2025-01-12 from Jordan Smith
+
+
+[Plaintiff] [Memory] Retrieved: Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Reckitt_Benckiser_India_Private_vs_Reynders_Label_Printing_India_Private_on_1_July_2019_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Art. 315, Art. 278, E2, E3, E5, E6, E1
+
+[Plaintiff]
+As the Plaintiff, I would like to highlight that the Defendant, Jordan Smith, was aware of the deadline and the requirements of the project. The Statement of Work (E1) clearly outlines the delivery date of the software module as 2025-01-31. The email from the Acme Project Manager (E2) dated 2025-01-10 also shows that the Plaintiff requested additional reporting fields, which the Defendant agreed to include. However, the Defendant's email (E3) dated 2025-01-12 states that they needed database access by 2025-01-15 to stay on schedule. Despite this, the access was not granted until 2025-02-05, which is well beyond the requested date. 
+
+This delay in access, combined with the Defendant's failure to deliver the software module on time, has resulted in significant costs and delays for the Plaintiff. The Plaintiff had to incur $35,000 in rework costs, as evident from the Invoice from Acme Contractor (E6). The Plaintiff is seeking $50,000 in damages, which includes the rework costs and other expenses incurred due to the Defendant's breach of contract.
+
+The Plaintiff would like to request that the court consider the evidence presented and find in favor of the Plaintiff. <function=get_evidence>{"evidence_id":"E6"}</function>
+
+
+[Judge] [Memory] Retrieved: Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, M_S_Arif_Azim_Co_Ltd_vs_M_S_Aptech_Ltd_on_1_March_2024_1.PDF, M_S_J_P_Builders_Anr_vs_A_Ramadas_Rao_Anr_on_22_November_2010_1.PDF, Art. 35, Art. 290, E2, E3, E5, E6, E1
+
+[Judge]
+[Action] get_evidence: E6
+
+[Judge] [Memory] Retrieved: 'E6: Invoice from Acme Contract...'
+
+[Judge]
+E6: Invoice from Acme Contractor
+
+
+[Defendant] [Memory] Retrieved: Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, Fateh_Chand_vs_Balkishan_Das_on_15_January_1963_1.PDF, M_S_J_P_Builders_Anr_vs_A_Ramadas_Rao_Anr_on_22_November_2010_1.PDF, Fateh_Chand_vs_Balkishan_Das_on_15_January_1963_1.PDF, Art. 134, Art. 290, E3, E6, E2, E1, E5
+
+[Defendant]
+Now that the Plaintiff has presented their case, I would like to invite the Defendant, Jordan Smith, to present their opening statement. As the Defendant, please proceed with your argument and highlight any relevant evidence that supports your case. Please note that you can cite any evidence or precedent that you believe is relevant to your defense, and you can also raise any objections to the Plaintiff's claims. 
+
+As the Defendant, you argued that it was impossible to fulfill the contract due to changes in requirements and lack of access, and that the Plaintiff's own delays caused most of the damages. Please elaborate on these points and provide any supporting evidence. 
+
+Also, please note that you can use the <function=get_evidence>{"evidence_id":"E4"}</function> to retrieve the Ticket Log Excerpt, which may be relevant to your case. 
+
+Please proceed with your opening statement.
+
+
+[Judge] [Memory] Retrieved: Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Art. 35, Art. 370, E2, E3, E6, E5, E9
+
+[Judge]
+As the Defendant, I would like to highlight that the Plaintiff's claims are based on a distorted view of the facts. While it is true that I agreed to deliver the software module by 2025-01-31, the Plaintiff's subsequent request for additional reporting fields on 2025-01-10 (E2) significantly altered the scope of the project. 
+
+Furthermore, my email on 2025-01-12 (E3) clearly states that I needed database access by 2025-01-15 to stay on schedule. However, the access was not granted until 2025-02-05, which is well beyond the requested date. This delay was solely caused by the Plaintiff's inability to provide timely access, and it had a direct impact on my ability to deliver the software module on time.
+
+I would like to retrieve the Ticket Log Excerpt to demonstrate the delay in access. <function=get_evidence[]{"evidence_id":"E4"}</function>
+
+Additionally, I would like to point out that the Plaintiff's own delays contributed significantly to the damages claimed. The Meeting Notes dated 2025-02-06 (E5) show that the parties agreed to a revised scope, but the Plaintiff still expected me to meet the original deadline. This was an unrealistic expectation, given the changes in requirements and the delay in access.
+
+I will elaborate on these points further and provide additional evidence to support my case. The Plaintiff's claims are unfounded, and I request that the court consider the evidence presented and find in favor of the Defendant.
+
+
+[Plaintiff] [Memory] Retrieved: Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Subedar_Tewari_vs_State_Of_U_P_And_Ors_on_3_November_1988_1.PDF, Subedar_Tewari_vs_State_Of_U_P_And_Ors_on_3_November_1988_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Art. 35, Art. 371, E6, E3, E2, E8, E1
+
+[Plaintiff]
+E4: Ticket Log Excerpt 
+
+
+
+[Plaintiff]
+[Action] get_evidence: E5, get_evidence: E7
+
+[Plaintiff] [Memory] Retrieved: 'E5: Meeting Notes dated 2025-0...', 'E7: Internal Acme Timeline...'
+
+[Plaintiff]
+E5: Meeting Notes dated 2025-02-06
+E7: Internal Acme Timeline
+
+
+[Judge] [Memory] Retrieved: V_Ravikumar_vs_S_Kumar_on_3_March_2025_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Bharat_Fire_General_Insurance_Ltd_vs_Parameshwari_Prasad_Gupta_on_25_November_1966_1.PDF, Pappammal_Died_Through_Lr_R_Krsna_vs_Jothi_on_27_February_2025_1.PDF, Art. 51, Art. 35, E2, E5, E3, E6, E1
+
+[Judge]
+[Action] get_evidence: E5, get_evidence: E7
+
+[Judge] [Memory] Retrieved: 'E5: Meeting Notes dated 2025-0...', 'E7: Internal Acme Timeline...'
+
+[Judge]
+E5: Meeting Notes dated 2025-02-06
+E7: Internal Acme Timeline
+
+
+[Defendant] [Memory] Retrieved: A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, M_S_Ferro_Concrete_Construction_vs_The_State_Of_Rajasthan_on_2_April_2025_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Puja_Ferro_Alloys_P_Ltd_vs_State_Of_Goa_And_Ors_on_14_February_2025_1.PDF, Art. 134, Art. 132, E5, E3, E2, E6, E1
+
+[Defendant]
+[Action] get_evidence: E4, get_evidence: E5, get_evidence: E7
+
+[Defendant] [Memory] Retrieved: 'E4: Ticket Log Excerpt...', 'E5: Meeting Notes dated 2025-0...', 'E7: Internal Acme Timeline...'
+
+[Defendant]
+E4: Ticket Log Excerpt
+E5: Meeting Notes dated 2025-02-06
+E7: Internal Acme Timeline
+
+
+[Judge] [Memory] Retrieved: A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Puja_Ferro_Alloys_P_Ltd_vs_State_Of_Goa_And_Ors_on_14_February_2025_1.PDF, Munshi_Lal_Mahto_vs_Sudhir_Tripathy_on_8_January_2025_1.PDF, Art. 134, Art. 132, E3, E5, E2, E6, E1
+
+[Judge]
+Now that we have the Ticket Log Excerpt (E4), Meeting Notes dated 2025-02-06 (E5), and Internal Acme Timeline (E7), let's proceed with the trial.
+
+As the Judge, I would like to review the evidence presented by both parties and ask some questions to clarify the facts.
+
+Defendant, you mentioned that the Plaintiff's delay in providing access to the database was a significant factor in your inability to deliver the software module on time. Can you explain why you didn't escalate this issue to the Plaintiff earlier, and what efforts you made to mitigate the delay?
+
+Please respond to this question, and we will proceed from there.
+
+
+[Defendant] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Indian_Oil_Corporation_Limited_vs_M_S_Sathyanarayana_Service_Station_on_9_May_2023_1.PDF, M_S_Peacock_Plywood_Pvt_Ltd_vs_The_Oriental_Insurance_Co_Ltd_on_5_December_2006_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Art. 35, Art. 65, E3, E2, E5, E6, E1
+
+[Defendant]
+The Plaintiff's delay in providing access to the database was a critical issue that impacted my ability to deliver the software module on time. I had requested access by 2025-01-15, as stated in my email (E3), but the access was not granted until 2025-02-05. I did raise this issue with the Plaintiff in my email, but I didn't escalate it further as I was trying to work with the Plaintiff to find a solution.
+
+However, in hindsight, I should have escalated the issue earlier, and I should have been more proactive in communicating the risks of delay to the Plaintiff. Nevertheless, I did try to mitigate the delay by agreeing to the revised scope, as evident from the Meeting Notes dated 2025-02-06 (E5).
+
+I would like to request the Ticket Log Excerpt (E4) to demonstrate the timeline of events regarding the access request. <function=get_evidence>{"evidence_id":"E4"}</function>
+
+Additionally, I would like to point out that the Plaintiff's own delays, as shown in the Internal Acme Timeline (E7), contributed significantly to the overall delay. The Plaintiff started integration work on 2025-03-01, which suggests that they also had some delays in their own workflow.
+
+I would like to request the court to consider these factors when evaluating the claim of damages. The Plaintiff's delays and changes in requirements had a direct impact on my ability to deliver the software module on time, and I believe that these factors should be taken into account when determining the amount of damages, if any. 
+
+I will also like to add a note to the record that the delays and changes in the project scope were a result of mutual agreements and misunderstandings. <function=note_to_record>{"note":"Delays and changes in project scope were a result of mutual agreements and misunderstandings."}</function>
+
+
+[Judge] [Memory] Retrieved: Liverpool_London_S_P_I_Asson_Ltd_vs_M_V_Sea_Success_I_Anr_on_20_November_2003_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Prakash_Khandre_vs_Dr_Vijaya_Kumar_Khandre_And_Others_on_9_May_2002_1.PDF, Bharat_Fire_General_Insurance_Ltd_vs_Parameshwari_Prasad_Gupta_on_25_November_1966_1.PDF, Art. 35, Art. 371, E6, E3, E2, E5, E1
+
+[Judge]
+[Action] get_evidence: E4
+
+[Judge] [Memory] Retrieved: 'E4: Ticket Log Excerpt...'
+
+[Judge]
+E4: Ticket Log Excerpt
+
+
+[Plaintiff] [Memory] Retrieved: Liverpool_London_S_P_I_Asson_Ltd_vs_M_V_Sea_Success_I_Anr_on_20_November_2003_1.PDF, Ajitsingh_Harnamsingh_Gujral_vs_State_Of_Maharashtra_on_13_September_2011_1.PDF, Bharat_Fire_General_Insurance_Ltd_vs_Parameshwari_Prasad_Gupta_on_25_November_1966_1.PDF, Ajitsingh_Harnamsingh_Gujral_vs_State_Of_Maharashtra_on_13_September_2011_1.PDF, Art. 35, Art. 134, E6, E3, E2, E1, E4
+
+[Plaintiff]
+As the Judge, I would like to review the evidence presented and ask some additional questions to clarify the facts. 
+
+It appears that there were significant delays and changes in the project scope, which were caused by both parties. The Plaintiff's request for additional reporting fields on 2025-01-10 (E2) did change the scope of the project, and the Defendant's subsequent request for database access by 2025-01-15 (E3) was not met until 2025-02-05 (E4).
+
+The Meeting Notes dated 2025-02-06 (E5) show that the parties agreed to a revised scope, but the Plaintiff still expected the Defendant to meet the original deadline. The Internal Acme Timeline (E7) suggests that the Plaintiff had their own delays, as they started integration work on 2025-03-01.
+
+I would like to ask the Plaintiff to respond to the Defendant's claims that the Plaintiff's own delays contributed to the overall delay. Plaintiff, can you explain why you started integration work on 2025-03-01, and how this affected the project timeline? 
+
+Please respond to this question, and we will proceed from there. 
+
+Also, I would like to review the Email dated 2025-01-12 from Jordan Smith (E3) to understand the Defendant's request for database access. <function=get_evidence>{"evidence_id":"E3"}</function> 
+
+And to further investigate the matter, I would like to search the case evidence for any mentions of "project timeline" or "delay". <function=search_evidence>{"k":5,"query":"project timeline or delay"}</function>
+
+
+[Judge] [Memory] Retrieved: V_Ravikumar_vs_S_Kumar_on_3_March_2025_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Art. 35, Art. 263, E2, E3, E5, E6, E1
+
+[Judge]
+[Action] get_evidence: E3, search_evidence: 5, project timeline or delay
+
+[Judge] [Memory] Retrieved: 'E3: Email dated 2025-01-12 fro...', 'E7: Internal Acme Timeline E2:...'
+
+[Judge]
+E3: Email dated 2025-01-12 from Jordan Smith
+E7: Internal Acme Timeline
+E2: Email dated 2025-01-10 from Acme Project Manager
+
+
+[Plaintiff] [Memory] Retrieved: V_Ravikumar_vs_S_Kumar_on_3_March_2025_1.PDF, Alloy_Steel_Project_vs_The_Workmen_on_2_February_1971_1.PDF, Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Art. 2, Art. 35, E2, E3, E5, E6, E1
+
+[Plaintiff]
+Thank you for the evidence. As the Judge, I will now ask the Plaintiff to provide their closing statement.
+
+Plaintiff, please proceed with your closing statement, summarizing your case and highlighting the key points that you believe support your claim for damages. Please be concise and focused on the main issues. 
+
+Also, I would like to review the Statement of Work (Excerpt) (E1) to understand the original scope and deadline of the project. <function=get_evidence>{"evidence_id":"E1"}</function> 
+
+And to further investigate the matter, I would like to search the constitution for any relevant articles related to contract law. <function=search_constitution>{"k":5,"query":"contract law"}</function> 
+
+Please respond with your closing statement, and we will proceed with the Defendant's closing statement. 
+
+Then, I will provide my final opinion on the case.
+
+
+[Defendant] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Art. 35, Art. 371, E2, E3, E5, E6, E1
+
+
+[Judge] [Memory] Retrieved: Bharat_Barrel_And_Drum_Manufacturing_vs_Amin_Chand_Payrelal_on_18_February_1999_1.PDF, Bhagwati_Prasad_vs_Shri_Chandramaul_on_19_October_1965_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, Municipal_Corporation_Of_Delhi_vs_Razak_on_20_October_1994_1.PDF, Art. 35, Art. 92, E1, E6, E3, E2, E5
+
+[Judge]
+[Action] get_evidence: E1, search_constitution: 5, contract law, note_to_record: Plaintiff has provided all necessary evidence to support their claim.
+
+[Judge] [Memory] Retrieved: 'E1: Statement of Work (Excerpt...', 'Art. 299: Contracts. All contr...'
+
+[Judge]
+E1: Statement of Work (Excerpt)
+Art. 299: Contracts. All contracts made in the exercise of the executive power of the Union or of a State shall be expressed to be made by the President or the Governor, as the case may be. Neither the President nor the Governor shall be personally liable in respect of any contract.
+Art. 22: Protection against arrest and detention in certain cases. No person who is arrested shall be detained in custody without being informed of the grounds of arrest, nor shall he be denied the right to consult and be defended by a legal practitioner. Every person arrested and detained in custody shall be produced before the nearest magistrate within twenty-four hours. This does not apply to enemy aliens or persons detained under preventive detention laws. Preventive detention laws may provide for detention for up to three months without Advisory Board approval, and Parliament may prescribe longer periods by law.
+
+Right against Exploitation
+Art. 3: Formation of new States and alteration of areas, boundaries or names of existing States. Parliament may by law form a new State by separation of territory from any State or by uniting two or more States or parts of States, increase or diminish the area of any State, alter the boundaries of any State, or alter the name of any State.
+Art. 23: Prohibition of traffic in human beings and forced labour. Traffic in human beings and begar and other similar forms of forced labour are prohibited. Any contravention of this provision shall be an offence punishable in accordance with law. Nothing shall prevent the State from imposing compulsory service for public purposes without discrimination on grounds of religion, race, caste or class.
+Art. 20: Protection in respect of conviction for offences. No person shall be convicted of any offence except for violation of a law in force at the time of the act. No person shall be prosecuted and punished for the same offence more than once. No person accused of any offence shall be compelled to be a witness against himself.
+ok
+
+
+[Defendant] [Memory] Retrieved: Fagu_Shaw_Etc_Etc_vs_The_State_Of_West_Bengal_on_20_December_1973_1.PDF, Fagu_Shaw_Etc_Etc_vs_The_State_Of_West_Bengal_on_20_December_1973_1.PDF, State_Of_Maharashtra_Anr_vs_Digambar_Balwant_Kulkarni_on_13_February_1979_1.PDF, Prakash_Chandra_Mehta_vs_Commissioner_And_Secretary_Government_on_12_April_1985_1.PDF, Art. 22, Art. 23, E6, E1, E7, E3, E2, 'Plaintiff has provided all nec...'
+
+
+[Judge] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Art. 35, Art. 236, E2, E3, E5, E6, E1
+
+[Judge]
+[Action] get_evidence: E4, search_evidence: 5, contractual obligations or breach of contract
+
+[Judge] [Memory] Retrieved: 'E4: Ticket Log Excerpt...', '(no evidence found)...'
+
+[Judge]
+E4: Ticket Log Excerpt
+(no evidence found)
+
+
+[Defendant] [Memory] Retrieved: Assistant_Collector_Of_Central_vs_National_Tobacco_Co_Of_India_Ltd_on_9_August_1972_1.PDF, Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Rajeev_Metal_Works_Ors_vs_The_Mineral_Metal_Trading_Corpn_Of_on_1_December_1995_1.PDF, Subedar_Tewari_vs_State_Of_U_P_And_Ors_on_3_November_1988_1.PDF, Art. 21, Art. 35, E2, E6, E8, E3, E1
+
+
+[Judge] [Memory] Retrieved: Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, Naganna_Dead_By_Lrs___Smt_Devamma_vs_Siddaramegowda_Since_Deceased_By_Lrs_on_19_March_2025_1.PDF, Bharat_Barrel_And_Drum_Manufacturing_vs_Amin_Chand_Payrelal_on_18_February_1999_1.PDF, Narinder_Mohan_Arya_vs_United_India_Insurance_Co_Ltd_Ors_on_5_April_2006_1.PDF, Art. 371, Art. 365, E3, E2, E6, E5, E1
+
+[Judge]
+[Action] note_to_record: Defendant has provided all necessary evidence to support their defense.
+
+[Judge]
+ok
+
+
+[Defendant] [Memory] Retrieved: Naganna_Dead_By_Lrs___Smt_Devamma_vs_Siddaramegowda_Since_Deceased_By_Lrs_on_19_March_2025_1.PDF, Bharat_Barrel_And_Drum_Manufacturing_vs_Amin_Chand_Payrelal_on_18_February_1999_1.PDF, Narinder_Mohan_Arya_vs_United_India_Insurance_Co_Ltd_Ors_on_5_April_2006_1.PDF, Municipal_Corporation_Of_Delhi_vs_Razak_on_20_October_1994_1.PDF, Art. 18, Art. 26, E3, E2, E6, E5, E1, 'Defendant has provided all nec...'
+
+[Defendant]
+[Action] search_evidence: 5, contractual obligations or breach of contract
+
+[Defendant] [Memory] Retrieved: '(no evidence found)...'
+
+[Defendant]
+(no evidence found)
+
+
+[Judge] [Memory] Retrieved: The_State_Of_Himachal_Pradesh_vs_Rajesh_Kumar_Munnu_on_20_February_2025_1.PDF, Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, A_Shankar_Savukku_Shankar_vs_State_Of_Tamil_Nadu_on_24_February_2025_1.PDF, Art. 134, Art. 132, E2, E3, E5, E6, E1
+
+[Judge]
+=== VERDICT ===
+Based on the evidence presented, I find that both parties have contributed to the delays and changes in scope. The Plaintiff's request for additional reporting fields on 2025-01-10 (E2) did change the scope of the project, and the Defendant's subsequent request for database access by 2025-01-15 (E3) was not met until 2025-02-05 (E4).
+
+=== FINDINGS OF FACT ===
+The Plaintiff failed to provide timely access to the database, which was a critical requirement for delivering the software module on time. The Defendant's delays and changes in scope were also contributing factors to the overall delay.
+
+=== CONCLUSIONS OF LAW ===
+Contract law, as outlined in the Indian Constitution (Art. 299), requires that all contracts be expressed to be made by the President or the Governor, as the case may be. However, this case involves a private contract between two parties, and therefore, this article is not directly applicable.
+
+=== ORDER / REMEDY ===
+I hereby order that the Plaintiff's claim for damages be reduced to $25,000, taking into account the Defendant's contributory negligence and the Plaintiff's own delays.
+
+=== FULL WRITTEN OPINION ===
+The court has considered all the evidence presented and finds that both parties have failed to fulfill their contractual obligations. The Plaintiff's claim for damages is partially justified, but the amount should be reduced to reflect the Defendant's contributory negligence.
+
+TERMINATE

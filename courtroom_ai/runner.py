@@ -94,7 +94,8 @@ class GroqToolCallingGuardClient(ChatCompletionClient):
                 if not is_tool_failure or attempt == max_retries - 1:
                     raise e
 
-                print(f"[GroqToolCallingGuardClient] Intercepted tool call failure: {error_msg}. Retrying (attempt {attempt + 1}/{max_retries})...")
+                # Silent retry in background
+                # print(f"[GroqToolCallingGuardClient] Intercepted tool call failure: {error_msg}. Retrying (attempt {attempt + 1}/{max_retries})...")
 
                 feedback = (
                     "CRITICAL ERROR: Your tool call syntax is invalid.\n"
@@ -115,6 +116,8 @@ class GroqToolCallingGuardClient(ChatCompletionClient):
                     feedback += f"\nYour FAILED GENERATION was: {failed_gen.strip()}\n"
                     if "{" in failed_gen and not failed_gen.split("{")[0].endswith(">"):
                         feedback += "ERROR DETAIL: You are missing the closing `>` after the function name and before the opening `{`.\n"
+                    if "[" in failed_gen and "{" in failed_gen:
+                        feedback += "ERROR DETAIL: Do NOT use square brackets `[]` around your arguments object. Use ONLY curly braces `{}`.\n"
                     if failed_gen.startswith("```"):
                         feedback += "ERROR DETAIL: Do NOT use markdown code blocks (```). Output the tag directly.\n"
 
@@ -227,96 +230,89 @@ def _outputs_dir(base: Path):
 def _format_messages(messages) -> str:
     lines = []
     last_source = None
-    memory_buffer = []
-
-    def flush_memory():
-        nonlocal memory_buffer
-        if memory_buffer:
-            lines.append(f"[{last_source}] [Memory] Retrieved: {', '.join(memory_buffer)}\n")
-            memory_buffer = []
-
+    last_content = None
+    
     for m in messages:
-        source = getattr(m, "source", "System")
-        content_str = getattr(m, "content", str(m))
+        orig_source = getattr(m, "source", "System")
+        source = "Judge" if orig_source == "user" else orig_source
         
-        # Skip messages that are just waiting for a turn
-        if "[WAITING FOR TURN]" in content_str:
-            continue
-            
-        # If source changed or message is NOT a memory event, flush the buffer
-        is_memory_event = False
         raw_content = getattr(m, "content", str(m))
-        if isinstance(raw_content, list) and len(raw_content) > 0 and hasattr(raw_content[0], "content"):
-            is_memory_event = True
-
-        if source != last_source or not is_memory_event:
-            flush_memory()
-
-        # Add a newline if the source has changed to separate agents
-        if last_source and source != last_source:
-            lines.append("")
         
-        last_source = source
+        # 1. Hide [WAITING] tokens
+        if isinstance(raw_content, str) and "[WAITING]" in raw_content:
+            continue
+
+        # 2. Hide technical tool artifacts
+        is_memory_event = isinstance(raw_content, list) and len(raw_content) > 0 and hasattr(raw_content[0], "content")
+        is_tool_call = False
+        is_tool_result = False
+        if isinstance(raw_content, list) and len(raw_content) > 0:
+            class_name = raw_content[0].__class__.__name__
+            is_tool_call = class_name == "FunctionCall"
+            is_tool_result = class_name == "FunctionExecutionResult"
+        
+        is_plain_result = (
+            not is_memory_event and not is_tool_call and not is_tool_result and
+            source == "Judge" and isinstance(raw_content, str) and
+            (raw_content.startswith("E") or "(no evidence found)" in raw_content)
+        )
+
+        if is_tool_call or is_tool_result or is_plain_result:
+            continue
+
+        # 3. Collapse repeated identical instructions
+        if isinstance(raw_content, str) and source == "Judge" and raw_content == last_content:
+            continue
+        if isinstance(raw_content, str):
+            last_content = raw_content
+
+        # Start a new turn block if source changed
+        if source != last_source:
+            if last_source is not None:
+                lines.append("\n\n\n")
+            lines.append(f"[{source}]\n")
+            last_source = source
 
         if isinstance(m, TextMessage):
-            lines.append(f"[{m.source}]\n{m.content}\n")
+            lines.append(f"\n\n{m.content.strip()}")
         elif is_memory_event:
-            # Add to buffer instead of lines
+            ids = []
             for item in raw_content:
                 c = item.content
-                if isinstance(c, dict) and "evidence_id" in c:
-                    memory_buffer.append(c["evidence_id"])
-                elif isinstance(c, dict) and "id" in c:
-                    memory_buffer.append(c["id"])
-                else:
-                    snippet = str(c).strip()
-                    if snippet.lower() == "ok":
-                        continue
-                    snippet = snippet[:30].replace("\n", " ")
-                    memory_buffer.append(f"'{snippet}...'")
-        else:
-            src = getattr(m, "source", m.__class__.__name__)
-            # Simplify FunctionCall, and FunctionExecutionResult
+                if not isinstance(c, dict): continue
+                cid = c.get("evidence_id") or c.get("id")
+                if not cid: continue
+                
+                # Pedagogical Filter: Match ColoredConsole
+                is_legal_artifact = (cid.startswith("E") or cid.startswith("Art") or "vs" in cid.lower() or "v." in cid.lower())
+                if is_legal_artifact:
+                    if cid.endswith(".PDF"):
+                        # Clean up precedent names for display
+                        clean_id = cid.replace(".PDF", "").replace("_", " ")
+                        ids.append(clean_id)
+                    else:
+                        ids.append(cid)
             
-            # Detect FunctionCall
-            if isinstance(raw_content, list) and len(raw_content) > 0 and raw_content[0].__class__.__name__ == "FunctionCall":
-                calls = []
-                for c in raw_content:
-                    import json
-                    try:
-                        args = json.loads(c.arguments) if isinstance(c.arguments, str) else c.arguments
-                        arg_vals = ", ".join([str(v) for v in args.values()])
-                        calls.append(f"{c.name}: {arg_vals}")
-                    except:
-                        calls.append(f"{c.name}({c.arguments})")
-                content = f"[Action] {', '.join(calls)}"
-            # Detect FunctionExecutionResult
-            elif isinstance(raw_content, list) and len(raw_content) > 0 and raw_content[0].__class__.__name__ == "FunctionExecutionResult":
-                results = []
-                for r in raw_content:
-                    res_val = str(getattr(r, "content", "ok")).strip()
-                    if len(res_val) > 100:
-                        res_val = res_val[:100] + "..."
-                    results.append(f"{r.name}: {res_val}")
-                content = f"[Result] {', '.join(results)}"
-            else:
-                content = str(raw_content)
+            if ids:
+                lines.append(f"\n[Retrieving: {', '.join(ids)}]")
+        else:
+            # Fallback for other message types
+            lines.append(f"\n{str(raw_content).strip()}")
 
-            lines.append(f"[{src}]\n{content}\n")
-
-    flush_memory()
-    return "\n".join(lines).strip() + "\n"
+    return "".join(lines).strip() + "\n"
 
 
 def _extract_final_opinion(messages) -> str:
     for m in reversed(messages):
         if getattr(m, "source", "") == "Judge" and isinstance(m, TextMessage):
-            # Check for various verdict/opinion markers
-            content = m.content.upper()
-            if "VERDICT" in content or "OPINION" in content or "ORDER" in content:
-                # If it's a long message from the Judge at the end, it's likely the opinion
-                if len(m.content) > 200:
-                    return m.content.strip() + "\n"
+            content = m.content
+            # Look for the first standard heading
+            if "=== VERDICT ===" in content:
+                # Extract from the first heading to the end
+                start_idx = content.find("=== VERDICT ===")
+                # Optionally strip the TERMINATE token if it's there
+                opinion = content[start_idx:].replace("TERMINATE", "").strip()
+                return opinion + "\n"
 
     return "(No final opinion found.)\n"
 
@@ -465,10 +461,46 @@ async def run_case(
         MaxMessageTermination(max_messages=max_messages),
     )
 
+    def trial_selector(messages: List[Any]) -> str | None:
+        # Find the last substantive message
+        last_message = None
+        for m in reversed(messages):
+            # TextMessage or similar substantive messages
+            if hasattr(m, "content") and m.content and hasattr(m, "source"):
+                last_message = m
+                break
+
+        if not last_message:
+            return "Judge"
+
+        content = last_message.content
+        if not isinstance(content, str):
+            content = str(content)
+        source = last_message.source
+
+        # If the Judge spoke, check who they invited
+        if source == "Judge":
+            if "TERMINATE" in content:
+                return None
+            if "Plaintiff, proceed" in content:
+                return "Plaintiff"
+            if "Defendant, proceed" in content:
+                return "Defendant"
+            # If the Judge didn't invite anyone yet, they keep the floor (intro/tools)
+            return "Judge"
+
+        # If Plaintiff or Defendant spoke, it's back to the Judge to moderate
+        if source in ["Plaintiff", "Defendant"]:
+            return "Judge"
+
+        # Default to Judge for initial task or unknown sources
+        return "Judge"
+
     team = SelectorGroupChat(
         participants=participants,
         model_client=model_client,
         termination_condition=termination,
+        selector_func=trial_selector,
     )
 
     result = await ColoredConsole(

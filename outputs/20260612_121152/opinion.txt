@@ -1,0 +1,16 @@
+=== VERDICT ===
+Based on the evidence presented, I find that both parties have contributed to the delays and changes in scope. The Plaintiff's request for additional reporting fields on 2025-01-10 (E2) did change the scope of the project, and the Defendant's subsequent request for database access by 2025-01-15 (E3) was not met until 2025-02-05 (E4).
+
+=== FINDINGS OF FACT ===
+The Plaintiff failed to provide timely access to the database, which was a critical requirement for delivering the software module on time. The Defendant's delays and changes in scope were also contributing factors to the overall delay.
+
+=== CONCLUSIONS OF LAW ===
+Contract law, as outlined in the Indian Constitution (Art. 299), requires that all contracts be expressed to be made by the President or the Governor, as the case may be. However, this case involves a private contract between two parties, and therefore, this article is not directly applicable.
+
+=== ORDER / REMEDY ===
+I hereby order that the Plaintiff's claim for damages be reduced to $25,000, taking into account the Defendant's contributory negligence and the Plaintiff's own delays.
+
+=== FULL WRITTEN OPINION ===
+The court has considered all the evidence presented and finds that both parties have failed to fulfill their contractual obligations. The Plaintiff's claim for damages is partially justified, but the amount should be reduced to reflect the Defendant's contributory negligence.
+
+TERMINATE

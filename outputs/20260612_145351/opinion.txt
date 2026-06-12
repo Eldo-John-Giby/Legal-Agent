@@ -1,0 +1,14 @@
+=== VERDICT ===
+The court finds in favor of the Plaintiff, Acme Corp.
+
+=== FINDINGS OF FACT ===
+The Defendant, Jordan Smith, failed to deliver the software module by the deadline of 2025-01-31, as agreed upon in the Statement of Work (Excerpt) (E1).
+
+=== CONCLUSIONS OF LAW ===
+The court concludes that the Defendant's failure to deliver the software module by the deadline constitutes a breach of contract. The Plaintiff is entitled to damages for the direct losses incurred as a result of the breach.
+
+=== ORDER / REMEDY ===
+The court orders the Defendant to pay the Plaintiff $50,000 in damages.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented, including the Statement of Work (Excerpt) (E1), the Email dated 2025-01-10 from Acme Project Manager (E2), the Email dated 2025-01-12 from Jordan Smith (E3), and the Ticket Log Excerpt (E4). The court finds that the Defendant's failure to deliver the software module by the deadline was a direct result of their own actions and not due to any unforeseen circumstances.

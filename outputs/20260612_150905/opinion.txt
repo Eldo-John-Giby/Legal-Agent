@@ -1,0 +1,14 @@
+=== VERDICT ===
+Based on the evidence presented and the applicable law, I find in favor of the Defendant, Jordan Smith. The contract between Acme Corp. and Jordan Smith was frustrated due to the changes in requirements and the lack of access, which made it impossible for the Defendant to meet the deadline.
+
+=== FINDINGS OF FACT ===
+The Plaintiff, Acme Corp., failed to provide the necessary access to the Defendant in a timely manner, which affected the delivery of the software module. The Defendant, Jordan Smith, took reasonable steps to mitigate the delays, but the changes in requirements and the lack of access made it impossible to meet the deadline.
+
+=== CONCLUSIONS OF LAW ===
+The doctrine of frustration applies in this case, as the changed circumstances made the performance of the contract impossible. The contract is discharged, and the Defendant is not liable for damages.
+
+=== ORDER / REMEDY ===
+The Plaintiff's claim for $50,000 in damages is dismissed. The Defendant is entitled to dismissal of all claims.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the principle that a contract can be discharged due to impossibility of performance. The evidence presented shows that the changes in requirements and the lack of access made it impossible for the Defendant to meet the deadline. The Defendant took reasonable steps to mitigate the delays, but the circumstances were beyond their control. The doctrine of frustration applies, and the contract is discharged.

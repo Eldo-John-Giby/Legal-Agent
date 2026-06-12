@@ -1,0 +1,418 @@
+[user]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: Acme Corp. v. Smith
+
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+
+* PLAINTIFF: Acme Corp.
+* DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+
+* Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+* Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+
+* Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+* No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+
+E1: Statement of Work (Excerpt)
+
+* Delivery of Module X by 2025-01-31.
+* Payment milestone upon acceptance.
+
+E2: Email dated 2025-01-10 from Acme Project Manager
+
+* "We need additional reporting fields; please include them in the same delivery."
+
+E3: Email dated 2025-01-12 from Jordan Smith
+
+* "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+
+E4: Ticket Log Excerpt
+
+* Access request created: 2025-01-13.
+* Access granted: 2025-02-05.
+
+E5: Meeting Notes dated 2025-02-06
+
+* Parties agree to revised scope.
+* Acme requests that the original deadline remain unchanged.
+
+E6: Invoice from Acme Contractor
+
+* $35,000 charged for rework.
+
+E7: Internal Acme Timeline
+
+* Integration work began on 2025-03-01.
+
+REQUESTED RELIEF:
+
+Plaintiff:
+
+* $50,000 in damages.
+* Court costs.
+
+Defendant:
+
+* Dismissal of all claims.
+* Alternatively, reduction of damages.
+
+---
+
+
+
+
+
+
+[Judge] [Memory] Retrieved: V_Ravikumar_vs_S_Kumar_on_3_March_2025_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, M_S_J_P_Builders_Anr_vs_A_Ramadas_Rao_Anr_on_22_November_2010_1.PDF, A_T_Brij_Paul_Singh_And_Ors_vs_State_Of_Gujarat_on_25_July_1984_1.PDF, Art. 371, Art. 134, E2, E3, E6, E5, E1, 'Case: Acme Corp. v. Smith | Ju...', 'Evidence ids: E1, E2, E3, E4, ...'
+
+
+[Judge]
+This court is now in session. The case before us is Acme Corp. v. Smith, a common-law mock trial. The Plaintiff, Acme Corp., claims that the Defendant, Jordan Smith, breached their contract by failing to deliver an agreed-upon software module by the deadline, resulting in $50,000 in damages. The Defendant argues that it was impossible to fulfill the contract due to changes in requirements by the Plaintiff and denial of necessary access, and furthermore, that the Plaintiff's own delays were the primary cause of the damages. 
+
+I will now invite the Plaintiff to proceed with their opening statement. Please, Acme Corp., you may begin.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, A_T_Brij_Paul_Singh_And_Ors_vs_State_Of_Gujarat_on_25_July_1984_1.PDF, Hind_Construction_Contractors_By_Its_vs_State_Of_Maharashtra_on_30_January_1979_1.PDF, Fateh_Chand_vs_Balkishan_Das_on_15_January_1963_1.PDF, Art. 134, Art. 371, E6, E3, E2, E1, E5
+
+
+[Plaintiff]
+Thank you, Your Honor. Acme Corp. is seeking damages for the breach of contract by Jordan Smith, who failed to deliver the software module by the agreed-upon deadline of January 31, 2025. The contract, as outlined in the Statement of Work (E1), clearly states the delivery date and payment milestones. However, despite our requests, the defendant consistently failed to meet the deadline, resulting in significant rework and delay costs. 
+
+The defendant's claim of impossibility due to changes in requirements is unfounded, as the requested changes were minor and could have been incorporated without significant delay. Furthermore, the defendant's own emails, such as the one dated January 12, 2025 (E3), demonstrate that they were aware of the deadline and the necessary steps to meet it. 
+
+We will demonstrate throughout this trial that the defendant's failure to deliver the software module on time was a direct result of their own actions, or lack thereof, and that Acme Corp. is entitled to the damages claimed. Thank you.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: Hind_Construction_Contractors_By_Its_vs_State_Of_Maharashtra_on_30_January_1979_1.PDF, A_T_Brij_Paul_Singh_And_Ors_vs_State_Of_Gujarat_on_25_July_1984_1.PDF, Fateh_Chand_vs_Balkishan_Das_on_15_January_1963_1.PDF, Ouseph_Varghese_vs_Joseph_Aley_Ors_on_18_August_1969_1.PDF, Art. 371, Art. 134, E6, E2, E3, E1, E5
+
+
+[Defendant]
+Now that the Plaintiff has completed their opening statement, I will invite the Defendant, Jordan Smith, to proceed with their opening statement. Please, Mr. Smith, you may begin.
+
+
+
+
+
+[Judge] [Memory] Retrieved: United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Ouseph_Varghese_vs_Joseph_Aley_Ors_on_18_August_1969_1.PDF, Ouseph_Varghese_vs_Joseph_Aley_Ors_on_18_August_1969_1.PDF, M_S_Peacock_Plywood_Pvt_Ltd_vs_The_Oriental_Insurance_Co_Ltd_on_5_December_2006_1.PDF, Art. 35, Art. 202, E1, E3, E6, E2, E4
+
+
+[Judge]
+Thank you, Your Honor. As the Defendant, I will demonstrate that the Plaintiff's claims are unfounded and that I took all reasonable steps to fulfill my contractual obligations. The reality is that the Plaintiff consistently changed the requirements, making it impossible for me to deliver the software module on time. The email from the Acme Project Manager on January 10, 2025 (E2), introducing new reporting fields, is a clear example of this.
+
+Furthermore, I requested the necessary database access to incorporate these changes, but the Plaintiff delayed in granting me this access. The Ticket Log Excerpt (E4) shows that my access request was not granted until February 5, 2025, far beyond the deadline I needed to meet. Despite these obstacles, I worked diligently to deliver the module as soon as possible.
+
+The Plaintiff's own actions, including their delay in granting access and their insistence on adhering to the original deadline despite the revised scope, contributed significantly to the delays and costs incurred. I will provide evidence throughout this trial to support my claim that the Plaintiff's actions were the primary cause of the damages they now seek to recover from me. Thank you.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Subedar_Tewari_vs_State_Of_U_P_And_Ors_on_3_November_1988_1.PDF, Bharat_Fire_General_Insurance_Ltd_vs_Parameshwari_Prasad_Gupta_on_25_November_1966_1.PDF, United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Vasant_Girish_Akbarasab_Sanavale_vs_The_State_Of_Karnataka_on_11_February_2025_1.PDF, Art. 35, Art. 51, E2, E6, E3, E1, E4
+
+
+[Plaintiff]
+[Action] search_evidence: 5, contractual obligations, get_evidence: E1
+
+
+[Plaintiff] [Memory] Retrieved: '(no evidence found)...', 'E1: Statement of Work (Excerpt...'
+
+
+
+
+
+[Judge] [Memory] Retrieved: Bharat_Fire_General_Insurance_Ltd_vs_Parameshwari_Prasad_Gupta_on_25_November_1966_1.PDF, Vasant_Girish_Akbarasab_Sanavale_vs_The_State_Of_Karnataka_on_11_February_2025_1.PDF, Subedar_Tewari_vs_State_Of_U_P_And_Ors_on_3_November_1988_1.PDF, K_Lakshmana_Rao_vs_Public_Prosecutor_State_Of_Andhra_on_30_January_1979_1.PDF, Art. 35, Art. 192, E2, E5, E3, E6, E1
+
+
+[Judge]
+It appears that the Statement of Work (E1) has been retrieved. Let's proceed with the trial. The Plaintiff has already presented their argument, and the Defendant has also presented their opening statement. 
+
+Next, I would like to invite the Plaintiff to present their argument with citations to the evidence. Please, Acme Corp., proceed with your argument and cite any relevant evidence to support your claims.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, Art. 35, Art. 233, E2, E3, E5, E6, E4
+
+
+[Plaintiff]
+Thank you, Your Honor. As we've established, the defendant, Jordan Smith, failed to deliver the software module by the agreed-upon deadline of January 31, 2025, as outlined in the Statement of Work (E1). This breach of contract resulted in significant rework and delay costs, totaling $50,000.
+
+The defendant claims that the changes to the requirements, specifically the addition of new reporting fields (E2), made it impossible for them to meet the deadline. However, we argue that these changes were minor and could have been incorporated without significant delay. In fact, the defendant's own email (E3) demonstrates that they were aware of the deadline and the necessary steps to meet it.
+
+Furthermore, the defendant's request for database access (E4) was granted on February 5, 2025, which, while delayed, still allowed for sufficient time to complete the module. The Meeting Notes (E5) from February 6, 2025, also show that both parties agreed to the revised scope, and the defendant was still obligated to meet the original deadline.
+
+The plaintiff's internal timeline (E7) shows that integration work began on March 1, 2025, which would not have been possible if the defendant had delivered the module on time. The invoice from Acme Contractor (E6) also supports our claim, as it shows that $35,000 was spent on rework due to the defendant's failure to deliver.
+
+In conclusion, the evidence clearly supports our claim that the defendant breached the contract and is liable for the resulting damages. We request that the court hold the defendant responsible for the $50,000 in damages and award us the requested relief. Thank you.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Bhagwati_Prasad_vs_Shri_Chandramaul_on_19_October_1965_1.PDF, State_Of_Maharashtra_Anr_vs_Digambar_Balwant_Kulkarni_on_13_February_1979_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, Art. 35, Art. 371, E3, E6, E2, E1, E4
+
+
+[Defendant]
+[Action] search_evidence: 5, software module deadline
+
+
+[Defendant] [Memory] Retrieved: '(no evidence found)...'
+
+
+
+
+
+[Judge] [Memory] Retrieved: United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, L_Ishwar_Dass_And_Ors_vs_The_Haryana_Woollen_And_General_Mills_on_17_October_1973_1.PDF, State_Of_Maharashtra_Anr_vs_Digambar_Balwant_Kulkarni_on_13_February_1979_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, Art. 35, Art. 371, E3, E6, E2, E1, E4
+
+
+[Judge]
+It seems that the requested evidence was not found. Let's proceed with the trial.
+
+The Plaintiff has presented their argument with citations to the evidence. Now, I would like to invite the Defendant to present their argument and cite any relevant evidence to support their claims. Please, Jordan Smith, proceed with your argument and address any points made by the Plaintiff.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Indian_Railways_Construction_Company_vs_M_S_National_Buildings_Construction_on_17_March_2023_1.PDF, Art. 35, Art. 9, E2, E3, E5, E6, E4
+
+
+[Defendant]
+Thank you, Your Honor. The Plaintiff's argument relies heavily on the notion that the changes to the requirements were minor and could have been incorporated without significant delay. However, I would like to point out that the email from the Acme Project Manager on January 10, 2025 (E2), introducing new reporting fields, was a significant change that required substantial modifications to the software module.
+
+Furthermore, the Plaintiff's claim that the database access request was granted on February 5, 2025, allowing for sufficient time to complete the module, is misleading. The Ticket Log Excerpt (E4) shows that the access request was made on January 13, 2025, but it took the Plaintiff nearly a month to grant access. This delay had a direct impact on my ability to meet the deadline.
+
+I would also like to address the Plaintiff's claim that the Meeting Notes (E5) from February 6, 2025, show that both parties agreed to the revised scope and the original deadline. However, these notes also demonstrate that the Plaintiff was aware of the challenges I faced in meeting the deadline and yet still insisted on adhering to the original timeline.
+
+In addition, I would like to raise an objection to the Plaintiff's claim that the internal timeline (E7) and the invoice from Acme Contractor (E6) support their argument. These documents do not take into account the delays caused by the Plaintiff's own actions, such as the delayed grant of database access and the changes to the requirements.
+
+I request that the court consider the evidence in its entirety and recognize that the Plaintiff's actions contributed significantly to the delays and costs incurred. I urge the court to dismiss the Plaintiff's claims and award me the relief I have requested. Thank you. 
+
+
+
+
+[Defendant]
+[Action] get_evidence: E4
+
+
+[Defendant] [Memory] Retrieved: 'E4: Ticket Log Excerpt...'
+
+
+
+
+
+[Judge] [Memory] Retrieved: Bhagwati_Prasad_vs_Shri_Chandramaul_on_19_October_1965_1.PDF, Sat_Paul_vs_Delhi_Administration_on_30_September_1975_1.PDF, Rampyari_Devi_Saraogi_vs_Commissioner_Of_Income_Tax_West_on_1_May_1967_1.PDF, Bhagwati_Prasad_vs_Shri_Chandramaul_on_19_October_1965_1.PDF, Art. 134, Art. 47, E3, E6, E2, E1, E4
+
+
+[Judge]
+The Ticket Log Excerpt (E4) has been retrieved. This evidence appears to be relevant to the Defendant's claim that they were delayed in receiving the necessary database access.
+
+I will now invite the Defendant to proceed with their argument, taking into account the Plaintiff's previous statements and the retrieved evidence. Please, Jordan Smith, present your argument and address any points made by the Plaintiff, citing relevant evidence as needed.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Ajay_Madhusudan_Patel_vs_Jyotrindra_S_Patel_on_20_September_2024_1.PDF, Jayawant_Dattatray_Suryarao_vs_State_Of_Maharashtra_on_5_November_2001_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, Art. 35, Art. 371, E2, E3, E5, E6, E4
+
+
+[Defendant]
+Thank you, Your Honor. As the Defendant, I would like to argue that the Plaintiff's claims of breach of contract are unfounded. The Plaintiff argues that I failed to deliver the software module on time, but they fail to acknowledge the significant changes they made to the requirements, which are documented in the email from the Acme Project Manager on January 10, 2025 (E2).
+
+These changes, which included the addition of new reporting fields, significantly impacted my ability to meet the original deadline. Furthermore, my request for database access, which was necessary to incorporate these changes, was not granted until February 5, 2025, as shown in the Ticket Log Excerpt (E4). This delay was beyond my control and had a direct impact on my ability to deliver the module on time.
+
+I would also like to point out that the Plaintiff's internal timeline (E7) shows that integration work began on March 1, 2025, which suggests that the Plaintiff was not ready to receive the module even if I had delivered it on time. Additionally, the invoice from Acme Contractor (E6) only accounts for $35,000 of the claimed $50,000 in damages, leaving a significant discrepancy that has not been explained by the Plaintiff.
+
+In light of this evidence, I argue that the Plaintiff's own actions, including their changes to the requirements and their delay in granting me access, contributed significantly to the delays and costs incurred. I request that the court consider these factors when determining liability and damages. Thank you.
+
+
+
+
+
+[Judge] [Memory] Retrieved: Bharat_Fire_General_Insurance_Ltd_vs_Parameshwari_Prasad_Gupta_on_25_November_1966_1.PDF, United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Dalip_Singh_vs_Bhupinder_Kaur_on_23_February_2018_1.PDF, Art. 35, Art. 51, E2, E6, E3, E5, E1
+
+
+[Judge]
+The Defendant has presented their argument, citing relevant evidence to support their claims. It is now my turn to question both parties to clarify certain points.
+
+I would like to start by asking the Plaintiff: Can you explain why the changes to the requirements, as documented in the email from the Acme Project Manager on January 10, 2025 (E2), were not incorporated into a revised project timeline or deadline? Did you anticipate that these changes would not impact the original deadline, and if so, what was the basis for that assumption? 
+
+Please respond to this question, Acme Corp.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Bharat_Fire_General_Insurance_Ltd_vs_Parameshwari_Prasad_Gupta_on_25_November_1966_1.PDF, Liverpool_London_S_P_I_Asson_Ltd_vs_M_V_Sea_Success_I_Anr_on_20_November_2003_1.PDF, Vasant_Girish_Akbarasab_Sanavale_vs_The_State_Of_Karnataka_on_11_February_2025_1.PDF, Subedar_Tewari_vs_State_Of_U_P_And_Ors_on_3_November_1988_1.PDF, Art. 35, Art. 51, E2, E6, E3, E5, E1
+
+
+[Plaintiff]
+Thank you, Your Honor. We understood that the changes to the requirements, as documented in the email from the Acme Project Manager on January 10, 2025 (E2), were minor and could be incorporated into the existing project timeline without significant impact on the deadline. Our assumption was based on the fact that the changes were limited to the addition of new reporting fields, which we believed could be implemented without substantial rework or delay.
+
+We also relied on the defendant's own email (E3) dated January 12, 2025, in which they stated that they could incorporate the changes and still meet the deadline. This led us to believe that the defendant was capable of adapting to the changes without requiring a revised project timeline or deadline.
+
+Furthermore, during the meeting on February 6, 2025, as documented in the Meeting Notes (E5), both parties agreed to the revised scope, and the defendant did not express any concerns about meeting the original deadline at that time. It was only later that the defendant began to claim that the changes and the delay in granting access were the primary causes of the delays and costs incurred.
+
+In hindsight, we acknowledge that we could have been more proactive in revising the project timeline or deadline to account for the changes. However, we believe that the defendant's own actions and assurances led us to reasonably assume that the original deadline could still be met.
+
+
+
+
+
+[Judge] [Memory] Retrieved: Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Alloy_Steel_Project_vs_The_Workmen_on_2_February_1971_1.PDF, Alloy_Steel_Project_vs_The_Workmen_on_2_February_1971_1.PDF, State_Of_M_P_vs_Rakesh_Mishra_on_23_March_2015_1.PDF, Art. 2, Art. 35, E2, E3, E5, E6, E1
+
+
+[Judge]
+The Plaintiff has provided a detailed explanation for their assumptions regarding the impact of the changes on the project timeline. I would now like to ask the Defendant a question.
+
+Jordan Smith, you stated in your email (E3) dated January 12, 2025, that you could incorporate the changes and still meet the deadline. However, later on, you claimed that the changes and the delay in granting access were the primary causes of the delays and costs incurred. Can you reconcile these two statements? Did you genuinely believe that you could meet the deadline at the time you sent the email, or were you attempting to accommodate the Plaintiff's requests while knowing that it would be challenging to meet the deadline? 
+
+Please respond to this question, Jordan Smith.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Union_Of_India_vs_U_A_E_Exchange_Centre_on_24_April_2020_1.PDF, Indian_Oil_Corporation_Limited_vs_M_S_Sathyanarayana_Service_Station_on_9_May_2023_1.PDF, Cox_And_Kings_Ltd_vs_Sap_India_Pvt_Ltd_on_9_September_2024_1.PDF, Art. 35, Art. 206, E5, E3, E6, E2, E1
+
+
+[Defendant]
+Thank you, Your Honor. I would like to clarify that when I sent the email (E3) on January 12, 2025, I was attempting to accommodate the Plaintiff's requests and provide a positive response to their changes. At that time, I was hopeful that I could still meet the deadline, but I was also aware that it would be a challenging task.
+
+In hindsight, I may have been overly optimistic about my ability to meet the deadline. However, I was trying to maintain a positive and cooperative tone in our communication, and I did not want to immediately raise concerns about the feasibility of the deadline.
+
+As the days went by and I faced further delays in receiving the necessary database access, I began to realize that meeting the original deadline was no longer possible. Despite my best efforts, the cumulative effect of the changes and the delay in access made it impractical for me to deliver the module on time.
+
+I understand that my initial email (E3) may have created an impression that I was confident in meeting the deadline, but I assure the court that my intention was not to mislead the Plaintiff. I was trying to balance my desire to accommodate their requests with the practical realities of the project timeline.
+
+I hope this clarification helps to reconcile my earlier statement with my later claims. I am willing to acknowledge that I may have been overly optimistic initially, but I hope the court will consider the full context of our communication and the challenges I faced in delivering the module.
+
+
+
+
+
+[Judge] [Memory] Retrieved: Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Subedar_Tewari_vs_State_Of_U_P_And_Ors_on_3_November_1988_1.PDF, Vasant_Girish_Akbarasab_Sanavale_vs_The_State_Of_Karnataka_on_11_February_2025_1.PDF, Paparambaka_Rosamma_Ors_vs_State_Of_Andhra_Pradesh_on_13_September_1999_1.PDF, Art. 35, Art. 371, E3, E2, E6, E1, E5
+
+
+[Judge]
+The Defendant has provided a detailed explanation for their initial statement and subsequent claims. I will now proceed with the trial.
+
+It is time for closing statements. I invite the Plaintiff, Acme Corp., to present their closing statement. Please, summarize your main points and reiterate your request for relief.
+
+After the Plaintiff's closing statement, the Defendant will have an opportunity to present their closing statement. 
+
+Please proceed, Acme Corp.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Sudhakar_Anr_vs_State_Of_Maharashtra_on_17_July_2000_1.PDF, Subedar_Tewari_vs_State_Of_U_P_And_Ors_on_3_November_1988_1.PDF, Hari_Om_Hero_vs_State_Of_U_P_on_5_January_2021_1.PDF, Art. 35, Art. 371, E3, E2, E6, E1, E5
+
+
+[Plaintiff]
+Thank you, Your Honor. In our closing statement, we would like to summarize the key points that have been established throughout this trial.
+
+Firstly, we have demonstrated that the defendant, Jordan Smith, failed to deliver the software module by the agreed-upon deadline, resulting in significant rework and delay costs. The Statement of Work (E1) clearly outlines the delivery date and payment milestones, and the defendant's failure to meet these obligations constitutes a breach of contract.
+
+Secondly, we have shown that the changes to the requirements, although minor, were incorporated into the project scope, and the defendant was aware of the necessary steps to meet the revised deadline. The email from the Acme Project Manager on January 10, 2025 (E2), and the defendant's own email (E3) demonstrate that both parties were aware of the changes and the deadline.
+
+Thirdly, we have established that the defendant's request for database access was granted on February 5, 2025, which, although delayed, still allowed for sufficient time to complete the module. The Ticket Log Excerpt (E4) and the Meeting Notes (E5) support our claim that the defendant had sufficient opportunity to deliver the module on time.
+
+Lastly, we have presented evidence that the plaintiff incurred significant costs due to the defendant's breach of contract. The invoice from Acme Contractor (E6) and our internal timeline (E7) demonstrate that the delays and rework caused by the defendant's failure to deliver the module on time resulted in substantial damages.
+
+In light of these findings, we respectfully request that the court hold the defendant liable for the breach of contract and award us the requested relief of $50,000 in damages, as well as court costs. We believe that this amount is reasonable and reflects the actual costs incurred by the plaintiff as a direct result of the defendant's actions.
+
+Thank you, Your Honor. We are confident that the evidence presented throughout this trial supports our claims, and we look forward to the court's decision.
+
+
+
+
+
+[Judge] [Memory] Retrieved: United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Ouseph_Varghese_vs_Joseph_Aley_Ors_on_18_August_1969_1.PDF, Ouseph_Varghese_vs_Joseph_Aley_Ors_on_18_August_1969_1.PDF, State_Of_Maharashtra_Anr_vs_Digambar_Balwant_Kulkarni_on_13_February_1979_1.PDF, Art. 35, Art. 371, E1, E3, E6, E2, E4
+
+
+[Judge]
+The Plaintiff has presented their closing statement, summarizing the key points and reiterating their request for relief.
+
+I now invite the Defendant, Jordan Smith, to present his closing statement. Please, summarize your main points and respond to the Plaintiff's claims.
+
+After the Defendant's closing statement, I will proceed to issue my final opinion and decision in this case.
+
+Please proceed, Jordan Smith.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Ouseph_Varghese_vs_Joseph_Aley_Ors_on_18_August_1969_1.PDF, Ouseph_Varghese_vs_Joseph_Aley_Ors_on_18_August_1969_1.PDF, Babu_Rameshwar_Prasad_Singh_And_Ors_vs_Sheo_Shankar_Prasad_Singh_And_Ors_on_29_August_1975_1.PDF, Art. 35, Art. 202, E1, E3, E6, E2, E4
+
+
+[Defendant]
+Thank you, Your Honor. In my closing statement, I would like to summarize the key points that I believe are crucial to this case.
+
+Firstly, I would like to emphasize that the Plaintiff's claims of breach of contract are unfounded. The changes to the requirements, as documented in the email from the Acme Project Manager on January 10, 2025 (E2), were significant and impacted my ability to meet the original deadline. I had requested database access to incorporate these changes, but it was not granted until February 5, 2025, as shown in the Ticket Log Excerpt (E4).
+
+Secondly, I would like to point out that the Plaintiff's own actions contributed to the delays and costs incurred. The Meeting Notes (E5) from February 6, 2025, show that both parties agreed to the revised scope, but the Plaintiff failed to revise the project timeline or deadline accordingly. This lack of flexibility and communication from the Plaintiff made it challenging for me to deliver the module on time.
+
+Thirdly, I would like to highlight the inconsistencies in the Plaintiff's claims. The invoice from Acme Contractor (E6) only accounts for $35,000 of the claimed $50,000 in damages, leaving a significant discrepancy that has not been explained by the Plaintiff. Furthermore, the Plaintiff's internal timeline (E7) shows that integration work began on March 1, 2025, which suggests that the Plaintiff was not ready to receive the module even if I had delivered it on time.
+
+Lastly, I would like to argue that the Plaintiff's request for $50,000 in damages is excessive and unreasonable. The Plaintiff has failed to provide sufficient evidence to support this claim, and I believe that a more reasonable assessment of the damages would be in order.
+
+In light of these findings, I respectfully request that the court dismiss the Plaintiff's claims of breach of contract and award me the relief of dismissing all claims against me. Alternatively, I request that the court reduce the damages to a reasonable amount, taking into account the Plaintiff's contributions to the delays and costs incurred.
+
+Thank you, Your Honor. I am confident that the evidence presented throughout this trial supports my claims, and I look forward to the court's decision.
+
+
+
+
+
+[Judge] [Memory] Retrieved: Bharat_Fire_General_Insurance_Ltd_vs_Parameshwari_Prasad_Gupta_on_25_November_1966_1.PDF, Kalyanpur_Lime_Works_Ltd_vs_State_Of_Bihar_And_Another_on_14_December_1953_1.PDF, Prakash_Khandre_vs_Dr_Vijaya_Kumar_Khandre_And_Others_on_9_May_2002_1.PDF, Hind_Construction_Contractors_By_Its_vs_State_Of_Maharashtra_on_30_January_1979_1.PDF, Art. 35, Art. 263, E2, E6, E3, E5, E1
+
+
+[Judge]
+The Defendant has presented their closing statement, summarizing their main points and responding to the Plaintiff's claims.
+
+## Opinion
+After careful consideration of the evidence presented and the arguments made by both parties, I find that the Defendant, Jordan Smith, did breach the contract by failing to deliver the software module on time. However, I also find that the Plaintiff, Acme Corp., contributed to the delays and costs incurred by changing the requirements and failing to revise the project timeline or deadline accordingly.
+
+## Decision
+Based on the evidence and the arguments presented, I hereby rule that the Defendant, Jordan Smith, is liable for breach of contract. However, I also find that the Plaintiff's damages claim of $50,000 is excessive and unreasonable.
+
+I hereby award the Plaintiff, Acme Corp., damages in the amount of $35,000, which is supported by the invoice from Acme Contractor (E6). I also find that the Plaintiff's internal timeline (E7) and the Meeting Notes (E5) suggest that the Plaintiff was not entirely without fault in the matter.
+
+## Order
+I hereby order the Defendant, Jordan Smith, to pay the Plaintiff, Acme Corp., the sum of $35,000 in damages.
+
+## Conclusion
+This concludes the trial of Acme Corp. v. Jordan Smith. I hope that this decision brings closure to the parties involved.
+
+TERMINATE

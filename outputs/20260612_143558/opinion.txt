@@ -1,0 +1,14 @@
+=== VERDICT ===
+Based on the evidence presented, the court finds in favor of the defendant, Jordan Smith. The plaintiff, Acme Corp., failed to provide timely access to the necessary resources, which contributed to the delay in the project.
+
+=== FINDINGS OF FACT ===
+The court finds that the plaintiff changed the requirements of the project on January 10, 2025, without providing sufficient notice to the defendant. The court also finds that the plaintiff did not grant access to the defendant until February 5, 2025, despite the defendant's request for access by January 15, 2025.
+
+=== CONCLUSIONS OF LAW ===
+The court concludes that the defendant was not responsible for the delay in the project, as the plaintiff's actions contributed to the delay. The court also concludes that the plaintiff is not entitled to damages, as they failed to mitigate their losses.
+
+=== ORDER / REMEDY ===
+The court orders that the plaintiff's claim for damages be dismissed. The court also orders that the defendant be reimbursed for any costs incurred in defending this action.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable law. The plaintiff's failure to provide timely access to the necessary resources and their changes to the project requirements without sufficient notice contributed to the delay in the project. The defendant's request for access and their efforts to complete the project despite the plaintiff's actions demonstrate that they were not responsible for the delay.

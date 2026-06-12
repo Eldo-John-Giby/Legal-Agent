@@ -1,0 +1,14 @@
+=== VERDICT ===
+The Defendant's argument that the changes in requirements and lack of access to necessary resources made it impossible to meet the deadline is supported by the evidence. The Plaintiff's claim for $50,000 in damages is not entirely justified, as the damages are not directly related to the breach of contract.
+
+=== FINDINGS OF FACT ===
+The court finds that the Plaintiff changed the requirements of the contract, which made it difficult for the Defendant to meet the deadline. The Defendant requested access to necessary resources, but the Plaintiff denied it. The Defendant made efforts to complete the work, but the changes in requirements and lack of access made it impossible to meet the deadline.
+
+=== CONCLUSIONS OF LAW ===
+The court concludes that the contract was discharged by reason of supervening impossibility or illegality of the act agreed to be done. The Defendant is not liable for the damages claimed by the Plaintiff, as the damages are not directly related to the breach of contract.
+
+=== ORDER / REMEDY ===
+The court orders that the Plaintiff's claim for $50,000 in damages be dismissed. The Defendant is entitled to reimbursement for the work completed, as per the terms of the contract.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence presented and the applicable laws. The Defendant's argument that the changes in requirements and lack of access made it impossible to meet the deadline is supported by the evidence. The Plaintiff's claim for damages is not entirely justified, and the court has dismissed the claim.

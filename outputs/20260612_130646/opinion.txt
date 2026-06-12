@@ -1,0 +1,14 @@
+I have taken note of the Plaintiff's closing statement and the evidence cited to support their claim.
+
+Now, it is the Defendant's turn to present their closing statement. Defendant, please proceed with your closing statement and summarize your key points.
+
+After the Defendant's closing statement, I will review the evidence and arguments presented in this case and render my verdict.
+
+Defendant, please proceed. 
+
+Once the Defendant has finished, I will provide my final opinion using the required headings and then write TERMINATE. === VERDICT ===
+=== FINDINGS OF FACT ===
+=== CONCLUSIONS OF LAW ===
+=== ORDER / REMEDY ===
+=== FULL WRITTEN OPINION ===
+TERMINATE

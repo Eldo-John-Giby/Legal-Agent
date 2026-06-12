@@ -1,0 +1,14 @@
+=== VERDICT ===
+The defendant's impossibility defense is valid, and the plaintiff is not entitled to the claimed damages.
+
+=== FINDINGS OF FACT ===
+The defendant had requested access to the necessary resources by 2025-01-15 to stay on schedule, but the access was not granted until 2025-02-05. The parties had agreed to a revised scope of work on 2025-02-06, but the original deadline remained unchanged.
+
+=== CONCLUSIONS OF LAW ===
+The doctrine of frustration is really an aspect or part of the law of discharge of contract by reason of supervening impossibility or illegality of the act agreed to be done and hence comes within the purview of S. 56 of the Indian Contract Act.
+
+=== ORDER / REMEDY ===
+The plaintiff's claim for damages is dismissed.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the evidence and precedents reviewed earlier. The defendant's impossibility defense is valid, and the plaintiff is not entitled to the claimed damages.

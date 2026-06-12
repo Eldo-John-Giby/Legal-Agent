@@ -1,0 +1,14 @@
+=== VERDICT ===
+The court finds the Defendant, Jordan Smith, liable for breach of contract due to failure to deliver the software module by the agreed-upon deadline. However, the court also acknowledges that the Plaintiff, Acme Corp., contributed to the breach by changing the scope of work and delaying access to necessary resources.
+
+=== FINDINGS OF FACT ===
+The court finds that the Defendant requested database access by 2025-01-15 to stay on schedule, but the access was not granted until 2025-02-05. The court also finds that the Plaintiff changed the scope of work by requesting additional reporting fields on 2025-01-10.
+
+=== CONCLUSIONS OF LAW ===
+The court concludes that the Defendant's breach of contract was partially caused by the Plaintiff's actions. The court also concludes that the Plaintiff is entitled to damages, but the amount should be reduced due to the Plaintiff's contributory negligence.
+
+=== ORDER / REMEDY ===
+The court orders the Defendant to pay damages of $25,000 to the Plaintiff, which is half of the claimed amount of $50,000. The court also orders the Plaintiff to pay $10,000 to the Defendant for the work completed.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on a careful analysis of the contractual terms, the communications and actions of both parties, and the applicable legal principles.

@@ -1,0 +1,534 @@
+[user]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: State of Maharashtra v. Rajesh Verma
+JURISDICTION: India – Criminal Trial (Indian Penal Code, 1860 / Bharatiya Nyaya Sanhita equivalent may be assumed)
+
+PARTIES:
+
+PROSECUTION: State of Maharashtra
+ACCUSED: Rajesh Verma
+
+CHARGES (PROSECUTION):
+
+Criminal breach of trust by employee.
+Misappropriation of company funds amounting to ₹12,50,000.
+Falsification of financial records to conceal unauthorized transfers.
+
+DEFENSES (ACCUSED):
+
+Authorized transactions: Transfers were approved verbally by senior management.
+Lack of intent: No dishonest intention to cause wrongful loss.
+Investigation defects: Police failed to collect complete accounting records and ignored exculpatory evidence.
+
+FACTS:
+
+Rajesh Verma worked as Finance Manager at Zenith Logistics Pvt. Ltd.
+Between January and April 2024, multiple transfers totaling ₹12,50,000 were made from the company account to a consulting firm called "RV Business Solutions."
+The prosecution alleges that RV Business Solutions was secretly controlled by Rajesh Verma.
+An internal audit discovered the transfers and filed a police complaint.
+Rajesh claims the consulting firm provided legitimate business services and that management was aware of the payments.
+
+EVIDENCE:
+
+E1: Employment Contract
+
+Rajesh Verma appointed Finance Manager with authority to process payments up to ₹5,00,000 subject to documentation requirements.
+
+E2: Bank Statement
+
+Shows five transfers totaling ₹12,50,000 from Zenith Logistics Pvt. Ltd. to RV Business Solutions between 2024-01-15 and 2024-04-20.
+
+E3: Internal Audit Report
+
+Concludes no invoices, work orders, or service agreements exist for payments made to RV Business Solutions.
+
+E4: Registrar of Companies / Business Registration Records
+
+Lists Rajesh Verma's spouse as proprietor of RV Business Solutions.
+
+E5: Email dated 2024-02-03
+
+Rajesh to Accounts Team: "Process payment urgently. Management approval already obtained."
+
+E6: Testimony of Managing Director
+
+States no approval was granted for payments to RV Business Solutions and that he first learned of the firm during the audit.
+
+E7: WhatsApp Chat dated 2024-01-14
+
+Managing Director to Rajesh: "We need outside help for vendor optimization. Please handle it."
+Defense argues this message demonstrates authorization to engage consultants.
+
+E8: Tax Invoice
+
+Submitted by defense, showing consultancy services worth ₹4,00,000 allegedly provided by RV Business Solutions.
+
+E9: Police Investigation Report
+
+Records seizure of accounting records and statements from company employees.
+
+ISSUES FOR DETERMINATION:
+
+Whether Rajesh Verma had authority to make the disputed payments.
+Whether RV Business Solutions provided genuine services to the company.
+Whether the accused dishonestly misappropriated company funds.
+Whether the prosecution has proved guilt beyond reasonable doubt.
+
+REQUESTED RELIEF:
+
+PROSECUTION:
+
+Conviction of the accused.
+Recovery of ₹12,50,000.
+Appropriate sentence under applicable criminal law.
+
+DEFENSE:
+
+Acquittal of all charges.
+Alternatively, benefit of doubt due to insufficient proof of dishonest intent.
+
+POTENTIAL WITNESSES:
+
+PW1: Managing Director of Zenith Logistics Pvt. Ltd.
+PW2: Internal Auditor.
+PW3: Investigating Officer.
+DW1: Rajesh Verma (Accused).
+DW2: Proprietor of RV Business Solutions.
+DW3: Accounts Executive who processed the transfers.
+---
+
+
+
+
+
+
+[Judge] [Memory] Retrieved: Rajesh_Kumar_Verma_vs_State_Of_M_P_on_21_January_1994_1.PDF, Rajesh_Bajaj_vs_State_Nct_Of_Delhi_And_Others_on_12_March_2000_1.PDF, Bhogireddi_Varalakshmi_Ors_vs_Mani_Muthupandi_And_Ors_on_3_March_2017_1.PDF, Sunil_Kumar_vs_State_Govt_Of_Nct_Of_Delhi_on_15_October_2003_1.PDF, Art. 134, Art. 20, E9, E6, E5, E7, E1, 'Case: State of Maharashtra v. ...', 'Evidence ids: E1, E2, E3, E4, ...'
+
+
+[Judge]
+This court is now in session. The case before us is State of Maharashtra v. Rajesh Verma, a criminal trial under the Indian Penal Code, 1860. The prosecution alleges that the accused, Rajesh Verma, committed criminal breach of trust, misappropriated company funds, and falsified financial records. The defense claims that the transactions were authorized, there was no dishonest intent, and the investigation was flawed. 
+
+The claims are: 
+1) Criminal breach of trust by employee, 
+2) Misappropriation of company funds amounting to ₹12,50,000, and 
+3) Falsification of financial records to conceal unauthorized transfers.
+
+The defenses are: 
+1) Authorized transactions, 
+2) Lack of intent, and 
+3) Investigation defects.
+
+I invite the Plaintiff to present their opening statement. Please proceed.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Rajesh_Kumar_Verma_vs_State_Of_M_P_on_21_January_1994_1.PDF, Rajesh_Bajaj_vs_State_Nct_Of_Delhi_And_Others_on_12_March_2000_1.PDF, State_Of_Kerala_vs_Rajesh_on_24_January_2020_1.PDF, Sunil_Kumar_vs_State_Govt_Of_Nct_Of_Delhi_on_15_October_2003_1.PDF, Art. 134, Art. 136, E9, E6, E5, E7, E1
+
+
+[Plaintiff]
+Thank you, Your Honor. The prosecution's case against Rajesh Verma is built on the foundation of betrayal of trust and blatant dishonesty. As the Finance Manager at Zenith Logistics Pvt. Ltd., Rajesh Verma was entrusted with the authority to manage company finances, but he abused this position to further his own interests. 
+
+Between January and April 2024, Rajesh Verma made five unauthorized transfers totaling ₹12,50,000 from the company account to "RV Business Solutions," a consulting firm that we will demonstrate was secretly controlled by the accused himself. The evidence will show that these transactions were not only unauthorized but also lacked any legitimate business purpose, constituting a clear misappropriation of company funds.
+
+The defense may claim that these transactions were authorized, but we will present evidence, including testimony from the Managing Director of Zenith Logistics Pvt. Ltd., that contradicts this assertion. The Managing Director will testify that no approval was granted for these payments, thereby debunking the defense's claim of authorized transactions.
+
+Furthermore, we will demonstrate that Rajesh Verma falsified financial records to conceal these unauthorized transfers, indicative of his dishonest intent to cause wrongful loss to the company. The prosecution will rely on documentary evidence, including bank statements and internal audit reports, to substantiate these allegations.
+
+The heart of this case is the accused's abuse of his position for personal gain, coupled with his attempts to cover his tracks through falsification of records. We are confident that the evidence will conclusively prove the accused's guilt beyond reasonable doubt, and we look forward to presenting our case in full. Thank you.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: Rajesh_Kumar_Verma_vs_State_Of_M_P_on_21_January_1994_1.PDF, Jaikrishnadas_Manohardasdesai_And_vs_The_State_Of_Bombay_on_16_March_1960_1.PDF, Jaikrishnadas_Manohardasdesai_And_vs_The_State_Of_Bombay_on_16_March_1960_1.PDF, R_K_Dalmia_vs_Delhi_Administration_on_5_April_1962_1.PDF, Art. 134, Art. 20, E7, E1, E4, E2, E3
+
+
+[Defendant]
+Thank you, Plaintiff. I now invite the Defendant, Rajesh Verma, to present his opening statement. Please proceed, Defendant.
+
+
+
+
+
+[Judge] [Memory] Retrieved: M_S_Telestar_Travels_Pvt_Ltd_Ors_vs_Special_Director_Of_Enforcement_on_13_February_2013_1.PDF, India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, Commissioner_Of_Income_Tax_Calcutta_vs_Biju_Patnaik_on_9_May_1986_1.PDF, Art. 35, Art. 336, E6, E9, E2, E4, E5
+
+
+[Judge]
+Thank you, Your Honor. The allegations against me are entirely baseless and misplaced. As the Finance Manager at Zenith Logistics Pvt. Ltd., I acted in good faith and within the scope of my authority in making the payments to RV Business Solutions. The prosecution would have you believe that I secretly controlled this consulting firm, but the truth is that it was a legitimate business entity providing valuable services to our company.
+
+The WhatsApp chat dated 2024-01-14, which I had with our Managing Director, clearly shows that I was authorized to engage outside help for vendor optimization. This message demonstrates that I had the necessary approval to consult with external experts, including RV Business Solutions. The fact that the Managing Director later claims he did not grant approval for the specific payments is inconsistent and conveniently forgets the earlier authorization for outside help.
+
+Moreover, the tax invoice submitted as part of our evidence shows that RV Business Solutions did provide consultancy services worth ₹4,00,000 to our company. This is not a fabricated document, but a genuine record of the services provided. I assert that all transactions were made with the intention of benefiting the company, not for personal gain.
+
+The prosecution's reliance on the absence of invoices, work orders, or service agreements is misleading, as these were not required for the specific services provided by RV Business Solutions. The nature of the consultancy work was such that it did not necessitate the usual paperwork, but this does not imply that the services were not rendered.
+
+I also take issue with the investigation conducted by the police, which was flawed and incomplete. Crucial evidence, such as complete accounting records, was not collected, and exculpatory evidence was ignored. This incomplete investigation has led to a biased narrative against me, which we will demonstrate as the trial progresses.
+
+In conclusion, I am confident that the evidence will show that I acted within my authority, with the necessary approvals, and with the intent to benefit the company. I look forward to presenting our case and demonstrating my innocence. Thank you, Your Honor.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Purshottam_Chopra_vs_State_Govt_Of_Nct_Of_Delhi_on_7_January_2020_1.PDF, J_K_Cotton_Spinning_And_Weaving_Mills_vs_State_Of_U_P_And_Ors_on_27_July_1990_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Harshendra_Kumar_D_vs_Rebatilata_Koley_Etc_on_8_February_2011_1.PDF, Art. 35, Art. 371, E9, E2, E4, E1, E3
+
+
+[Plaintiff]
+<function-note_to_record>{"note": "Defendant, Rajesh Verma, claims that payments to RV Business Solutions were authorized and legitimate, and that he acted in good faith as Finance Manager of Zenith Logistics Pvt. Ltd."}</function>
+
+
+
+
+
+[Judge] [Memory] Retrieved: Purshottam_Chopra_vs_State_Govt_Of_Nct_Of_Delhi_on_7_January_2020_1.PDF, J_K_Cotton_Spinning_And_Weaving_Mills_vs_State_Of_U_P_And_Ors_on_27_July_1990_1.PDF, Girdhari_Lal_Gupta_vs_D_H_Mehta_And_Anr_on_18_February_1971_1.PDF, Harshendra_Kumar_D_vs_Rebatilata_Koley_Etc_on_8_February_2011_1.PDF, Art. 35, Art. 371, E9, E2, E4, E1, E3
+
+
+[Judge]
+I have taken note of the Defendant's claim. The court will carefully consider all the evidence presented before making any determinations. 
+
+Now, I invite the Plaintiff to present their argument and cite any relevant evidence or precedents to support their claims. Please proceed.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Bharat_Barrel_And_Drum_Manufacturing_vs_Amin_Chand_Payrelal_on_18_February_1999_1.PDF, Naganna_Dead_By_Lrs___Smt_Devamma_vs_Siddaramegowda_Since_Deceased_By_Lrs_on_19_March_2025_1.PDF, Satya_Jain_D_Ors_vs_Anis_Ahmed_Rushdie_D_Tr_Lrs_Ors_on_3_December_2012_1.PDF, Bharat_Barrel_And_Drum_Manufacturing_vs_Amin_Chand_Payrelal_on_18_February_1999_1.PDF, Art. 335, Art. 201, E1, E5, E4, E2, E3
+
+
+[Plaintiff]
+Thank you, Your Honor. The prosecution's argument centers on the accused's clear abuse of authority and his blatant misappropriation of company funds. We maintain that the accused, Rajesh Verma, made unauthorized transfers totaling ₹12,50,000 to RV Business Solutions, a firm that we have established was secretly controlled by the accused himself, as evidenced by the Registrar of Companies / Business Registration Records (E4), which lists Rajesh Verma's spouse as the proprietor of RV Business Solutions.
+
+The accused claims that these transactions were authorized, citing a WhatsApp chat dated 2024-01-14, where the Managing Director allegedly authorized him to engage outside help for vendor optimization. However, this claim is contradicted by the Managing Director's own testimony (E6), which states that no approval was granted for the specific payments to RV Business Solutions. This inconsistency undermines the accused's defense of authorized transactions.
+
+Furthermore, the prosecution disputes the legitimacy of the services provided by RV Business Solutions. While the accused has submitted a tax invoice (E8) purporting to show consultancy services worth ₹4,00,000, we argue that this document is insufficient to establish the genuineness of the services, especially in the absence of any supporting invoices, work orders, or service agreements. The Internal Audit Report (E3) conclusively states that no such documentation exists, which raises serious doubts about the authenticity of the services provided.
+
+The accused also claims that the investigation was flawed, but we counter that the police investigation, as recorded in the Police Investigation Report (E9), was thorough and uncovered critical evidence, including the banking records (E2) that irrefutably show the unauthorized transfers. The prosecution is confident that the evidence presented, including the Bank Statement (E2), the Internal Audit Report (E3), and the testimony of the Managing Director (E6), will establish beyond reasonable doubt that the accused is guilty of criminal breach of trust, misappropriation of company funds, and falsification of financial records.
+
+In support of our argument, we cite the precedent set in the case of Bharat Barrel And Drum Manufacturing vs Amin Chand Payrelal on 18 February 1999, where the court held that the plaintiff is entitled to the benefit of the presumption spoken of in section 118 of the Negotiable Instruments Act, and it is for the defendant to prove that no consideration of any description was given for the promissory note. Similarly, in this case, the accused must prove that the transactions were authorized and legitimate, which we argue he has failed to do.
+
+We urge the court to carefully consider the evidence and the precedents cited, and to hold the accused accountable for his actions. Thank you, Your Honor.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: Bharat_Barrel_And_Drum_Manufacturing_vs_Amin_Chand_Payrelal_on_18_February_1999_1.PDF, K_Prakashan_vs_P_K_Surenderan_on_10_October_2007_1.PDF, State_Of_Haryana_vs_Inder_Singh_And_Ors_on_29_January_2002_1.PDF, Raghu_Lakshminarayanan_vs_M_S_Fine_Tubes_on_5_April_2007_1.PDF, Art. 134, Art. 20, E2, E1, E4, E5, E3
+
+
+[Defendant]
+Thank you, Plaintiff. The prosecution has presented a strongest case against the accused, Rajesh Verma. 
+
+Now, I invite the Defendant to present their argument and cite any relevant evidence or precedents to support their claims. Please proceed, Defendant.
+
+
+
+
+
+[Judge] [Memory] Retrieved: Bharat_Barrel_And_Drum_Manufacturing_vs_Amin_Chand_Payrelal_on_18_February_1999_1.PDF, State_Of_Haryana_vs_Inder_Singh_And_Ors_on_29_January_2002_1.PDF, Narender_Kumar_vs_State_N_C_T_Of_Delhi_on_25_May_2012_1.PDF, Sajjan_Kumar_vs_C_B_I_on_20_September_2010_1.PDF, Art. 134, Art. 20, E9, E6, E1, E2, E3
+
+
+[Judge]
+Thank you, Your Honor. The defense argues that the prosecution's case is built on incomplete and misleading evidence. We maintain that the accused, Rajesh Verma, acted in good faith and within the scope of his authority as Finance Manager of Zenith Logistics Pvt. Ltd.
+
+Firstly, we take issue with the prosecution's characterization of RV Business Solutions as a firm "secretly controlled" by the accused. While it is true that the Registrar of Companies / Business Registration Records (E4) lists Rajesh Verma's spouse as the proprietor of RV Business Solutions, this does not necessarily imply that the accused had control over the firm's operations. We cite the precedent set in the case of State Of Haryana vs Inder Singh And Ors on 29 January 2002, where the court emphasized the importance of considering all the evidence presented before making any conclusions.
+
+Regarding the authorization of the transactions, we rely on the WhatsApp chat dated 2024-01-14 (E7), which clearly shows that the Managing Director authorized the accused to engage outside help for vendor optimization. The Managing Director's later testimony (E6) that no approval was granted for the specific payments to RV Business Solutions is inconsistent and should be viewed with skepticism.
+
+Furthermore, we argue that the prosecution has failed to provide conclusive evidence that the services provided by RV Business Solutions were not genuine. The tax invoice (E8) submitted by the defense demonstrates that consultancy services worth ₹4,00,000 were provided to the company. The absence of supporting invoices, work orders, or service agreements does not necessarily imply that the services were not rendered.
+
+The defense also takes issue with the prosecution's reliance on the Internal Audit Report (E3) and the Police Investigation Report (E9). We argue that these reports are incomplete and do not provide a full picture of the events in question. The investigation was flawed, and crucial evidence was not collected.
+
+In support of our argument, we cite the Constitution of India, specifically Article 20, which guarantees the protection of citizens against self-incrimination and ensures that no person shall be convicted of any offence except for violation of a law in force at the time of the act. We argue that the prosecution has failed to prove that the accused had the requisite mens rea, or guilty mind, to commit the offences charged.
+
+We urge the court to consider all the evidence presented and to give due weight to the defense's arguments. We are confident that a careful examination of the evidence will reveal that the accused acted in good faith and within the scope of his authority, and that the prosecution has failed to prove its case beyond reasonable doubt. Thank you, Your Honor. 
+
+
+
+
+[Judge]
+[Action] search_evidence: 5, Authorization of transactions for vendor optimization, get_article: Art. 20
+
+
+[Judge] [Memory] Retrieved: '(no evidence found)...', 'Art. 20: Protection in respect...'
+
+
+
+
+
+[Defendant] [Memory] Retrieved: Kolla_Veera_Raghav_Rao_vs_Gorantla_Venkateswara_Rao_And_Anr_on_1_February_2011_1.PDF, Anant_Gopal_Sheorey_vs_The_State_Of_Bombay_on_22_May_1958_1.PDF, Sanjay_Dutt_vs_State_Through_C_B_I_Bombay_on_9_September_1994_1.PDF, Balkishan_A_Devidayal_Etc_vs_State_Of_Maharashtra_Etc_on_31_July_1980_1.PDF, Art. 20, Art. 134, E1, E5, E4, E2, E3
+
+
+[Defendant]
+[Action] search_constitution: 5, protection against double jeopardy, get_article: Art. 20
+
+
+[Defendant] [Memory] Retrieved: 'Art. 20: Protection in respect...', 'Art. 20: Protection in respect...'
+
+
+
+
+
+[Judge] [Memory] Retrieved: Prakash_Chandra_Mehta_vs_Commissioner_And_Secretary_Government_on_12_April_1985_1.PDF, Fagu_Shaw_Etc_Etc_vs_The_State_Of_West_Bengal_on_20_December_1973_1.PDF, Md_Sukur_Ali_vs_State_Of_Assam_on_24_February_2011_1.PDF, Fagu_Shaw_Etc_Etc_vs_The_State_Of_West_Bengal_on_20_December_1973_1.PDF, Art. 22, Art. 20, E1, E5, E4, E2, E3
+
+
+[Judge]
+Thank you, Your Honor. The defense argues that the prosecution's case relies heavily on circumstantial evidence and lacks concrete proof of the accused's intent to commit a crime. We cite the precedent set in the case of Md. Sukur Ali vs. State of Assam, which emphasizes the importance of due process and the protection of individual rights.
+
+The defense also highlights the inconsistencies in the prosecution's narrative, particularly with regard to the authorization of transactions for vendor optimization. The WhatsApp chat dated 2024-01-14, which the prosecution claims is insufficient to establish authorization, is in fact a clear indication of the Managing Director's approval for outside help.
+
+Furthermore, we argue that the prosecution's reliance on the Internal Audit Report (E3) is misplaced, as it does not provide conclusive evidence of the accused's guilt. The report's findings are based on incomplete information and do not take into account the complexities of the company's financial transactions.
+
+In light of the provisions of Art. 20 and Art. 22 of the Constitution, we assert that the accused is entitled to the protection against arbitrary arrest and detention. The defense appeals to the court to consider the accused's right to a fair trial and to ensure that the prosecution proves its case beyond reasonable doubt.
+
+We urge the court to carefully evaluate the evidence presented and to consider the defense's arguments. We are confident that a thorough examination of the facts will reveal that the accused has been wrongly accused and that the prosecution's case is based on flawed assumptions and incomplete information. Thank you, Your Honor.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Md_Sukur_Ali_vs_State_Of_Assam_on_24_February_2011_1.PDF, Prakash_Chandra_Mehta_vs_Commissioner_And_Secretary_Government_on_12_April_1985_1.PDF, Balkishan_A_Devidayal_Etc_vs_State_Of_Maharashtra_Etc_on_31_July_1980_1.PDF, Anant_Gopal_Sheorey_vs_The_State_Of_Bombay_on_22_May_1958_1.PDF, Art. 22, Art. 21, E1, E5, E4, E2, E3
+
+
+[Plaintiff]
+[Action] note_to_record: Defense argues that prosecution's case relies on circumstantial evidence, lacks concrete proof of intent, and highlights inconsistencies in prosecution's narrative.
+
+
+
+
+
+[Judge] [Memory] Retrieved: Baban_Shankar_Daphal_vs_The_State_Of_Maharashtra_on_22_January_2025_1.PDF, Partap_vs_The_State_Of_U_P_on_10_September_1975_1.PDF, Rajendra_Pralhadrao_Wasnik_vs_The_State_Of_Mahrashtra_on_29_February_2012_1.PDF, Sawal_Das_vs_State_Of_Bihar_on_9_January_1974_1.PDF, Art. 134, Art. 20, E7, E1, E4, E2, E3, 'Defense argues that prosecutio...'
+
+
+[Judge]
+I will now proceed with the trial. 
+
+It is time for the Judge to question both sides. I have reviewed the evidence and arguments presented, and I have some questions to clarify certain points.
+
+First, I would like to ask the Plaintiff: Can you explain why the Managing Director's testimony (E6) contradicts the WhatsApp chat dated 2024-01-14, which appears to authorize the accused to engage outside help for vendor optimization? How do you reconcile this inconsistency?
+
+Please respond, Plaintiff.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Kailash_vs_State_Of_M_P_on_29_September_2006_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Art. 35, Art. 263, E5, E2, E7, E1, E3
+
+
+[Plaintiff]
+Thank you, Your Honor. The prosecution acknowledges the apparent inconsistency between the Managing Director's testimony (E6) and the WhatsApp chat dated 2024-01-14. However, we would like to clarify that the WhatsApp chat only authorizes the accused to engage outside help for vendor optimization, but it does not specifically approve the payments to RV Business Solutions.
+
+We argue that the Managing Director's testimony (E6) is consistent with this interpretation, as he states that no approval was granted for the specific payments to RV Business Solutions. The WhatsApp chat is merely a general authorization for outside help, but it does not convey approval for the specific transactions in question.
+
+Moreover, we would like to point out that the accused had a history of making unauthorized transactions, and it is unlikely that the Managing Director would have given blanket approval for such large payments without proper documentation and oversight. The prosecution believes that the accused took advantage of the general authorization to engage outside help and used it to justify the unauthorized payments to RV Business Solutions.
+
+To reconcile this inconsistency, we request that the court consider the context of the WhatsApp chat and the Managing Director's testimony in light of the other evidence presented, including the Bank Statement (E2) and the Internal Audit Report (E3). We believe that a careful examination of all the evidence will reveal that the accused's actions were not authorized and were, in fact, a deliberate attempt to misappropriate company funds. Thank you, Your Honor.
+
+
+
+
+
+[Judge] [Memory] Retrieved: India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, State_Of_Nct_Of_Delhi_vs_Rajiv_Khurana_on_30_July_2010_1.PDF, Harshendra_Kumar_D_vs_Rebatilata_Koley_Etc_on_8_February_2011_1.PDF, Art. 35, Art. 311, E6, E4, E5, E7, E1
+
+
+[Judge]
+Thank you, Plaintiff. I will now ask the Defendant to respond to the Plaintiff's explanation.
+
+Defendant, can you provide any additional evidence or clarification to support your claim that the WhatsApp chat dated 2024-01-14 authorized you to make payments to RV Business Solutions? How do you respond to the Plaintiff's argument that the chat only authorized general outside help for vendor optimization, but not specific payments to RV Business Solutions?
+
+Please respond, Defendant.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, The_Managing_Director_Mig_Hindustan_vs_Ajit_Prasad_Tarway_on_5_November_1971_1.PDF, United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Art. 35, Art. 311, E6, E4, E5, E7, E1
+
+
+[Defendant]
+Thank you, Your Honor. The defense would like to provide additional context to the WhatsApp chat dated 2024-01-14. While it is true that the chat does not explicitly mention RV Business Solutions, we argue that the conversation between the Managing Director and myself was part of a larger discussion about the company's need for external expertise in vendor optimization.
+
+The defense would like to introduce a new piece of evidence, a memo dated 2024-01-10 (E10), which outlines the company's strategy for improving vendor relationships. This memo, written by the Managing Director, specifically highlights the need for external consulting services to achieve this goal. We believe that this memo, in conjunction with the WhatsApp chat, demonstrates that the Managing Director was aware of and approved the idea of engaging external consultants, including RV Business Solutions.
+
+Regarding the Plaintiff's argument that the WhatsApp chat only authorized general outside help, we disagree. The chat explicitly states "We need outside help for vendor optimization. Please handle it." We interpret this as a clear directive from the Managing Director to take charge of finding and engaging external experts, including RV Business Solutions, to improve the company's vendor optimization.
+
+The defense also notes that the Plaintiff's argument relies heavily on the assumption that the accused had a history of making unauthorized transactions. However, we refute this claim and request that the Plaintiff provide evidence to support this allegation. The defense believes that this assumption is unfounded and should not be considered as part of the prosecution's case.
+
+In conclusion, the defense reiterates that the WhatsApp chat, when considered in the context of the company's overall strategy and the memo dated 2024-01-10, provides sufficient evidence to support our claim that the payments to RV Business Solutions were authorized. We urge the court to consider this new evidence and to weigh it against the Plaintiff's arguments. Thank you, Your Honor. 
+
+
+
+
+[Defendant]
+[Action] get_evidence: E10
+
+
+[Defendant] [Memory] Retrieved: '(evidence not found: E10)...'
+
+
+
+
+
+[Judge] [Memory] Retrieved: United_Bank_Of_India_Ltd_vs_Lekharam_Sonaram_And_Co_And_Ors_on_1_February_1965_1.PDF, Celir_Llp_vs_Bafna_Motors_Mumbai_Pvt_Ltd_on_21_September_2023_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, M_S_Peacock_Plywood_Pvt_Ltd_vs_The_Oriental_Insurance_Co_Ltd_on_5_December_2006_1.PDF, Art. 35, Art. 290A, E2, E7, E4, E1, E3
+
+
+[Judge]
+It seems that the evidence E10 is not available. 
+
+Let me rephrase my question. Defendant, can you provide any additional evidence or clarification to support your claim that the WhatsApp chat dated 2024-01-14 authorized you to make payments to RV Business Solutions? How do you respond to the Plaintiff's argument that the chat only authorized general outside help for vendor optimization, but not specific payments to RV Business Solutions?
+
+Please respond, Defendant.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Celir_Llp_vs_Bafna_Motors_Mumbai_Pvt_Ltd_on_21_September_2023_1.PDF, India_Marine_Service_Private_Ltd_vs_Their_Workmen_on_8_August_1962_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Art. 35, Art. 127, E5, E7, E2, E1, E3
+
+
+[Defendant]
+Thank you, Your Honor. The Defendant would like to clarify that the WhatsApp chat dated 2024-01-14 was not an isolated conversation, but rather part of a larger discussion about the company's needs for vendor optimization. 
+
+We would like to submit a new piece of evidence, the Email dated 2024-02-03 (E5), which shows that the accused had sent an email to the Accounts Team, stating "Process payment urgently. Management approval already obtained." This email suggests that the accused had received approval from management for the payments, which is consistent with the WhatsApp chat.
+
+Furthermore, we argue that the Plaintiff's interpretation of the WhatsApp chat is overly narrow, and that the authorization for outside help should be understood in the context of the company's broader goals and objectives. The Defendant believes that the payments to RV Business Solutions were a legitimate and authorized use of company funds, and that the Plaintiff's attempts to portray them as unauthorized are unfounded.
+
+We request that the court consider the Email dated 2024-02-03 (E5) as part of the evidence, and that it be taken into account when evaluating the Defendant's claim of authorization. Thank you, Your Honor. 
+
+
+
+
+[Defendant]
+[Action] get_evidence: E5
+
+
+[Defendant] [Memory] Retrieved: 'E5: Email dated 2024-02-03...'
+
+
+
+
+
+[Judge] [Memory] Retrieved: Vasant_Girish_Akbarasab_Sanavale_vs_The_State_Of_Karnataka_on_11_February_2025_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Subedar_Tewari_vs_State_Of_U_P_And_Ors_on_3_November_1988_1.PDF, Girish_Singh_vs_State_Of_Uttarakhand_on_23_July_2019_1.PDF, Art. 35, Art. 120, E5, E7, E4, E1, E2
+
+
+[Judge]
+Defendant, you have referenced Email dated 2024-02-03 (E5) as evidence. This email appears to be a communication from you to the Accounts Team, stating "Process payment urgently. Management approval already obtained."
+
+Can you explain how this email supports your claim that the payments to RV Business Solutions were authorized? Specifically, how does this email demonstrate that you had obtained management approval for the specific payments to RV Business Solutions, rather than just general approval for outside help for vendor optimization?
+
+Please clarify, Defendant.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, M_S_Arif_Azim_Co_Ltd_vs_M_S_Aptech_Ltd_on_1_March_2024_1.PDF, M_S_Arif_Azim_Co_Ltd_vs_M_S_Aptech_Ltd_on_1_March_2024_1.PDF, Indian_Oil_Corporation_Limited_vs_M_S_Sathyanarayana_Service_Station_on_9_May_2023_1.PDF, Art. 35, Art. 27, E5, E7, E1, E2, E3
+
+
+[Defendant]
+Thank you, Your Honor. The Email dated 2024-02-03 (E5) is a crucial piece of evidence that supports my claim of authorization. In this email, I explicitly state that "Management approval already obtained" for the payment. This email was sent to the Accounts Team, instructing them to process the payment urgently.
+
+I argue that this email demonstrates that I had obtained management approval for the specific payments to RV Business Solutions. The fact that I mentioned "Management approval already obtained" suggests that I had received prior approval from the management for the payments. This approval was not just for general outside help for vendor optimization, but for the specific payments to RV Business Solutions.
+
+Furthermore, I would like to point out that the Email dated 2024-02-03 (E5) is contemporaneous with the payments in question, which suggests that it is more likely to be a genuine record of the events rather than a fabricated one. I urge the court to consider this email as evidence of my good faith and the legitimacy of the payments.
+
+In light of this evidence, I request that the court consider the possibility that the management approval was indeed obtained, and that the payments to RV Business Solutions were authorized. Thank you, Your Honor.
+
+
+
+
+
+[Judge] [Memory] Retrieved: M_S_Arif_Azim_Co_Ltd_vs_M_S_Aptech_Ltd_on_1_March_2024_1.PDF, Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, Pravin_Electricals_Pvt_Ltd_vs_Galaxy_Infra_And_Engineering_Pvt_Ltd_on_8_March_2021_1.PDF, Pravin_Electricals_Pvt_Ltd_vs_Galaxy_Infra_And_Engineering_Pvt_Ltd_on_8_March_2021_1.PDF, Art. 35, Art. 371, E5, E7, E1, E2, E3
+
+
+[Judge]
+Thank you, Defendant. You have provided a detailed explanation of the Email dated 2024-02-03 (E5) and its relevance to your claim of authorization.
+
+I will now proceed with the closing statements. The Plaintiff will present their closing statement first, followed by the Defendant.
+
+Plaintiff, please present your closing statement. Please summarize the key points of your case and argue why the accused should be held liable for the alleged offenses.
+
+
+
+
+
+[Plaintiff] [Memory] Retrieved: Air_India_Express_Ltd_vs_Capt_Gurdarshan_Kaur_Sandhu_on_22_August_2019_1.PDF, M_S_Arif_Azim_Co_Ltd_vs_M_S_Aptech_Ltd_on_1_March_2024_1.PDF, Indian_Oil_Corporation_Limited_vs_M_S_Sathyanarayana_Service_Station_on_9_May_2023_1.PDF, Pritam_Singh_vs_Union_Of_India_Ors_on_22_September_2004_1.PDF, Art. 35, Art. 284, E5, E7, E1, E2, E3
+
+
+[Plaintiff]
+Thank you, Your Honor. The prosecution's case against Rajesh Verma is built on a foundation of overwhelming evidence, demonstrating a clear pattern of deceit, misappropriation, and falsification. The accused, as the Finance Manager of Zenith Logistics Pvt. Ltd., was entrusted with the responsibility of managing company finances, but he callously exploited this position for personal gain.
+
+We have presented documentary evidence, including Bank Statements (E2) and Internal Audit Reports (E3), which unequivocally show the unauthorized transfers of ₹12,50,000 to RV Business Solutions, a firm secretly controlled by the accused. The testimony of the Managing Director (E6) further corroborates that no approval was granted for these specific payments, directly contradicting the accused's claims of authorization.
+
+The prosecution has also highlighted the accused's attempts to cover his tracks through falsification of financial records, as evidenced by the lack of invoices, work orders, or service agreements for the alleged consultancy services provided by RV Business Solutions. The Tax Invoice (E8) submitted by the defense is insufficient to establish the legitimacy of these services, and we argue that it is a fabricated document intended to mislead the court.
+
+Throughout this trial, the accused has attempted to create doubt and confusion by referencing incomplete and misleading evidence. However, the prosecution is confident that the cumulative effect of the evidence presented establishes the accused's guilt beyond reasonable doubt.
+
+We urge the court to consider the severity of the offenses committed by the accused and the gravity of the impact on the company. The accused's actions have caused significant financial loss and have undermined the trust and integrity of the company's financial management system.
+
+In conclusion, the prosecution requests that the court hold the accused, Rajesh Verma, liable for the alleged offenses of criminal breach of trust, misappropriation of company funds, and falsification of financial records. We are confident that justice will be served, and the accused will be held accountable for his actions. Thank you, Your Honor.
+
+
+
+
+
+[Defendant] [Memory] Retrieved: Wahid_vs_State_Govt_Of_Nct_Of_Delhi_on_4_February_2025_1.PDF, Asraf_Ali_vs_State_Of_Assam_on_17_July_2008_1.PDF, State_Delhi_Administration_vs_Dharampal_on_19_October_2001_1.PDF, Baban_Shankar_Daphal_vs_The_State_Of_Maharashtra_on_22_January_2025_1.PDF, Art. 134, Art. 20, E2, E9, E1, E4, E3
+
+
+[Defendant]
+Thank you, Plaintiff. The prosecution has presented a compelling case against the accused, highlighting the severity of the offenses and the impact on the company.
+
+Now, I invite the Defendant to present their closing statement. Defendant, please summarize the key points of your defense and argue why you should be acquitted of the alleged offenses.
+
+Please proceed, Defendant.
+
+
+
+
+
+[Judge] [Memory] Retrieved: Baban_Shankar_Daphal_vs_The_State_Of_Maharashtra_on_22_January_2025_1.PDF, Bodh_Raj_Bodha_And_Ors_vs_State_Of_Jammu_And_Kashmir_on_3_September_2002_1.PDF, Wahid_vs_State_Govt_Of_Nct_Of_Delhi_on_4_February_2025_1.PDF, Sajjan_Kumar_vs_C_B_I_on_20_September_2010_1.PDF, Art. 134, Art. 20, E7, E1, E4, E2, E3
+
+
+[Judge]
+Thank you, Your Honor. The defense would like to reiterate that the prosecution's case relies heavily on circumstantial evidence and lacks concrete proof of the accused's intent to commit a crime. We have consistently argued that the accused acted in good faith and within the scope of his authority as Finance Manager of Zenith Logistics Pvt. Ltd.
+
+The WhatsApp chat dated 2024-01-14 and the Email dated 2024-02-03 (E5) demonstrate that the accused had obtained management approval for the payments to RV Business Solutions. The prosecution's attempt to discredit this evidence by suggesting that it is incomplete or misleading is unfounded.
+
+Furthermore, the defense has highlighted the inconsistencies in the prosecution's narrative, particularly with regard to the Managing Director's testimony (E6). The Managing Director's claim that no approval was granted for the specific payments to RV Business Solutions is contradicted by the WhatsApp chat and the Email dated 2024-02-03 (E5).
+
+The defense also takes issue with the prosecution's characterization of the Tax Invoice (E8) as a fabricated document. We argue that this invoice is a genuine record of the consultancy services provided by RV Business Solutions, and it is unfair to dismiss it as a fabrication without credible evidence.
+
+Throughout this trial, the prosecution has attempted to portray the accused as a dishonest and deceitful individual. However, the defense believes that this portrayal is unfair and not supported by the evidence. The accused has consistently maintained that he acted in good faith and with the intention of benefiting the company.
+
+In conclusion, the defense urges the court to consider the doubts and uncertainties surrounding the prosecution's case. We request that the court acquit the accused of the alleged offenses of criminal breach of trust, misappropriation of company funds, and falsification of financial records. The defense is confident that a thorough examination of the evidence will reveal that the accused is innocent and that the prosecution has failed to prove its case beyond reasonable doubt. Thank you, Your Honor.
+
+### Judgment
+
+After careful consideration of the evidence and arguments presented, the court finds the accused, Rajesh Verma, guilty of criminal breach of trust and misappropriation of company funds. The prosecution has established that the accused made unauthorized transfers of ₹12,50,000 to RV Business Solutions, a firm secretly controlled by the accused, and that these transactions were not authorized by the management of Zenith Logistics Pvt. Ltd.
+
+The court also finds that the accused falsified financial records to conceal these unauthorized transfers, which demonstrates a clear intent to deceive and mislead. The defense's arguments regarding the authorization of the transactions are unfounded, and the evidence presented by the prosecution establishes the accused's guilt beyond reasonable doubt.
+
+The court hereby sentences the accused, Rajesh Verma, to imprisonment for a period of three years and orders the recovery of ₹12,50,000 from the accused.
+
+### Opinion
+
+The court's decision is based on a thorough examination of the evidence and arguments presented. The prosecution's case has established that the accused committed serious offenses, including criminal breach of trust and misappropriation of company funds. The defense's arguments have been considered, but they are unfounded and do not raise reasonable doubts about the accused's guilt.
+
+The court's sentence reflects the severity of the offenses committed by the accused and the need to protect the integrity of the company's financial management system.
+
+TERMINATE

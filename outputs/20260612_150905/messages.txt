@@ -1,0 +1,239 @@
+[Judge]
+We will conduct a structured mock trial with three participants: Judge, Plaintiff, Defendant.
+
+Procedure (follow in order):
+1) Judge gives brief rules and identifies the claims/defenses.
+2) Plaintiff opening statement.
+3) Defendant opening statement.
+4) Plaintiff argument + cites.
+5) Defendant argument + cites/objections.
+6) Judge questions both sides.
+7) Closing statements (Plaintiff then Defendant).
+8) Judge issues final opinion using the required headings and then writes TERMINATE.
+
+Case file contents (authoritative record; use tools/memory to retrieve evidence):
+---
+TITLE: Acme Corp. v. Smith
+
+JURISDICTION: Common-law mock trial
+
+PARTIES:
+
+* PLAINTIFF: Acme Corp.
+* DEFENDANT: Jordan Smith
+
+CLAIMS (PLAINTIFF):
+
+* Breach of contract: Defendant failed to deliver agreed software module by the deadline.
+* Damages: $50,000 in rework and delay costs.
+
+DEFENSES (DEFENDANT):
+
+* Impossibility/Prevention: Plaintiff changed requirements late and denied needed access.
+* No causation: Plaintiff’s own delays caused most damages.
+
+EVIDENCE:
+
+E1: Statement of Work (Excerpt)
+
+* Delivery of Module X by 2025-01-31.
+* Payment milestone upon acceptance.
+
+E2: Email dated 2025-01-10 from Acme Project Manager
+
+* "We need additional reporting fields; please include them in the same delivery."
+
+E3: Email dated 2025-01-12 from Jordan Smith
+
+* "I can do that, but I need database access by 2025-01-15 to stay on schedule."
+
+E4: Ticket Log Excerpt
+
+* Access request created: 2025-01-13.
+* Access granted: 2025-02-05.
+
+E5: Meeting Notes dated 2025-02-06
+
+* Parties agree to revised scope.
+* Acme requests that the original deadline remain unchanged.
+
+E6: Invoice from Acme Contractor
+
+* $35,000 charged for rework.
+
+E7: Internal Acme Timeline
+
+* Integration work began on 2025-03-01.
+
+REQUESTED RELIEF:
+
+Plaintiff:
+
+* $50,000 in damages.
+* Court costs.
+
+Defendant:
+
+* Dismissal of all claims.
+* Alternatively, reduction of damages.
+
+---
+[Retrieving: Art. 371, Art. 134]
+[Retrieving: E2, E3, E6, E5, E1]
+This court is now in session. The case before us is Acme Corp. v. Smith, a common-law mock trial. The plaintiff, Acme Corp., claims that the defendant, Jordan Smith, breached their contract by failing to deliver an agreed-upon software module by the deadline, resulting in $50,000 in damages. The defendant argues that it was impossible to meet the deadline due to changes in requirements and denied access, and that the plaintiff's own delays caused most of the damages.
+
+I have reviewed the case file and identified the key claims and defenses. The evidence submitted includes emails, meeting notes, invoices, and internal timelines.
+[Retrieving: Art. 134, Art. 136]
+[Retrieving: E3, E2, E5, E6, E1]
+This court is now in session. The case before us is Acme Corp. v. Smith, a common-law mock trial. The Plaintiff, Acme Corp., claims that the Defendant, Jordan Smith, breached their contract by failing to deliver a software module on time, resulting in $50,000 in damages. The Defendant argues that it was impossible to meet the deadline due to changes in requirements and lack of access, and that the Plaintiff's own delays were the primary cause of the damages.
+
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 371, Art. 134]
+[Retrieving: E2, E3, E6, E1, E5]
+The Plaintiff, Acme Corp., strongly believes that the Defendant, Jordan Smith, has breached the contract by failing to deliver the software module on time, resulting in significant damages. The contract, as outlined in the Statement of Work (E1), clearly states that the delivery of Module X was to be completed by 2025-01-31. However, the Defendant failed to meet this deadline, and we have evidence that shows the Defendant had sufficient notice of the requirements and the deadline.
+
+In fact, on 2025-01-10, our Project Manager sent an email (E2) to the Defendant, requesting additional reporting fields to be included in the delivery. The Defendant responded on 2025-01-12 (E3), stating that they could include the additional fields, but needed database access by 2025-01-15 to stay on schedule. This email demonstrates that the Defendant was aware of the deadline and the requirements, but still failed to deliver the module on time.
+
+We will demonstrate that the Defendant's failure to deliver the module on time was not due to impossibility or prevention, but rather due to their own lack of effort and planning. We will also show that the Plaintiff's delays were not the primary cause of the damages, but rather a result of the Defendant's breach of contract.
+E1: Statement of Work (Excerpt)
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+
+
+[Judge]
+[Retrieving: Art. 371, Art. 394]
+[Retrieving: E2, E3, E6, E1, E5]
+The Statement of Work (E1) outlines the delivery of Module X by 2025-01-31 and payment upon acceptance. The email from Acme Project Manager (E2) requests additional reporting fields, and the email from Jordan Smith (E3) asks for database access by 2025-01-15 to stay on schedule.
+[Retrieving: Art. 371, Art. 394]
+[Retrieving: E3, E6, E2, E1, E4]
+The Plaintiff, Acme Corp., has presented their opening statement, outlining the breach of contract claim against the Defendant, Jordan Smith. The Defendant has also presented their opening statement, arguing impossibility and lack of causation.
+
+To further understand the timeline of events, I have reviewed the Statement of Work (E1), the email from the Acme Project Manager (E2), and the email from Jordan Smith (E3). I have also examined the Ticket Log Excerpt (E4), which shows that the access request was created on 2025-01-13 but was not granted until 2025-02-05.
+
+It is now time for the Plaintiff to present their argument and cite relevant evidence. 
+
+Plaintiff, proceed.
+
+
+[Plaintiff]
+[Retrieving: Art. 286, Art. 112]
+[Retrieving: E1, E3, E2, E6, E8]
+The Defendant's claim of impossibility is unfounded, as they had ample opportunity to deliver the software module on time. The Statement of Work (E1) clearly outlines the delivery deadline of 2025-01-31, and the email from the Acme Project Manager (E2) shows that the additional reporting fields requested were still within the scope of the original deadline. The email from Jordan Smith (E3) requesting database access by 2025-01-15 is not a valid excuse for missing the deadline, as the access request was not granted until 2025-02-05, according to the Ticket Log Excerpt (E4).
+E5: Meeting Notes dated 2025-02-06
+E6: Invoice from Acme Contractor
+
+
+[Judge]
+[Retrieving: Art. 290, Art. 371]
+[Retrieving: E3, E6, E2, E5, E1]
+The Plaintiff has presented their argument, citing the breach of contract and the resulting damages. The Defendant has argued that the changes in requirements and lack of access made it impossible to meet the deadline, and that the Plaintiff's own delays were the primary cause of the damages.
+
+I have reviewed the Meeting Notes dated 2025-02-06 (E5) and the Invoice from Acme Contractor (E6), which show the revised scope and the costs incurred by the Plaintiff.
+
+I would like to examine the Internal Acme Timeline (E7) to understand the sequence of events and the integration work that began on 2025-03-01.
+[Retrieving: Art. 371, Art. 372]
+[Retrieving: E6, E3, E2, E9, E5]
+The Plaintiff has presented their argument, citing the breach of contract and the resulting damages. The Defendant has also presented their argument, arguing that the changes in requirements and lack of access made it impossible to meet the deadline.
+
+I have reviewed the Meeting Notes dated 2025-02-06 (E5), which indicate that the parties agreed to a revised scope, but the original deadline remained unchanged. I have also examined the Invoice from Acme Contractor (E6), which shows that Acme incurred $35,000 in rework costs. Additionally, I have reviewed the Internal Acme Timeline (E7), which shows that integration work began on 2025-03-01.
+
+It is now time for the Defendant to present their argument and cite any relevant evidence or objections.
+
+Defendant, proceed.
+
+
+[Defendant]
+[Retrieving: Art. 35, Art. 371]
+[Retrieving: E3, E6, E2, E5, E1]
+The Plaintiff's claim of breach of contract is unfounded, as the changes in requirements and lack of access made it impossible for me to meet the deadline. The email from the Acme Project Manager (E2) dated 2025-01-10, which requested additional reporting fields, is a clear example of the changes in requirements that affected my ability to deliver the software module on time. Furthermore, the email from me (E3) dated 2025-01-12, which requested database access by 2025-01-15 to stay on schedule, demonstrates that I was denied the necessary access to complete the work.
+
+The Ticket Log Excerpt (E4) shows that the access request was created on 2025-01-13 but was not granted until 2025-02-05, which is a significant delay that prevented me from meeting the deadline. The Meeting Notes dated 2025-02-06 (E5) indicate that the parties agreed to a revised scope, but the original deadline remained unchanged, which is unfair given the circumstances.
+
+I also object to the Plaintiff's claim of $50,000 in damages, as the Internal Acme Timeline (E7) shows that integration work began on 2025-03-01, which suggests that the Plaintiff's own delays contributed to the damages. The Invoice from Acme Contractor (E6) shows that Acme incurred $35,000 in rework costs, but this amount is not entirely attributable to my alleged breach of contract.
+E1: Statement of Work (Excerpt)
+E4: Ticket Log Excerpt
+E7: Internal Acme Timeline
+
+
+[Judge]
+[Retrieving: Art. 371, Art. 35]
+[Retrieving: E3, E6, E2, E5, E1]
+M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF: . Sumangal, therefore, cannot be said to have committed any illegality in complying with the stop work notice. To what extent it committed breach of the terms of the contract, assuming that it could have carried out some job as pointed out by AWHO would depend upon the commercial viability as a large number of workmen were to be engaged although it cannot carry out the major construction work, which was a relevant factor for determining the quantum of damages. Sumangal might have been partially liable but it cannot be faulted when it refused to carry out any constructional work in violation of the stop work notice which would attract the penal provisions of Section 440 of the West Bengal Municipal Act, 1993. The learned arbitrators were also bound to take into consideration this aspect of the matter. They failed to do so and misdirected themselves in law. In an interesting article titled "The Principle of Impossibility in Contract" by H.W.R. Wade published in Law Quarterly Review Volume 56 page 519, it is stated: "Two points emerge from the argument so far: (I) There can exist no duty to do an impossible act. (II) A promise is, normally and primarily, a promise of performance simply, and not of damages in the alternative. The effect of supervening impossibility on an existing duty can now be determined, and in view of conclusion (I) the answer is a simple one. It must be that the impossibility causes the duty to cease to exist
+
+National_Agricultural_Cooperative_vs_Alimenta_S_A_on_22_April_2020_1.PDF: . Although various theories have been propounded by the Judges and jurists in England regarding the juridical basis of the doctrine of frustration, yet the essential idea upon which the doctrine is based is that of impossibility of performance of the contract; in fact, impossibility and frustration are often used as interchangeable expressions. The changed circumstances, it is said, make the performance of the contract impossible and the parties are absolved from the further performance of it as they did not promise to perform an impossibility. The parties shall be excused, as Lord Loreburn says, see … Tamplin Steamship Co. Ltd. v. Anglo Mexican Petroleum Products Co. Ltd., 1916-2 AO 297 at p 403 (A). ƒIf substantially the whole contract becomes impossible of performance or in other words impracticable by some cause for which neither was responsible.„ In - Joseph Constantine Steamship Line Limited v. Imperial Smelting Corporation Ltd.‚, 1942-AO 154 at p 168 (B) Viscount Maugham observed that the ƒdoctrine of frustration is only a special case of the discharge of contract by an impossibility of performance arising after the contract was made.„ Lord Porter agreed with this view and rested the doctrine on the same basis. The question was considered and discussed by a Division Bench of the Nagpur High Court in Kesari Chand v
+
+The_Naihati_Jute_Mills_Ltd_vs_Hyaliram_Jagannath_on_19_October_1967_1.PDF: ACT
+Contract-frustration impossibility of performance due to intervening circumstances-Whether contract discharged on an implied term or on Court deciding performance impossible- Contract Act ss. 32 and 56-Scope of-Whether damages could be awarded on the basis of public policy of Pakistan Government.
+Art. 299: Contracts. All contracts made in the exercise of the executive power of the Union or of a State shall be expressed to be made by the President or the Governor, as the case may be. Neither the President nor the Governor shall be personally liable in respect of any contract.
+Art. 22: Protection against arrest and detention in certain cases. No person who is arrested shall be detained in custody without being informed of the grounds of arrest, nor shall he be denied the right to consult and be defended by a legal practitioner. Every person arrested and detained in custody shall be produced before the nearest magistrate within twenty-four hours. This does not apply to enemy aliens or persons detained under preventive detention laws. Preventive detention laws may provide for detention for up to three months without Advisory Board approval, and Parliament may prescribe longer periods by law.
+
+Right against Exploitation
+Art. 3: Formation of new States and alteration of areas, boundaries or names of existing States. Parliament may by law form a new State by separation of territory from any State or by uniting two or more States or parts of States, increase or diminish the area of any State, alter the boundaries of any State, or alter the name of any State.
+Art. 23: Prohibition of traffic in human beings and forced labour. Traffic in human beings and begar and other similar forms of forced labour are prohibited. Any contravention of this provision shall be an offence punishable in accordance with law. Nothing shall prevent the State from imposing compulsory service for public purposes without discrimination on grounds of religion, race, caste or class.
+Art. 20: Protection in respect of conviction for offences. No person shall be convicted of any offence except for violation of a law in force at the time of the act. No person shall be prosecuted and punished for the same offence more than once. No person accused of any offence shall be compelled to be a witness against himself.
+[Retrieving: Art. 31C, Art. 39]
+[Retrieving: E2, E1, E6, E3, E4]
+The Plaintiff and the Defendant have both presented their arguments, and I have reviewed the relevant evidence, including the Statement of Work (E1), the Ticket Log Excerpt (E4), and the Internal Acme Timeline (E7). I have also considered the legal precedents related to breach of contract and the impossibility defense, as well as the relevant provisions of the Constitution.
+
+It is now time for me to question both sides to clarify any remaining issues.
+ok
+[Retrieving: Art. 39, Art. 14]
+[Retrieving: E1, E5, E4, E2, E3]
+The court has reviewed the relevant precedents, constitution articles, and evidence. It is now time for the Judge to question both sides to clarify any remaining issues.
+
+I will now ask questions to both the Plaintiff and the Defendant to ensure that all matters are clear before proceeding to the final stages of the trial.
+
+Plaintiff, can you explain why you did not provide the necessary access to the Defendant in a timely manner, and how this affected the delivery of the software module?
+
+Defendant, can you provide more details on how the changes in requirements affected your ability to meet the deadline, and what steps you took to mitigate the delays?
+
+Please respond to these questions, and then I will proceed with the next steps.
+
+Defendant, proceed.
+
+
+[Defendant]
+[Retrieving: Art. 35, Art. 192]
+[Retrieving: E3, E2, E5, E9, E6]
+The Plaintiff's failure to provide timely access to the necessary resources significantly impacted my ability to deliver the software module on schedule. As evidenced by the Ticket Log Excerpt (E4), the access request was created on 2025-01-13, but it was not granted until 2025-02-05, resulting in a substantial delay. This lack of access, combined with the changes in requirements introduced by the Plaintiff, as seen in the email dated 2025-01-10 (E2), made it impossible for me to meet the original deadline.
+
+Regarding the changes in requirements, I had initially agreed to deliver the software module based on the original specifications outlined in the Statement of Work (E1). However, the Plaintiff's email dated 2025-01-10 (E2) introduced new requirements, which necessitated significant modifications to the module. I had requested the necessary database access by 2025-01-15 to accommodate these changes, as stated in my email dated 2025-01-12 (E3). Unfortunately, the delayed access grant and the revised scope, as documented in the Meeting Notes dated 2025-02-06 (E5), further complicated the development process.
+
+To mitigate the delays, I had taken steps to adapt to the new requirements and the delayed access. However, the cumulative effect of these factors ultimately made it impracticable to meet the original deadline. The Internal Acme Timeline (E7) shows that integration work began on 2025-03-01, which highlights the extended timeline required to complete the project.
+
+In light of these circumstances, I argue that the impossibility of performance due to the intervening circumstances, as supported by the precedents such as M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF and National_Agricultural_Cooperative_vs_Alimenta_S_A_on_22_April_2020_1.PDF, should be considered as a valid defense against the breach of contract claim.
+E2: Email dated 2025-01-10 from Acme Project Manager
+E3: Email dated 2025-01-12 from Jordan Smith
+E4: Ticket Log Excerpt
+E5: Meeting Notes dated 2025-02-06
+E7: Internal Acme Timeline
+National_Agricultural_Cooperative_vs_Alimenta_S_A_on_22_April_2020_1.PDF: . Although various theories have been propounded by the Judges and jurists in England regarding the juridical basis of the doctrine of frustration, yet the essential idea upon which the doctrine is based is that of impossibility of performance of the contract; in fact, impossibility and frustration are often used as interchangeable expressions. The changed circumstances, it is said, make the performance of the contract impossible and the parties are absolved from the further performance of it as they did not promise to perform an impossibility. The parties shall be excused, as Lord Loreburn says, see … Tamplin Steamship Co. Ltd. v. Anglo Mexican Petroleum Products Co. Ltd., 1916-2 AO 297 at p 403 (A). ƒIf substantially the whole contract becomes impossible of performance or in other words impracticable by some cause for which neither was responsible.„ In - Joseph Constantine Steamship Line Limited v. Imperial Smelting Corporation Ltd.‚, 1942-AO 154 at p 168 (B) Viscount Maugham observed that the ƒdoctrine of frustration is only a special case of the discharge of contract by an impossibility of performance arising after the contract was made.„ Lord Porter agreed with this view and rested the doctrine on the same basis. The question was considered and discussed by a Division Bench of the Nagpur High Court in Kesari Chand v
+
+M_D_Army_Welfare_Housing_vs_Sumangal_Services_Pvt_Ltd_on_8_October_2003_1.PDF: . It must be that the impossibility causes the duty to cease to exist. For a duty either exists or it does not - that is to say, every duty continues until it is discharged, and discharge is the only process known to the law by which a duty once legally undertaken can be put off the shoulders of the obligee. Its effect is a complete removal of the obligation, and discharge by impossibility of performance is no less perfect than discharge by the performance of the original promise. In the words of Professor Corbin already cited, 'society no longer commands performance' - M.D., Army Welfare Housing ... vs Sumangal Services Pvt. Ltd on 8 October, 2003 Indian Kanoon - http://indiankanoon.org/doc/231673/ 34 nothing more can be demanded of the promisor." In Emden and Gill's Buildings Contracts and Practice, Seventh Edition, page 162-163, it is stated that liability to pay damages for non-performance of an impossibility only arises where the contract is absolute and unrestricted by any condition expressed or implied. It is further stated that a difficulty may not in all circumstances amount to impossibility. But even in that event the terms and conditions relating to performance of the contract may stand eclipsed. The transaction was a commercial one. Sumangal could not plead frustration of contract if it itself had abandoned it. (See Hauman Vs. Nortje [1914] A.D. 293, at p. 297 and Hoenig Vs. Issacs [1952] 2 All E.R. 176, at p. 178H)
+
+The_Naihati_Jute_Mills_Ltd_vs_Hyaliram_Jagannath_on_19_October_1967_1.PDF: ACT
+Contract-frustration impossibility of performance due to intervening circumstances-Whether contract discharged on an implied term or on Court deciding performance impossible- Contract Act ss. 32 and 56-Scope of-Whether damages could be awarded on the basis of public policy of Pakistan Government.
+
+
+[Judge]
+[Retrieving: Art. 299, Art. 361]
+[Retrieving: E6, E3, E2, E1, E4]
+=== VERDICT ===
+Based on the evidence presented and the applicable law, I find in favor of the Defendant, Jordan Smith. The contract between Acme Corp. and Jordan Smith was frustrated due to the changes in requirements and the lack of access, which made it impossible for the Defendant to meet the deadline.
+
+=== FINDINGS OF FACT ===
+The Plaintiff, Acme Corp., failed to provide the necessary access to the Defendant in a timely manner, which affected the delivery of the software module. The Defendant, Jordan Smith, took reasonable steps to mitigate the delays, but the changes in requirements and the lack of access made it impossible to meet the deadline.
+
+=== CONCLUSIONS OF LAW ===
+The doctrine of frustration applies in this case, as the changed circumstances made the performance of the contract impossible. The contract is discharged, and the Defendant is not liable for damages.
+
+=== ORDER / REMEDY ===
+The Plaintiff's claim for $50,000 in damages is dismissed. The Defendant is entitled to dismissal of all claims.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the principle that a contract can be discharged due to impossibility of performance. The evidence presented shows that the changes in requirements and the lack of access made it impossible for the Defendant to meet the deadline. The Defendant took reasonable steps to mitigate the delays, but the circumstances were beyond their control. The doctrine of frustration applies, and the contract is discharged.
+
+TERMINATE

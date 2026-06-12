@@ -1,0 +1,14 @@
+=== VERDICT ===
+The Plaintiff's claim for $50,000 in damages is dismissed.
+
+=== FINDINGS OF FACT ===
+The court finds that the Defendant was unable to deliver the software module by the original deadline due to the Plaintiff's denial of necessary access. The court also finds that the Plaintiff's actions constituted a breach of contract, but the Defendant's performance was made impossible by the Plaintiff's denial of access.
+
+=== CONCLUSIONS OF LAW ===
+The court concludes that the doctrine of frustration applies in this case, as the supervening impossibility of performance was caused by the Plaintiff's actions. The court also concludes that the Defendant is not liable for damages, as the contract was discharged due to the impossibility of performance.
+
+=== ORDER / REMEDY ===
+The court orders that the Plaintiff's claim for $50,000 in damages be dismissed. The court also orders that the Defendant be relieved of any further obligations under the contract.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on the principles of contract law, including the doctrine of frustration. The court has considered the arguments and evidence presented by both parties and has applied the relevant legal precedents to reach its decision. The court finds that the Defendant's performance was made impossible by the Plaintiff's denial of access, and therefore, the contract was discharged.

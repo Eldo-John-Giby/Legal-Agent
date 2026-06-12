@@ -66,7 +66,7 @@ def _color_for(source: str | None) -> str:
 
 
 def _strip_internal_tags(text: str) -> str:
-    return _DATETIME_TAG_RE.sub("", text).strip("\n")
+    return _DATETIME_TAG_RE.sub("", text)
 
 
 def _wrap(color: str, text: str) -> str:
@@ -96,149 +96,139 @@ async def ColoredConsole(
     last_processed: Optional[T] = None
     streaming_chunks: List[str] = []
     last_source: Optional[str] = None
+    last_content: Optional[str] = None
 
     async for message in stream:
         current_source = getattr(message, "source", None)
         if isinstance(message, Response):
             current_source = message.chat_message.source
-
-        if current_source and last_source and current_source != last_source:
-            if not streaming_chunks:
-                await aprint("", flush=True)
-
-        if current_source:
-            last_source = current_source
+        
+        if current_source == "user": current_source = "Judge"
 
         if isinstance(message, TaskResult):
-            duration = time.time() - start_time
-            if output_stats:
-                output = (
-                    f"{'-' * 10} Summary {'-' * 10}\n"
-                    f"Number of messages: {len(message.messages)}\n"
-                    f"Finish reason: {message.stop_reason}\n"
-                    f"Total prompt tokens: {total_usage.prompt_tokens}\n"
-                    f"Total completion tokens: {total_usage.completion_tokens}\n"
-                    f"Duration: {duration:.2f} seconds\n"
-                )
-                await aprint(_wrap(_EVENT_COLOR, output), end="", flush=True)
             last_processed = message  # type: ignore
 
         elif isinstance(message, Response):
-            duration = time.time() - start_time
+            if not streaming_chunks:
+                if isinstance(message.chat_message, MultiModalMessage):
+                    final_content = message.chat_message.to_text(iterm=render_image_iterm and not no_inline_images)
+                else:
+                    final_content = message.chat_message.to_text()
 
-            if isinstance(message.chat_message, MultiModalMessage):
-                final_content = message.chat_message.to_text(iterm=render_image_iterm and not no_inline_images)
+                if "[WAITING]" in final_content:
+                    continue
+
+                # Avoid duplicate printing if we just streamed it
+                color = _color_for(current_source)
+                output = f"[{current_source}]\n\n{final_content}\n\n\n"
+                await aprint(_wrap(color, output), end="", flush=True)
             else:
-                final_content = message.chat_message.to_text()
-
-            color = _color_for(getattr(message.chat_message, "source", ""))
-            output = f"{'-' * 10} {message.chat_message.source} {'-' * 10}\n{final_content}\n"
-            if message.chat_message.models_usage:
-                if output_stats:
-                    output += (
-                        f"[Prompt tokens: {message.chat_message.models_usage.prompt_tokens}, "
-                        f"Completion tokens: {message.chat_message.models_usage.completion_tokens}]\n"
-                    )
-                total_usage.completion_tokens += message.chat_message.models_usage.completion_tokens
-                total_usage.prompt_tokens += message.chat_message.models_usage.prompt_tokens
-            await aprint(_wrap(color, output), end="", flush=True)
-
-            if output_stats:
-                num_inner_messages = len(message.inner_messages) if message.inner_messages is not None else 0
-                output = (
-                    f"{'-' * 10} Summary {'-' * 10}\n"
-                    f"Number of inner messages: {num_inner_messages}\n"
-                    f"Total prompt tokens: {total_usage.prompt_tokens}\n"
-                    f"Total completion tokens: {total_usage.completion_tokens}\n"
-                    f"Duration: {duration:.2f} seconds\n"
-                )
-                await aprint(_wrap(_EVENT_COLOR, output), end="", flush=True)
-
+                await aprint("\n\n", flush=True)
+            
+            streaming_chunks = []
             last_processed = message  # type: ignore
 
         elif isinstance(message, UserInputRequestedEvent):
-            # Don't print the event; use it to release the user input callback at a safe time.
             if user_input_manager is not None:
                 user_input_manager.notify_event_received(message.request_id)
             continue
 
         else:
             message = cast(BaseAgentEvent | BaseChatMessage, message)  # type: ignore
-            color = _color_for(getattr(message, "source", ""))
+            source = getattr(message, "source", "")
+            if source == "user": source = "Judge"
+            color = _color_for(source)
 
-            # Simplify MemoryQueryEvent and similar verbose objects
             raw_content = getattr(message, "content", None)
             is_memory_event = isinstance(raw_content, list) and len(raw_content) > 0 and hasattr(raw_content[0], "content")
-            
-            # Check for tool call or result
+
             is_tool_call = False
             is_tool_result = False
+            # Check for standard tool calls/results
             if isinstance(raw_content, list) and len(raw_content) > 0:
-                is_tool_call = raw_content[0].__class__.__name__ == "FunctionCall"
-                is_tool_result = raw_content[0].__class__.__name__ == "FunctionExecutionResult"
+                class_name = raw_content[0].__class__.__name__
+                is_tool_call = class_name == "FunctionCall"
+                is_tool_result = class_name == "FunctionExecutionResult"
 
-            if not streaming_chunks and not is_memory_event and not is_tool_call and not is_tool_result:
-                hdr = f"{'-' * 10} {message.__class__.__name__} ({message.source}) {'-' * 10}"
-                await aprint(_wrap(color, hdr), end="\n", flush=True)
+            # Check for 'plain' results that sometimes come as strings after a tool call
+            is_plain_result = (
+                not is_memory_event and 
+                not is_tool_call and 
+                not is_tool_result and 
+                isinstance(raw_content, str) and 
+                (
+                    raw_content.startswith("E") or 
+                    "(no evidence found)" in raw_content or
+                    raw_content.strip().lower() == "ok" or
+                    ".PDF:" in raw_content or
+                    "Indian Kanoon" in raw_content or
+                    "ACT\nIndian Contract Act" in raw_content
+                )
+            )
+
+            # Suppress all technical tool/result artifacts
+            if is_tool_call or is_tool_result or is_plain_result:
+                continue
 
             if isinstance(message, ModelClientStreamingChunkEvent):
+                # Suppress streaming of [WAITING] tokens
+                if not streaming_chunks and source != "Judge":
+                    # We can't know if it's [WAITING] yet, so we have to buffer it
+                    pass 
+                
+                if not streaming_chunks:
+                    await aprint(_wrap(color, f"[{source}]\n\n"), end="", flush=True)
+                
                 await aprint(_wrap(color, message.to_text()), end="", flush=True)
                 streaming_chunks.append(message.content)
-            else:
-                if is_memory_event:
-                    ids = []
-                    for item in raw_content:
-                        c = item.content
-                        if isinstance(c, dict) and "evidence_id" in c:
-                            ids.append(c["evidence_id"])
-                        elif isinstance(c, dict) and "id" in c:
-                            ids.append(c["id"])
-                        else:
-                            # Skip "ok" artifacts
-                            snippet = str(c).strip()
-                            if snippet.lower() == "ok":
-                                continue
-                            snippet = snippet[:50].replace("\n", " ")
-                            ids.append(f"'{snippet}...'")
-                    
-                    if not ids:
+            elif is_memory_event:
+                # Filter memory to only show relevant legal artifacts (E#, Art#, Case names)
+                # Ignore PDF filenames and system metadata
+                ids = []
+                for item in raw_content:
+                    c = item.content
+                    if not isinstance(c, dict):
                         continue
-                    display_text = f"[{message.source}] [Memory] {', '.join(ids)}"
-                    await aprint(_wrap(color, display_text), end="\n", flush=True)
-                elif is_tool_call:
-                    import json
-                    calls = []
-                    for c in raw_content:
-                        try:
-                            args = json.loads(c.arguments) if isinstance(c.arguments, str) else c.arguments
-                            arg_vals = ", ".join([str(v) for v in args.values()])
-                            calls.append(f"{c.name}: {arg_vals}")
-                        except:
-                            calls.append(f"{c.name}({c.arguments})")
-                    display_text = f"[{message.source}] [Action] {', '.join(calls)}"
-                    await aprint(_wrap(color, display_text), end="\n", flush=True)
-                elif is_tool_result:
-                    results = [f"{r.name}: {'ok' if not getattr(r, 'is_error', False) else 'error'}" for r in raw_content]
-                    display_text = f"[{message.source}] [Result] {', '.join(results)}"
-                    await aprint(_wrap(color, display_text), end="\n", flush=True)
-                else:
-                    await aprint(_wrap(color, message.to_text()), end="\n", flush=True)
+                    
+                    cid = c.get("evidence_id") or c.get("id")
+                    if not cid: continue
 
-                if message.models_usage and output_stats:
-                    await aprint(
-                        _wrap(
-                            _EVENT_COLOR,
-                            (
-                                f"[Prompt tokens: {message.models_usage.prompt_tokens}, "
-                                f"Completion tokens: {message.models_usage.completion_tokens}]"
-                            ),
-                        ),
-                        end="\n",
-                        flush=True,
+                    # Pedagogical Filter: Only show Evidence (E#) or Law (Art, Precedent)
+                    is_legal_artifact = (
+                        cid.startswith("E") or 
+                        cid.startswith("Art") or 
+                        "vs" in cid.lower() or 
+                        "v." in cid.lower()
                     )
-                if message.models_usage:
-                    total_usage.completion_tokens += message.models_usage.completion_tokens
-                    total_usage.prompt_tokens += message.models_usage.prompt_tokens
+                    # Show all legal artifacts, cleaning up PDF filenames for display
+                    if is_legal_artifact:
+                        if cid.endswith(".PDF"):
+                            clean_id = cid.replace(".PDF", "").replace("_", " ")
+                            ids.append(clean_id)
+                        else:
+                            ids.append(cid)
+                
+                if not ids:
+                    continue
+                
+                display_text = f"[{source}] [Retrieving: {', '.join(ids)}]"
+                await aprint(_wrap(color, display_text), end="\n", flush=True)
+            elif hasattr(message, "content") and isinstance(message.content, str):
+                if "[WAITING]" in message.content:
+                    continue
+                
+                # Collapse repeated identical instructions from the Judge
+                if source == "Judge" and message.content == last_content:
+                    continue
+                last_content = message.content
+
+                if not streaming_chunks:
+                    output = f"[{source}]\n\n{message.content}\n\n\n"
+                    await aprint(_wrap(color, output), end="", flush=True)
+
+            if message.models_usage:
+                total_usage.completion_tokens += message.models_usage.completion_tokens
+                total_usage.prompt_tokens += message.models_usage.prompt_tokens
 
     if last_processed is None:
         raise ValueError("No TaskResult or Response was processed")

@@ -14,7 +14,7 @@ def build_tools(
     max_record_items: int = 30,
 ):
     async def search_evidence(query: str, k: int = 5) -> str:
-        """Semantic/keyword search over the case evidence; returns relevant evidence snippets with ids."""
+        """Search case evidence. IMPORTANT: Use 1-2 simple keywords (e.g. 'access', 'deadline'). DO NOT use sentences."""
         hits = store.search(case_id, query, k=k)
         if not hits:
             return "(no evidence found)"

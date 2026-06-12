@@ -1,0 +1,18 @@
+Now that both parties have presented their closing statements, I will deliver my verdict.
+
+=== VERDICT ===
+Based on the evidence presented, I find the accused, Rajesh Verma, guilty of criminal breach of trust and misappropriation of company funds.
+
+=== FINDINGS OF FACT ===
+The prosecution has proved beyond a reasonable doubt that the accused made unauthorized transactions totaling ₹12,50,000 from the company account to RV Business Solutions, a firm controlled by the accused's spouse. The accused's actions demonstrate a clear intent to deceive and misappropriate company funds for personal gain.
+
+=== CONCLUSIONS OF LAW ===
+The accused's actions constitute a criminal breach of trust under the Indian Penal Code, 1860. The prosecution has established that the accused exceeded their authority as Finance Manager and made unauthorized payments without proper documentation.
+
+=== ORDER / REMEDY ===
+I hereby order the accused to pay a fine of ₹5,00,000 and to refund the misappropriated amount of ₹12,50,000 to the company. The accused is also sentenced to imprisonment for a period of 2 years.
+
+=== FULL WRITTEN OPINION ===
+The court's decision is based on a thorough analysis of the evidence presented, including the bank statements, internal audit reports, and testimony of key witnesses. The accused's defense arguments were carefully considered, but ultimately, the prosecution's evidence and arguments prevailed.
+
+TERMINATE
